@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: professor-course-builder-api
+    runtime: node
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_NAME
+        value: Professor Course Builder
+      - key: AI_PROVIDER
+        value: mock
+      - key: DATABASE_PROVIDER
+        value: mock
+      - key: PAYMENT_PROVIDER
+        value: mock
+      - key: GITHUB_PROVIDER
+        value: mock
+      - key: RENDER_PROVIDER
+        value: mock
+      - key: AUTH_PROVIDER
+        value: mock

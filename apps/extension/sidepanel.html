@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Professor Course Builder</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="logo">CB</div>
+    <div class="title-wrap"><strong>Course Builder</strong><span>Professor workspace</span></div>
+    <button id="settingsBtn" class="ghost small" title="Settings">⚙</button>
+  </header>
+
+  <main>
+    <section class="status-card">
+      <div><span id="statusDot" class="status-dot"></span><strong id="connectionText">Checking API…</strong></div>
+      <span id="providerBadge" class="badge">mock</span>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><span>1</span><div><strong>Course identity</strong><small>The random public ID is generated automatically.</small></div></div>
+      <label>Course name<input id="courseName" placeholder="Biostatistics" autocomplete="off"></label>
+      <div class="two-col">
+        <label>Course code<input id="courseCode" placeholder="BIO350" autocomplete="off"></label>
+        <label>Term<input id="term" placeholder="Fall 2026" autocomplete="off"></label>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><span>2</span><div><strong>Materials</strong><small>Syllabus is optional. Course materials may be PDF, PPTX, DOCX, TXT or MD.</small></div></div>
+      <label class="dropzone" id="syllabusZone">
+        <input id="syllabus" type="file" accept=".pdf,.pptx,.docx,.txt,.md">
+        <span class="drop-icon">S</span><strong>Optional syllabus</strong><small id="syllabusName">Choose one file</small>
+      </label>
+      <label class="dropzone primary" id="materialsZone">
+        <input id="materials" type="file" multiple accept=".pdf,.pptx,.docx,.txt,.md">
+        <span class="drop-icon">＋</span><strong>Course materials</strong><small id="materialsName">Upload one or more weeks/modules</small>
+      </label>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><span>3</span><div><strong>Choose a design</strong><small>The professor can change the design before building.</small></div></div>
+      <div class="themes" id="themes"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><span>4</span><div><strong>Learning features</strong><small>These become generation requirements.</small></div></div>
+      <div class="toggles">
+        <label><input id="interactiveLessons" type="checkbox" checked><span>Interactive lessons</span></label>
+        <label><input id="practice" type="checkbox" checked><span>Practice & knowledge checks</span></label>
+        <label><input id="reviews" type="checkbox" checked><span>Cumulative review</span></label>
+        <label><input id="ontology" type="checkbox" checked><span>Course ontology</span></label>
+      </div>
+    </section>
+
+    <section class="panel workflow-panel">
+      <div class="section-title"><span>5</span><div><strong>Create, review, publish</strong><small>Nothing is deployed until Publish.</small></div></div>
+      <div class="steps" id="steps">
+        <div class="step" data-step="create"><i>1</i><span>Create</span></div>
+        <div class="line"></div>
+        <div class="step" data-step="build"><i>2</i><span>Build</span></div>
+        <div class="line"></div>
+        <div class="step" data-step="publish"><i>3</i><span>Publish</span></div>
+      </div>
+      <button id="createBtn" class="primary-btn">Create course draft</button>
+      <div class="action-row">
+        <button id="buildBtn" class="secondary-btn" disabled>Build course</button>
+        <button id="previewBtn" class="secondary-btn" disabled>Preview</button>
+      </div>
+      <button id="publishBtn" class="publish-btn" disabled>Publish to Render</button>
+      <div id="result" class="result" hidden></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-title"><span>↻</span><div><strong>My recent courses</strong><small>Stored by the central platform.</small></div></div>
+      <div id="courses" class="course-list"><p class="muted">Loading…</p></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+  <script src="sidepanel.js"></script>
+</body>
+</html>
