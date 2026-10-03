@@ -12,10 +12,21 @@ function decodeXmlEntities(text) {
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
 }
 
-function compact(text) {
+function repairSpacingArtifacts(text) {
   return String(text || '')
+    // Common extraction artifacts around punctuation.
+    .replace(/([,;:!?])(?=[A-Za-z0-9])/g, '$1 ')
+    .replace(/([.!?])(?=[A-Z])/g, '$1 ')
+    // Restore obvious camel-case / acronym boundaries without changing ordinary words.
+    .replace(/([a-z0-9])([A-Z][a-z])/g, '$1 $2')
+    .replace(/([a-z])([A-Z]{2,})/g, '$1 $2');
+}
+
+function compact(text) {
+  return repairSpacingArtifacts(String(text || ''))
     .replace(/\r/g, '')
     .replace(/[ \t]+/g, ' ')
+    .replace(/ *\n */g, '\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
@@ -34,9 +45,29 @@ async function extractPptx(filePath) {
   const out = [];
   for (const slide of slides) {
     const xml = slide.getData().toString('utf8');
-    const texts = [...xml.matchAll(/<a:t>([\s\S]*?)<\/a:t>/g)].map((m) => decodeXmlEntities(m[1]));
+
+    // Preserve PowerPoint paragraph boundaries instead of flattening every text run.
+    const paragraphs = [...xml.matchAll(/<a:p(?:\s[^>]*)?>([\s\S]*?)<\/a:p>/g)]
+      .map((paragraphMatch) => {
+        const texts = [...paragraphMatch[1].matchAll(/<a:t>([\s\S]*?)<\/a:t>/g)]
+          .map((m) => decodeXmlEntities(m[1]).trim())
+          .filter(Boolean);
+        return texts.join(' ');
+      })
+      .filter(Boolean);
+
+    if (paragraphs.length) {
+      out.push(paragraphs.join('\n'));
+      continue;
+    }
+
+    // Fallback for unusual DrawingML structures.
+    const texts = [...xml.matchAll(/<a:t>([\s\S]*?)<\/a:t>/g)]
+      .map((m) => decodeXmlEntities(m[1]).trim())
+      .filter(Boolean);
     if (texts.length) out.push(texts.join(' '));
   }
+
   return compact(out.join('\n\n'));
 }
 
