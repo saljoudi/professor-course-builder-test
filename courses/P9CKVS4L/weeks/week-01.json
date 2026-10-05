@@ -1,0 +1,876 @@
+{
+  "id": "week-01",
+  "order": 1,
+  "title": "Week 1: Health Informatics and the Health-Data Life Cycle",
+  "overview": "This week introduces health informatics as an interdisciplinary field concerned with acquiring, managing, representing, and transforming health data. You will examine why health data are complex, how health informatics differs from health information technology and health data science, how health sciences, information sciences, and management sciences contribute to the field, and how data move through the health-data life cycle from creation or collection to retention or disposal.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Define health informatics and explain its purpose in healthcare.",
+    "Describe the main stages of the health-data life cycle.",
+    "Explain why health data are complex and difficult to use.",
+    "Explain the interdisciplinary skills required in health informatics."
+  ],
+  "concepts": [
+    {
+      "id": "concept.health_informatics",
+      "name": "Health informatics",
+      "definition": "An interdisciplinary field that connects health sciences, information sciences, and management sciences and is concerned with acquiring, managing, representing, and transforming health data.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.purpose_of_health_informatics",
+      "name": "Purpose of health informatics",
+      "definition": "Turning health data into useful knowledge that can support healthcare decisions, interventions, and processes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_information_technology",
+      "name": "Health information technology",
+      "definition": "The digital tools and systems used in healthcare, including electronic health records, laboratory systems, patient portals, and mobile-health applications.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_data_science",
+      "name": "Health data science",
+      "definition": "An area focused on transforming health data into knowledge that can support decisions, using methods such as statistics, computing, analytical models, machine learning, and visualization.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_data_life_cycle",
+      "name": "Health-data life cycle",
+      "definition": "The movement of health data through connected stages: create or collect; store and protect; manage and standardize; analyze and interpret; communicate and use; and retain or dispose.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.structured_data",
+      "name": "Structured data",
+      "definition": "Data that follow a defined format and are usually stored in specific fields.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.unstructured_data",
+      "name": "Unstructured data",
+      "definition": "Data that do not follow a simple fixed field structure.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.semantic_gap",
+      "name": "Semantic gap",
+      "definition": "A situation in which recorded data and the intended clinical meaning do not match clearly.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.metadata",
+      "name": "Metadata",
+      "definition": "Information about data, such as source, date, unit, and method.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.data_governance",
+      "name": "Data governance",
+      "definition": "The management of data together with ethical, legal, and organizational responsibility.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_sciences",
+      "name": "Health sciences",
+      "definition": "A disciplinary contribution involving knowledge of patients, clinical care, health systems, terminology, healthcare standards, workflows, and health outcomes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.information_sciences",
+      "name": "Information sciences",
+      "definition": "A disciplinary contribution involving computing, databases, information retrieval, privacy, security, and human-computer interaction.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.management_sciences",
+      "name": "Management sciences",
+      "definition": "A disciplinary contribution involving project management, quality improvement, finance, workflow, and organizational change.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.create_or_collect_data",
+      "name": "Create or collect data",
+      "definition": "The life-cycle stage in which data are produced during care, administration, monitoring, research, or patient activities.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.store_and_protect_data",
+      "name": "Store and protect data",
+      "definition": "The life-cycle stage in which data are stored in records, databases, repositories, or connected information systems while accuracy, availability, confidentiality, and appropriate access are protected.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.manage_and_standardize_data",
+      "name": "Manage and standardize data",
+      "definition": "The life-cycle stage in which data are checked, cleaned, organized, coded, standardized, and prepared for use.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.analyze_and_interpret_data",
+      "name": "Analyze and interpret data",
+      "definition": "The life-cycle stage in which data are examined for summaries, comparisons, trends, relationships, and patterns and interpreted within clinical and organizational context.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.communicate_and_use_information",
+      "name": "Communicate and use information",
+      "definition": "The life-cycle stage in which findings are presented to intended users and connected with decisions, process changes, policies, interventions, or research questions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.retain_or_dispose_of_data",
+      "name": "Retain or dispose of data",
+      "definition": "The life-cycle stage in which data are kept when required and securely disposed of when no longer needed, according to policy.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. What health informatics is",
+      "body": "Health informatics is an interdisciplinary field that connects health sciences, information sciences, and management sciences. It is concerned with acquiring, managing, representing, and transforming health data. Its purpose is to turn data into useful knowledge that can support healthcare decisions, interventions, and processes.\n\nHealthcare produces data during registration, assessment, diagnosis, treatment, monitoring, payment, and research. Raw data are not automatically useful. They must be organized, interpreted, and placed in context so that the right information can reach the right people at the right time. The central goal is better decisions and improved health, not technology for its own sake.\n\nHealth informatics considers both technology and the people and workflows that use it. A digital system may function technically but still fail if it does not fit clinical workflow or user needs."
+    },
+    {
+      "title": "2. Why health informatics matters",
+      "body": "Patient care depends on accurate and accessible information. Healthcare professionals coordinate across departments, organizations, and locations, so poorly managed information can cause duplication, misunderstanding, delay, and risk to patients. Digital systems can reduce delays, support safer decisions, and make patterns easier to identify.\n\nThe field also responds to the growth in the volume and variety of health data, the wider use of electronic records and connected systems, the need for safer and more coordinated care, and the demand for evidence-based decisions and measurable outcomes. Health informatics connects information work with practical healthcare improvement while also considering cost, efficiency, privacy, security, and accountability."
+    },
+    {
+      "title": "3. The interdisciplinary foundation",
+      "body": "Health sciences contribute knowledge of patients, clinical care, health systems, terminology, healthcare standards, workflows, and health outcomes. This perspective helps informatics professionals understand what health data mean and how incomplete or incorrect information can affect care.\n\nInformation sciences contribute computing, databases, information retrieval, data integration, processing, analysis, privacy, security, human-computer interaction, and communication between systems and users.\n\nManagement sciences contribute project management, quality improvement, finance, workflow, organizational change, and attention to financial, legal, ethical, and governance responsibilities. These contributions help ensure that technology fits the organization and its goals.\n\nThe disciplines meet in work such as digital health interventions, health-data governance, quality improvement, and legal and ethical decisions in health IT. Successful informatics work therefore depends on communication across professional groups."
+    },
+    {
+      "title": "4. Health informatics, health information technology, and health data science",
+      "body": "Health information technology refers mainly to the digital tools and systems used in healthcare. Examples include electronic health records, laboratory systems, patient portals, and mobile-health applications. Health informatics is broader: it examines how data, people, processes, and technology work together and how technology can be used meaningfully and responsibly.\n\nHealth data science focuses on transforming health data into knowledge that can support decisions. It may use statistics, computing, analytical models, machine learning, and visualization. Health informatics includes health data science but has a wider scope because it also asks how knowledge will be used to create interventions, tools, and improved healthcare processes. Data science produces insight; informatics connects insight with practice."
+    },
+    {
+      "title": "5. Why health data are complex",
+      "body": "Health data describe people, conditions, treatments, behaviors, organizations, and outcomes. They may be numerical, coded, written, spoken, imaged, measured by devices, or generated by patients. Their meaning often depends on clinical context, time, place, and purpose.\n\nStructured data follow a defined format and are usually stored in specific fields. Examples include age, a laboratory value, a diagnosis code, a medication dose, and an appointment date. Unstructured data do not follow a simple fixed field structure. Examples include clinical notes, discharge summaries, images, audio, and free-text patient messages. Healthcare systems often need to combine both types to understand the full patient story.\n\nA semantic gap occurs when recorded data and the intended clinical meaning do not match clearly. Abbreviations, local wording, missing context, and inconsistent coding can create confusion. A number alone may be meaningless without its unit, time, method, and patient context. Terminologies, standards, documentation rules, and human review help reduce this gap.\n\nHealth data are also distributed. A patient's information may be stored in clinics, hospitals, laboratories, pharmacies, imaging systems, and personal devices. These locations may use different formats, definitions, and access rules. Linking data can improve continuity of care but also creates privacy, security, and governance responsibilities."
+    },
+    {
+      "title": "6. The health-data life cycle",
+      "body": "The health-data life cycle describes how health data move through connected stages. The introductory sequence is: create or collect; store and protect; manage and standardize; analyze and interpret; communicate and use; and retain or dispose.\n\nData quality, privacy, security, governance, and ethics apply throughout the entire cycle. A problem at an early stage can affect every later stage, and the cycle repeats as new observations and decisions create more data."
+    },
+    {
+      "title": "7. The six life-cycle stages",
+      "body": "Stage 1—Create or collect: Data are created during care, administration, monitoring, research, and patient activities. Examples include vital signs, diagnoses, medication orders, clinical notes, images, claims, and wearable-device readings. Collection may be manual, entered into a form, imported from another system, or captured automatically by a device.\n\nStage 2—Store and protect: Data are stored in records, databases, repositories, and connected information systems. Storage should preserve accuracy, availability, confidentiality, and appropriate access. Organizations determine who may view, enter, correct, or share different types of information. Storage is both a technical and governance responsibility.\n\nStage 3—Manage and standardize: Data are checked, cleaned, organized, coded, and prepared for use. Standard terms and formats help users and systems interpret information consistently. Duplicate, missing, incorrect, or conflicting entries should be identified. Metadata record information such as source, date, unit, and method.\n\nStage 4—Analyze and interpret: Analysis looks for summaries, comparisons, trends, relationships, and patterns. The method must match the question and the quality of the available data. Results require interpretation within clinical and organizational context. A mathematically correct result can still be misleading if the source data or assumptions are poor.\n\nStage 5—Communicate and use: Findings may be communicated through an electronic health record, report, alert, dashboard, visualization, or conversation. Information should be understandable, relevant, timely, and appropriate for the intended user. Use may lead to a clinical decision, process change, policy, intervention, or new research question.\n\nStage 6—Retain or dispose: Some data are kept for clinical, legal, administrative, or research purposes. Retention rules determine what is kept, for how long, and under whose responsibility. Data no longer needed should be disposed of securely and according to policy. Archived data must remain protected and retrievable when required."
+    },
+    {
+      "title": "8. Applying the life cycle to a laboratory result",
+      "body": "A laboratory result demonstrates how one item of health data can move through every stage. First, a blood sample is tested and a result is produced. The result is then stored in the laboratory system and patient record. During management and standardization, the patient identity, test name, unit, reference range, date, and status are verified.\n\nDuring analysis, the result is compared with reference values and earlier results. It is then communicated to the clinician, who reviews it and decides whether action is needed. Finally, the result remains part of the patient's longitudinal record. This example shows why accurate collection, context, standardization, interpretation, communication, and retention are all connected."
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "ordering",
+      "title": "Sequence the health-data life cycle",
+      "prompt": "Place the stages in the introductory sequence from the beginning of the cycle to the end.",
+      "conceptIds": [
+        "health-data-life-cycle",
+        "create-or-collect-data",
+        "store-and-protect-data",
+        "manage-and-standardize-data",
+        "analyze-and-interpret-data",
+        "communicate-and-use-information",
+        "retain-or-dispose-of-data"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "id": "step1",
+          "text": "Create or collect data",
+          "order": 0
+        },
+        {
+          "id": "step2",
+          "text": "Store and protect data",
+          "order": 1
+        },
+        {
+          "id": "step3",
+          "text": "Manage and standardize data",
+          "order": 2
+        },
+        {
+          "id": "step4",
+          "text": "Analyze and interpret data",
+          "order": 3
+        },
+        {
+          "id": "step5",
+          "text": "Communicate and use information",
+          "order": 4
+        },
+        {
+          "id": "step6",
+          "text": "Retain or dispose of data",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "classification",
+      "title": "Classify health-data examples",
+      "prompt": "Classify each example as structured or unstructured data.",
+      "conceptIds": [
+        "structured-data",
+        "unstructured-data"
+      ],
+      "feedback": "",
+      "categories": [
+        "Structured data",
+        "Unstructured data"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Age",
+          "answer": "Structured data",
+          "feedback": "Age is an example of data that can be stored in a defined field."
+        },
+        {
+          "id": "item-2",
+          "text": "Laboratory value",
+          "answer": "Structured data",
+          "feedback": "A laboratory value is listed as an example of structured data."
+        },
+        {
+          "id": "item-3",
+          "text": "Diagnosis code",
+          "answer": "Structured data",
+          "feedback": "A diagnosis code follows a defined format."
+        },
+        {
+          "id": "item-4",
+          "text": "Medication dose",
+          "answer": "Structured data",
+          "feedback": "A medication dose can be stored in a specific field."
+        },
+        {
+          "id": "item-5",
+          "text": "Clinical note",
+          "answer": "Unstructured data",
+          "feedback": "Clinical notes do not follow a simple fixed field structure."
+        },
+        {
+          "id": "item-6",
+          "text": "Discharge summary",
+          "answer": "Unstructured data",
+          "feedback": "A discharge summary is an example of unstructured data."
+        },
+        {
+          "id": "item-7",
+          "text": "Image",
+          "answer": "Unstructured data",
+          "feedback": "Images are listed as unstructured health data."
+        },
+        {
+          "id": "item-8",
+          "text": "Free-text patient message",
+          "answer": "Unstructured data",
+          "feedback": "Free-text messages do not follow a simple fixed field structure."
+        }
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "matching",
+      "title": "Match disciplines with their contributions",
+      "prompt": "Match each discipline with the contribution it makes to health informatics.",
+      "conceptIds": [
+        "health-sciences",
+        "information-sciences",
+        "management-sciences",
+        "health-informatics"
+      ],
+      "feedback": "",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Health sciences",
+          "right": "Patients, clinical care, health systems, terminology, workflows, and health outcomes",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Information sciences",
+          "right": "Computing, databases, information retrieval, privacy, security, and human-computer interaction",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Management sciences",
+          "right": "Project management, quality improvement, finance, workflow, and organizational change",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "Patients, clinical care, health systems, terminology, workflows, and health outcomes",
+        "Computing, databases, information retrieval, privacy, security, and human-computer interaction",
+        "Project management, quality improvement, finance, workflow, and organizational change"
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "matching",
+      "title": "Map a laboratory result to the life cycle",
+      "prompt": "Match each laboratory-result activity with the life-cycle stage it represents.",
+      "conceptIds": [
+        "health-data-life-cycle",
+        "create-or-collect-data",
+        "store-and-protect-data",
+        "manage-and-standardize-data",
+        "analyze-and-interpret-data",
+        "communicate-and-use-information",
+        "retain-or-dispose-of-data"
+      ],
+      "feedback": "",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "A blood sample is tested and a result is produced",
+          "right": "Create or collect data",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "The result is saved in the laboratory system and patient record",
+          "right": "Store and protect data",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Patient identity, test name, unit, reference range, date, and status are verified",
+          "right": "Manage and standardize data",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "The result is compared with reference values and earlier results",
+          "right": "Analyze and interpret data",
+          "feedback": ""
+        },
+        {
+          "id": "pair-5",
+          "left": "A clinician reviews the result and decides whether action is needed",
+          "right": "Communicate and use information",
+          "feedback": ""
+        },
+        {
+          "id": "pair-6",
+          "left": "The result remains part of the longitudinal record",
+          "right": "Retain or dispose of data",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "Create or collect data",
+        "Store and protect data",
+        "Manage and standardize data",
+        "Analyze and interpret data",
+        "Communicate and use information",
+        "Retain or dispose of data"
+      ]
+    },
+    {
+      "id": "activity-5",
+      "type": "comparison",
+      "title": "Compare related fields",
+      "prompt": "Identify the main distinction among health informatics, health information technology, and health data science.",
+      "conceptIds": [
+        "health-informatics",
+        "health-information-technology",
+        "health-data-science"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "label": "Health informatics",
+          "detail": "Examines how data, people, processes, and technology work together and connects knowledge with healthcare practice."
+        },
+        {
+          "label": "Health information technology",
+          "detail": "Refers mainly to the digital tools and systems used in healthcare."
+        },
+        {
+          "label": "Health data science",
+          "detail": "Focuses on transforming health data into knowledge that can support decisions."
+        }
+      ],
+      "answer": "Health information technology focuses mainly on tools and systems, health data science focuses on transforming data into knowledge, and health informatics has a wider scope that connects data, people, processes, technology, and practice."
+    },
+    {
+      "id": "activity-6",
+      "type": "scenario",
+      "title": "When a number lacks context",
+      "prompt": "A health-data record contains a numerical value, but the unit, time, method, and patient context are not clear. What is the most appropriate informatics concern?",
+      "conceptIds": [
+        "semantic-gap",
+        "structured-data"
+      ],
+      "feedback": "",
+      "options": [
+        "A semantic gap may make the intended clinical meaning unclear.",
+        "The data are automatically ready for analysis because they are numerical.",
+        "The value should be treated as unstructured data because it lacks context.",
+        "The value should be disposed of immediately."
+      ],
+      "answerIndex": 0,
+      "debrief": "A number alone may be meaningless without its unit, time, method, and patient context. This is an example of a semantic gap between recorded data and intended clinical meaning."
+    },
+    {
+      "id": "activity-7",
+      "type": "scenario",
+      "title": "A technically functioning system",
+      "prompt": "A healthcare system operates technically, but it does not fit the clinical workflow or user needs. How should this situation be understood?",
+      "conceptIds": [
+        "health-informatics",
+        "health-information-technology"
+      ],
+      "feedback": "",
+      "options": [
+        "The system may still fail as an informatics solution.",
+        "Technical operation proves that the system is appropriate.",
+        "The system should be classified as health data science.",
+        "The system has completed the full health-data life cycle."
+      ],
+      "answerIndex": 0,
+      "debrief": "Health informatics considers people and workflows as well as technology. A system may function technically but still fail if it does not fit clinical workflow or user needs."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "front": "What is health informatics?",
+      "back": "An interdisciplinary field connecting health sciences, information sciences, and management sciences that acquires, manages, represents, and transforms health data.",
+      "conceptIds": [
+        "health-informatics"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "front": "What is the purpose of health informatics?",
+      "back": "To turn health data into useful knowledge that supports healthcare decisions, interventions, and processes.",
+      "conceptIds": [
+        "purpose-of-health-informatics"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "front": "What does health information technology refer to?",
+      "back": "The digital tools and systems used in healthcare, such as electronic health records, laboratory systems, patient portals, and mobile-health applications.",
+      "conceptIds": [
+        "health-information-technology"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "front": "How is health informatics broader than health data science?",
+      "back": "Health data science transforms data into knowledge, while health informatics also considers how that knowledge is used in interventions, tools, and improved healthcare processes.",
+      "conceptIds": [
+        "health-informatics",
+        "health-data-science"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "front": "What are structured data?",
+      "back": "Data that follow a defined format and are usually stored in specific fields.",
+      "conceptIds": [
+        "structured-data"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "front": "What are unstructured data?",
+      "back": "Data that do not follow a simple fixed field structure.",
+      "conceptIds": [
+        "unstructured-data"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "front": "What is a semantic gap?",
+      "back": "A situation in which recorded data and the intended clinical meaning do not match clearly.",
+      "conceptIds": [
+        "semantic-gap"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "front": "What is metadata?",
+      "back": "Information about data, such as source, date, unit, and method.",
+      "conceptIds": [
+        "metadata"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "front": "What is the first stage of the health-data life cycle?",
+      "back": "Create or collect data.",
+      "conceptIds": [
+        "create-or-collect-data",
+        "health-data-life-cycle"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "front": "What happens during manage and standardize data?",
+      "back": "Data are checked, cleaned, organized, coded, prepared for use, and described with standard terms, formats, and metadata.",
+      "conceptIds": [
+        "manage-and-standardize-data",
+        "metadata"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "front": "Why can health data be difficult to use?",
+      "back": "They are varied, contextual, distributed, and partly unstructured; their meaning may depend on time, place, purpose, units, methods, and patient context.",
+      "conceptIds": [
+        "semantic-gap",
+        "structured-data",
+        "unstructured-data"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "front": "What do management sciences contribute to health informatics?",
+      "back": "Project management, quality improvement, finance, workflow, organizational change, and attention to legal, ethical, and governance responsibilities.",
+      "conceptIds": [
+        "management-sciences"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Which statement best defines health informatics?",
+      "options": [
+        "An interdisciplinary field that connects health sciences, information sciences, and management sciences",
+        "A collection of digital tools used only for storing records",
+        "A method concerned only with statistical analysis",
+        "A system for disposing of health data"
+      ],
+      "answerIndex": 0,
+      "rationale": "Health informatics connects health sciences, information sciences, and management sciences and is concerned with acquiring, managing, representing, and transforming health data.",
+      "conceptIds": [
+        "health-informatics"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "What is the central purpose of health informatics?",
+      "options": [
+        "To use technology for its own sake",
+        "To turn health data into useful knowledge that supports healthcare decisions and processes",
+        "To replace healthcare professionals with digital systems",
+        "To retain every item of data indefinitely"
+      ],
+      "answerIndex": 1,
+      "rationale": "The purpose of health informatics is to turn data into useful knowledge that can support healthcare decisions, interventions, and processes.",
+      "conceptIds": [
+        "purpose-of-health-informatics"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Which field refers mainly to digital tools and systems used in healthcare?",
+      "options": [
+        "Health information technology",
+        "Health sciences",
+        "Management sciences",
+        "Health-data life cycle"
+      ],
+      "answerIndex": 0,
+      "rationale": "Health information technology refers mainly to digital tools and systems such as electronic health records, laboratory systems, patient portals, and mobile-health applications.",
+      "conceptIds": [
+        "health-information-technology"
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "Which example is structured health data?",
+      "options": [
+        "Clinical note",
+        "Free-text patient message",
+        "Diagnosis code",
+        "Audio recording"
+      ],
+      "answerIndex": 2,
+      "rationale": "A diagnosis code follows a defined format and is an example of structured data.",
+      "conceptIds": [
+        "structured-data"
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "Which example is unstructured health data?",
+      "options": [
+        "Appointment date",
+        "Medication dose",
+        "Age",
+        "Discharge summary"
+      ],
+      "answerIndex": 3,
+      "rationale": "A discharge summary does not follow a simple fixed field structure and is an example of unstructured data.",
+      "conceptIds": [
+        "unstructured-data"
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "What is a semantic gap?",
+      "options": [
+        "A difference between two stages of the life cycle",
+        "A mismatch between recorded data and intended clinical meaning",
+        "A method for securely disposing of data",
+        "A type of database field"
+      ],
+      "answerIndex": 1,
+      "rationale": "A semantic gap occurs when recorded data and the intended clinical meaning do not match clearly.",
+      "conceptIds": [
+        "semantic-gap"
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "Which stage follows store and protect data in the introductory life-cycle sequence?",
+      "options": [
+        "Create or collect data",
+        "Communicate and use information",
+        "Manage and standardize data",
+        "Retain or dispose of data"
+      ],
+      "answerIndex": 2,
+      "rationale": "The sequence is create or collect, store and protect, manage and standardize, analyze and interpret, communicate and use, and retain or dispose.",
+      "conceptIds": [
+        "health-data-life-cycle",
+        "manage-and-standardize-data"
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "What is metadata?",
+      "options": [
+        "Information about data, such as source, date, unit, and method",
+        "A type of unstructured clinical note",
+        "A healthcare organization",
+        "A replacement for data analysis"
+      ],
+      "answerIndex": 0,
+      "rationale": "Metadata provide information about the data and may include source, date, unit, and method.",
+      "conceptIds": [
+        "metadata"
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "Which discipline contributes databases, information retrieval, privacy, security, and human-computer interaction?",
+      "options": [
+        "Health sciences",
+        "Information sciences",
+        "Management sciences",
+        "Clinical workflow"
+      ],
+      "answerIndex": 1,
+      "rationale": "Information sciences contribute computing, databases, information retrieval, privacy, security, and human-computer interaction.",
+      "conceptIds": [
+        "information-sciences"
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "Why can an analytical result be misleading even when it is mathematically correct?",
+      "options": [
+        "The source data or assumptions may be poor.",
+        "Analysis always creates unstructured data.",
+        "Retention rules prevent interpretation.",
+        "Communication always changes the result."
+      ],
+      "answerIndex": 0,
+      "rationale": "An analytical result can be mathematically correct but misleading if the source data or assumptions are poor.",
+      "conceptIds": [
+        "analyze-and-interpret-data"
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "Which action belongs to the retain or dispose stage?",
+      "options": [
+        "Testing a blood sample",
+        "Verifying a laboratory unit",
+        "Comparing a result with earlier results",
+        "Securely disposing of data that are no longer needed according to policy"
+      ],
+      "answerIndex": 3,
+      "rationale": "Data that are no longer needed should be disposed of securely and according to policy, while required data are retained.",
+      "conceptIds": [
+        "retain-or-dispose-of-data"
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "Why does health informatics require multiple disciplines?",
+      "options": [
+        "Healthcare problems are rarely solved by one discipline alone.",
+        "Only management sciences can interpret health data.",
+        "Digital systems do not involve people or workflows.",
+        "Health sciences and information sciences address identical responsibilities."
+      ],
+      "answerIndex": 0,
+      "rationale": "Health informatics combines clinical, technical, and organizational perspectives because healthcare problems are rarely solved by one discipline alone.",
+      "conceptIds": [
+        "health-informatics",
+        "health-sciences",
+        "information-sciences",
+        "management-sciences"
+      ]
+    }
+  ],
+  "review": null,
+  "sourceManifest": [
+    {
+      "item": "Week 1 PPT.pdf",
+      "source_refs": [
+        "[Page 1]",
+        "[Page 2]",
+        "[Page 3]",
+        "[Page 4]",
+        "[Page 5]",
+        "[Page 6]",
+        "[Page 7]",
+        "[Page 8]",
+        "[Page 9]",
+        "[Page 10]",
+        "[Page 11]",
+        "[Page 12]",
+        "[Page 13]",
+        "[Page 14]",
+        "[Page 15]",
+        "[Page 16]",
+        "[Page 17]",
+        "[Page 18]",
+        "[Page 19]",
+        "[Page 20]",
+        "[Page 21]",
+        "[Page 22]",
+        "[Page 23]",
+        "[Page 24]",
+        "[Page 25]",
+        "[Page 26]",
+        "[Page 27]",
+        "[Page 28]"
+      ]
+    }
+  ],
+  "validationReport": {
+    "status": "passed",
+    "source_fidelity": "All student-facing teaching claims, activities, flashcards, and assessment rationales are supported by the supplied Week 1 material.",
+    "learning_outcomes_verified": true,
+    "interactive_activities_verified": true,
+    "knowledge_check_items_verified": true,
+    "provenance_present": true,
+    "review_week_constraint_verified": true,
+    "course_id_preserved": "P9CKVS4L",
+    "formula_check": "No calculator generated because the supplied material contains no formula.",
+    "external_facts_added": false
+  },
+  "warnings": []
+}

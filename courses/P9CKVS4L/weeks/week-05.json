@@ -1,0 +1,886 @@
+{
+  "id": "week-05",
+  "order": 5,
+  "title": "Week 5: Health Information Exchange, Interoperability and Data Standards",
+  "overview": "This week examines how authorized participants exchange health information across clinics, hospitals, laboratories, pharmacies, imaging services, public-health agencies, and other organizations. You will explore continuity of care, interoperability, exchange models and patterns, consent, privacy, trust, workflow, barriers, and public-health uses.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain health information exchange and its role in continuity of care.",
+    "Distinguish the exchange process from an organization that manages exchange.",
+    "Explain interoperability in clear, nontechnical language.",
+    "Discuss common benefits, barriers, consent questions, and public-health uses of exchange.",
+    "Explain the exchange process, its benefits, and the conditions needed for information to be useful and trusted."
+  ],
+  "concepts": [
+    {
+      "id": "concept.health_information_exchange",
+      "name": "Health information exchange",
+      "definition": "The electronic sharing of health information between authorized participants.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.health_information_organization",
+      "name": "Health information organization",
+      "definition": "An entity that facilitates or manages health information exchange and may establish participation rules, identity processes, privacy protections, and technical services.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.continuity_of_care",
+      "name": "Continuity of care",
+      "definition": "The availability of relevant information as a patient moves between care settings so that the next provider can understand recent diagnoses, treatments, medicines, allergies, tests, and plans.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.interoperability",
+      "name": "Interoperability",
+      "definition": "The ability of different systems to connect, exchange information, and use it in a coordinated way so that the information supports appropriate action.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [
+        "week-05"
+      ],
+      "moduleRefs": [
+        "week-03",
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.connectivity",
+      "name": "Connectivity",
+      "definition": "The ability of systems to send or receive data.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.summary_of_care",
+      "name": "Summary of care",
+      "definition": "A communication of essential information when a patient is referred or transferred, including current problems, medicines, allergies, procedures, laboratory information, demographic information, provider details, care goals, instructions, and required follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.authorized_participant",
+      "name": "Authorized participant",
+      "definition": "A person or organization permitted to participate in health information exchange for an appropriate purpose.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.patient_identity_matching",
+      "name": "Patient identity matching",
+      "definition": "The process of reliably associating exchanged information with the correct patient despite missing or inconsistent identifying information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.data_mapping",
+      "name": "Data mapping",
+      "definition": "The translation of local data into shared standards so that information can be interpreted across systems.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.centralized_exchange",
+      "name": "Centralized exchange",
+      "definition": "An exchange model in which participant data are combined in a shared repository that participants query for available patient information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.federated_exchange",
+      "name": "Federated exchange",
+      "definition": "An exchange model in which detailed data remain with the original organizations and a locator service helps identify where information exists before the requesting organization retrieves it.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.directed_exchange",
+      "name": "Directed exchange",
+      "definition": "An exchange pattern that sends information to a known authorized recipient, such as during a referral.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.query_based_exchange",
+      "name": "Query-based exchange",
+      "definition": "An exchange pattern that allows an authorized user to search for information held by participating organizations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.consumer_mediated_exchange",
+      "name": "Consumer-mediated exchange",
+      "definition": "An exchange pattern that allows patients to obtain and transmit selected health information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.opt_in_consent_model",
+      "name": "Opt-in consent model",
+      "definition": "A consent model that requires the patient to agree before information is included or shared.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.opt_out_consent_model",
+      "name": "Opt-out consent model",
+      "definition": "A consent model that includes information unless the patient chooses not to participate.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.privacy",
+      "name": "Privacy",
+      "definition": "The protection of sensitive health information so that it is available only to authorized people for appropriate purposes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.trust",
+      "name": "Trust",
+      "definition": "Confidence in the protections and governance of exchange that encourages people and organizations to participate.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.public_health_use_of_exchange",
+      "name": "Public-health use of exchange",
+      "definition": "The use of information from multiple care settings for population patterns, prevention, quality improvement, planning, reporting, surveillance, alerts, immunization reporting, and disaster response.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.exchange_workflow",
+      "name": "Exchange workflow",
+      "definition": "The process through which exchanged information is made available during a clinical task, located, reviewed, and incorporated into the current care process.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.standards_and_quality_controls",
+      "name": "Standards and quality controls",
+      "definition": "Shared structures, meanings, and checks that help turn transmitted data into usable information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why health information must move",
+      "body": "A patient's health history is often distributed across clinics, hospitals, laboratories, pharmacies, imaging centers, and other organizations. Each setting may create a separate part of the record. When important information remains inside one system, care can become fragmented. Health information exchange helps authorized users obtain relevant information when and where it is needed. The goal is better continuity through access to information that supports the current care task, not the transfer of every available data element."
+    },
+    {
+      "title": "Health information exchange and health information organizations",
+      "body": "Health information exchange, or HIE, is the electronic sharing of health information between authorized participants. Participants may include providers, laboratories, pharmacies, public-health agencies, and patients. Exchange may occur directly between two organizations or through a wider network. A health information organization, or HIO, is an entity that facilitates or manages exchange. It may establish participation rules, identity processes, privacy protections, and technical services. HIE names the activity, while an HIO names an organization that supports that activity. Not every exchange requires a separate HIO."
+    },
+    {
+      "title": "Continuity of care and the patient journey",
+      "body": "Continuity of care means that relevant information remains available as a patient moves between care settings. The next provider can then understand recent diagnoses, treatments, medicines, allergies, tests, and plans. A patient may visit a clinic, receive a laboratory order, have the laboratory return a standardized result, be admitted to a hospital, and then return to the clinic after discharge. The clinic may need the hospital diagnosis, medication changes, and follow-up plan. HIE connects these episodes so authorized care teams can work from a more complete history. Exchanged information must still be reviewed in the context of the current encounter."
+    },
+    {
+      "title": "The summary of care",
+      "body": "A summary of care communicates essential information when a patient is referred or transferred. It may include current problems, medicines, allergies, procedures, laboratory information, demographic information, provider details, care goals, instructions, and required follow-up. Before using the summary, the receiving team should confirm that it is current, complete, and clinically relevant."
+    },
+    {
+      "title": "Benefits and conditions for useful exchange",
+      "body": "Patients may avoid repeating the same history and tests. Care teams can identify allergies, recent results, and medication changes more quickly, while transitions may become safer because the next provider has more context. Organizations and communities may benefit from coordination, reduced avoidable duplication, quality measurement, population-health planning, and faster public-health reporting. These benefits depend on accurate identity matching, meaningful consent, protection of sensitive information, usable workflows, and sustainable participation."
+    },
+    {
+      "title": "Connectivity is not interoperability",
+      "body": "Connectivity means that systems can send or receive data. Interoperability goes further: systems must connect, exchange information, and use it in a coordinated way so that it supports appropriate action. Useful exchange requires shared structure and shared meaning, correct association with the patient, and fit with the receiving workflow. A scanned document may be exchanged but not searchable or reusable. A laboratory result may be transmitted while a local code remains unclear to the receiving system. Information may also be incomplete, delayed, duplicated, or attached to the wrong patient. Standards, quality controls, consistent coding, documentation, and careful data mapping help make exchanged information usable."
+    },
+    {
+      "title": "Barriers to useful exchange",
+      "body": "Technical barriers include different EHR products, interfaces, data formats, technical capabilities, older systems, network availability, authentication, and system performance. Data differences can also change meaning: the same clinical concept may be represented with different words or local codes, while units, reference ranges, dates, status values, completeness, and level of detail may differ. Data mapping can translate local data into shared standards, but the mapping requires careful validation. Privacy, security, and trust are essential because participants need rules for access, authentication, auditing, confidentiality, and secure transmission."
+    },
+    {
+      "title": "Consent and control",
+      "body": "An opt-in consent model requires the patient to agree before information is included or shared. An opt-out model includes information unless the patient chooses not to participate. Some models allow restrictions on particular data, providers, or purposes. More detailed choices may increase patient control but can be difficult to administer consistently. Consent requirements depend on applicable law, policy, organization, data type, and care context."
+    },
+    {
+      "title": "Workflow, models, and patterns",
+      "body": "Exchange is most useful when information is available during the clinical task. Users need a clear way to locate, review, and incorporate outside information. Too many documents or poorly organized data can increase workload. In a centralized model, participant data are combined in a shared repository. In a federated model, detailed data remain with the original organizations and a locator service helps identify where information exists. Directed exchange sends information to a known authorized recipient, query-based exchange allows an authorized user to search participating organizations, and consumer-mediated exchange allows patients to obtain and transmit selected information."
+    },
+    {
+      "title": "Population and public-health uses",
+      "body": "Information from multiple care settings can help describe health patterns in a defined population. Aggregated information can support prevention, quality improvement, and planning. Electronic reporting can help public-health authorities identify notifiable conditions and outbreaks. Exchange can also support immunization reporting, surveillance, alerts, and disaster response. These uses require standardized data, reliable quality, privacy protection, and appropriate governance."
+    },
+    {
+      "title": "Key takeaway",
+      "body": "HIE electronically shares health information across authorized participants, while an HIO may provide the organization, rules, and services that support exchange. Interoperability means that different systems can exchange and meaningfully use information, not merely connect. HIE can improve continuity, coordination, decision-making, and public-health reporting, but technology alone is insufficient. Standards, quality, workflow, privacy, trust, patient identity matching, consent, and sustainability all influence whether exchanged information becomes useful and trusted."
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "comparison",
+      "title": "Separate the related terms",
+      "prompt": "Compare HIE with HIO and connectivity with interoperability.",
+      "conceptIds": [
+        "concept.health_information_exchange",
+        "concept.health_information_organization",
+        "concept.connectivity",
+        "concept.interoperability"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "label": "Health information exchange",
+          "detail": "The electronic sharing of health information between authorized participants."
+        },
+        {
+          "label": "Health information organization",
+          "detail": "An entity that facilitates or manages exchange."
+        },
+        {
+          "label": "Connectivity",
+          "detail": "The ability of systems to send or receive data."
+        },
+        {
+          "label": "Interoperability",
+          "detail": "The ability to connect, exchange, and use information in a coordinated way so it supports appropriate action."
+        }
+      ],
+      "answer": "HIE is the exchange activity, whereas an HIO is an organization that supports or manages that activity. Connectivity permits sending or receiving data, whereas interoperability also requires shared structure, shared meaning, correct patient association, workflow fit, and support for appropriate action."
+    },
+    {
+      "id": "activity-2",
+      "type": "ordering",
+      "title": "Follow information through a patient journey",
+      "prompt": "Place the stages of the patient journey in the order presented.",
+      "conceptIds": [
+        "concept.health_information_exchange",
+        "concept.continuity_of_care",
+        "concept.summary_of_care"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "id": "journey-1",
+          "text": "A clinic identifies a problem and orders laboratory testing.",
+          "order": 0
+        },
+        {
+          "id": "journey-2",
+          "text": "The laboratory completes the test and returns a standardized result.",
+          "order": 1
+        },
+        {
+          "id": "journey-3",
+          "text": "The patient is admitted to a hospital that needs the clinic history and laboratory result.",
+          "order": 2
+        },
+        {
+          "id": "journey-4",
+          "text": "After discharge, the clinic receives the hospital diagnosis, medication changes, and follow-up plan.",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "classification",
+      "title": "Classify exchange barriers",
+      "prompt": "Place each issue under the barrier category it best represents.",
+      "conceptIds": [
+        "concept.interoperability",
+        "concept.data_mapping",
+        "concept.privacy",
+        "concept.trust",
+        "concept.exchange_workflow"
+      ],
+      "feedback": "",
+      "categories": [
+        "Technical",
+        "Data-related",
+        "Privacy and trust",
+        "Workflow",
+        "Sustainability"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Different EHR products and interfaces",
+          "answer": "Technical",
+          "feedback": "Different products, interfaces, formats, and technical capabilities can interrupt exchange."
+        },
+        {
+          "id": "item-2",
+          "text": "A local code has no clear meaning to the receiving system",
+          "answer": "Data-related",
+          "feedback": "Different words or local codes can change the meaning of exchanged data."
+        },
+        {
+          "id": "item-3",
+          "text": "Participants are uncertain whether sensitive information is protected",
+          "answer": "Privacy and trust",
+          "feedback": "Privacy protections and trust influence participation."
+        },
+        {
+          "id": "item-4",
+          "text": "Outside information is difficult to locate during a clinical task",
+          "answer": "Workflow",
+          "feedback": "Users need a clear way to locate, review, and incorporate information during care."
+        },
+        {
+          "id": "item-5",
+          "text": "Benefits are distributed across stakeholders, making funding difficult",
+          "answer": "Sustainability",
+          "feedback": "Distributed benefits can make funding and long-term sustainability difficult."
+        }
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "scenario",
+      "title": "Choose an exchange pattern",
+      "prompt": "A clinic is referring a patient to a known authorized specialist and needs to send a summary of care. Which exchange pattern best fits this use case?",
+      "conceptIds": [
+        "concept.directed_exchange",
+        "concept.summary_of_care",
+        "concept.health_information_exchange"
+      ],
+      "feedback": "",
+      "options": [
+        "Directed exchange",
+        "Query-based exchange",
+        "Consumer-mediated exchange",
+        "Federated exchange"
+      ],
+      "answerIndex": 0,
+      "debrief": "Directed exchange sends information to a known authorized recipient, such as during a referral."
+    },
+    {
+      "id": "activity-5",
+      "type": "scenario",
+      "title": "Review a summary of care",
+      "prompt": "A receiving team obtains a summary of care during a transfer. Before using it, what should the team do?",
+      "conceptIds": [
+        "concept.summary_of_care",
+        "concept.continuity_of_care"
+      ],
+      "feedback": "",
+      "options": [
+        "Confirm that the information is current, complete, and clinically relevant.",
+        "Assume that every transmitted item is automatically appropriate.",
+        "Replace the summary with every available data element.",
+        "Use the summary without considering the current encounter."
+      ],
+      "answerIndex": 0,
+      "debrief": "The receiving team must confirm that the summary is current, complete, and clinically relevant. Exchanged information should also be interpreted in the context of the current encounter."
+    },
+    {
+      "id": "activity-6",
+      "type": "comparison",
+      "title": "Compare exchange models",
+      "prompt": "Identify how centralized and federated exchange differ.",
+      "conceptIds": [
+        "concept.centralized_exchange",
+        "concept.federated_exchange"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "label": "Centralized exchange",
+          "detail": "Participant data are combined in a shared repository that participants query."
+        },
+        {
+          "label": "Federated exchange",
+          "detail": "Detailed data remain with the original organizations; a locator service helps identify where information exists before retrieval."
+        }
+      ],
+      "answer": "Centralized exchange combines data in a shared repository, while federated exchange leaves detailed data with the original organizations and retrieves it from those organizations."
+    },
+    {
+      "id": "activity-7",
+      "type": "comparison",
+      "title": "Compare consent models",
+      "prompt": "Explain the difference between opt-in and opt-out consent.",
+      "conceptIds": [
+        "concept.opt_in_consent_model",
+        "concept.opt_out_consent_model"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "label": "Opt-in consent model",
+          "detail": "The patient agrees before information is included or shared."
+        },
+        {
+          "label": "Opt-out consent model",
+          "detail": "Information is included unless the patient chooses not to participate."
+        }
+      ],
+      "answer": "Opt-in requires agreement before sharing, whereas opt-out includes information unless the patient declines participation. Some models also allow restrictions on particular data, providers, or purposes."
+    },
+    {
+      "id": "activity-8",
+      "type": "ordering",
+      "title": "Use exchanged information during care",
+      "prompt": "Order the steps for incorporating exchanged information into a clinical workflow.",
+      "conceptIds": [
+        "concept.exchange_workflow",
+        "concept.continuity_of_care"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "id": "workflow-1",
+          "text": "Make relevant information available during the clinical task.",
+          "order": 0
+        },
+        {
+          "id": "workflow-2",
+          "text": "Locate and review outside information.",
+          "order": 1
+        },
+        {
+          "id": "workflow-3",
+          "text": "Incorporate the information into the current clinical workflow.",
+          "order": 2
+        },
+        {
+          "id": "workflow-4",
+          "text": "Review the information in the context of the current patient encounter.",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "activity-9",
+      "type": "retrieval",
+      "title": "Explain the central distinction",
+      "prompt": "In one or two sentences, explain why exchange is not automatically interoperability.",
+      "conceptIds": [
+        "concept.connectivity",
+        "concept.interoperability",
+        "concept.standards_and_quality_controls"
+      ],
+      "feedback": "",
+      "answer": "Information may be transmitted successfully but still be incomplete, delayed, duplicated, unsearchable, attached to the wrong patient, or lacking shared meaning. Interoperability requires systems to exchange and use information in a coordinated way that supports appropriate action."
+    },
+    {
+      "id": "activity-10",
+      "type": "classification",
+      "title": "Identify public-health uses",
+      "prompt": "Classify each activity as a public-health use of exchange or not a public-health use described this week.",
+      "conceptIds": [
+        "concept.public_health_use_of_exchange",
+        "concept.directed_exchange"
+      ],
+      "feedback": "",
+      "categories": [
+        "Public-health use",
+        "Not a public-health use described this week"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Reporting notifiable conditions",
+          "answer": "Public-health use",
+          "feedback": "Electronic reporting can help public-health authorities identify notifiable conditions."
+        },
+        {
+          "id": "item-2",
+          "text": "Outbreak identification",
+          "answer": "Public-health use",
+          "feedback": "Exchange can support identification of outbreaks."
+        },
+        {
+          "id": "item-3",
+          "text": "Immunization reporting",
+          "answer": "Public-health use",
+          "feedback": "Immunization reporting is a stated use of exchange."
+        },
+        {
+          "id": "item-4",
+          "text": "Disaster response",
+          "answer": "Public-health use",
+          "feedback": "Exchange can support disaster response."
+        },
+        {
+          "id": "item-5",
+          "text": "Sending information to a known specialist during a referral",
+          "answer": "Not a public-health use described this week",
+          "feedback": "This is directed exchange during care, not a public-health use."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "front": "What is health information exchange?",
+      "back": "The electronic sharing of health information between authorized participants.",
+      "conceptIds": [
+        "concept.health_information_exchange"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "front": "What is a health information organization?",
+      "back": "An entity that facilitates or manages exchange and may establish participation rules, identity processes, privacy protections, and technical services.",
+      "conceptIds": [
+        "concept.health_information_organization"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "front": "What is continuity of care?",
+      "back": "The availability of relevant information as a patient moves between care settings so the next provider can understand recent diagnoses, treatments, medicines, allergies, tests, and plans.",
+      "conceptIds": [
+        "concept.continuity_of_care"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "front": "How does connectivity differ from interoperability?",
+      "back": "Connectivity means systems can send or receive data. Interoperability also requires shared structure, shared meaning, correct patient association, workflow fit, and support for appropriate action.",
+      "conceptIds": [
+        "concept.connectivity",
+        "concept.interoperability"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "front": "What is a summary of care?",
+      "back": "A communication of essential information used during referral or transfer, including items such as problems, medicines, allergies, procedures, laboratory information, care goals, instructions, and follow-up.",
+      "conceptIds": [
+        "concept.summary_of_care"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "front": "What is patient identity matching?",
+      "back": "Reliably associating exchanged information with the correct patient despite missing or inconsistent identifying information.",
+      "conceptIds": [
+        "concept.patient_identity_matching"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "front": "What is data mapping?",
+      "back": "Translating local data into shared standards so that information can be interpreted across systems.",
+      "conceptIds": [
+        "concept.data_mapping"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "front": "How do centralized and federated exchange differ?",
+      "back": "Centralized exchange combines participant data in a shared repository. Federated exchange leaves detailed data with the original organizations and retrieves it after locating where it exists.",
+      "conceptIds": [
+        "concept.centralized_exchange",
+        "concept.federated_exchange"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "front": "What is directed exchange?",
+      "back": "Sending information to a known authorized recipient, such as during a referral.",
+      "conceptIds": [
+        "concept.directed_exchange"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "front": "What is query-based exchange?",
+      "back": "Allowing an authorized user to search for information held by participating organizations.",
+      "conceptIds": [
+        "concept.query_based_exchange"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "front": "How do opt-in and opt-out consent models differ?",
+      "back": "Opt-in requires patient agreement before information is included or shared. Opt-out includes information unless the patient chooses not to participate.",
+      "conceptIds": [
+        "concept.opt_in_consent_model",
+        "concept.opt_out_consent_model"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "front": "Why are privacy and trust important to exchange?",
+      "back": "Privacy limits access to sensitive information to authorized people for appropriate purposes, while trust in protections and governance encourages people and organizations to participate.",
+      "conceptIds": [
+        "concept.privacy",
+        "concept.trust"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What is health information exchange?",
+      "options": [
+        "The electronic sharing of health information between authorized participants",
+        "The storage of all health information in one local record",
+        "The replacement of every local workflow with one central workflow",
+        "The transfer of every available data element regardless of need"
+      ],
+      "answerIndex": 0,
+      "rationale": "HIE is the electronic sharing of health information between authorized participants. Its goal is access to relevant information that supports continuity, not indiscriminate transfer of every data element.",
+      "conceptIds": [
+        "concept.health_information_exchange",
+        "concept.authorized_participant"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Which statement correctly distinguishes HIE from an HIO?",
+      "options": [
+        "HIE is the exchange activity, while an HIO is an organization that facilitates or manages exchange.",
+        "HIE is an organization, while an HIO is a consent model.",
+        "HIE refers only to laboratory results, while an HIO refers only to patient portals.",
+        "HIE and HIO are two names for exactly the same thing."
+      ],
+      "answerIndex": 0,
+      "rationale": "HIE describes the process of electronically sharing information. An HIO is an entity that supports or manages that process.",
+      "conceptIds": [
+        "concept.health_information_exchange",
+        "concept.health_information_organization"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "What is the main purpose of HIE as a patient moves between care settings?",
+      "options": [
+        "To preserve continuity by making relevant information available to the next care team",
+        "To prevent the next provider from reviewing outside information",
+        "To transfer every available data element whether or not it is relevant",
+        "To eliminate the need to interpret information in the current encounter"
+      ],
+      "answerIndex": 0,
+      "rationale": "Continuity of care depends on relevant information remaining available as the patient moves between settings. The information must still be reviewed in the context of the current encounter.",
+      "conceptIds": [
+        "concept.health_information_exchange",
+        "concept.continuity_of_care"
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "Which condition is required for interoperability beyond simple connectivity?",
+      "options": [
+        "Shared structure and meaning, correct patient association, workflow fit, and support for appropriate action",
+        "Only the ability to send a message",
+        "Only the use of a network connection",
+        "Only the existence of a local EHR"
+      ],
+      "answerIndex": 0,
+      "rationale": "Connectivity only means that systems can send or receive data. Interoperability additionally requires information to be structured, understood, associated with the correct patient, usable in workflow, and capable of supporting appropriate action.",
+      "conceptIds": [
+        "concept.connectivity",
+        "concept.interoperability"
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "Why might a technically successful exchange still be unusable?",
+      "options": [
+        "The information may be incomplete, delayed, duplicated, unsearchable, attached to the wrong patient, or lacking shared meaning.",
+        "Technical transmission automatically guarantees appropriate clinical use.",
+        "A transmitted document always has shared meaning.",
+        "Exchange is unusable only when no organization participates."
+      ],
+      "answerIndex": 0,
+      "rationale": "Transmission alone does not ensure usability. Problems with completeness, timing, duplication, searchability, patient matching, or meaning can prevent information from supporting care.",
+      "conceptIds": [
+        "concept.interoperability",
+        "concept.patient_identity_matching",
+        "concept.standards_and_quality_controls"
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "What should a receiving team confirm before using a summary of care?",
+      "options": [
+        "That it is current, complete, and clinically relevant",
+        "That it contains every available item from every organization",
+        "That it never needs to be interpreted in the current encounter",
+        "That it replaces all communication with the transferring team"
+      ],
+      "answerIndex": 0,
+      "rationale": "The receiving team should confirm that the summary is current, complete, and clinically relevant before using it during a transition.",
+      "conceptIds": [
+        "concept.summary_of_care"
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "Which statement describes an opt-in consent model?",
+      "options": [
+        "The patient agrees before information is included or shared.",
+        "Information is included unless the patient declines participation.",
+        "The organization decides that consent is never relevant.",
+        "Only public-health agencies can use the information."
+      ],
+      "answerIndex": 0,
+      "rationale": "An opt-in model requires patient agreement before information is included or shared. An opt-out model includes information unless the patient chooses not to participate.",
+      "conceptIds": [
+        "concept.opt_in_consent_model",
+        "concept.opt_out_consent_model"
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "Which statement best describes federated exchange?",
+      "options": [
+        "Detailed data remain with the original organizations, and a locator service helps identify where information exists.",
+        "All participant data are combined in one shared repository.",
+        "Patients alone transmit selected information to providers.",
+        "Information is always sent to one known recipient during a referral."
+      ],
+      "answerIndex": 0,
+      "rationale": "In a federated model, detailed information remains with the original organizations. A locator service helps identify where information exists, after which the requesting organization retrieves it.",
+      "conceptIds": [
+        "concept.federated_exchange",
+        "concept.centralized_exchange"
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "Which exchange pattern is associated with sending information to a known recipient during a referral?",
+      "options": [
+        "Directed exchange",
+        "Query-based exchange",
+        "Consumer-mediated exchange",
+        "Centralized exchange"
+      ],
+      "answerIndex": 0,
+      "rationale": "Directed exchange sends information to a known authorized recipient, such as during a referral.",
+      "conceptIds": [
+        "concept.directed_exchange",
+        "concept.summary_of_care"
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "Which is a public-health use of health information exchange described this week?",
+      "options": [
+        "Supporting reporting of notifiable conditions and identification of outbreaks",
+        "Replacing all patient-level clinical encounters",
+        "Preventing information from being aggregated across care settings",
+        "Removing the need for privacy protection"
+      ],
+      "answerIndex": 0,
+      "rationale": "Exchange can support electronic reporting of notifiable conditions, identification of outbreaks, immunization reporting, surveillance, alerts, and disaster response.",
+      "conceptIds": [
+        "concept.public_health_use_of_exchange",
+        "concept.health_information_exchange"
+      ]
+    }
+  ],
+  "review": null,
+  "sourceManifest": [
+    {
+      "item": "Week 5 HI.pdf",
+      "source_refs": [
+        "Week 5 HI.pdf [Pages 1-24]"
+      ]
+    }
+  ],
+  "validationReport": {
+    "course_id_preserved": "P9CKVS4L",
+    "content_item": "week-05",
+    "is_review_week": false,
+    "learning_outcomes_match_authoritative_list": true,
+    "unsupported_standards_content_omitted": true,
+    "interactive_activity_schema_valid": true,
+    "knowledge_check_schema_valid": true,
+    "flashcard_schema_valid": true,
+    "ontology_ids_reused_when_applicable": true,
+    "new_ontology_concepts_are_distinct": true
+  },
+  "warnings": [
+    "Exchanged information must be reviewed in the context of the current patient encounter.",
+    "A receiving team must confirm that a summary of care is current, complete, and clinically relevant.",
+    "Too much poorly organized information can increase workload, so usability remains important.",
+    "Mapping local data to shared standards requires careful validation.",
+    "Consent requirements depend on applicable law, policy, organization, data type, and care context.",
+    "Technology alone is insufficient; standards, quality, workflow, privacy, trust, and sustainability also matter."
+  ]
+}

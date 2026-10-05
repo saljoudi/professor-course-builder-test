@@ -1,0 +1,732 @@
+{
+  "id": "week-02",
+  "order": 2,
+  "title": "From Data to Knowledge and Wisdom",
+  "overview": "This week examines how raw health data gain meaning and become a basis for decisions and action. You will work through the four levels of the DIKW framework—data, information, knowledge, and wisdom—and connect them to data literacy, data acumen, and core health informatics competencies. Movement through DIKW is not automatic: accurate data, appropriate context, sound interpretation, and responsible judgment are required.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Distinguish all four DIKW levels and explain data literacy, data acumen, and core informatics competencies."
+  ],
+  "concepts": [
+    {
+      "id": "concept.dikw_framework",
+      "name": "DIKW framework",
+      "definition": "A framework consisting of data, information, knowledge, and wisdom that explains how raw observations can be transformed into meaningful and useful understanding.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data",
+      "name": "Data",
+      "definition": "Discrete, unorganized, raw, and objective facts recorded from observations or transactions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.information",
+      "name": "Information",
+      "definition": "Data that have been organized, structured, and placed in context.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.knowledge",
+      "name": "Knowledge",
+      "definition": "Connected information in which relationships are understood and patterns are recognized.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.wisdom",
+      "name": "Wisdom",
+      "definition": "The appropriate application of knowledge to solve a problem or choose an action.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_literacy",
+      "name": "Data literacy",
+      "definition": "The ability to read, understand, work with, and communicate about data.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_acumen",
+      "name": "Data acumen",
+      "definition": "The ability to make good judgments about using data to support evidence-based decisions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.core_informatics_competencies",
+      "name": "Core competencies in health informatics",
+      "definition": "Competencies involving healthcare systems and workflows; data management; privacy, security, legal compliance, ethics, and governance; project management and quality improvement; communication and visualization; and collaboration across clinical, technical, administrative, research, and patient perspectives.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_quality",
+      "name": "Data quality",
+      "definition": "The condition of data as assessed through whether important values are missing, incorrect, delayed, or inconsistent.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.context",
+      "name": "Context",
+      "definition": "Information about a data value that helps establish who, what, when, where, and how it represents something.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_acumen_foundations",
+      "name": "Data acumen foundations",
+      "definition": "Basic statistics, computing, and understanding of evidence as areas of data acumen.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_management_week2",
+      "name": "Data management",
+      "definition": "Database design, storage, retrieval, and organization as an area of data acumen.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_preparation",
+      "name": "Data preparation",
+      "definition": "Cleaning and transforming data for analysis.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.analysis_week2",
+      "name": "Analysis",
+      "definition": "Analytical modeling, machine learning, and interpretation as an area of data acumen.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.practice_data_acumen",
+      "name": "Practice",
+      "definition": "Healthcare workflow, reproducibility, communication, visualization, governance, and ethics as areas of data acumen.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. The DIKW framework",
+      "body": "DIKW stands for data, information, knowledge, and wisdom. The framework explains how raw observations can be transformed into meaningful and useful understanding. Each level adds value through context, connection, interpretation, or application. Movement upward is not automatic: it requires sound methods and human judgment. In healthcare, the purpose of this transformation is to support safe and appropriate action."
+    },
+    {
+      "title": "2. Data: raw facts",
+      "body": "Data are discrete, unorganized, raw, and objective facts recorded from observations or transactions. Examples include 39.1 degrees Celsius, a heart rate of 120, an age of 67, or a recorded medication dose. A value may have little meaning without a label, unit, date, source, or patient context. Accurate data collection is the foundation of the remaining DIKW levels. Poor data cannot reliably produce good information."
+    },
+    {
+      "title": "3. Information: data with context",
+      "body": "Information is data that have been organized, structured, and placed in context. The value 39.1 becomes information when it is identified as a patient's oral temperature measured at 10:00 a.m. Context helps answer who, what, when, where, and how. Labels, units, reference ranges, patient identity, and time can transform a value into meaningful information. Information is useful only when its context is accurate."
+    },
+    {
+      "title": "4. Knowledge: connected information",
+      "body": "Knowledge forms when related information is connected and patterns are understood. A temperature of 39.1 degrees Celsius, increased heart rate, symptoms, and laboratory findings may together indicate a clinical problem. Knowledge explains relationships and supports understanding of what information may mean. Clinical knowledge, guidelines, prior experience, and analytical evidence may contribute. Knowledge is more than a collection of separate facts."
+    },
+    {
+      "title": "5. Wisdom: applying knowledge",
+      "body": "Wisdom is the appropriate application of knowledge to solve a problem or choose an action. It requires judgment about the patient, evidence, risks, benefits, values, and available options. A decision should not be based on a single data point without context. Technology may support a decision, but professional responsibility remains important. Informatics is valuable when knowledge is translated into effective practice."
+    },
+    {
+      "title": "6. DIKW in healthcare examples",
+      "body": "In the birth-weight example, the data level is a baby's recorded birth weight. At the information level, the birth weight is combined with the mother's age, race, residence, and other context. At the knowledge level, a pattern shows that low birth weight is associated with socioeconomic conditions. At the wisdom level, that knowledge is used to design and target an appropriate maternal-health program. In the hospital-readmission example, discharge date, diagnosis, medications, follow-up date, and return admission become organized readmission rates; a pattern of higher readmission among patients without timely follow-up becomes knowledge; and the organization applies that knowledge through targeted follow-up while monitoring whether outcomes improve."
+    },
+    {
+      "title": "7. Why transformation requires care",
+      "body": "Data must be captured correctly before they can be trusted. Organization and context are needed to create information. Comparison, connection, and interpretation are needed to create knowledge. Judgment and responsibility are needed to apply knowledge wisely. Errors, bias, missing context, or misunderstanding at any stage can lead to poor decisions. More data alone do not automatically create better knowledge."
+    },
+    {
+      "title": "8. Data literacy and data acumen",
+      "body": "Data literacy is the ability to read, understand, work with, and communicate about data. A data-literate person asks where the data came from and what each value represents. They check definitions, units, completeness, limitations, and appropriate interpretation, and they explain findings clearly without overstating what the data prove. Data acumen extends beyond technical data-management skills. It is the ability to make good judgments about using data to support evidence-based decisions, including deciding whether data are suitable, methods are appropriate, and conclusions are justified. It also includes workflow, communication, governance, and ethical consequences."
+    },
+    {
+      "title": "9. Areas of data acumen",
+      "body": "The main areas of data acumen are foundations, data management, data preparation, analysis, and practice. Foundations include basic statistics, computing, and understanding of evidence. Data management includes database design, storage, retrieval, and organization. Data preparation involves cleaning and transforming data for analysis. Analysis includes analytical modeling, machine learning, and interpretation. Practice includes healthcare workflow, reproducibility, communication, visualization, governance, and ethics."
+    },
+    {
+      "title": "10. Questions for sound data use",
+      "body": "Sound data use begins by clarifying the purpose: what decision or problem is the data intended to support? Next, examine meaning by asking how variables were defined and measured. Assess quality by checking for important values that are missing, incorrect, delayed, or inconsistent. Assess representativeness by asking which patients or settings are included or excluded. Then ask whether the evidence supports the conclusion being made. Finally, consider possible benefits, harms, ethical issues, and monitoring needs before acting."
+    },
+    {
+      "title": "11. Core competencies in health informatics",
+      "body": "Core health informatics competencies include understanding healthcare systems, workflows, vocabulary, terminology, classifications, and standards. They also include managing data through databases, retrieval, integration, preparation, and analysis; supporting privacy, security, legal compliance, ethical practice, and data governance; using project management, quality improvement, communication, and visualization skills; and working across clinical, technical, administrative, research, and patient perspectives. Health informatics is not only computers: it includes people, processes, information, and decisions. Health data science is part of health informatics, not the whole field."
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "classification",
+      "title": "Classify the DIKW level",
+      "prompt": "Classify each healthcare statement as data, information, knowledge, or wisdom.",
+      "conceptIds": [
+        "concept.dikw_framework",
+        "concept.data",
+        "concept.information",
+        "concept.knowledge",
+        "concept.wisdom"
+      ],
+      "feedback": "DIKW levels are distinguished by what is added: raw facts, context, connected patterns, and responsible application.",
+      "categories": [
+        "Data",
+        "Information",
+        "Knowledge",
+        "Wisdom"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "A recorded heart rate of 120",
+          "answer": "Data",
+          "feedback": "This is a raw recorded fact without added context or interpretation."
+        },
+        {
+          "id": "item-2",
+          "text": "A patient's oral temperature of 39.1 degrees Celsius measured at 10:00 a.m.",
+          "answer": "Information",
+          "feedback": "The value has been organized and given context through the measurement type, unit, time, and patient connection."
+        },
+        {
+          "id": "item-3",
+          "text": "A pattern showing that patients without timely follow-up have higher readmission rates",
+          "answer": "Knowledge",
+          "feedback": "Related information has been connected and interpreted as a pattern."
+        },
+        {
+          "id": "item-4",
+          "text": "Introducing targeted follow-up and monitoring whether readmission outcomes improve",
+          "answer": "Wisdom",
+          "feedback": "Knowledge is being applied through a decision and action, with attention to outcomes."
+        },
+        {
+          "id": "item-5",
+          "text": "Using a birth-weight pattern to design and target an appropriate maternal-health program",
+          "answer": "Wisdom",
+          "feedback": "This is the responsible application of knowledge to choose an action."
+        }
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "ordering",
+      "title": "Sequence the DIKW transformation",
+      "prompt": "Place the stages in the order required to transform observations into responsible action.",
+      "conceptIds": [
+        "concept.data",
+        "concept.information",
+        "concept.knowledge",
+        "concept.wisdom"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "id": "step1",
+          "text": "Capture data correctly.",
+          "order": 0
+        },
+        {
+          "id": "step2",
+          "text": "Organize the data and add accurate context to create information.",
+          "order": 1
+        },
+        {
+          "id": "step3",
+          "text": "Compare, connect, and interpret information to create knowledge.",
+          "order": 2
+        },
+        {
+          "id": "step4",
+          "text": "Use judgment and responsibility to apply knowledge wisely.",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "comparison",
+      "title": "Data literacy and data acumen",
+      "prompt": "Compare the primary focus of data literacy and data acumen.",
+      "conceptIds": [
+        "concept.data_literacy",
+        "concept.data_acumen"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "label": "Data literacy",
+          "detail": "Reading, understanding, working with, and communicating about data, including checking definitions, units, completeness, limitations, and interpretation."
+        },
+        {
+          "label": "Data acumen",
+          "detail": "Making sound judgments about using data for evidence-based decisions, including data suitability, method appropriateness, justified conclusions, workflow, governance, and ethical consequences."
+        }
+      ],
+      "answer": "Data literacy supports understanding and communication about data, while data acumen extends that capability into sound judgment about responsible data use."
+    },
+    {
+      "id": "activity-4",
+      "type": "scenario",
+      "title": "Evaluate a readmission decision",
+      "prompt": "An organization observes higher readmission rates among patients without timely follow-up and considers introducing targeted follow-up. Which response best reflects sound data use?",
+      "conceptIds": [
+        "concept.knowledge",
+        "concept.wisdom",
+        "concept.data_acumen",
+        "concept.data_quality"
+      ],
+      "feedback": "",
+      "options": [
+        "Introduce the program immediately because the pattern alone proves that it will work.",
+        "Ignore the pattern because data cannot support healthcare decisions.",
+        "Check data quality, fairness, feasibility, patient needs, and monitoring requirements before and during the intervention.",
+        "Use only the single highest readmission value to decide which patients should receive follow-up."
+      ],
+      "answerIndex": 2,
+      "debrief": "The hospital-readmission example requires attention to data quality, fairness, feasibility, and patient needs. Knowledge can support action, but responsible application requires judgment and monitoring."
+    },
+    {
+      "id": "activity-5",
+      "type": "classification",
+      "title": "Identify the data-use question",
+      "prompt": "Match each question to the aspect of sound data use that it examines.",
+      "conceptIds": [
+        "concept.data_acumen",
+        "concept.data_quality",
+        "concept.wisdom"
+      ],
+      "feedback": "",
+      "categories": [
+        "Purpose",
+        "Meaning",
+        "Quality",
+        "Representativeness",
+        "Interpretation",
+        "Action"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "What decision or problem is this data intended to support?",
+          "answer": "Purpose",
+          "feedback": "Purpose clarifies the decision or problem for which the data are being used."
+        },
+        {
+          "id": "item-2",
+          "text": "How were the variables defined and measured?",
+          "answer": "Meaning",
+          "feedback": "Meaning concerns how variables were defined and measured."
+        },
+        {
+          "id": "item-3",
+          "text": "Are important values missing, incorrect, delayed, or inconsistent?",
+          "answer": "Quality",
+          "feedback": "These checks assess data quality."
+        },
+        {
+          "id": "item-4",
+          "text": "Which patients or settings are included or excluded?",
+          "answer": "Representativeness",
+          "feedback": "Representativeness examines who or what is included or excluded."
+        },
+        {
+          "id": "item-5",
+          "text": "Does the evidence support the conclusion being made?",
+          "answer": "Interpretation",
+          "feedback": "Interpretation asks whether the evidence justifies the conclusion."
+        },
+        {
+          "id": "item-6",
+          "text": "What are the possible benefits, harms, ethical issues, and monitoring needs?",
+          "answer": "Action",
+          "feedback": "Action considers consequences and monitoring before applying the result."
+        }
+      ]
+    },
+    {
+      "id": "activity-6",
+      "type": "retrieval",
+      "title": "Explain the central DIKW warning",
+      "prompt": "Why does moving upward through the DIKW levels require more than simply collecting more data?",
+      "conceptIds": [
+        "concept.dikw_framework",
+        "concept.data_quality",
+        "concept.wisdom"
+      ],
+      "feedback": "",
+      "answer": "Moving upward requires accurate capture, organization and context, comparison and interpretation, and finally judgment and responsibility. More data alone do not automatically create better knowledge."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "front": "What does DIKW stand for?",
+      "back": "Data, information, knowledge, and wisdom.",
+      "conceptIds": [
+        "concept.dikw_framework"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "front": "What are data?",
+      "back": "Discrete, unorganized, raw, and objective facts recorded from observations or transactions.",
+      "conceptIds": [
+        "concept.data"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "front": "What transforms data into information?",
+      "back": "Organization, structure, and accurate context.",
+      "conceptIds": [
+        "concept.information",
+        "concept.context"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "front": "What is knowledge?",
+      "back": "Connected information in which relationships are understood and patterns are recognized.",
+      "conceptIds": [
+        "concept.knowledge"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "front": "What is wisdom?",
+      "back": "The appropriate application of knowledge to solve a problem or choose an action.",
+      "conceptIds": [
+        "concept.wisdom"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "front": "What is data literacy?",
+      "back": "The ability to read, understand, work with, and communicate about data.",
+      "conceptIds": [
+        "concept.data_literacy"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "front": "What is data acumen?",
+      "back": "The ability to make good judgments about using data to support evidence-based decisions.",
+      "conceptIds": [
+        "concept.data_acumen"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "front": "What are the five main areas of data acumen?",
+      "back": "Foundations, data management, data preparation, analysis, and practice.",
+      "conceptIds": [
+        "concept.data_acumen_foundations",
+        "concept.data_management_week2",
+        "concept.data_preparation",
+        "concept.analysis_week2",
+        "concept.practice_data_acumen"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "front": "What are core health informatics competencies?",
+      "back": "Understanding healthcare systems and workflows; managing data; supporting privacy, security, legal compliance, ethics, and governance; using project management, quality improvement, communication, and visualization; and working across clinical, technical, administrative, research, and patient perspectives.",
+      "conceptIds": [
+        "concept.core_informatics_competencies"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "front": "How is health data science related to health informatics?",
+      "back": "Health data science focuses on methods that transform health data into knowledge for decision-making; it is part of health informatics, not the whole field.",
+      "conceptIds": [
+        "concept.health_data_science",
+        "concept.health_informatics"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Which sequence correctly represents the DIKW framework?",
+      "options": [
+        "Data, information, knowledge, wisdom",
+        "Information, data, wisdom, knowledge",
+        "Knowledge, data, information, wisdom",
+        "Wisdom, knowledge, information, data"
+      ],
+      "answerIndex": 0,
+      "rationale": "DIKW stands for data, information, knowledge, and wisdom.",
+      "conceptIds": [
+        "concept.dikw_framework"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Which statement best describes data?",
+      "options": [
+        "The appropriate application of knowledge to choose an action",
+        "Raw facts recorded from observations or transactions",
+        "Connected information in which patterns are understood",
+        "Data organized and placed in context"
+      ],
+      "answerIndex": 1,
+      "rationale": "Data are discrete, unorganized, raw, and objective facts recorded from observations or transactions.",
+      "conceptIds": [
+        "concept.data"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "What makes a recorded temperature value information?",
+      "options": [
+        "It is collected without a label or unit",
+        "It is treated as a single fact without context",
+        "It is organized and placed in context, such as identifying the patient, measurement type, unit, and time",
+        "It is immediately used to select an intervention"
+      ],
+      "answerIndex": 2,
+      "rationale": "Information is data that have been organized, structured, and placed in accurate context.",
+      "conceptIds": [
+        "concept.information",
+        "concept.context"
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "Which example represents knowledge?",
+      "options": [
+        "A recorded medication dose",
+        "A discharge date and diagnosis",
+        "Readmission rates organized by condition and time period",
+        "A pattern showing that patients without timely follow-up have higher readmission rates"
+      ],
+      "answerIndex": 3,
+      "rationale": "Knowledge forms when related information is connected and patterns are understood.",
+      "conceptIds": [
+        "concept.knowledge"
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "Which action best represents wisdom in the hospital-readmission example?",
+      "options": [
+        "Recording a patient's discharge date",
+        "Organizing readmission rates by unit",
+        "Recognizing a pattern in follow-up and readmission",
+        "Introducing targeted follow-up and monitoring whether outcomes improve"
+      ],
+      "answerIndex": 3,
+      "rationale": "Wisdom is the appropriate application of knowledge to solve a problem or choose an action.",
+      "conceptIds": [
+        "concept.wisdom"
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "Which statement about moving through DIKW is correct?",
+      "options": [
+        "More data automatically create better knowledge",
+        "Movement upward requires sound methods and human judgment",
+        "Wisdom is produced whenever a dashboard displays information",
+        "Context is unnecessary once data have been collected"
+      ],
+      "answerIndex": 1,
+      "rationale": "The transformation is not automatic. Accurate data, context, interpretation, judgment, and responsibility are required.",
+      "conceptIds": [
+        "concept.dikw_framework",
+        "concept.wisdom"
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "What is data literacy?",
+      "options": [
+        "The ability to make decisions without considering data limitations",
+        "The ability to read, understand, work with, and communicate about data",
+        "The use of machine learning alone",
+        "The storage of data in a database"
+      ],
+      "answerIndex": 1,
+      "rationale": "Data literacy includes reading, understanding, working with, and communicating about data.",
+      "conceptIds": [
+        "concept.data_literacy"
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "What distinguishes data acumen from data literacy?",
+      "options": [
+        "Data acumen concerns only database storage",
+        "Data acumen concerns making sound judgments about using data for evidence-based decisions",
+        "Data literacy concerns ethical consequences, while data acumen concerns only units",
+        "There is no distinction between the two concepts"
+      ],
+      "answerIndex": 1,
+      "rationale": "Data acumen extends beyond understanding and communication to judgment about data suitability, methods, conclusions, workflow, governance, and ethical consequences.",
+      "conceptIds": [
+        "concept.data_literacy",
+        "concept.data_acumen"
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "Which question assesses data quality?",
+      "options": [
+        "What decision or problem is this data intended to support?",
+        "How were the variables defined and measured?",
+        "Are important values missing, incorrect, delayed, or inconsistent?",
+        "Which patients or settings are included or excluded?"
+      ],
+      "answerIndex": 2,
+      "rationale": "Data quality is assessed by checking whether important values are missing, incorrect, delayed, or inconsistent.",
+      "conceptIds": [
+        "concept.data_quality",
+        "concept.data_acumen"
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "Which statement accurately describes health informatics and health data science?",
+      "options": [
+        "Health informatics is only computers, while health data science covers people and processes",
+        "Health data science is the whole of health informatics",
+        "Health data science is part of health informatics, which also includes people, processes, information, and decisions",
+        "The two fields have no relationship"
+      ],
+      "answerIndex": 2,
+      "rationale": "Health data science focuses on methods that transform health data into knowledge for decision-making, while health informatics is broader and includes health data, information, knowledge, people, processes, and technology.",
+      "conceptIds": [
+        "concept.health_informatics",
+        "concept.health_data_science"
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "Which activity is included among core health informatics competencies?",
+      "options": [
+        "Managing data through databases, retrieval, integration, preparation, and analysis",
+        "Ignoring workflow and organizational change",
+        "Treating technical skill as sufficient for responsible practice",
+        "Using data without attention to privacy, security, or ethics"
+      ],
+      "answerIndex": 0,
+      "rationale": "Core competencies include data management as well as healthcare workflows, privacy, security, ethics, governance, communication, visualization, and collaboration across perspectives.",
+      "conceptIds": [
+        "concept.core_informatics_competencies"
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "Why can poor data lead to poor decisions?",
+      "options": [
+        "Because data never require interpretation",
+        "Because errors, bias, missing context, or misunderstanding can affect any stage of transformation",
+        "Because only wisdom can be recorded",
+        "Because organized information is always inaccurate"
+      ],
+      "answerIndex": 1,
+      "rationale": "Errors, bias, missing context, or misunderstanding at any stage can lead to poor decisions.",
+      "conceptIds": [
+        "concept.data_quality",
+        "concept.dikw_framework",
+        "concept.wisdom"
+      ]
+    }
+  ],
+  "review": null,
+  "sourceManifest": [
+    {
+      "item": "Week 2 PPT.pdf",
+      "source_refs": [
+        "[Pages 1-18]"
+      ]
+    }
+  ],
+  "validationReport": {
+    "status": "passed",
+    "course_id_preserved": "P9CKVS4L",
+    "content_item": "week-02",
+    "is_review_week": false,
+    "learning_outcomes_match_authoritative_list": true,
+    "source_grounding_checked": true,
+    "student_language_checked": true,
+    "typed_activities_checked": true,
+    "knowledge_check_items_checked": true,
+    "ontology_id_reuse_checked": true,
+    "unsupported_formulas_present": false
+  },
+  "warnings": [
+    "Movement upward through the DIKW levels is not automatic; it requires sound methods and human judgment.",
+    "A decision should not be based on a single data point without context.",
+    "Errors, bias, missing context, or misunderstanding at any stage can lead to poor decisions.",
+    "Information is useful only when its context is accurate.",
+    "Technical skill alone is not enough; ethical, clinical, organizational, and communication judgment are also required."
+  ]
+}

@@ -1,0 +1,834 @@
+{
+  "id": "week-03",
+  "order": 3,
+  "title": "Week 3: EHR Foundations and Connected Clinical Systems",
+  "overview": "This week examines electronic health records as longitudinal digital records that bring together clinical and administrative information. You will trace the development of EHRs from separate departmental systems toward connected care, distinguish clinical and administrative functions and primary and secondary uses, compare care settings, and follow information as it moves among EHRs and specialized clinical information systems.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Define an electronic health record and explain its purpose.",
+    "Describe the historical development and major functions of EHRs.",
+    "Distinguish clinical, administrative, primary, and secondary uses of EHR data.",
+    "Compare inpatient, ambulatory, long-term-care, and personal health records.",
+    "Explain how clinical information systems and decision support contribute to patient care.",
+    "Explain the main EHR functions and trace how information moves across connected healthcare systems."
+  ],
+  "concepts": [
+    {
+      "id": "concept.electronic_health_record",
+      "name": "Electronic health record",
+      "definition": "A digital record of health information used across time and healthcare services that brings together clinical and administrative information needed to support care.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.ehr_purpose",
+      "name": "EHR purpose",
+      "definition": "Supporting individual patient care and wider organizational activities through the entry, retrieval, review, updating, and sharing of authorized clinical and administrative information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.ehr_contents",
+      "name": "EHR contents",
+      "definition": "Information that may include identification and demographics, problems, diagnoses, allergies, medications, immunizations, health history, notes, care plans, orders, results, procedures, discharge information, appointments, insurance, claims, payments, messages, education, reminders, and information from connected systems.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.historical_development_of_ehr_systems",
+      "name": "Historical development of EHR systems",
+      "definition": "The movement from separate departmental electronic functions toward broader electronic patient records, connected organizational information, and wider exchange across healthcare services.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.interoperability",
+      "name": "Interoperability",
+      "definition": "The ability of different healthcare systems to exchange information as connected care expanded.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.inpatient_ehr",
+      "name": "Inpatient EHR",
+      "definition": "An EHR that supports care during hospital admission and across hospital departments.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.ambulatory_ehr",
+      "name": "Ambulatory EHR",
+      "definition": "An EHR that supports outpatient visits before, during, and after the encounter.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.long_term_care_ehr",
+      "name": "Long-term-care EHR",
+      "definition": "An EHR that supports continuing care, minimum data requirements, and communication with hospitals.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.personal_health_record",
+      "name": "Personal health record",
+      "definition": "A record that, along with patient portals, gives patients access to selected information and services.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.clinical_functions",
+      "name": "Clinical functions",
+      "definition": "Functions that directly support assessment, diagnosis, treatment, monitoring, and communication about care.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.administrative_functions",
+      "name": "Administrative functions",
+      "definition": "Functions that support scheduling, authorization, claims, payment, inventory, and organizational operations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.primary_use_of_ehr_data",
+      "name": "Primary use of EHR data",
+      "definition": "Using information directly to provide and coordinate care for a patient.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.secondary_use_of_ehr_data",
+      "name": "Secondary use of EHR data",
+      "definition": "Using information for another legitimate purpose beyond the immediate encounter, such as quality improvement, population health, billing, research, education, or planning.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.clinical_documentation",
+      "name": "Clinical documentation",
+      "definition": "The recording of assessments, observations, diagnoses, interventions, and outcomes to create a shared account of what happened and why decisions were made.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.structured_fields_and_templates",
+      "name": "Structured fields and templates",
+      "definition": "Organized entry formats that can improve consistency but may not capture every clinical detail.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.free_text",
+      "name": "Free text",
+      "definition": "Textual documentation that can add context but may be harder to search and analyze.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.orders_and_results_workflow",
+      "name": "Orders and results workflow",
+      "definition": "The movement of an authorized order to the responsible department, completion of the service, and return of the result to the EHR for review, interpretation, and follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.medication_management_and_e_prescribing",
+      "name": "Medication management and e-prescribing",
+      "definition": "Electronic processes that move medication orders to pharmacy systems and may check allergies, duplicate therapy, dose, interactions, and other safety rules.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.clinical_decision_support",
+      "name": "Clinical decision support",
+      "definition": "EHR-based checks, alerts, reminders, registries, templates, and related functions that support safety, prevention, chronic-care monitoring, and follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.population_health_tools",
+      "name": "Population-health tools",
+      "definition": "Tools that summarize information across groups rather than one patient at a time.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.clinical_information_system",
+      "name": "Clinical information system",
+      "definition": "A system that supports a particular area of patient care or clinical work.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.laboratory_information_system",
+      "name": "Laboratory information system",
+      "definition": "A system that supports laboratory orders, patient and test identification, specimen collection, tracking, testing, verification, reporting, and transmission of verified results to the EHR.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.radiology_information_system",
+      "name": "Radiology information system",
+      "definition": "A system that supports imaging orders, scheduling, workflow, and reports.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.picture_archiving_and_communication_system",
+      "name": "Picture archiving and communication system",
+      "definition": "A system that stores and displays medical images.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.pharmacy_information_system",
+      "name": "Pharmacy information system",
+      "definition": "A system that receives medication orders and supports pharmacist review, preparation, medication information, dispensing, and exchange with the EHR and related systems.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.system_integration",
+      "name": "System integration",
+      "definition": "The connection of the EHR with specialized systems so that orders, results, status, patient identity, and other information remain consistent.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.shared_record",
+      "name": "Shared record",
+      "definition": "An integrated record in which the EHR provides a central access point while specialized systems perform detailed departmental work.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.patient_care",
+      "name": "Patient care",
+      "definition": "Care supported by assessment, diagnosis, treatment, monitoring, communication, prevention, chronic-care support, and follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. What an Electronic Health Record Is",
+      "body": "An electronic health record, or EHR, is a digital record of health information used across time and healthcare services. It brings together the clinical and administrative information needed to support care. Authorized users can enter, retrieve, review, update, and share information according to their roles. The EHR supports both individual patient care and wider organizational activities.\n\nAn EHR may contain patient identification and demographic information; problems, diagnoses, allergies, medications, immunizations, and health history; clinical notes, care plans, orders, results, procedures, and discharge information; appointments, insurance information, authorizations, claims, and payments; and patient messages, educational materials, reminders, and information from connected systems.\n\nThe value of an EHR depends on accurate data, usable design, appropriate access, and reliable workflow."
+    },
+    {
+      "title": "2. How EHR Systems Developed",
+      "body": "Healthcare organizations needed more timely access to patient information, safer and more standardized entry, and electronic checking. Laboratory, radiology, pharmacy, and other departments also required specialized digital systems. Organizations wanted information to support care, billing, reporting, quality improvement, and research.\n\nDuring the 1980s, many systems focused on individual ancillary departments. During the 1990s, development moved toward broader electronic patient records, with a gradual shift from automating one department to connecting information across the organization. In the early 2000s, wider access and communication increased, EHR deployment expanded across healthcare settings, and the need to exchange information between systems made interoperability increasingly important.\n\nHealth information exchanges and personal health records extended access beyond one EHR. A selected U.S. policy milestone was the 2009 HITECH Act, which created incentives for eligible U.S. physicians and hospitals to adopt certified EHR technology. Specific laws and requirements differ between countries and healthcare systems."
+    },
+    {
+      "title": "3. EHR Functions and Uses",
+      "body": "Clinical functions directly support assessment, diagnosis, treatment, monitoring, and communication about care. Examples include documentation, orders, results, medication management, prevention, chronic-care support, monitoring, and patient education.\n\nAdministrative functions support scheduling, authorization, claims, payment, inventory, and organizational operations. Clinical and administrative functions are connected: a clinical service can create documentation, supply-use, billing, and reporting data.\n\nPrimary use means using information directly to provide and coordinate care for a patient. Secondary use means using information for another legitimate purpose beyond the immediate encounter, such as quality improvement, population health, billing, research, education, or planning. Secondary use requires attention to data quality, privacy, access, and appropriate interpretation."
+    },
+    {
+      "title": "4. Care Settings and Patient Access",
+      "body": "The core purpose of an EHR is similar across settings, but workflows and information needs differ. Inpatient EHRs support care during hospital admission and across hospital departments. Ambulatory EHRs support outpatient visits before, during, and after the encounter. Long-term-care EHRs support continuing care, minimum data requirements, and communication with hospitals.\n\nPersonal health records and patient portals give patients access to selected information and services. The setting, users, workflow, and information needs shape how each record is used."
+    },
+    {
+      "title": "5. Documentation, Orders, Results, and Medications",
+      "body": "Clinical documentation records assessments, observations, diagnoses, interventions, and outcomes. It creates a shared account of what happened and why decisions were made. Complete and timely notes support communication, continuity of care, safety, billing, and legal requirements.\n\nTemplates and structured fields can improve consistency, but they may not capture every clinical detail. Free text can add context, but it may be harder to search and analyze.\n\nIn the orders-and-results workflow, an authorized clinician places an order, the order is transmitted to the responsible department, the service is completed, and the result returns to the EHR for review, interpretation, and follow-up. Clear links among the order, result, patient, time, and responsible professional support safety.\n\nMedication orders can move electronically to pharmacy systems. The EHR may check allergies, duplicate therapy, dose, interactions, and other safety rules. Alerts support users but do not replace professional review and patient assessment."
+    },
+    {
+      "title": "6. Clinical Decision Support and Population Functions",
+      "body": "Clinical decision support includes EHR-based checks, alerts, reminders, registries, templates, and related functions that support safety, prevention, chronic-care monitoring, and follow-up. EHRs can record immunizations, identify preventive services that are due, organize information about groups of patients, and support reminders and patient education.\n\nPopulation-health tools summarize information across groups rather than one patient at a time. Immunization programs can use records to identify coverage and gaps. Appropriately governed EHR data may support research and clinical-trial activities. Interoperable connections can link hospitals with community, retail, and virtual-care providers, while remote monitoring can extend support to rural or high-risk populations."
+    },
+    {
+      "title": "7. Clinical Information Systems and the Shared Record",
+      "body": "A clinical information system supports a particular area of patient care or clinical work. Examples include laboratory, radiology, pharmacy, cardiology, and procedure systems. These systems may create detailed information that becomes part of the wider EHR.\n\nA laboratory information system supports orders, patient and test identification, specimen collection, tracking, testing, verification, reporting, and transmission of verified results to the EHR. Correct patient identification, units, reference ranges, and result status are essential.\n\nA radiology information system supports imaging orders, scheduling, workflow, and reports. A picture archiving and communication system, or PACS, stores and displays medical images. A pharmacy information system receives medication orders and supports pharmacist review, preparation, medication information, dispensing, and exchange with the EHR and related systems.\n\nThe EHR acts as a central access point while specialized systems perform detailed departmental work. Interfaces and shared standards help systems exchange information. Breakdowns in identity, meaning, timing, or status can create clinical and administrative risk."
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "classification",
+      "title": "Clinical or Administrative?",
+      "prompt": "Classify each EHR function as a clinical function or an administrative function.",
+      "conceptIds": [
+        "concept.clinical_functions",
+        "concept.administrative_functions"
+      ],
+      "feedback": "Clinical functions directly support assessment, diagnosis, treatment, monitoring, and communication about care. Administrative functions support scheduling, authorization, claims, payment, inventory, and organizational operations.",
+      "categories": [
+        "Clinical function",
+        "Administrative function"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Documenting a diagnosis",
+          "answer": "Clinical function",
+          "feedback": ""
+        },
+        {
+          "id": "item-2",
+          "text": "Scheduling a procedure",
+          "answer": "Administrative function",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "Monitoring results",
+          "answer": "Clinical function",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "Submitting a claim",
+          "answer": "Administrative function",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "classification",
+      "title": "Primary or Secondary Use?",
+      "prompt": "Classify each use of EHR data as primary or secondary.",
+      "conceptIds": [
+        "concept.primary_use_of_ehr_data",
+        "concept.secondary_use_of_ehr_data"
+      ],
+      "feedback": "Primary use directly provides or coordinates care for a patient. Secondary use serves another legitimate purpose beyond the immediate encounter.",
+      "categories": [
+        "Primary use",
+        "Secondary use"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Reviewing a patient's history during care",
+          "answer": "Primary use",
+          "feedback": ""
+        },
+        {
+          "id": "item-2",
+          "text": "Entering an order for a patient",
+          "answer": "Primary use",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "Studying information for quality improvement",
+          "answer": "Secondary use",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "Using information for organizational planning",
+          "answer": "Secondary use",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "comparison",
+      "title": "Documentation Choices",
+      "prompt": "Compare structured fields and templates with free text.",
+      "conceptIds": [
+        "concept.structured_fields_and_templates",
+        "concept.free_text"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "label": "Structured fields and templates",
+          "detail": "Can improve consistency but may not capture every clinical detail."
+        },
+        {
+          "label": "Free text",
+          "detail": "Can add context but may be harder to search and analyze."
+        }
+      ],
+      "answer": "Structured fields and templates can improve consistency, while free text can add context. Each has the stated strengths and limitations."
+    },
+    {
+      "id": "activity-4",
+      "type": "matching",
+      "title": "Care Setting Match",
+      "prompt": "Match each record type with its primary setting or access purpose.",
+      "conceptIds": [
+        "concept.inpatient_ehr",
+        "concept.ambulatory_ehr",
+        "concept.long_term_care_ehr",
+        "concept.personal_health_record"
+      ],
+      "feedback": "",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Inpatient EHR",
+          "right": "Care during hospital admission and across hospital departments",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Ambulatory EHR",
+          "right": "Outpatient visits before, during, and after the encounter",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Long-term-care EHR",
+          "right": "Continuing care, minimum data requirements, and communication with hospitals",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Personal health record",
+          "right": "Patient access to selected information and services",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "Care during hospital admission and across hospital departments",
+        "Outpatient visits before, during, and after the encounter",
+        "Continuing care, minimum data requirements, and communication with hospitals",
+        "Patient access to selected information and services"
+      ]
+    },
+    {
+      "id": "activity-5",
+      "type": "ordering",
+      "title": "Trace an Order to a Result",
+      "prompt": "Place the steps of the orders-and-results workflow in the correct order.",
+      "conceptIds": [
+        "concept.orders_and_results_workflow",
+        "concept.system_integration"
+      ],
+      "feedback": "",
+      "items": [
+        {
+          "id": "step1",
+          "text": "An authorized clinician places an order.",
+          "order": 0
+        },
+        {
+          "id": "step2",
+          "text": "The order is transmitted to the department responsible for completing the service.",
+          "order": 1
+        },
+        {
+          "id": "step3",
+          "text": "The service is completed and its status is recorded.",
+          "order": 2
+        },
+        {
+          "id": "step4",
+          "text": "The result returns to the EHR.",
+          "order": 3
+        },
+        {
+          "id": "step5",
+          "text": "The result is reviewed, interpreted, and followed up.",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "activity-6",
+      "type": "scenario",
+      "title": "Interpreting an Alert",
+      "prompt": "An EHR displays an alert about a possible medication interaction. What is the appropriate role of the alert?",
+      "conceptIds": [
+        "concept.clinical_decision_support",
+        "concept.medication_management_and_e_prescribing"
+      ],
+      "feedback": "",
+      "options": [
+        "It supports the user but does not replace professional review and patient assessment.",
+        "It automatically determines the final treatment decision.",
+        "It replaces the need to review the patient's record.",
+        "It removes the need for clinical judgment."
+      ],
+      "answerIndex": 0,
+      "debrief": "Alerts can support users by checking interactions and other safety rules, but they do not replace professional review and patient assessment."
+    },
+    {
+      "id": "activity-7",
+      "type": "retrieval",
+      "title": "Define an EHR",
+      "prompt": "What is an electronic health record?",
+      "conceptIds": [
+        "concept.electronic_health_record"
+      ],
+      "feedback": "",
+      "answer": "An electronic health record is a digital record of health information used across time and healthcare services that brings together clinical and administrative information needed to support care."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "front": "What is an electronic health record?",
+      "back": "A digital record of health information used across time and healthcare services that brings together clinical and administrative information needed to support care.",
+      "conceptIds": [
+        "concept.electronic_health_record"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "front": "What is the purpose of an EHR?",
+      "back": "To support individual patient care and wider organizational activities through authorized entry, retrieval, review, updating, and sharing of information.",
+      "conceptIds": [
+        "concept.ehr_purpose"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "front": "What is interoperability?",
+      "back": "The ability of different healthcare systems to exchange information as connected care expands.",
+      "conceptIds": [
+        "concept.interoperability"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "front": "What is a clinical function?",
+      "back": "A function that directly supports assessment, diagnosis, treatment, monitoring, and communication about care.",
+      "conceptIds": [
+        "concept.clinical_functions"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "front": "What is primary use of EHR data?",
+      "back": "Using information directly to provide and coordinate care for a patient.",
+      "conceptIds": [
+        "concept.primary_use_of_ehr_data"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "front": "What is secondary use of EHR data?",
+      "back": "Using information for another legitimate purpose beyond the immediate encounter, such as quality improvement, population health, billing, research, education, or planning.",
+      "conceptIds": [
+        "concept.secondary_use_of_ehr_data"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "front": "What does a laboratory information system do?",
+      "back": "It supports laboratory orders, patient and test identification, specimen collection, tracking, testing, verification, reporting, and transmission of verified results to the EHR.",
+      "conceptIds": [
+        "concept.laboratory_information_system"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "front": "What does PACS do?",
+      "back": "A picture archiving and communication system stores and displays medical images.",
+      "conceptIds": [
+        "concept.picture_archiving_and_communication_system"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "front": "Why are alerts not a substitute for professional review?",
+      "back": "Alerts support users, but professional review and patient assessment remain necessary.",
+      "conceptIds": [
+        "concept.clinical_decision_support"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Which description best defines an electronic health record?",
+      "options": [
+        "A digital record of health information used across time and healthcare services",
+        "A system used only for billing",
+        "A patient-access tool containing only educational materials",
+        "A departmental system used only for laboratory testing"
+      ],
+      "answerIndex": 0,
+      "rationale": "An EHR is a digital record used across time and healthcare services that brings together clinical and administrative information needed to support care.",
+      "conceptIds": [
+        "concept.electronic_health_record"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Which activity is a clinical function?",
+      "options": [
+        "Monitoring patient results",
+        "Managing inventory",
+        "Submitting a claim",
+        "Scheduling equipment"
+      ],
+      "answerIndex": 0,
+      "rationale": "Clinical functions directly support assessment, diagnosis, treatment, monitoring, and communication about care.",
+      "conceptIds": [
+        "concept.clinical_functions"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Which is an example of primary use of EHR data?",
+      "options": [
+        "Reviewing a patient's history to provide care",
+        "Using information for organizational planning",
+        "Using information for research",
+        "Using information for quality improvement"
+      ],
+      "answerIndex": 0,
+      "rationale": "Primary use means using information directly to provide and coordinate care for a patient.",
+      "conceptIds": [
+        "concept.primary_use_of_ehr_data"
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "Which is an example of secondary use of EHR data?",
+      "options": [
+        "Population-health analysis",
+        "Entering a treatment order for the patient",
+        "Reviewing the patient's history during the encounter",
+        "Monitoring the patient's result for follow-up"
+      ],
+      "answerIndex": 0,
+      "rationale": "Population health is a legitimate use beyond the immediate encounter and is therefore a secondary use.",
+      "conceptIds": [
+        "concept.secondary_use_of_ehr_data"
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "Which record supports care during hospital admission and across hospital departments?",
+      "options": [
+        "Inpatient EHR",
+        "Ambulatory EHR",
+        "Personal health record",
+        "Long-term-care EHR"
+      ],
+      "answerIndex": 0,
+      "rationale": "An inpatient EHR supports care during hospital admission and across hospital departments.",
+      "conceptIds": [
+        "concept.inpatient_ehr"
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "What happens after an authorized clinician places an order in the orders-and-results workflow?",
+      "options": [
+        "The order is transmitted to the department responsible for completing the service",
+        "The result is immediately discarded",
+        "The patient record is automatically closed",
+        "The order becomes a secondary-use report"
+      ],
+      "answerIndex": 0,
+      "rationale": "After an authorized clinician places an order, it is transmitted to the responsible department for completion.",
+      "conceptIds": [
+        "concept.orders_and_results_workflow"
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "Which system stores and displays medical images?",
+      "options": [
+        "Picture archiving and communication system",
+        "Laboratory information system",
+        "Pharmacy information system",
+        "Scheduling system"
+      ],
+      "answerIndex": 0,
+      "rationale": "A picture archiving and communication system, or PACS, stores and displays medical images.",
+      "conceptIds": [
+        "concept.picture_archiving_and_communication_system"
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "Which statement about clinical decision-support alerts is correct?",
+      "options": [
+        "Alerts support users but do not replace professional review and patient assessment.",
+        "Alerts automatically determine the final treatment decision.",
+        "Alerts make review of the patient record unnecessary.",
+        "Alerts eliminate the need for clinical judgment."
+      ],
+      "answerIndex": 0,
+      "rationale": "Alerts can support safety checks, but professional review and patient assessment remain necessary.",
+      "conceptIds": [
+        "concept.clinical_decision_support",
+        "concept.medication_management_and_e_prescribing"
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "What is the role of a clinical information system in the shared record?",
+      "options": [
+        "It supports a particular area of patient care or clinical work and may contribute detailed information to the wider EHR.",
+        "It replaces the EHR as the only access point for all information.",
+        "It is used only for patient financial services.",
+        "It prevents information from moving between departments."
+      ],
+      "answerIndex": 0,
+      "rationale": "Clinical information systems support particular areas such as laboratory, radiology, or pharmacy and may create information that becomes part of the wider EHR.",
+      "conceptIds": [
+        "concept.clinical_information_system",
+        "concept.shared_record"
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "Which information must remain consistent when systems exchange clinical information?",
+      "options": [
+        "Patient identity, meaning, timing, and status",
+        "Only the patient's appointment preference",
+        "Only the department's inventory total",
+        "Only the patient education format"
+      ],
+      "answerIndex": 0,
+      "rationale": "Breakdowns in identity, meaning, timing, or status can create clinical and administrative risk.",
+      "conceptIds": [
+        "concept.system_integration",
+        "concept.shared_record"
+      ]
+    }
+  ],
+  "review": null,
+  "sourceManifest": [
+    {
+      "file_name": "Week 3 HI.pdf",
+      "source_refs": [
+        "[Pages 1-24]"
+      ]
+    }
+  ],
+  "validationReport": {
+    "source_fidelity": "All retained student-facing teaching claims, activities, flashcards, and assessment items are supported by the supplied Week 3 material.",
+    "learning_outcomes_verified": true,
+    "course_id_preserved": true,
+    "course_ontology_reuse_verified": true,
+    "unsupported_relation_removed": true,
+    "subtype_relations_direction_corrected": true,
+    "typed_activities_verified": true,
+    "knowledge_check_items_verified": true,
+    "flashcards_verified": true,
+    "formula_use": "No calculator generated because the supplied material contains no formula.",
+    "review_week_status_verified": true,
+    "student_language_verified": true
+  },
+  "warnings": [
+    "The value of an EHR depends on accurate data, usable design, appropriate access, and reliable workflow.",
+    "Secondary use requires attention to data quality, privacy, access, and appropriate interpretation.",
+    "Alerts support users but do not replace professional review and patient assessment.",
+    "Correct patient identification, units, reference ranges, and result status are essential in laboratory systems.",
+    "Breakdowns in identity, meaning, timing, or status can create clinical and administrative risk.",
+    "Specific laws and requirements differ between countries and healthcare systems."
+  ]
+}

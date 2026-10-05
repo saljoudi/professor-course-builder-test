@@ -1,0 +1,660 @@
+{
+  "id": "week-04",
+  "order": 4,
+  "title": "Week 4 EHR Use Across Care Settings and Decision Support",
+  "overview": "This week examines how electronic health record workflows differ across inpatient, ambulatory, long-term-care, and personal health record settings. It also explains how computerized provider order entry, medication-safety functions, patient portals, and clinical decision support connect information with care while introducing risks related to workflow, data quality, alert design, access, and user response.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Compare EHR workflows across inpatient, ambulatory, long-term-care, and personal health records, and explain how computerized ordering and decision support can improve care while creating new risks."
+  ],
+  "concepts": [
+    {
+      "id": "concept.computerized_provider_order_entry",
+      "name": "Computerized provider order entry",
+      "definition": "Electronic entry of orders by authorized providers, with orders transmitted directly to pharmacy, laboratory, radiology, or other departments.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.medication_safety_through_cpoe",
+      "name": "Medication safety through CPOE",
+      "definition": "The use of electronic medication ordering, pharmacy review, dispensing, administration, patient identification, and system checks to reduce preventable errors and improve consistency.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.inpatient_ehr_adoption_stages",
+      "name": "Inpatient EHR adoption stages",
+      "definition": "A gradual development process that may progress from technical infrastructure and reliable electronic data to documentation, medication functions, CPOE, safety capabilities, and connections with patients and external organizations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.pre_visit_ambulatory_workflow",
+      "name": "Pre-visit ambulatory workflow",
+      "definition": "Activities before an outpatient visit, including scheduling, checking insurance and authorization information, updating patient information, and reviewing previous problems, tests, and planned follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.during_visit_ambulatory_workflow",
+      "name": "During-visit ambulatory workflow",
+      "definition": "Activities during an outpatient visit, including documentation, assessment, diagnosis, care planning, ordering tests or medications, referrals or procedures, e-prescribing, and decision-support reminders.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.post_visit_ambulatory_workflow",
+      "name": "Post-visit ambulatory workflow",
+      "definition": "Activities after an outpatient visit, including providing instructions, interpreting results, sending reminders and educational content, secure messaging, scheduling follow-up, and preserving the longitudinal record.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.tethered_personal_health_record",
+      "name": "Tethered personal health record",
+      "definition": "A personal health record connected to an organization's EHR that shares data or functions with it.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.untethered_personal_health_record",
+      "name": "Untethered personal health record",
+      "definition": "A stand-alone personal health record managed separately from a provider's EHR.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.patient_portal",
+      "name": "Patient portal",
+      "definition": "A secure patient-facing connection to an organization's EHR that provides access to selected health information and services.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.proxy_access",
+      "name": "Proxy access",
+      "definition": "Access that allows another person to manage an individual's personal health record with authorization or consent.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.five_rights_of_decision_support",
+      "name": "Five rights of decision support",
+      "definition": "Providing the right information to the right person in the right format through the right channel at the right time.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.preventive_care_reminder",
+      "name": "Preventive-care reminder",
+      "definition": "A system reminder that compares patient information with rules for screening, vaccination, or chronic-care monitoring and may display what is due, the due date, and the most recent completion date.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.alert_fatigue",
+      "name": "Alert fatigue",
+      "definition": "A condition in which poorly designed or repeated low-value alerts interrupt workflow and may cause users to ignore useful warnings.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.connected_patient_journey",
+      "name": "Connected patient journey",
+      "definition": "A sequence linking patient scheduling and information updates, clinical documentation and orders, exchanges with laboratory and pharmacy systems, decision support, follow-up communication, and longer-term continuity and review.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. EHR workflows are shaped by care setting",
+      "body": "An electronic health record organizes longitudinal clinical and administrative information and connects documentation, ordering, results, communication, follow-up, and healthcare operations. The workflow depends on where care occurs. Inpatient care is continuous during hospital admission and involves professionals across shifts, units, and departments. Ambulatory care is organized around scheduled visits or episodes, with preparation before the visit and follow-up afterward. Long-term-care records support residents receiving ongoing care over extended periods. Personal health records are designed for individual access and use. Across settings, accurate identification, documentation, communication, security, and continuity remain important."
+    },
+    {
+      "title": "2. Inpatient EHRs and computerized provider order entry",
+      "body": "An inpatient EHR supports care during admission to a hospital or similar facility. It may include admission information, assessment, orders, medication administration, procedures, progress notes, and discharge. Because information changes rapidly across shifts and departments, current status, responsibility, and communication are central workflow concerns. Computerized provider order entry, or CPOE, allows authorized providers to enter orders electronically and send them to pharmacy, laboratory, radiology, or other departments. Standard order choices can improve consistency and legibility, required fields can reduce incomplete orders, and rules can generate safety, policy, or cost alerts and reminders."
+    },
+    {
+      "title": "3. CPOE and medication safety",
+      "body": "Electronic medication ordering can connect prescribing, pharmacy review, dispensing, and administration. The system may compare an order with allergies, dose ranges, interactions, and formulary information. Barcodes or RFID may support bedside verification. This workflow is intended to reduce preventable errors and improve consistency, but technology does not guarantee safety by itself: users must follow reliable workflows and respond appropriately. Inpatient EHR adoption develops gradually, adding documentation, medication functions, CPOE, safety capabilities, and connections with patients and external organizations over time."
+    },
+    {
+      "title": "4. Ambulatory EHR workflow",
+      "body": "An ambulatory EHR supports outpatient activities before, during, and after a visit. Before the visit, patients may schedule appointments, provide insurance or authorization information, update demographics, medications, symptoms, history, and forms, and review previous problems, tests, and planned follow-up. During the visit, staff document observations, history, assessment, diagnosis, and the care plan. Clinicians may order tests, medications, referrals, or procedures, use e-prescribing, and respond to decision-support reminders. After the visit, patients may receive instructions, interpreted results, reminders, educational content, secure messages, and follow-up scheduling."
+    },
+    {
+      "title": "5. Comparing inpatient, ambulatory, long-term-care, and personal records",
+      "body": "Inpatient records support continuous care during admission and change frequently across shifts and departments. Ambulatory records focus on scheduled visits or episodes and longitudinal follow-up. Long-term-care EHRs support residents receiving ongoing care over extended periods, including care planning, medication information, assessments, and communication. Digital exchange with hospitals is important during transfers because continuity depends on timely and accurate information. A personal health record is designed for individual access and use and may support appointments, results, messages, reminders, payments, education, and personal data entry. It does not replace the provider's legal clinical record."
+    },
+    {
+      "title": "6. Tethered and untethered personal health records",
+      "body": "A tethered personal health record is connected to an organization's EHR and shares data or functions with it. A patient portal is a common example of a tethered personal health record function. An untethered personal health record is managed separately from a provider's EHR and may require manual entry or separate connections. Patient-facing services can support scheduling, results review, secure messaging, reminders, payments, education, chronic-disease management, remote monitoring, and virtual visits. Benefits depend on usability, accessibility, consent, workflow, and staff capacity to respond. Digital access must also consider language, disability, health literacy, internet access, and digital skills. Proxy access allows another person to manage a record with authorization or consent."
+    },
+    {
+      "title": "7. Clinical decision support",
+      "body": "Clinical decision support, or CDSS, provides patient-specific or situation-specific information to support a healthcare decision. Examples include medication warnings, preventive-care reminders, order guidance, and prompts for missing information. A preventive-care reminder may compare patient information with rules for screening, vaccination, or chronic-care monitoring and display what is due, the due date, and the most recent completion date. The reminder supports action, but the user must confirm that the information is complete and relevant to the individual patient. The clinician remains responsible for interpreting the information and deciding what action is appropriate."
+    },
+    {
+      "title": "8. The five rights of decision support",
+      "body": "Effective decision support provides the right information to the right person in the right format through the right channel at the right time. The information should be relevant and evidence-based. It should reach the person responsible for the decision or action. The format may be an alert, order set, reminder, reference, or another usable form. The channel may be the EHR, portal, mobile system, report, or communication process. Timing matters because the information must arrive early enough to influence the decision without unnecessary interruption."
+    },
+    {
+      "title": "9. Benefits and risks of computerized support",
+      "body": "CPOE, portals, e-prescribing, and CDSS can improve access, coordination, safety, consistency, engagement, prevention, and follow-up. Poorly designed alerts can interrupt workflow and contribute to alert fatigue. Repeated low-value alerts may cause users to ignore useful warnings, while users may also over-rely on the system. Incorrect, incomplete, delayed, or biased data can produce inappropriate recommendations. Good decision support requires evidence, testing, usability, leadership, monitoring, and regular improvement."
+    },
+    {
+      "title": "10. The connected patient journey",
+      "body": "A connected patient journey links multiple EHR activities over time. Before care, the patient schedules through a portal and updates information. During the visit, the clinician documents findings and enters laboratory and medication orders. Laboratory and pharmacy systems receive orders and return status or results. The EHR may display a relevant warning or preventive reminder. After care, the patient receives instructions, results, messages, and follow-up reminders. Over time, the shared record supports continuity, quality review, and population-level learning."
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "comparison",
+      "title": "Compare EHR settings",
+      "prompt": "Compare the four record settings by their primary workflow focus and continuity needs.",
+      "conceptIds": [],
+      "feedback": "",
+      "items": [
+        {
+          "label": "Inpatient EHR",
+          "detail": "Supports continuous care during hospital admission; information changes frequently across shifts, units, and departments."
+        },
+        {
+          "label": "Ambulatory EHR",
+          "detail": "Supports scheduled outpatient visits or episodes, including preparation before the visit and longitudinal follow-up afterward."
+        },
+        {
+          "label": "Long-term-care EHR",
+          "detail": "Supports residents receiving ongoing care over extended periods, including care planning, assessments, medication information, and communication."
+        },
+        {
+          "label": "Personal health record",
+          "detail": "Is designed for individual access and use and may support appointments, results, messages, reminders, education, payments, and personal data entry."
+        }
+      ],
+      "answer": "Inpatient records support continuous admission-based care, ambulatory records organize visits and follow-up, long-term-care records support extended ongoing care, and personal health records provide individual access and selected self-management functions."
+    },
+    {
+      "id": "activity-2",
+      "type": "ordering",
+      "title": "Map the ambulatory visit workflow",
+      "prompt": "Place the major ambulatory workflow stages in order.",
+      "conceptIds": [],
+      "feedback": "",
+      "items": [
+        {
+          "id": "pre_visit",
+          "text": "Schedule the visit, update information, check relevant insurance or authorization information, and review previous information.",
+          "order": 0
+        },
+        {
+          "id": "during_visit",
+          "text": "Document findings, enter diagnoses and care plans, and order tests, medications, referrals, or procedures as needed.",
+          "order": 1
+        },
+        {
+          "id": "post_visit",
+          "text": "Provide instructions, communicate results and interpretations, send reminders or educational content, and arrange follow-up.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "matching",
+      "title": "Match the five rights",
+      "prompt": "Match each decision-support right with its meaning.",
+      "conceptIds": [],
+      "feedback": "",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Right information",
+          "right": "Relevant and evidence-based content",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Right person",
+          "right": "The user responsible for the decision or action",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Right format",
+          "right": "An alert, order set, reminder, reference, or another usable form",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Right channel",
+          "right": "The EHR, portal, mobile system, report, or communication process",
+          "feedback": ""
+        },
+        {
+          "id": "pair-5",
+          "left": "Right time",
+          "right": "Early enough to influence the decision without unnecessary interruption",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "Relevant and evidence-based content",
+        "The user responsible for the decision or action",
+        "An alert, order set, reminder, reference, or another usable form",
+        "The EHR, portal, mobile system, report, or communication process",
+        "Early enough to influence the decision without unnecessary interruption"
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "scenario",
+      "title": "A preventive-care reminder",
+      "prompt": "An EHR displays a preventive-care reminder, but the patient's information is incomplete. What is the most appropriate response?",
+      "conceptIds": [],
+      "feedback": "",
+      "options": [
+        "Treat the reminder as an automatic determination of the correct care.",
+        "Ignore all reminders because decision support is never useful.",
+        "Confirm that the information is complete and relevant, then interpret it before deciding what action is appropriate.",
+        "Ask the system to make the decision without further review."
+      ],
+      "answerIndex": 2,
+      "debrief": "A preventive-care reminder supports action but does not automatically determine the correct care. The user must confirm that the information is complete and relevant to the individual patient."
+    },
+    {
+      "id": "activity-5",
+      "type": "scenario",
+      "title": "When alerts become a workflow problem",
+      "prompt": "A decision-support system produces many repeated, low-value alerts, and users begin dismissing warnings. What risk does this illustrate?",
+      "conceptIds": [],
+      "feedback": "",
+      "options": [
+        "Proxy access",
+        "Alert fatigue",
+        "Longitudinal follow-up",
+        "Untethered personal health record"
+      ],
+      "answerIndex": 1,
+      "debrief": "Poorly designed or repeated low-value alerts can interrupt workflow and contribute to alert fatigue. Users may begin ignoring useful warnings."
+    },
+    {
+      "id": "activity-6",
+      "type": "classification",
+      "title": "Classify the record connection",
+      "prompt": "Classify each description as a tethered or untethered personal health record.",
+      "conceptIds": [],
+      "feedback": "",
+      "categories": [
+        "Tethered personal health record",
+        "Untethered personal health record"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Connected to an organization's EHR and may share data or functions with it.",
+          "answer": "Tethered personal health record",
+          "feedback": ""
+        },
+        {
+          "id": "item-2",
+          "text": "A stand-alone record managed separately from a provider's EHR.",
+          "answer": "Untethered personal health record",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "May update automatically from the healthcare organization.",
+          "answer": "Tethered personal health record",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "May require manual entry or separate connections.",
+          "answer": "Untethered personal health record",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "activity-7",
+      "type": "scenario",
+      "title": "Evaluate a patient-facing service",
+      "prompt": "An organization introduces a patient portal, but the service is difficult to use, does not account for language or disability needs, and staff cannot respond reliably to messages. What should the organization recognize?",
+      "conceptIds": [],
+      "feedback": "",
+      "options": [
+        "The service will be beneficial regardless of usability or staff capacity.",
+        "Patient-facing benefits depend on usability, accessibility, consent, workflow, and staff capacity to respond.",
+        "A portal replaces the provider's legal clinical record.",
+        "Only the technical connection to the EHR matters."
+      ],
+      "answerIndex": 1,
+      "debrief": "Patient-facing digital services depend on usability, accessibility, consent, workflow, and staff capacity to respond. Digital access must also consider language, disability, health literacy, internet access, and digital skills."
+    },
+    {
+      "id": "activity-8",
+      "type": "ordering",
+      "title": "Follow the connected patient journey",
+      "prompt": "Place the stages of the connected patient journey in order.",
+      "conceptIds": [],
+      "feedback": "",
+      "items": [
+        {
+          "id": "schedule_update",
+          "text": "Schedule through the portal and update information.",
+          "order": 0
+        },
+        {
+          "id": "document_order",
+          "text": "Document findings and enter laboratory and medication orders.",
+          "order": 1
+        },
+        {
+          "id": "exchange",
+          "text": "Transmit orders to laboratory and pharmacy systems and receive status or results.",
+          "order": 2
+        },
+        {
+          "id": "decision_support",
+          "text": "Display relevant warnings or preventive reminders.",
+          "order": 3
+        },
+        {
+          "id": "follow_up",
+          "text": "Provide instructions, results, messages, and follow-up reminders.",
+          "order": 4
+        },
+        {
+          "id": "continuity",
+          "text": "Use the shared record to support continuity, quality review, and population-level learning.",
+          "order": 5
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "front": "What does CPOE stand for?",
+      "back": "Computerized provider order entry: electronic entry of orders by authorized providers, with orders transmitted to relevant departments.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-2",
+      "front": "What is a central workflow characteristic of an inpatient EHR?",
+      "back": "It supports continuous care during admission across shifts, units, and departments.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-3",
+      "front": "How does an ambulatory EHR differ from an inpatient EHR?",
+      "back": "An ambulatory EHR focuses on scheduled visits or episodes and longitudinal follow-up, while an inpatient EHR supports continuous care during admission.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-4",
+      "front": "What is the purpose of medication-safety checks in CPOE?",
+      "back": "They may compare medication orders with allergies, dose ranges, interactions, and formulary information to reduce preventable errors and improve consistency.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-5",
+      "front": "What is a personal health record?",
+      "back": "A record related to the EHR that is designed for access and use by the individual and may support selected health activities.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-6",
+      "front": "What is the difference between a tethered and an untethered personal health record?",
+      "back": "A tethered record is connected to an organization's EHR; an untethered record is managed separately from the provider's EHR.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-7",
+      "front": "What is clinical decision support?",
+      "back": "A system that provides patient-specific or situation-specific information to support a healthcare decision.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-8",
+      "front": "What are the five rights of decision support?",
+      "back": "The right information, to the right person, in the right format, through the right channel, at the right time.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-9",
+      "front": "What is alert fatigue?",
+      "back": "A condition in which poorly designed or repeated low-value alerts interrupt workflow and may cause users to ignore useful warnings.",
+      "conceptIds": []
+    },
+    {
+      "id": "flash-10",
+      "front": "Why does a decision-support reminder not automatically determine the correct care?",
+      "back": "The user must confirm that the information is complete and relevant to the individual patient.",
+      "conceptIds": []
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Which statement best describes an inpatient EHR?",
+      "options": [
+        "It supports only patient-entered information outside healthcare organizations.",
+        "It supports continuous care during hospital admission across shifts, units, and departments.",
+        "It is a stand-alone record managed separately from a provider's EHR.",
+        "It focuses only on scheduling and payment."
+      ],
+      "answerIndex": 1,
+      "rationale": "An inpatient EHR supports care during admission and is used across shifts, units, and departments.",
+      "conceptIds": []
+    },
+    {
+      "id": "q2",
+      "question": "What does computerized provider order entry allow authorized providers to do?",
+      "options": [
+        "Enter orders electronically and transmit them to relevant departments.",
+        "Replace all clinical interpretation with automated decisions.",
+        "Create only personal health records.",
+        "Store information without sending it to pharmacy, laboratory, or radiology."
+      ],
+      "answerIndex": 0,
+      "rationale": "CPOE allows authorized providers to enter orders electronically and send them to pharmacy, laboratory, radiology, or other departments.",
+      "conceptIds": []
+    },
+    {
+      "id": "q3",
+      "question": "Which activity is part of the pre-visit ambulatory workflow?",
+      "options": [
+        "Discharging a hospital inpatient",
+        "Updating patient information and reviewing previous problems and tests",
+        "Dispensing medication after pharmacy review",
+        "Managing a stand-alone personal health record"
+      ],
+      "answerIndex": 1,
+      "rationale": "Before an outpatient visit, patients may update information and the care team may review previous problems, tests, and planned follow-up.",
+      "conceptIds": []
+    },
+    {
+      "id": "q4",
+      "question": "Which statement correctly distinguishes inpatient and ambulatory EHR workflows?",
+      "options": [
+        "Inpatient care focuses on scheduled visits, while ambulatory care covers continuous admission.",
+        "Inpatient records change frequently across shifts and departments, while ambulatory records emphasize visits and longitudinal follow-up.",
+        "Both settings use exactly the same workflow focus.",
+        "Ambulatory records cannot include orders, results, reminders, or messaging."
+      ],
+      "answerIndex": 1,
+      "rationale": "Inpatient care is continuous during admission and changes frequently across shifts and departments. Ambulatory care focuses on scheduled visits or episodes and follow-up between visits.",
+      "conceptIds": []
+    },
+    {
+      "id": "q5",
+      "question": "Which statement about a personal health record is correct?",
+      "options": [
+        "It replaces the provider's legal clinical record.",
+        "It is designed for access and use by the individual and does not replace the provider's legal clinical record.",
+        "It can only be used by hospital departments.",
+        "It cannot support messages, reminders, or appointment activities."
+      ],
+      "answerIndex": 1,
+      "rationale": "A personal health record is designed for individual access and use, but it does not replace the provider's legal clinical record.",
+      "conceptIds": []
+    },
+    {
+      "id": "q6",
+      "question": "What is the main distinction between tethered and untethered personal health records?",
+      "options": [
+        "Tethered records are connected to an organization's EHR; untethered records are managed separately.",
+        "Tethered records are always paper-based; untethered records are always hospital-based.",
+        "Tethered records are used only for billing; untethered records are used only for diagnosis.",
+        "There is no difference between them."
+      ],
+      "answerIndex": 0,
+      "rationale": "A tethered personal health record connects to an organization's EHR, while an untethered record is managed separately.",
+      "conceptIds": []
+    },
+    {
+      "id": "q7",
+      "question": "Which sequence lists the five rights of decision support?",
+      "options": [
+        "Right patient, right hospital, right payment, right password, right record",
+        "Right information, right person, right format, right channel, right time",
+        "Right diagnosis, right treatment, right pharmacy, right claim, right discharge",
+        "Right department, right device, right database, right vendor, right policy"
+      ],
+      "answerIndex": 1,
+      "rationale": "The five rights are the right information, right person, right format, right channel, and right time.",
+      "conceptIds": []
+    },
+    {
+      "id": "q8",
+      "question": "Which is a possible unintended consequence of poorly designed clinical decision support?",
+      "options": [
+        "Alert fatigue",
+        "Automatic improvement in every workflow",
+        "Elimination of the need for data quality",
+        "Replacement of the provider's legal clinical record"
+      ],
+      "answerIndex": 0,
+      "rationale": "Poorly designed or repeated low-value alerts can interrupt workflow and contribute to alert fatigue, causing users to ignore useful warnings.",
+      "conceptIds": []
+    },
+    {
+      "id": "q9",
+      "question": "Which statement best describes the clinician's responsibility when using clinical decision support?",
+      "options": [
+        "The clinician must accept every recommendation.",
+        "The clinician remains responsible for interpreting the information and deciding what action is appropriate.",
+        "The system makes the clinical decision independently.",
+        "The clinician should ignore all system information."
+      ],
+      "answerIndex": 1,
+      "rationale": "Clinical decision support provides relevant information, but the clinician remains responsible for interpretation and the appropriate action.",
+      "conceptIds": []
+    },
+    {
+      "id": "q10",
+      "question": "Which factor can limit the benefits of patient-facing digital services?",
+      "options": [
+        "Usability, accessibility, consent, workflow, or staff capacity to respond",
+        "The existence of an after-visit summary",
+        "The ability to send secure messages",
+        "The preservation of historical information"
+      ],
+      "answerIndex": 0,
+      "rationale": "Patient-facing benefits depend on usability, accessibility, consent, workflow, and staff capacity to respond.",
+      "conceptIds": []
+    }
+  ],
+  "review": null,
+  "sourceManifest": [
+    {
+      "item": "Week 4 HI.pdf",
+      "source_refs": [
+        "Week 4 HI.pdf [Pages 1-24]"
+      ]
+    }
+  ],
+  "validationReport": {
+    "status": "passed",
+    "course_id_preserved": "P9CKVS4L",
+    "content_item": "week-04",
+    "is_review_week": false,
+    "learning_outcomes_match_authoritative": true,
+    "source_traceability_present": true,
+    "student_facing_provenance_language_absent": true,
+    "typed_activities_validated": true,
+    "knowledge_checks_have_rationales": true,
+    "unsupported_formulas_used": false,
+    "external_factual_content_added": false,
+    "dangling_ontology_relations_removed": true
+  },
+  "warnings": [
+    "Technology supports safety only when users follow reliable workflows and respond appropriately.",
+    "Poorly designed alerts can interrupt workflow and contribute to alert fatigue.",
+    "Incorrect, incomplete, delayed, or biased data can produce inappropriate decision-support recommendations.",
+    "Users may over-rely on the system or ignore useful warnings after repeated low-value alerts.",
+    "Patient-facing digital services depend on usability, accessibility, consent, workflow, and staff capacity to respond.",
+    "Digital access must consider language, disability, health literacy, internet access, and digital skills."
+  ]
+}

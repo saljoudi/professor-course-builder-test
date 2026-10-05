@@ -1,0 +1,1858 @@
+{
+  "version": "1.0.5",
+  "updatedByWeek": "week-05",
+  "concepts": [
+    {
+      "id": "concept.health_informatics",
+      "name": "Health informatics",
+      "definition": "An interdisciplinary field that connects health sciences, information sciences, and management sciences and is concerned with acquiring, managing, representing, and transforming health data.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.purpose_of_health_informatics",
+      "name": "Purpose of health informatics",
+      "definition": "Turning health data into useful knowledge that can support healthcare decisions, interventions, and processes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_information_technology",
+      "name": "Health information technology",
+      "definition": "The digital tools and systems used in healthcare, including electronic health records, laboratory systems, patient portals, and mobile-health applications.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_data_science",
+      "name": "Health data science",
+      "definition": "An area focused on transforming health data into knowledge that can support decisions, using methods such as statistics, computing, analytical models, machine learning, and visualization.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_data_life_cycle",
+      "name": "Health-data life cycle",
+      "definition": "The movement of health data through connected stages: create or collect; store and protect; manage and standardize; analyze and interpret; communicate and use; and retain or dispose.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.structured_data",
+      "name": "Structured data",
+      "definition": "Data that follow a defined format and are usually stored in specific fields.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.unstructured_data",
+      "name": "Unstructured data",
+      "definition": "Data that do not follow a simple fixed field structure.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.semantic_gap",
+      "name": "Semantic gap",
+      "definition": "A situation in which recorded data and the intended clinical meaning do not match clearly.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.metadata",
+      "name": "Metadata",
+      "definition": "Information about data, such as source, date, unit, and method.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.data_governance",
+      "name": "Data governance",
+      "definition": "The management of data together with ethical, legal, and organizational responsibility.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_sciences",
+      "name": "Health sciences",
+      "definition": "A disciplinary contribution involving knowledge of patients, clinical care, health systems, terminology, healthcare standards, workflows, and health outcomes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.information_sciences",
+      "name": "Information sciences",
+      "definition": "A disciplinary contribution involving computing, databases, information retrieval, privacy, security, and human-computer interaction.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.management_sciences",
+      "name": "Management sciences",
+      "definition": "A disciplinary contribution involving project management, quality improvement, finance, workflow, and organizational change.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.create_or_collect_data",
+      "name": "Create or collect data",
+      "definition": "The life-cycle stage in which data are produced during care, administration, monitoring, research, or patient activities.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.store_and_protect_data",
+      "name": "Store and protect data",
+      "definition": "The life-cycle stage in which data are stored in records, databases, repositories, or connected information systems while accuracy, availability, confidentiality, and appropriate access are protected.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.manage_and_standardize_data",
+      "name": "Manage and standardize data",
+      "definition": "The life-cycle stage in which data are checked, cleaned, organized, coded, standardized, and prepared for use.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.analyze_and_interpret_data",
+      "name": "Analyze and interpret data",
+      "definition": "The life-cycle stage in which data are examined for summaries, comparisons, trends, relationships, and patterns and interpreted within clinical and organizational context.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.communicate_and_use_information",
+      "name": "Communicate and use information",
+      "definition": "The life-cycle stage in which findings are presented to intended users and connected with decisions, process changes, policies, interventions, or research questions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.retain_or_dispose_of_data",
+      "name": "Retain or dispose of data",
+      "definition": "The life-cycle stage in which data are kept when required and securely disposed of when no longer needed, according to policy.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.dikw_framework",
+      "name": "DIKW framework",
+      "definition": "A framework consisting of data, information, knowledge, and wisdom that explains how raw observations can be transformed into meaningful and useful understanding.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data",
+      "name": "Data",
+      "definition": "Discrete, unorganized, raw, and objective facts recorded from observations or transactions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.information",
+      "name": "Information",
+      "definition": "Data that have been organized, structured, and placed in context.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.knowledge",
+      "name": "Knowledge",
+      "definition": "Connected information in which relationships are understood and patterns are recognized.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.wisdom",
+      "name": "Wisdom",
+      "definition": "The appropriate application of knowledge to solve a problem or choose an action.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_literacy",
+      "name": "Data literacy",
+      "definition": "The ability to read, understand, work with, and communicate about data.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_acumen",
+      "name": "Data acumen",
+      "definition": "The ability to make good judgments about using data to support evidence-based decisions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.core_informatics_competencies",
+      "name": "Core competencies in health informatics",
+      "definition": "Competencies involving healthcare systems and workflows; data management; privacy, security, legal compliance, ethics, and governance; project management and quality improvement; communication and visualization; and collaboration across clinical, technical, administrative, research, and patient perspectives.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_quality",
+      "name": "Data quality",
+      "definition": "The condition of data as assessed through whether important values are missing, incorrect, delayed, or inconsistent.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.context",
+      "name": "Context",
+      "definition": "Information about a data value that helps establish who, what, when, where, and how it represents something.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_acumen_foundations",
+      "name": "Data acumen foundations",
+      "definition": "Basic statistics, computing, and understanding of evidence as areas of data acumen.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_management_week2",
+      "name": "Data management",
+      "definition": "Database design, storage, retrieval, and organization as an area of data acumen.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.data_preparation",
+      "name": "Data preparation",
+      "definition": "Cleaning and transforming data for analysis.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.analysis_week2",
+      "name": "Analysis",
+      "definition": "Analytical modeling, machine learning, and interpretation as an area of data acumen.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.practice_data_acumen",
+      "name": "Practice",
+      "definition": "Healthcare workflow, reproducibility, communication, visualization, governance, and ethics as areas of data acumen.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-02",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "id": "concept.electronic_health_record",
+      "name": "Electronic health record",
+      "definition": "A digital record of health information used across time and healthcare services that brings together clinical and administrative information needed to support care.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.ehr_purpose",
+      "name": "EHR purpose",
+      "definition": "Supporting individual patient care and wider organizational activities through the entry, retrieval, review, updating, and sharing of authorized clinical and administrative information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.ehr_contents",
+      "name": "EHR contents",
+      "definition": "Information that may include identification and demographics, problems, diagnoses, allergies, medications, immunizations, health history, notes, care plans, orders, results, procedures, discharge information, appointments, insurance, claims, payments, messages, education, reminders, and information from connected systems.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.historical_development_of_ehr_systems",
+      "name": "Historical development of EHR systems",
+      "definition": "The movement from separate departmental electronic functions toward broader electronic patient records, connected organizational information, and wider exchange across healthcare services.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.interoperability",
+      "name": "Interoperability",
+      "definition": "The ability of different systems to connect, exchange information, and use it in a coordinated way so that the information supports appropriate action.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [
+        "week-05"
+      ],
+      "moduleRefs": [
+        "week-03",
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.inpatient_ehr",
+      "name": "Inpatient EHR",
+      "definition": "An EHR that supports care during hospital admission and across hospital departments.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.ambulatory_ehr",
+      "name": "Ambulatory EHR",
+      "definition": "An EHR that supports outpatient visits before, during, and after the encounter.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.long_term_care_ehr",
+      "name": "Long-term-care EHR",
+      "definition": "An EHR that supports continuing care, minimum data requirements, and communication with hospitals.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.personal_health_record",
+      "name": "Personal health record",
+      "definition": "A record that, along with patient portals, gives patients access to selected information and services.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.clinical_functions",
+      "name": "Clinical functions",
+      "definition": "Functions that directly support assessment, diagnosis, treatment, monitoring, and communication about care.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.administrative_functions",
+      "name": "Administrative functions",
+      "definition": "Functions that support scheduling, authorization, claims, payment, inventory, and organizational operations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.primary_use_of_ehr_data",
+      "name": "Primary use of EHR data",
+      "definition": "Using information directly to provide and coordinate care for a patient.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.secondary_use_of_ehr_data",
+      "name": "Secondary use of EHR data",
+      "definition": "Using information for another legitimate purpose beyond the immediate encounter, such as quality improvement, population health, billing, research, education, or planning.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.clinical_documentation",
+      "name": "Clinical documentation",
+      "definition": "The recording of assessments, observations, diagnoses, interventions, and outcomes to create a shared account of what happened and why decisions were made.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.structured_fields_and_templates",
+      "name": "Structured fields and templates",
+      "definition": "Organized entry formats that can improve consistency but may not capture every clinical detail.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.free_text",
+      "name": "Free text",
+      "definition": "Textual documentation that can add context but may be harder to search and analyze.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.orders_and_results_workflow",
+      "name": "Orders and results workflow",
+      "definition": "The movement of an authorized order to the responsible department, completion of the service, and return of the result to the EHR for review, interpretation, and follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.medication_management_and_e_prescribing",
+      "name": "Medication management and e-prescribing",
+      "definition": "Electronic processes that move medication orders to pharmacy systems and may check allergies, duplicate therapy, dose, interactions, and other safety rules.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.clinical_decision_support",
+      "name": "Clinical decision support",
+      "definition": "EHR-based checks, alerts, reminders, registries, templates, and related functions that support safety, prevention, chronic-care monitoring, and follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.population_health_tools",
+      "name": "Population-health tools",
+      "definition": "Tools that summarize information across groups rather than one patient at a time.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.clinical_information_system",
+      "name": "Clinical information system",
+      "definition": "A system that supports a particular area of patient care or clinical work.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.laboratory_information_system",
+      "name": "Laboratory information system",
+      "definition": "A system that supports laboratory orders, patient and test identification, specimen collection, tracking, testing, verification, reporting, and transmission of verified results to the EHR.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.radiology_information_system",
+      "name": "Radiology information system",
+      "definition": "A system that supports imaging orders, scheduling, workflow, and reports.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.picture_archiving_and_communication_system",
+      "name": "Picture archiving and communication system",
+      "definition": "A system that stores and displays medical images.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.pharmacy_information_system",
+      "name": "Pharmacy information system",
+      "definition": "A system that receives medication orders and supports pharmacist review, preparation, medication information, dispensing, and exchange with the EHR and related systems.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.system_integration",
+      "name": "System integration",
+      "definition": "The connection of the EHR with specialized systems so that orders, results, status, patient identity, and other information remain consistent.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.shared_record",
+      "name": "Shared record",
+      "definition": "An integrated record in which the EHR provides a central access point while specialized systems perform detailed departmental work.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.patient_care",
+      "name": "Patient care",
+      "definition": "Care supported by assessment, diagnosis, treatment, monitoring, communication, prevention, chronic-care support, and follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-03",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "id": "concept.computerized_provider_order_entry",
+      "name": "Computerized provider order entry",
+      "definition": "Electronic entry of orders by authorized providers, with orders transmitted directly to pharmacy, laboratory, radiology, or other departments.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.medication_safety_through_cpoe",
+      "name": "Medication safety through CPOE",
+      "definition": "The use of electronic medication ordering, pharmacy review, dispensing, administration, patient identification, and system checks to reduce preventable errors and improve consistency.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.inpatient_ehr_adoption_stages",
+      "name": "Inpatient EHR adoption stages",
+      "definition": "A gradual development process that may progress from technical infrastructure and reliable electronic data to documentation, medication functions, CPOE, safety capabilities, and connections with patients and external organizations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.pre_visit_ambulatory_workflow",
+      "name": "Pre-visit ambulatory workflow",
+      "definition": "Activities before an outpatient visit, including scheduling, checking insurance and authorization information, updating patient information, and reviewing previous problems, tests, and planned follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.during_visit_ambulatory_workflow",
+      "name": "During-visit ambulatory workflow",
+      "definition": "Activities during an outpatient visit, including documentation, assessment, diagnosis, care planning, ordering tests or medications, referrals or procedures, e-prescribing, and decision-support reminders.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.post_visit_ambulatory_workflow",
+      "name": "Post-visit ambulatory workflow",
+      "definition": "Activities after an outpatient visit, including providing instructions, interpreting results, sending reminders and educational content, secure messaging, scheduling follow-up, and preserving the longitudinal record.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.tethered_personal_health_record",
+      "name": "Tethered personal health record",
+      "definition": "A personal health record connected to an organization's EHR that shares data or functions with it.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.untethered_personal_health_record",
+      "name": "Untethered personal health record",
+      "definition": "A stand-alone personal health record managed separately from a provider's EHR.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.patient_portal",
+      "name": "Patient portal",
+      "definition": "A secure patient-facing connection to an organization's EHR that provides access to selected health information and services.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.proxy_access",
+      "name": "Proxy access",
+      "definition": "Access that allows another person to manage an individual's personal health record with authorization or consent.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.five_rights_of_decision_support",
+      "name": "Five rights of decision support",
+      "definition": "Providing the right information to the right person in the right format through the right channel at the right time.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.preventive_care_reminder",
+      "name": "Preventive-care reminder",
+      "definition": "A system reminder that compares patient information with rules for screening, vaccination, or chronic-care monitoring and may display what is due, the due date, and the most recent completion date.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.alert_fatigue",
+      "name": "Alert fatigue",
+      "definition": "A condition in which poorly designed or repeated low-value alerts interrupt workflow and may cause users to ignore useful warnings.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.connected_patient_journey",
+      "name": "Connected patient journey",
+      "definition": "A sequence linking patient scheduling and information updates, clinical documentation and orders, exchanges with laboratory and pharmacy systems, decision support, follow-up communication, and longer-term continuity and review.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-04",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "id": "concept.health_information_exchange",
+      "name": "Health information exchange",
+      "definition": "The electronic sharing of health information between authorized participants.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.health_information_organization",
+      "name": "Health information organization",
+      "definition": "An entity that facilitates or manages health information exchange and may establish participation rules, identity processes, privacy protections, and technical services.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.continuity_of_care",
+      "name": "Continuity of care",
+      "definition": "The availability of relevant information as a patient moves between care settings so that the next provider can understand recent diagnoses, treatments, medicines, allergies, tests, and plans.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.connectivity",
+      "name": "Connectivity",
+      "definition": "The ability of systems to send or receive data.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.summary_of_care",
+      "name": "Summary of care",
+      "definition": "A communication of essential information when a patient is referred or transferred, including current problems, medicines, allergies, procedures, laboratory information, demographic information, provider details, care goals, instructions, and required follow-up.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.authorized_participant",
+      "name": "Authorized participant",
+      "definition": "A person or organization permitted to participate in health information exchange for an appropriate purpose.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.patient_identity_matching",
+      "name": "Patient identity matching",
+      "definition": "The process of reliably associating exchanged information with the correct patient despite missing or inconsistent identifying information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.data_mapping",
+      "name": "Data mapping",
+      "definition": "The translation of local data into shared standards so that information can be interpreted across systems.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.centralized_exchange",
+      "name": "Centralized exchange",
+      "definition": "An exchange model in which participant data are combined in a shared repository that participants query for available patient information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.federated_exchange",
+      "name": "Federated exchange",
+      "definition": "An exchange model in which detailed data remain with the original organizations and a locator service helps identify where information exists before the requesting organization retrieves it.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.directed_exchange",
+      "name": "Directed exchange",
+      "definition": "An exchange pattern that sends information to a known authorized recipient, such as during a referral.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.query_based_exchange",
+      "name": "Query-based exchange",
+      "definition": "An exchange pattern that allows an authorized user to search for information held by participating organizations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.consumer_mediated_exchange",
+      "name": "Consumer-mediated exchange",
+      "definition": "An exchange pattern that allows patients to obtain and transmit selected health information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.opt_in_consent_model",
+      "name": "Opt-in consent model",
+      "definition": "A consent model that requires the patient to agree before information is included or shared.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.opt_out_consent_model",
+      "name": "Opt-out consent model",
+      "definition": "A consent model that includes information unless the patient chooses not to participate.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.privacy",
+      "name": "Privacy",
+      "definition": "The protection of sensitive health information so that it is available only to authorized people for appropriate purposes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.trust",
+      "name": "Trust",
+      "definition": "Confidence in the protections and governance of exchange that encourages people and organizations to participate.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.public_health_use_of_exchange",
+      "name": "Public-health use of exchange",
+      "definition": "The use of information from multiple care settings for population patterns, prevention, quality improvement, planning, reporting, surveillance, alerts, immunization reporting, and disaster response.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.exchange_workflow",
+      "name": "Exchange workflow",
+      "definition": "The process through which exchanged information is made available during a clinical task, located, reviewed, and incorporated into the current care process.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "id": "concept.standards_and_quality_controls",
+      "name": "Standards and quality controls",
+      "definition": "Shared structures, meanings, and checks that help turn transmitted data into usable information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-05",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-05"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "concept.health_sciences",
+      "to": "concept.health_informatics",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.information_sciences",
+      "to": "concept.health_informatics",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.management_sciences",
+      "to": "concept.health_informatics",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.health_information_technology",
+      "to": "concept.health_informatics",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.health_data_science",
+      "to": "concept.health_informatics",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.structured_data",
+      "to": "concept.unstructured_data",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.create_or_collect_data",
+      "to": "concept.store_and_protect_data",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.store_and_protect_data",
+      "to": "concept.manage_and_standardize_data",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.manage_and_standardize_data",
+      "to": "concept.analyze_and_interpret_data",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.analyze_and_interpret_data",
+      "to": "concept.communicate_and_use_information",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.communicate_and_use_information",
+      "to": "concept.retain_or_dispose_of_data",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.metadata",
+      "to": "concept.manage_and_standardize_data",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.data_governance",
+      "to": "concept.health_data_life_cycle",
+      "type": "appliesAcross",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.data",
+      "to": "concept.information",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.information",
+      "to": "concept.knowledge",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.knowledge",
+      "to": "concept.wisdom",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.data",
+      "to": "concept.information",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.information",
+      "to": "concept.knowledge",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.knowledge",
+      "to": "concept.wisdom",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.data_literacy",
+      "to": "concept.data_acumen",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.data_literacy",
+      "to": "concept.data_acumen",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.health_informatics",
+      "to": "concept.health_data_science",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02",
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.data_quality",
+      "to": "concept.knowledge",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.context",
+      "to": "concept.information",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-02"
+      ]
+    },
+    {
+      "from": "concept.dikw_framework",
+      "to": "concept.health_informatics",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-02",
+      "scope": "cross_module",
+      "moduleRefs": [
+        "week-02",
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.clinical_functions",
+      "to": "concept.administrative_functions",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.primary_use_of_ehr_data",
+      "to": "concept.secondary_use_of_ehr_data",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.structured_fields_and_templates",
+      "to": "concept.free_text",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.orders_and_results_workflow",
+      "to": "concept.clinical_information_system",
+      "type": "appliedIn",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.clinical_information_system",
+      "to": "concept.electronic_health_record",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.laboratory_information_system",
+      "to": "concept.electronic_health_record",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.radiology_information_system",
+      "to": "concept.electronic_health_record",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.pharmacy_information_system",
+      "to": "concept.electronic_health_record",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.clinical_decision_support",
+      "to": "concept.patient_care",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.electronic_health_record",
+      "to": "concept.shared_record",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.system_integration",
+      "to": "concept.electronic_health_record",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.inpatient_ehr",
+      "to": "concept.electronic_health_record",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.ambulatory_ehr",
+      "to": "concept.electronic_health_record",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.long_term_care_ehr",
+      "to": "concept.electronic_health_record",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.electronic_health_record",
+      "to": "concept.personal_health_record",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.interoperability",
+      "to": "concept.system_integration",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.electronic_health_record",
+      "to": "concept.inpatient_ehr",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.electronic_health_record",
+      "to": "concept.ambulatory_ehr",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.electronic_health_record",
+      "to": "concept.long_term_care_ehr",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-03",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.computerized_provider_order_entry",
+      "to": "concept.pharmacy_information_system",
+      "type": "appliedIn",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "cross_module",
+      "moduleRefs": [
+        "week-04",
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.computerized_provider_order_entry",
+      "to": "concept.laboratory_information_system",
+      "type": "appliedIn",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "cross_module",
+      "moduleRefs": [
+        "week-04",
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.computerized_provider_order_entry",
+      "to": "concept.radiology_information_system",
+      "type": "appliedIn",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "cross_module",
+      "moduleRefs": [
+        "week-04",
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.tethered_personal_health_record",
+      "to": "concept.personal_health_record",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "cross_module",
+      "moduleRefs": [
+        "week-04",
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.untethered_personal_health_record",
+      "to": "concept.personal_health_record",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "cross_module",
+      "moduleRefs": [
+        "week-04",
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.tethered_personal_health_record",
+      "to": "concept.untethered_personal_health_record",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "from": "concept.clinical_decision_support",
+      "to": "concept.electronic_health_record",
+      "type": "appliedIn",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-04",
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.preventive_care_reminder",
+      "to": "concept.clinical_decision_support",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "cross_module",
+      "moduleRefs": [
+        "week-04",
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.alert_fatigue",
+      "to": "concept.clinical_decision_support",
+      "type": "oftenConfusedWith",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "cross_module",
+      "moduleRefs": [
+        "week-04",
+        "week-03"
+      ]
+    },
+    {
+      "from": "concept.pre_visit_ambulatory_workflow",
+      "to": "concept.during_visit_ambulatory_workflow",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "from": "concept.during_visit_ambulatory_workflow",
+      "to": "concept.post_visit_ambulatory_workflow",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "from": "concept.patient_portal",
+      "to": "concept.tethered_personal_health_record",
+      "type": "relatedTo",
+      "evidence": "explicit",
+      "declaredIn": "week-04",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-04"
+      ]
+    },
+    {
+      "from": "concept.health_information_exchange",
+      "to": "concept.continuity_of_care",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.health_information_organization",
+      "to": "concept.health_information_exchange",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.connectivity",
+      "to": "concept.interoperability",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.connectivity",
+      "to": "concept.interoperability",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.standards_and_quality_controls",
+      "to": "concept.interoperability",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.data_mapping",
+      "to": "concept.interoperability",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.privacy",
+      "to": "concept.health_information_exchange",
+      "type": "protects",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.trust",
+      "to": "concept.health_information_exchange",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.opt_in_consent_model",
+      "to": "concept.opt_out_consent_model",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.centralized_exchange",
+      "to": "concept.federated_exchange",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.directed_exchange",
+      "to": "concept.query_based_exchange",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.health_information_exchange",
+      "to": "concept.public_health_use_of_exchange",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.health_information_exchange",
+      "to": "concept.summary_of_care",
+      "type": "appliedIn",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.health_information_exchange",
+      "to": "concept.patient_identity_matching",
+      "type": "dependsOn",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    },
+    {
+      "from": "concept.health_information_exchange",
+      "to": "concept.exchange_workflow",
+      "type": "dependsOn",
+      "evidence": "explicit",
+      "declaredIn": "week-05",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-05"
+      ]
+    }
+  ]
+}
