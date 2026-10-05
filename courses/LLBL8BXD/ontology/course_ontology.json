@@ -1,0 +1,360 @@
+{
+  "version": "1.0.1",
+  "updatedByWeek": "week-01",
+  "concepts": [
+    {
+      "id": "concept.health_informatics",
+      "name": "Health informatics",
+      "definition": "An interdisciplinary field connecting health sciences, information sciences, and management sciences; it concerns acquiring, managing, representing, and transforming health data to support healthcare decisions, interventions, and processes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_information_technology",
+      "name": "Health information technology",
+      "definition": "The digital tools and systems used in healthcare, including electronic health records, laboratory systems, patient portals, and mobile-health applications.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_data_science",
+      "name": "Health data science",
+      "definition": "A field focused on transforming health data into knowledge that can support decisions using methods such as statistics, computing, analytical models, machine learning, and visualization.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_data",
+      "name": "Health data",
+      "definition": "Data describing people, conditions, treatments, behaviors, organizations, and outcomes. Health data may be numerical, coded, written, spoken, imaged, device-generated, or patient-generated.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.structured_data",
+      "name": "Structured data",
+      "definition": "Data that follow a defined format and are usually stored in specific fields.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.unstructured_data",
+      "name": "Unstructured data",
+      "definition": "Data that do not follow a simple fixed field structure.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.semantic_gap",
+      "name": "Semantic gap",
+      "definition": "A situation in which recorded data and the intended clinical meaning do not match clearly.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.health_data_life_cycle",
+      "name": "Health-data life cycle",
+      "definition": "The series of connected stages through which health data move: create or collect; store and protect; manage and standardize; analyze and interpret; communicate and use; and retain or dispose.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.create_or_collect_data",
+      "name": "Create or collect data",
+      "definition": "The life-cycle stage in which health data are created or collected during care, administration, monitoring, research, or patient activities.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.store_and_protect_data",
+      "name": "Store and protect data",
+      "definition": "The life-cycle stage in which data are stored in records, databases, repositories, and connected information systems while accuracy, availability, confidentiality, and appropriate access are preserved.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.manage_and_standardize_data",
+      "name": "Manage and standardize data",
+      "definition": "The life-cycle stage in which data are checked, cleaned, organized, coded, standardized, and prepared for use.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.analyze_and_interpret_data",
+      "name": "Analyze and interpret data",
+      "definition": "The life-cycle stage in which data are examined for summaries, comparisons, trends, relationships, and patterns and interpreted within clinical and organizational context.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.communicate_and_use_information",
+      "name": "Communicate and use information",
+      "definition": "The life-cycle stage in which findings are communicated in forms appropriate for intended users and used to support decisions, process changes, policies, interventions, or new research questions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.retain_or_dispose_of_data",
+      "name": "Retain or dispose of data",
+      "definition": "The life-cycle stage in which required data are retained and protected or data that are no longer needed are disposed of securely according to policy.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.metadata",
+      "name": "Metadata",
+      "definition": "Information about data, such as source, date, unit, and method.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.data_governance",
+      "name": "Data governance",
+      "definition": "Responsibilities and practices concerning the management, ethical use, legal responsibilities, organizational responsibility, and appropriate access to health data.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.data_quality",
+      "name": "Data quality",
+      "definition": "The quality of health data as it is created, managed, analyzed, communicated, and used throughout the health-data life cycle.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.privacy",
+      "name": "Privacy",
+      "definition": "A responsibility that applies throughout the health-data life cycle and concerns appropriate handling and access to health data.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "id": "concept.security",
+      "name": "Security",
+      "definition": "Practices and controls that help protect health data from loss or unauthorized use during storage and throughout the health-data life cycle.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-01",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-01"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "concept.health_informatics",
+      "to": "concept.health_information_technology",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.health_informatics",
+      "to": "concept.health_data_science",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.health_data_science",
+      "to": "concept.health_informatics",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.structured_data",
+      "to": "concept.unstructured_data",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.create_or_collect_data",
+      "to": "concept.store_and_protect_data",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.store_and_protect_data",
+      "to": "concept.manage_and_standardize_data",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.manage_and_standardize_data",
+      "to": "concept.analyze_and_interpret_data",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.analyze_and_interpret_data",
+      "to": "concept.communicate_and_use_information",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.communicate_and_use_information",
+      "to": "concept.retain_or_dispose_of_data",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.metadata",
+      "to": "concept.manage_and_standardize_data",
+      "type": "supportsUnderstandingOf",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.privacy",
+      "to": "concept.health_data_life_cycle",
+      "type": "protects",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.security",
+      "to": "concept.health_data_life_cycle",
+      "type": "protects",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    },
+    {
+      "from": "concept.data_quality",
+      "to": "concept.health_data_life_cycle",
+      "type": "relatedTo",
+      "evidence": "explicit",
+      "declaredIn": "week-01",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "2.0",
+  "metadata": {
+    "publicId": "LLBL8BXD",
+    "title": "HI",
+    "professorName": "Dr.S",
+    "courseCode": "HI234",
+    "term": "fa23",
+    "contentLabel": "Week",
+    "academicLevel": "UN",
+    "studentDiscipline": "",
+    "styleId": "academic",
+    "features": {
+      "interactiveLessons": true,
+      "practice": true,
+      "knowledgeChecks": true,
+      "flashcards": true,
+      "ontology": true,
+      "cumulativeReview": true,
+      "calculators": true
+    },
+    "intro": ""
+  },
+  "weekOrder": [
+    "week-01"
+  ],
+  "ontologyVersion": "1.0.1",
+  "privacy": {
+    "studentLogin": false,
+    "applicationDatabase": false,
+    "cookies": false,
+    "localStorage": false,
+    "sessionStorage": false,
+    "persistentAnswers": false
+  }
+}
