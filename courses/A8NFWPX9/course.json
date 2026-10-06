@@ -1,5 +1,6 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
+  "runtimeVersion": "1.10.0",
   "metadata": {
     "publicId": "A8NFWPX9",
     "title": "Bio",
@@ -9,201 +10,16 @@
     "generatedAt": "2026-10-04T10:51:13.178Z",
     "generator": "mock-ai"
   },
-  "syllabus": {
-    "supplied": false,
-    "summary": "No syllabus supplied. Course structure was inferred from the uploaded teaching materials.",
-    "outcomes": [
-      "Demonstrate understanding of Course learning outcome."
-    ]
-  },
-  "weeks": [
-    {
-      "id": "week-1",
-      "order": 1,
-      "title": "Week 1 HIS",
-      "sourceFile": "Week 1 HIS.pdf",
-      "overview": "What a health information system",
-      "objectives": [
-        "Explain and apply What A Health Information System using the supplied course material.",
-        "Explain and apply Health Information Management using the supplied course material.",
-        "Explain and apply Ahealthcareinformationsystemismorethansoftware. Itcombines using the supplied course material."
-      ],
-      "concepts": [
-        {
-          "id": "w1_c1",
-          "name": "What A Health Information System",
-          "definition": "What a health information system",
-          "prerequisiteIds": []
-        },
-        {
-          "id": "w1_c2",
-          "name": "Health Information Management",
-          "definition": "Foundations: data, information, people, and technology",
-          "prerequisiteIds": [
-            "w1_c1"
-          ]
-        },
-        {
-          "id": "w1_c3",
-          "name": "Ahealthcareinformationsystemismorethansoftware. Itcombines",
-          "definition": "Health Information Management | Level 5",
-          "prerequisiteIds": [
-            "w1_c2"
-          ]
-        },
-        {
-          "id": "w1_c4",
-          "name": "The Him Professionalhelpsensurethatinformationis",
-          "definition": "HIM 303 | Health Information Systems Week 1 | 1",
-          "prerequisiteIds": [
-            "w1_c3"
-          ]
-        },
-        {
-          "id": "w1_c5",
-          "name": "Inshort, Him Professionalshelpturnrawhealthcaredataintotrustworthyinformationthatcan",
-          "definition": "Foundations: data, information, people, and technology",
-          "prerequisiteIds": [
-            "w1_c4"
-          ]
-        }
-      ],
-      "sections": [
-        {
-          "title": "Core ideas",
-          "body": "What a health information system Foundations: data, information, people, and technology Health Information Management | Level 5 HIM 303 | Health Information Systems Week 1 | 1"
-        },
-        {
-          "title": "Connect the concepts",
-          "body": "Foundations: data, information, people, and technology what an information system does and why HIM professionals are important? Records: Captures data, such as a patient’s name, diagnosis, vital signs, or laboratory result. Manipulates: Organizes, calculates, validates, classifies, or summarizes the data."
-        }
-      ],
-      "activities": [
-        {
-          "type": "reflection",
-          "title": "Explain it in your own words",
-          "prompt": "Choose one concept from Week 1 HIS and explain it as if you were teaching a classmate."
-        },
-        {
-          "type": "application",
-          "title": "Apply the idea",
-          "prompt": "Identify a real-world situation where one of the concepts in Week 1 HIS would matter."
-        }
-      ],
-      "quiz": [
-        {
-          "id": "w1_q1",
-          "question": "Which statement best demonstrates understanding of What A Health Information System?",
-          "options": [
-            "It can be defined and applied in the context of Week 1 HIS.",
-            "It should be memorized without relating it to other concepts.",
-            "It is unrelated to the supplied course material.",
-            "It only matters outside this course."
-          ],
-          "answerIndex": 0,
-          "rationale": "The first option requires both conceptual understanding and application within Week 1 HIS."
-        },
-        {
-          "id": "w1_q2",
-          "question": "Which statement best demonstrates understanding of Health Information Management?",
-          "options": [
-            "It can be defined and applied in the context of Week 1 HIS.",
-            "It should be memorized without relating it to other concepts.",
-            "It is unrelated to the supplied course material.",
-            "It only matters outside this course."
-          ],
-          "answerIndex": 0,
-          "rationale": "The first option requires both conceptual understanding and application within Week 1 HIS."
-        },
-        {
-          "id": "w1_q3",
-          "question": "Which statement best demonstrates understanding of Ahealthcareinformationsystemismorethansoftware. Itcombines?",
-          "options": [
-            "It can be defined and applied in the context of Week 1 HIS.",
-            "It should be memorized without relating it to other concepts.",
-            "It is unrelated to the supplied course material.",
-            "It only matters outside this course."
-          ],
-          "answerIndex": 0,
-          "rationale": "The first option requires both conceptual understanding and application within Week 1 HIS."
-        }
-      ]
-    }
+  "weekOrder": [
+    "week-1"
   ],
-  "ontology": {
-    "concepts": [
-      {
-        "id": "w1_c1",
-        "name": "What A Health Information System",
-        "definition": "What a health information system",
-        "prerequisiteIds": [],
-        "weekId": "week-1"
-      },
-      {
-        "id": "w1_c2",
-        "name": "Health Information Management",
-        "definition": "Foundations: data, information, people, and technology",
-        "prerequisiteIds": [
-          "w1_c1"
-        ],
-        "weekId": "week-1"
-      },
-      {
-        "id": "w1_c3",
-        "name": "Ahealthcareinformationsystemismorethansoftware. Itcombines",
-        "definition": "Health Information Management | Level 5",
-        "prerequisiteIds": [
-          "w1_c2"
-        ],
-        "weekId": "week-1"
-      },
-      {
-        "id": "w1_c4",
-        "name": "The Him Professionalhelpsensurethatinformationis",
-        "definition": "HIM 303 | Health Information Systems Week 1 | 1",
-        "prerequisiteIds": [
-          "w1_c3"
-        ],
-        "weekId": "week-1"
-      },
-      {
-        "id": "w1_c5",
-        "name": "Inshort, Him Professionalshelpturnrawhealthcaredataintotrustworthyinformationthatcan",
-        "definition": "Foundations: data, information, people, and technology",
-        "prerequisiteIds": [
-          "w1_c4"
-        ],
-        "weekId": "week-1"
-      }
-    ],
-    "relations": [
-      {
-        "from": "w1_c1",
-        "to": "w1_c2",
-        "type": "prerequisiteOf"
-      },
-      {
-        "from": "w1_c2",
-        "to": "w1_c3",
-        "type": "prerequisiteOf"
-      },
-      {
-        "from": "w1_c3",
-        "to": "w1_c4",
-        "type": "prerequisiteOf"
-      },
-      {
-        "from": "w1_c4",
-        "to": "w1_c5",
-        "type": "prerequisiteOf"
-      }
-    ]
-  },
-  "review": {
-    "title": "Cumulative Review",
-    "instructions": "Move across modules, revisit prerequisite concepts, then answer the review prompts without looking at the definitions.",
-    "prompts": [
-      "Summarize the most important connection in Week 1 HIS."
-    ]
+  "ontologyVersion": "1.0.0",
+  "privacy": {
+    "studentLogin": false,
+    "applicationDatabase": false,
+    "cookies": false,
+    "localStorage": false,
+    "sessionStorage": false,
+    "persistentAnswers": false
   }
 }

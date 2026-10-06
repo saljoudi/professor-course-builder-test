@@ -1,0 +1,51 @@
+{
+  "concepts": [
+    {
+      "id": "c1",
+      "name": "Population",
+      "weekId": "week-1"
+    },
+    {
+      "id": "c2",
+      "name": "Sample",
+      "weekId": "week-1"
+    },
+    {
+      "id": "c3",
+      "name": "Sampling Distribution",
+      "weekId": "week-1"
+    },
+    {
+      "id": "c4",
+      "name": "Standard Deviation",
+      "weekId": "week-2"
+    },
+    {
+      "id": "c5",
+      "name": "Standard Error",
+      "weekId": "week-2"
+    }
+  ],
+  "relations": [
+    {
+      "from": "c1",
+      "to": "c2",
+      "type": "prerequisiteOf"
+    },
+    {
+      "from": "c2",
+      "to": "c3",
+      "type": "prerequisiteOf"
+    },
+    {
+      "from": "c3",
+      "to": "c5",
+      "type": "supports"
+    },
+    {
+      "from": "c4",
+      "to": "c5",
+      "type": "prerequisiteOf"
+    }
+  ]
+}

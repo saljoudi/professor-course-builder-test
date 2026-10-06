@@ -1,0 +1,62 @@
+{
+  "id": "week-1",
+  "order": 1,
+  "title": "Sampling Distributions",
+  "overview": "Connect samples, statistics and repeated sampling.",
+  "objectives": [
+    "Distinguish population and sample.",
+    "Explain a sampling distribution."
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "name": "Population",
+      "definition": "The full set of units about which an inference is made.",
+      "prerequisiteIds": []
+    },
+    {
+      "id": "c2",
+      "name": "Sample",
+      "definition": "A subset observed from the population.",
+      "prerequisiteIds": [
+        "c1"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Sampling Distribution",
+      "definition": "The distribution of a statistic over repeated samples.",
+      "prerequisiteIds": [
+        "c2"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Why repeated samples matter",
+      "body": "Different random samples produce different statistics. A sampling distribution describes that variation."
+    }
+  ],
+  "activities": [
+    {
+      "type": "reflection",
+      "title": "Predict before calculating",
+      "prompt": "If sample size increases, what do you expect to happen to the variability of the sample mean?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What does a sampling distribution describe?",
+      "options": [
+        "Variation of a statistic across repeated samples",
+        "Values of every individual in a population",
+        "Only the largest sample value",
+        "The order observations were collected"
+      ],
+      "answerIndex": 0,
+      "rationale": "A sampling distribution concerns the behavior of a statistic across repeated samples."
+    }
+  ],
+  "isReviewWeek": false
+}

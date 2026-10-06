@@ -1,0 +1,55 @@
+{
+  "id": "week-2",
+  "order": 2,
+  "title": "Standard Error",
+  "overview": "Understand how sample size influences uncertainty.",
+  "objectives": [
+    "Define standard error.",
+    "Relate standard error to sample size."
+  ],
+  "concepts": [
+    {
+      "id": "c4",
+      "name": "Standard Deviation",
+      "definition": "Describes variability among observations.",
+      "prerequisiteIds": []
+    },
+    {
+      "id": "c5",
+      "name": "Standard Error",
+      "definition": "Describes the sampling variability of an estimator.",
+      "prerequisiteIds": [
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "SE versus SD",
+      "body": "SD describes variability in data values; SE describes uncertainty in an estimate such as a sample mean."
+    }
+  ],
+  "activities": [
+    {
+      "type": "application",
+      "title": "Compare two studies",
+      "prompt": "Explain why a study with a larger sample can have a smaller standard error even if individual-level variability is similar."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q2",
+      "question": "Which quantity generally decreases as sample size increases?",
+      "options": [
+        "Standard error",
+        "Population size",
+        "Observed unit scale",
+        "Outcome definition"
+      ],
+      "answerIndex": 0,
+      "rationale": "For many estimators, standard error decreases as sample size grows."
+    }
+  ],
+  "isReviewWeek": false
+}

@@ -1,0 +1,69 @@
+{
+  "concepts": [
+    {
+      "id": "w1_c1",
+      "name": "Health",
+      "definition": "What a health information system",
+      "prerequisiteIds": [],
+      "weekId": "week-1"
+    },
+    {
+      "id": "w1_c2",
+      "name": "System",
+      "definition": "Foundations: data, information, people, and technology",
+      "prerequisiteIds": [
+        "w1_c1"
+      ],
+      "weekId": "week-1"
+    },
+    {
+      "id": "w1_c3",
+      "name": "Him303",
+      "definition": "Health Information Management | Level 5",
+      "prerequisiteIds": [
+        "w1_c2"
+      ],
+      "weekId": "week-1"
+    },
+    {
+      "id": "w1_c4",
+      "name": "Systemsweek",
+      "definition": "HIM303 | Health Information SystemsWeek 1 | 1",
+      "prerequisiteIds": [
+        "w1_c3"
+      ],
+      "weekId": "week-1"
+    },
+    {
+      "id": "w1_c5",
+      "name": "Quality",
+      "definition": "Foundations: data, information, people, and technology",
+      "prerequisiteIds": [
+        "w1_c4"
+      ],
+      "weekId": "week-1"
+    }
+  ],
+  "relations": [
+    {
+      "from": "w1_c1",
+      "to": "w1_c2",
+      "type": "prerequisiteOf"
+    },
+    {
+      "from": "w1_c2",
+      "to": "w1_c3",
+      "type": "prerequisiteOf"
+    },
+    {
+      "from": "w1_c3",
+      "to": "w1_c4",
+      "type": "prerequisiteOf"
+    },
+    {
+      "from": "w1_c4",
+      "to": "w1_c5",
+      "type": "prerequisiteOf"
+    }
+  ]
+}
