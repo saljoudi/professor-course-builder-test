@@ -1,6 +1,6 @@
 {
-  "version": "1.0.5",
-  "updatedByWeek": "week-05",
+  "version": "1.0.8",
+  "updatedByWeek": "week-09",
   "concepts": [
     {
       "id": "concept.health_informatics",
@@ -63,9 +63,12 @@
       "definition": "Data that follow a defined format and are usually stored in specific fields.",
       "sourceEvidence": "explicit",
       "introducedIn": "week-01",
-      "reviewedIn": [],
+      "reviewedIn": [
+        "week-09"
+      ],
       "moduleRefs": [
-        "week-01"
+        "week-01",
+        "week-09"
       ]
     },
     {
@@ -74,9 +77,12 @@
       "definition": "Data that do not follow a simple fixed field structure.",
       "sourceEvidence": "explicit",
       "introducedIn": "week-01",
-      "reviewedIn": [],
+      "reviewedIn": [
+        "week-09"
+      ],
       "moduleRefs": [
-        "week-01"
+        "week-01",
+        "week-09"
       ]
     },
     {
@@ -96,9 +102,12 @@
       "definition": "Information about data, such as source, date, unit, and method.",
       "sourceEvidence": "explicit",
       "introducedIn": "week-01",
-      "reviewedIn": [],
+      "reviewedIn": [
+        "week-09"
+      ],
       "moduleRefs": [
-        "week-01"
+        "week-01",
+        "week-09"
       ]
     },
     {
@@ -107,9 +116,12 @@
       "definition": "The management of data together with ethical, legal, and organizational responsibility.",
       "sourceEvidence": "explicit",
       "introducedIn": "week-01",
-      "reviewedIn": [],
+      "reviewedIn": [
+        "week-06"
+      ],
       "moduleRefs": [
-        "week-01"
+        "week-01",
+        "week-06"
       ]
     },
     {
@@ -228,9 +240,12 @@
       "definition": "Discrete, unorganized, raw, and objective facts recorded from observations or transactions.",
       "sourceEvidence": "explicit",
       "introducedIn": "week-02",
-      "reviewedIn": [],
+      "reviewedIn": [
+        "week-08"
+      ],
       "moduleRefs": [
-        "week-02"
+        "week-02",
+        "week-08"
       ]
     },
     {
@@ -239,9 +254,12 @@
       "definition": "Data that have been organized, structured, and placed in context.",
       "sourceEvidence": "explicit",
       "introducedIn": "week-02",
-      "reviewedIn": [],
+      "reviewedIn": [
+        "week-08"
+      ],
       "moduleRefs": [
-        "week-02"
+        "week-02",
+        "week-08"
       ]
     },
     {
@@ -305,9 +323,12 @@
       "definition": "The condition of data as assessed through whether important values are missing, incorrect, delayed, or inconsistent.",
       "sourceEvidence": "explicit",
       "introducedIn": "week-02",
-      "reviewedIn": [],
+      "reviewedIn": [
+        "week-09"
+      ],
       "moduleRefs": [
-        "week-02"
+        "week-02",
+        "week-09"
       ]
     },
     {
@@ -583,9 +604,12 @@
       "definition": "EHR-based checks, alerts, reminders, registries, templates, and related functions that support safety, prevention, chronic-care monitoring, and follow-up.",
       "sourceEvidence": "explicit",
       "introducedIn": "week-03",
-      "reviewedIn": [],
+      "reviewedIn": [
+        "week-09"
+      ],
       "moduleRefs": [
-        "week-03"
+        "week-03",
+        "week-09"
       ]
     },
     {
@@ -1059,6 +1083,633 @@
       "reviewedIn": [],
       "moduleRefs": [
         "week-05"
+      ]
+    },
+    {
+      "id": "concept.healthcare_standard",
+      "name": "Healthcare standard",
+      "definition": "An agreed way to represent, organize or exchange healthcare information to reduce ambiguity.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.vocabulary",
+      "name": "Vocabulary",
+      "definition": "A set of words or phrases with defined meanings.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.clinical_terminology",
+      "name": "Clinical terminology",
+      "definition": "A representation of detailed clinical concepts and their relationships for documentation and care.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.classification",
+      "name": "Classification",
+      "definition": "A method of grouping conditions into categories for statistics, reporting or reimbursement.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.code_set",
+      "name": "Code set",
+      "definition": "Standardized identifiers used to store or transmit defined information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.exchange_standard",
+      "name": "Exchange standard",
+      "definition": "Agreed structures for packaging and communicating messages, documents or healthcare resources.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.icd",
+      "name": "ICD",
+      "definition": "The International Classification of Diseases groups health conditions for reporting, statistics, reimbursement and research.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.snomed_ct",
+      "name": "SNOMED CT",
+      "definition": "A detailed clinical terminology of health concepts including findings, symptoms and conditions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.loinc",
+      "name": "LOINC",
+      "definition": "A standard for naming and identifying laboratory tests and many clinical observations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.rxnorm",
+      "name": "RxNorm",
+      "definition": "A standardized terminology for clinical drugs, including ingredients, strengths and dose forms.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.cpt_and_hcpcs",
+      "name": "CPT and HCPCS",
+      "definition": "US procedure and service codes used for administrative reporting, claims and reimbursement.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.hl7",
+      "name": "HL7",
+      "definition": "A family of healthcare information exchange standards, as well as the organization that maintains them.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.fhir",
+      "name": "FHIR",
+      "definition": "An HL7 exchange standard based on reusable resources such as Patient, Observation, Medication and Encounter.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.fhir_resource",
+      "name": "FHIR resource",
+      "definition": "A reusable structured representation of a healthcare concept for information exchange.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.semantic_interoperability",
+      "name": "Semantic interoperability",
+      "definition": "The receiver can interpret exchanged information with the intended clinical meaning.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.code_mapping",
+      "name": "Code mapping",
+      "definition": "Connecting local identifiers to shared codes, with review when meanings do not match exactly.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.clinical_context",
+      "name": "Clinical context",
+      "definition": "Relevant attributes such as unit, date, method, status and patient identity needed to interpret information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.implementation_guide",
+      "name": "Implementation guide",
+      "definition": "Additional rules specifying how exchange standards should be applied in a defined use case.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.standard_version",
+      "name": "Standard version",
+      "definition": "A specified release of a standard which may affect compatibility and interpretation.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.healthcare_analytics",
+      "name": "Healthcare analytics",
+      "definition": "Using data, information technology and analysis to gain insight and support healthcare decisions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.primary_use",
+      "name": "Primary use",
+      "definition": "Using data to support direct care for an individual patient.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.secondary_use",
+      "name": "Secondary use",
+      "definition": "Using data beyond the immediate encounter for research, quality improvement, public health or planning.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.descriptive_analytics",
+      "name": "Descriptive analytics",
+      "definition": "Summarizes what happened using observed data, counts, averages and charts.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.diagnostic_analytics",
+      "name": "Diagnostic analytics",
+      "definition": "Examines differences and relationships that might explain an observed pattern.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.predictive_analytics",
+      "name": "Predictive analytics",
+      "definition": "Estimates a future or unknown outcome using existing information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.prescriptive_analytics",
+      "name": "Prescriptive analytics",
+      "definition": "Considers appropriate actions in response to an observed or predicted situation.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data_warehouse",
+      "name": "Data warehouse",
+      "definition": "Organizes information for reporting and analysis.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data_lake",
+      "name": "Data lake",
+      "definition": "Stores large quantities of varied data for later processing.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data_dictionary",
+      "name": "Data dictionary",
+      "definition": "Explains field names, definitions, units, valid values and collection methods.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.preprocessing",
+      "name": "Preprocessing",
+      "definition": "Preparing data by cleaning, addressing missingness, checking duplicates and normalizing formats.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.feature_engineering",
+      "name": "Feature engineering",
+      "definition": "Selecting, transforming or combining existing data elements for analysis.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.supervised_learning",
+      "name": "Supervised learning",
+      "definition": "Uses examples with known outcomes to predict or classify other cases.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.unsupervised_learning",
+      "name": "Unsupervised learning",
+      "definition": "Identifies patterns or groups without a predefined outcome.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.reinforcement_learning",
+      "name": "Reinforcement learning",
+      "definition": "Learns from feedback based on actions and their outcomes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.classification_model",
+      "name": "Classification model",
+      "definition": "Assigns a category to observations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.regression_model",
+      "name": "Regression model",
+      "definition": "Estimates a numerical value.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.clustering",
+      "name": "Clustering",
+      "definition": "Forms groups based on data patterns and similarity.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.model_evaluation",
+      "name": "Model evaluation",
+      "definition": "Checks usefulness using performance measures, calibration, fairness, usability and consequences of errors.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data_drift",
+      "name": "Data drift",
+      "definition": "Changes over time in data or practice that may affect model usefulness.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.accuracy",
+      "name": "Accuracy",
+      "definition": "A recorded value correctly represents the patient, event, measurement or condition.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.completeness",
+      "name": "Completeness",
+      "definition": "Required information is present for the intended use.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.consistency",
+      "name": "Consistency",
+      "definition": "Comparable data use compatible definitions, categories, formats and units.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.timeliness",
+      "name": "Timeliness",
+      "definition": "Data are current and available when needed.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.natural_language_processing",
+      "name": "Natural language processing",
+      "definition": "Methods that make human-language data usable by computers, while requiring care with negation, timing and uncertainty.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.data_cleaning",
+      "name": "Data cleaning",
+      "definition": "Checking for impossible, duplicated, inconsistent or incorrectly coded values.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.missing_data",
+      "name": "Missing data",
+      "definition": "Data that are not asked, known, applicable or entered.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.imputation",
+      "name": "Imputation",
+      "definition": "Replacing a missing value using a defined and documented method.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.descriptive_quality_checks",
+      "name": "Descriptive quality checks",
+      "definition": "Counts, percentages, averages, ranges, distributions and crosstabs used to investigate data quality.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.data_visualization",
+      "name": "Data visualization",
+      "definition": "A purposeful display of patterns, comparisons, trends and distributions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.bar_chart",
+      "name": "Bar chart",
+      "definition": "A chart used to compare categories or groups.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.line_chart",
+      "name": "Line chart",
+      "definition": "A chart used to show changes across time.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.histogram",
+      "name": "Histogram",
+      "definition": "A chart used to show the distribution of a numerical variable.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.table",
+      "name": "Table",
+      "definition": "An organized display of exact values, with clear headings, units, timeframe and source.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.exploratory_data_analysis",
+      "name": "Exploratory data analysis",
+      "definition": "Understanding the shape, patterns, relationships and plausible limits of data before formal analysis.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.dashboard",
+      "name": "Dashboard",
+      "definition": "A collection of selected measures to support monitoring and action.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.five_rights_of_clinical_decision_support",
+      "name": "Five rights of clinical decision support",
+      "definition": "The right information, person, format, channel and time.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.big_data",
+      "name": "Big data",
+      "definition": "Data often described by high volume, velocity and variety.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
       ]
     }
   ],
@@ -1852,6 +2503,138 @@
       "scope": "within_module",
       "moduleRefs": [
         "week-05"
+      ]
+    },
+    {
+      "from": "concept.classification",
+      "to": "concept.clinical_terminology",
+      "type": "contrastsWith",
+      "evidence": "explicit",
+      "declaredIn": "week-06",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "from": "concept.icd",
+      "to": "concept.classification",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-06",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "from": "concept.snomed_ct",
+      "to": "concept.clinical_terminology",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-06",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "from": "concept.loinc",
+      "to": "concept.semantic_interoperability",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-06",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "from": "concept.fhir",
+      "to": "concept.exchange_standard",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-06",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "from": "concept.descriptive_analytics",
+      "to": "concept.healthcare_analytics",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-08",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "from": "concept.predictive_analytics",
+      "to": "concept.healthcare_analytics",
+      "type": "isSubtypeOf",
+      "evidence": "explicit",
+      "declaredIn": "week-08",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "from": "concept.preprocessing",
+      "to": "concept.model_evaluation",
+      "type": "precedes",
+      "evidence": "explicit",
+      "declaredIn": "week-08",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "from": "concept.accuracy",
+      "to": "concept.data_quality",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-09",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "from": "concept.completeness",
+      "to": "concept.data_quality",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-09",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "from": "concept.metadata",
+      "to": "concept.data_quality",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-09",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "from": "concept.data_cleaning",
+      "to": "concept.data_quality",
+      "type": "supports",
+      "evidence": "explicit",
+      "declaredIn": "week-09",
+      "scope": "within_module",
+      "moduleRefs": [
+        "week-09"
       ]
     }
   ]
