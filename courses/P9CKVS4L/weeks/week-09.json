@@ -1,0 +1,813 @@
+{
+  "id": "week-09",
+  "order": 9,
+  "title": "Week 9: Visualization, Decision Support and Data Quality",
+  "overview": "Learn how health data become trustworthy and useful for decision-making. Examine accuracy, completeness, consistency and timeliness; explore structured and unstructured records, NLP, metadata, missing data, cleaning and visualization; and connect dashboards and the five rights of decision support to healthcare workflows.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain data-quality dimensions and their effects on reliable decisions.",
+    "Compare structured and unstructured health data, including NLP limitations.",
+    "Describe metadata, data cleaning, missing-value decisions and exploratory checks.",
+    "Select bar charts, line charts, histograms, tables and text summaries appropriately.",
+    "Explain dashboard use and the five rights of clinical decision support."
+  ],
+  "concepts": [
+    {
+      "id": "concept.data_quality",
+      "name": "Data quality",
+      "definition": "The degree to which data are fit for their intended purpose.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.accuracy",
+      "name": "Accuracy",
+      "definition": "A recorded value correctly represents the patient, event, measurement or condition.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.completeness",
+      "name": "Completeness",
+      "definition": "Required information is present for the intended use.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.consistency",
+      "name": "Consistency",
+      "definition": "Comparable data use compatible definitions, categories, formats and units.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.timeliness",
+      "name": "Timeliness",
+      "definition": "Data are current and available when needed.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.structured_data",
+      "name": "Structured data",
+      "definition": "Data in defined fields and controlled formats, suitable for querying, counts and comparisons.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.unstructured_data",
+      "name": "Unstructured data",
+      "definition": "Narrative notes, images, audio and free text without a simple fixed field structure.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.natural_language_processing",
+      "name": "Natural language processing",
+      "definition": "Methods that make human-language data usable by computers, while requiring care with negation, timing and uncertainty.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.metadata",
+      "name": "Metadata",
+      "definition": "Information about information, such as definitions, units, sources, dates, codes and versions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.data_cleaning",
+      "name": "Data cleaning",
+      "definition": "Checking for impossible, duplicated, inconsistent or incorrectly coded values.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.missing_data",
+      "name": "Missing data",
+      "definition": "Data that are not asked, known, applicable or entered.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.imputation",
+      "name": "Imputation",
+      "definition": "Replacing a missing value using a defined and documented method.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.descriptive_quality_checks",
+      "name": "Descriptive quality checks",
+      "definition": "Counts, percentages, averages, ranges, distributions and crosstabs used to investigate data quality.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.data_visualization",
+      "name": "Data visualization",
+      "definition": "A purposeful display of patterns, comparisons, trends and distributions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.bar_chart",
+      "name": "Bar chart",
+      "definition": "A chart used to compare categories or groups.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.line_chart",
+      "name": "Line chart",
+      "definition": "A chart used to show changes across time.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.histogram",
+      "name": "Histogram",
+      "definition": "A chart used to show the distribution of a numerical variable.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.table",
+      "name": "Table",
+      "definition": "An organized display of exact values, with clear headings, units, timeframe and source.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.exploratory_data_analysis",
+      "name": "Exploratory data analysis",
+      "definition": "Understanding the shape, patterns, relationships and plausible limits of data before formal analysis.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.dashboard",
+      "name": "Dashboard",
+      "definition": "A collection of selected measures to support monitoring and action.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.clinical_decision_support",
+      "name": "Clinical decision support",
+      "definition": "Patient-specific or situation-specific information that supports a healthcare decision.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.five_rights_of_clinical_decision_support",
+      "name": "Five rights of clinical decision support",
+      "definition": "The right information, person, format, channel and time.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    },
+    {
+      "id": "concept.big_data",
+      "name": "Big data",
+      "definition": "Data often described by high volume, velocity and variety.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-09",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-09"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Why quality affects trust",
+      "body": "This part of the lecture explores data quality determines whether results can be trusted and ask quality questions before using data. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nData quality determines whether results can be trusted (original slide 2).\n• Data quality describes how well data are fit for their intended use.\n• Poor data can create incorrect counts, misleading trends, and inappropriate recommendations.\n• Quality should be considered when data are collected, entered, stored, exchanged, analyzed, and presented.\n• A data-quality problem may require correction, clarification, exclusion, or a clear limitation statement.\n• Good analysis cannot fully compensate for data that do not represent the situation accurately.\n\nAsk quality questions before using data (original slide 3).\n• For what purpose were the data originally collected?\n• How were the data collected, entered, coded, and changed over time?\n• Are definitions, units, categories, and standards clear?\n• Which fields are missing, duplicated, delayed, or implausible?\n• How will the data be analyzed and presented so that users can interpret them correctly?"
+    },
+    {
+      "title": "2. Quality questions before use",
+      "body": "This part of the lecture explores accuracy and completeness are basic quality dimensions and consistency and timeliness matter too. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nAccuracy and completeness are basic quality dimensions (original slide 4).\n• Accuracy means that a value correctly represents the patient, event, measurement, or condition.\n• Completeness means that required information is present for the intended use.\n• An accurate but incomplete record may still lead to an unsafe or biased conclusion.\n• Examples of missing information include absent allergies, incomplete outcomes, or an unrecorded result.\n• Quality checks should focus on fields that affect care, reporting, or decisions.\n\nConsistency and timeliness matter too (original slide 5).\n• Consistency means that the same concept, unit, category, or rule is used in comparable records.\n• Timeliness means that information is available and current when it is needed.\n• A delayed result may be accurate but not useful for a time-sensitive decision.\n• Inconsistent categories can make two departments appear different when they recorded the same event differently.\n• Quality dimensions should be judged against the purpose and timeframe of the use."
+    },
+    {
+      "title": "3. Data quality dimensions",
+      "body": "This part of the lecture explores collection choices shape data quality and structured data are easy to compute. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nCollection choices shape data quality (original slide 6).\n• Organizations should decide why data are being entered and which fields are necessary.\n• The data-entry method should fit the user, setting, workflow, and type of information.\n• Required fields and controlled values can improve consistency but may reduce flexibility.\n• Free text can preserve detail but may be harder to search, count, or compare.\n• Training and feedback help users understand how their documentation affects later use.\n\nStructured data are easy to compute (original slide 7).\n• Structured data use defined fields, formats, and controlled values.\n• Examples include a coded diagnosis, a date field, a numeric measurement, or a selected category.\n• Structured data are easier to query, count, compare, and use in analytics.\n• Rigid choices can omit nuance or force users to select an imperfect category.\n• Good design balances computability with the clinical meaning users need to record."
+    },
+    {
+      "title": "4. Collection choices and structured data",
+      "body": "This part of the lecture explores unstructured data preserve narrative detail and nlp can make narrative data more usable. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nUnstructured data preserve narrative detail (original slide 8).\n• Unstructured data include narrative notes, free text, images, audio, and other content without a fixed field structure.\n• Narrative documentation can express context, uncertainty, timing, and patient experience.\n• It is more difficult to search and analyze directly than structured data.\n• Natural language processing can help identify concepts, but negation and temporal meaning remain challenging.\n• Many healthcare environments need both structured fields and meaningful narrative.\n\nNLP can make narrative data more usable (original slide 9).\n• Natural language processing, or NLP, converts human language into information that computer systems can manipulate.\n• NLP may help identify diagnoses, symptoms, medications, findings, or public-health signals in narrative text.\n• It can support patient care, biosurveillance, research, and administrative work.\n• A system must distinguish whether a concept is present, absent, historical, planned, or uncertain.\n• NLP outputs should be validated before they are used for important decisions."
+    },
+    {
+      "title": "5. Unstructured information and NLP",
+      "body": "This part of the lecture explores metadata explains what data mean and cleaning identifies errors and unusual values. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nMetadata explains what data mean (original slide 10).\n• Metadata are descriptive details about other data.\n• Examples include a field definition, unit, source system, collection date, coding system, or version.\n• Metadata help users understand how data were created and whether they are suitable for a purpose.\n• They support reliability, quality review, reproducibility, and investigation.\n• Without metadata, two fields with similar names may be incorrectly treated as equivalent.\n\nCleaning identifies errors and unusual values (original slide 11).\n• Data cleaning checks for impossible, inconsistent, duplicated, or incorrectly coded values.\n• Descriptive statistics can reveal unusual ranges, extreme values, and unexpected distributions.\n• Crosstabs can show patterns that suggest a data-entry or coding problem.\n• The correct value should be verified from a reliable source when possible.\n• If an error cannot be corrected, the decision to exclude or retain the record should be documented."
+    },
+    {
+      "title": "6. Metadata and cleaning",
+      "body": "This part of the lecture explores missing data require a documented decision and descriptive checks help find quality problems. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nMissing data require a documented decision (original slide 12).\n• Missingness may occur because a field was not asked, not known, not applicable, or not entered.\n• Removing records can reduce the sample and may introduce bias.\n• A coded value for missing data should not be mistaken for a real measurement.\n• Imputation replaces a missing value using a defined rule, such as a median or another model-based estimate.\n• The chosen approach and its possible effect on results should be reported.\n\nDescriptive checks help find quality problems (original slide 13).\n• Counts and percentages can reveal unexpected categories or large amounts of missing data.\n• Means, medians, ranges, and distributions can reveal implausible continuous values.\n• Crosstabs compare categories and can identify inconsistent combinations.\n• A review of merged data should check new fields, derived values, timeframes, and changing definitions.\n• Analysts should ask whether counts, sums, and averages make sense in the clinical setting."
+    },
+    {
+      "title": "7. Missingness and descriptive checks",
+      "body": "This part of the lecture explores visualization helps users see patterns and choose a chart that fits the question. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nVisualization helps users see patterns (original slide 14).\n• A visualization can show the shape of data, trends, skew, outliers, and missing information.\n• Charts can make comparisons easier than a long list of numbers.\n• A visualization should answer a defined question rather than decorate the data.\n• Labels, units, timeframes, denominators, and sources help users interpret the display.\n• The same data can support different conclusions when the scale or grouping is changed.\n\nChoose a chart that fits the question (original slide 15).\n• Use a bar chart to compare categories or groups.\n• Use a line chart to show change over time.\n• Use a histogram to show the distribution of a numeric variable.\n• Use a table when exact values or several related fields must be read together.\n• Use a text summary when one clear sentence communicates the result better than a graphic."
+    },
+    {
+      "title": "8. Exploratory visualization",
+      "body": "This part of the lecture explores clear visuals avoid distortion and tables should stand on their own. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nClear visuals avoid distortion (original slide 16).\n• The visual size of a number or percentage should be proportional to the quantity represented.\n• Axes should be labeled clearly and scaled honestly.\n• Abbreviations should be explained when they may confuse the audience.\n• Color should support meaning and remain understandable when printed or viewed by people with color- vision differences.\n• Text, capitalization, and font size should make the chart easy to read.\n\nTables should stand on their own (original slide 17).\n• A table should be a logical unit that a reader can understand without searching elsewhere.\n• The title, row headings, column headings, units, and timeframe should be understandable.\n• The source of the data should be identified.\n• Blank cells should be distinguished from zero, not applicable, or missing values.\n• Consistent formatting helps readers compare cells without confusion."
+    },
+    {
+      "title": "9. Choosing appropriate visual displays",
+      "body": "This part of the lecture explores exploratory analysis checks whether the story makes sense and dashboards connect information to action. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nExploratory analysis checks whether the story makes sense (original slide 18).\n• Exploratory data analysis combines descriptive statistics, relationships, and visualization.\n• It helps analysts understand the data before applying more formal methods.\n• After merging data, review new variables, derived values, timeframes, and values that may change over time.\n• Check whether the analysis is correct and whether the outputs are plausible.\n• Exploration can reveal questions that require better data or a revised analysis plan.\n\nDashboards connect information to action (original slide 19).\n• A dashboard brings selected measures together so users can monitor a situation.\n• A useful dashboard shows the right information to the right people in a form they can understand.\n• Users need definitions, timeframes, comparison points, and alerts that support a real workflow.\n• Too many measures, unclear scales, or low-quality data can distract or mislead.\n• A dashboard should lead to a question, review, or action—not replace thinking."
+    },
+    {
+      "title": "10. Clear charts and standalone tables",
+      "body": "This part of the lecture explores decision support uses information at the right moment and big data increases both opportunity and responsibility. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nDecision support uses information at the right moment (original slide 20).\n• Clinical decision support provides patient-specific or situation-specific information to support a healthcare decision.\n• Examples include medication warnings, preventive-care reminders, order guidance, and prompts for missing information.\n• The five rights are the right information, person, format, channel, and time.\n• Decision support works better when data are accurate, relevant, and integrated into workflow.\n• Users must interpret the information and decide what action is appropriate.\n\nBig data increases both opportunity and responsibility (original slide 21).\n• Big data is often described by high volume, high velocity, and high variety.\n• Healthcare data may combine records, claims, devices, registries, images, and other sources.\n• More data do not automatically mean better evidence.\n• Different sources may use different definitions, populations, timeframes, and quality controls.\n• Large-scale analysis requires careful governance, documentation, privacy protection, and validation."
+    },
+    {
+      "title": "11. Dashboards and decision support",
+      "body": "This part of the lecture explores key terms to know and study questions. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nKey terms to know (original slide 22).\n• Data quality: how well data fit their intended use.\n• Accuracy: whether a value correctly represents what it describes.\n• Completeness: whether required information is present.\n• Consistency: whether comparable data use compatible definitions and formats.\n• Timeliness: whether information is available and current when needed.\n• Visualization: a purposeful display that helps users interpret data.\n\nStudy questions (original slide 23).\n• What is the difference between data and information?\n• Distinguish descriptive, diagnostic, predictive, and prescriptive analytics.\n• What are the main steps in a healthcare analytics workflow?\n• Why do accuracy, completeness, consistency, and timeliness matter?\n• Compare structured and unstructured data, including one strength and one limitation of each.\n• How can a visualization or dashboard help a healthcare user make a decision?\n• What are the five rights of clinical decision support?"
+    },
+    {
+      "title": "12. Big data and integrated review",
+      "body": "This part of the lecture explores final summary. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nFinal summary (original slide 24).\n• Healthcare analytics turns data into information that can support care, operations, quality, and planning.\n• The four analytics types answer different questions: what happened, why, what may happen, and what action may help.\n• Data quality and metadata determine whether an analysis is meaningful and trustworthy.\n• Clear visualizations and dashboards help users see patterns and connect information to decisions.\n• Decision support is most useful when it is accurate, timely, understandable, and reviewed by responsible professionals."
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "matching",
+      "feedback": "",
+      "title": "Match the concepts to their purposes",
+      "prompt": "Match each term with its meaning from the lecture.",
+      "conceptIds": [],
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Data quality",
+          "right": "The degree to which data are fit for their intended purpose.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Accuracy",
+          "right": "A recorded value correctly represents the patient, event, measurement or condition.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Completeness",
+          "right": "Required information is present for the intended use.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Consistency",
+          "right": "Comparable data use compatible definitions, categories, formats and units.",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "Comparable data use compatible definitions, categories, formats and units.",
+        "Required information is present for the intended use.",
+        "A recorded value correctly represents the patient, event, measurement or condition.",
+        "The degree to which data are fit for their intended purpose."
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "matching",
+      "feedback": "",
+      "title": "Match the concepts to their purposes",
+      "prompt": "Match each term with its meaning from the lecture.",
+      "conceptIds": [],
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Structured data",
+          "right": "Data in defined fields and controlled formats, suitable for querying, counts and comparisons.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Unstructured data",
+          "right": "Narrative notes, images, audio and free text without a simple fixed field structure.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Natural language processing",
+          "right": "Methods that make human-language data usable by computers, while requiring care with negation, timing and uncertainty.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Metadata",
+          "right": "Information about information, such as definitions, units, sources, dates, codes and versions.",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "Information about information, such as definitions, units, sources, dates, codes and versions.",
+        "Methods that make human-language data usable by computers, while requiring care with negation, timing and uncertainty.",
+        "Narrative notes, images, audio and free text without a simple fixed field structure.",
+        "Data in defined fields and controlled formats, suitable for querying, counts and comparisons."
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "classification",
+      "feedback": "",
+      "title": "Classify the examples",
+      "prompt": "Identify the most appropriate category for each example.",
+      "conceptIds": [],
+      "categories": [
+        "Accuracy",
+        "Completeness",
+        "Consistency",
+        "Timeliness"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Incorrect recorded measurement",
+          "answer": "Accuracy",
+          "feedback": ""
+        },
+        {
+          "id": "item-2",
+          "text": "Missing allergy documentation",
+          "answer": "Completeness",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "Different units across departments",
+          "answer": "Consistency",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "Delayed result for an urgent decision",
+          "answer": "Timeliness",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "comparison",
+      "feedback": "",
+      "title": "Compare Data quality and Accuracy",
+      "prompt": "Explain how these concepts differ and why the distinction matters.",
+      "conceptIds": [],
+      "items": [
+        {
+          "label": "Data quality",
+          "detail": "The degree to which data are fit for their intended purpose."
+        },
+        {
+          "label": "Accuracy",
+          "detail": "A recorded value correctly represents the patient, event, measurement or condition."
+        }
+      ],
+      "answer": "Data quality: The degree to which data are fit for their intended purpose. Accuracy: A recorded value correctly represents the patient, event, measurement or condition."
+    },
+    {
+      "id": "activity-5",
+      "type": "comparison",
+      "feedback": "",
+      "title": "Compare Completeness and Consistency",
+      "prompt": "Explain how these concepts differ and why the distinction matters.",
+      "conceptIds": [],
+      "items": [
+        {
+          "label": "Completeness",
+          "detail": "Required information is present for the intended use."
+        },
+        {
+          "label": "Consistency",
+          "detail": "Comparable data use compatible definitions, categories, formats and units."
+        }
+      ],
+      "answer": "Completeness: Required information is present for the intended use. Consistency: Comparable data use compatible definitions, categories, formats and units."
+    },
+    {
+      "id": "activity-6",
+      "type": "ordering",
+      "feedback": "",
+      "title": "Apply the lesson as a workflow",
+      "prompt": "Put the steps in a logical sequence.",
+      "conceptIds": [],
+      "items": [
+        {
+          "id": "step-1",
+          "text": "Define the question and the data's intended use.",
+          "order": 0
+        },
+        {
+          "id": "step-2",
+          "text": "Review definitions, data sources, units and coding.",
+          "order": 1
+        },
+        {
+          "id": "step-3",
+          "text": "Check missing data, impossible values and inconsistent entries.",
+          "order": 2
+        },
+        {
+          "id": "step-4",
+          "text": "Document cleaning choices and choose an appropriate visual representation.",
+          "order": 3
+        },
+        {
+          "id": "step-5",
+          "text": "Interpret the result in the workflow with definitions, timeframes and limitations.",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "activity-7",
+      "type": "scenario",
+      "feedback": "",
+      "title": "Decision scenario",
+      "prompt": "An alert appears after a medication decision is already made. Which right is missing?",
+      "conceptIds": [],
+      "options": [
+        "Right time",
+        "Right format",
+        "Right person",
+        "Right information"
+      ],
+      "answerIndex": 0,
+      "debrief": "Decision support should arrive while it can inform the relevant task."
+    },
+    {
+      "id": "activity-8",
+      "type": "scenario",
+      "feedback": "",
+      "title": "Decision scenario",
+      "prompt": "A hospital has many absent laboratory values. What is the responsible approach?",
+      "conceptIds": [],
+      "options": [
+        "Review the cause and document how missingness is handled.",
+        "Code all missing readings as zero.",
+        "Remove all records silently.",
+        "Assume there can be no bias from missingness."
+      ],
+      "answerIndex": 0,
+      "debrief": "Missing values may have different causes, and exclusion or imputation can affect findings."
+    },
+    {
+      "id": "activity-9",
+      "type": "retrieval",
+      "feedback": "",
+      "title": "Explain Data quality",
+      "prompt": "In your own words, define Data quality and explain why it matters.",
+      "conceptIds": [],
+      "answer": "The degree to which data are fit for their intended purpose."
+    },
+    {
+      "id": "activity-10",
+      "type": "retrieval",
+      "feedback": "",
+      "title": "Explain Accuracy",
+      "prompt": "In your own words, define Accuracy and explain why it matters.",
+      "conceptIds": [],
+      "answer": "A recorded value correctly represents the patient, event, measurement or condition."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "front": "Explain Data quality.",
+      "back": "The degree to which data are fit for their intended purpose.",
+      "conceptIds": [
+        "concept.data_quality"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "front": "Explain Accuracy.",
+      "back": "A recorded value correctly represents the patient, event, measurement or condition.",
+      "conceptIds": [
+        "concept.accuracy"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "front": "Explain Completeness.",
+      "back": "Required information is present for the intended use.",
+      "conceptIds": [
+        "concept.completeness"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "front": "Explain Consistency.",
+      "back": "Comparable data use compatible definitions, categories, formats and units.",
+      "conceptIds": [
+        "concept.consistency"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "front": "Explain Timeliness.",
+      "back": "Data are current and available when needed.",
+      "conceptIds": [
+        "concept.timeliness"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "front": "Explain Structured data.",
+      "back": "Data in defined fields and controlled formats, suitable for querying, counts and comparisons.",
+      "conceptIds": [
+        "concept.structured_data"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "front": "Explain Unstructured data.",
+      "back": "Narrative notes, images, audio and free text without a simple fixed field structure.",
+      "conceptIds": [
+        "concept.unstructured_data"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "front": "Explain Natural language processing.",
+      "back": "Methods that make human-language data usable by computers, while requiring care with negation, timing and uncertainty.",
+      "conceptIds": [
+        "concept.natural_language_processing"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "front": "Explain Metadata.",
+      "back": "Information about information, such as definitions, units, sources, dates, codes and versions.",
+      "conceptIds": [
+        "concept.metadata"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "front": "Explain Data cleaning.",
+      "back": "Checking for impossible, duplicated, inconsistent or incorrectly coded values.",
+      "conceptIds": [
+        "concept.data_cleaning"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "front": "Explain Missing data.",
+      "back": "Data that are not asked, known, applicable or entered.",
+      "conceptIds": [
+        "concept.missing_data"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "front": "Explain Imputation.",
+      "back": "Replacing a missing value using a defined and documented method.",
+      "conceptIds": [
+        "concept.imputation"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What is data quality?",
+      "options": [
+        "The number of columns in a spreadsheet.",
+        "Whether data are fit for their intended use.",
+        "The size of a dashboard.",
+        "The volume of stored images."
+      ],
+      "answerIndex": 1,
+      "rationale": "Quality describes suitability and trustworthiness for a purpose.",
+      "conceptIds": []
+    },
+    {
+      "id": "q2",
+      "question": "What does accuracy measure?",
+      "options": [
+        "Whether a recorded value represents the event correctly.",
+        "Whether all required fields exist.",
+        "Whether a result is recent.",
+        "Whether two systems use the same format."
+      ],
+      "answerIndex": 0,
+      "rationale": "Accuracy concerns correctness.",
+      "conceptIds": []
+    },
+    {
+      "id": "q3",
+      "question": "What does completeness measure?",
+      "options": [
+        "Whether values are current.",
+        "Whether two codes use identical definitions.",
+        "Whether a measurement is true.",
+        "Whether required information is present."
+      ],
+      "answerIndex": 3,
+      "rationale": "Completeness concerns presence of required data.",
+      "conceptIds": []
+    },
+    {
+      "id": "q4",
+      "question": "What does consistency address?",
+      "options": [
+        "Whether data arrive in time.",
+        "Whether an individual reading is correct.",
+        "Compatible definitions, categories and units across comparable records.",
+        "How many users view a report."
+      ],
+      "answerIndex": 2,
+      "rationale": "Consistency makes comparisons more reliable.",
+      "conceptIds": []
+    },
+    {
+      "id": "q5",
+      "question": "What does metadata describe?",
+      "options": [
+        "A guarantee that all values are accurate.",
+        "Definitions, units, source, date, coding system and version.",
+        "A prescriptive recommendation.",
+        "An automatic data-cleaning algorithm."
+      ],
+      "answerIndex": 1,
+      "rationale": "Metadata help explain how to interpret and use recorded data.",
+      "conceptIds": []
+    },
+    {
+      "id": "q6",
+      "question": "How should missing data be handled?",
+      "options": [
+        "Investigate and document their cause and handling approach.",
+        "Always substitute zero.",
+        "Remove every incomplete patient record.",
+        "Assume missing values are negative findings."
+      ],
+      "answerIndex": 0,
+      "rationale": "Deleting or imputing records can affect results and should be documented.",
+      "conceptIds": []
+    },
+    {
+      "id": "q7",
+      "question": "Which chart is best for showing change over time?",
+      "options": [
+        "Histogram",
+        "A table of only patient IDs",
+        "A pie chart without category labels",
+        "Line chart"
+      ],
+      "answerIndex": 3,
+      "rationale": "Line charts show trends through time.",
+      "conceptIds": []
+    },
+    {
+      "id": "q8",
+      "question": "Which display shows the distribution of a numeric variable?",
+      "options": [
+        "Line chart",
+        "Text-only patient name list",
+        "Histogram",
+        "A decorative symbol"
+      ],
+      "answerIndex": 2,
+      "rationale": "A histogram shows the frequency distribution of numeric measurements.",
+      "conceptIds": []
+    },
+    {
+      "id": "q9",
+      "question": "Which is one of the five rights of clinical decision support?",
+      "options": [
+        "Show every alert to every user.",
+        "Deliver the right information to the right person at the right time.",
+        "Delay an alert until after the decision.",
+        "Remove clinical context for simplicity."
+      ],
+      "answerIndex": 1,
+      "rationale": "The rights cover information, person, format, channel and time.",
+      "conceptIds": []
+    },
+    {
+      "id": "q10",
+      "question": "What makes a dashboard useful?",
+      "options": [
+        "Relevant, well-defined measures shown in support of a real workflow.",
+        "Every available measure without labels.",
+        "Using arbitrary axes to emphasize small changes.",
+        "Replacing professional judgment."
+      ],
+      "answerIndex": 0,
+      "rationale": "A useful dashboard connects comprehensible, reliable measures to appropriate action.",
+      "conceptIds": []
+    }
+  ],
+  "review": null,
+  "sourceManifest": [
+    {
+      "file_name": "Week 9 HI.pdf",
+      "source_refs": [
+        "Week 9 HI.pdf [Pages 1-24]"
+      ]
+    }
+  ],
+  "validationReport": {
+    "source_fidelity": "All retained teaching points are from the supplied PDF.",
+    "source_page_count": 24,
+    "original_lecture_page_refs": true,
+    "interactive_activity_schema_valid": true,
+    "knowledge_check_schema_valid": true,
+    "flashcard_schema_valid": true,
+    "not_review_week": true
+  },
+  "warnings": []
+}
