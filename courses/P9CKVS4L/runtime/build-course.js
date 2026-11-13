@@ -1,6 +1,10 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { renderCourseHtml } from './renderer.js';
+import { execFileSync } from 'node:child_process';
+
+// Prevent publishing this course when any question interaction or content audit fails.
+execFileSync(process.execPath, ['--test', 'tests/his404-question-behavior.test.js'], { stdio: 'inherit' });
 
 const arg = process.argv.find((x) => x.startsWith('--course='));
 const courseId = process.env.COURSE_ID || (arg ? arg.split('=')[1] : null);
