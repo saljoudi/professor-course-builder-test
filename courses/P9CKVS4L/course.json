@@ -27,9 +27,12 @@
     "week-02",
     "week-03",
     "week-04",
-    "week-05"
+    "week-05",
+    "week-06",
+    "week-08",
+    "week-09"
   ],
-  "ontologyVersion": "1.0.5",
+  "ontologyVersion": "1.0.8",
   "privacy": {
     "studentLogin": false,
     "applicationDatabase": false,
