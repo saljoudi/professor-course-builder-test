@@ -1,0 +1,791 @@
+{
+  "id": "week-06",
+  "order": 6,
+  "title": "Week 6: Healthcare Data Standards",
+  "overview": "Understand how shared standards preserve clinical meaning across health systems. Compare classifications, terminologies and exchange standards; identify how ICD, SNOMED CT, LOINC, RxNorm, HL7 and FHIR work; and practice interpreting mapping, context, versioning and quality challenges.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Distinguish classifications, clinical terminologies, code sets and exchange standards.",
+    "Describe the purposes of ICD, SNOMED CT, LOINC, RxNorm, HL7 and FHIR.",
+    "Explain why semantic interoperability requires agreed meaning and clinical context.",
+    "Describe how mapping links local and shared codes, including risks.",
+    "Explain standards selection, governance, validation and maintenance."
+  ],
+  "concepts": [
+    {
+      "id": "concept.healthcare_standard",
+      "name": "Healthcare standard",
+      "definition": "An agreed way to represent, organize or exchange healthcare information to reduce ambiguity.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.vocabulary",
+      "name": "Vocabulary",
+      "definition": "A set of words or phrases with defined meanings.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.clinical_terminology",
+      "name": "Clinical terminology",
+      "definition": "A representation of detailed clinical concepts and their relationships for documentation and care.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.classification",
+      "name": "Classification",
+      "definition": "A method of grouping conditions into categories for statistics, reporting or reimbursement.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.code_set",
+      "name": "Code set",
+      "definition": "Standardized identifiers used to store or transmit defined information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.exchange_standard",
+      "name": "Exchange standard",
+      "definition": "Agreed structures for packaging and communicating messages, documents or healthcare resources.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.icd",
+      "name": "ICD",
+      "definition": "The International Classification of Diseases groups health conditions for reporting, statistics, reimbursement and research.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.snomed_ct",
+      "name": "SNOMED CT",
+      "definition": "A detailed clinical terminology of health concepts including findings, symptoms and conditions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.loinc",
+      "name": "LOINC",
+      "definition": "A standard for naming and identifying laboratory tests and many clinical observations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.rxnorm",
+      "name": "RxNorm",
+      "definition": "A standardized terminology for clinical drugs, including ingredients, strengths and dose forms.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.cpt_and_hcpcs",
+      "name": "CPT and HCPCS",
+      "definition": "US procedure and service codes used for administrative reporting, claims and reimbursement.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.hl7",
+      "name": "HL7",
+      "definition": "A family of healthcare information exchange standards, as well as the organization that maintains them.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.fhir",
+      "name": "FHIR",
+      "definition": "An HL7 exchange standard based on reusable resources such as Patient, Observation, Medication and Encounter.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.fhir_resource",
+      "name": "FHIR resource",
+      "definition": "A reusable structured representation of a healthcare concept for information exchange.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.semantic_interoperability",
+      "name": "Semantic interoperability",
+      "definition": "The receiver can interpret exchanged information with the intended clinical meaning.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.code_mapping",
+      "name": "Code mapping",
+      "definition": "Connecting local identifiers to shared codes, with review when meanings do not match exactly.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.clinical_context",
+      "name": "Clinical context",
+      "definition": "Relevant attributes such as unit, date, method, status and patient identity needed to interpret information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.implementation_guide",
+      "name": "Implementation guide",
+      "definition": "Additional rules specifying how exchange standards should be applied in a defined use case.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.standard_version",
+      "name": "Standard version",
+      "definition": "A specified release of a standard which may affect compatibility and interpretation.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    },
+    {
+      "id": "concept.data_governance",
+      "name": "Data governance",
+      "definition": "The responsibilities and rules governing accurate, secure and appropriate information use.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-06",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-06"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Standards and shared meaning",
+      "body": "This part of the lecture explores shared standards make data understandable and different standards solve different problems. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nShared standards make data understandable (original slide 2).\n• Healthcare contains many professions, organizations, systems, concepts, and local ways of recording information.\n• A standard provides an agreed way to represent, organize, or exchange information.\n• Standards reduce ambiguity when data move between people and systems.\n• They support consistent documentation, reporting, analysis, reimbursement, and decision support.\n• A standard does not guarantee good data; users must still document and apply it correctly.\n\nDifferent standards solve different problems (original slide 3).\n• A vocabulary provides words or phrases and their meanings.\n• A terminology represents concepts within a clinical or technical domain.\n• A classification groups related conditions or activities into categories.\n• A code set assigns identifiers that systems can store and transmit.\n• An exchange standard defines how information is structured and communicated between systems."
+    },
+    {
+      "title": "2. Vocabulary, classification and terminology",
+      "body": "This part of the lecture explores classification and terminology are not the same and icd classifies diseases and health conditions. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nClassification and terminology are not the same (original slide 4).\n• A classification organizes information into categories for reporting, statistics, reimbursement, or comparison.\n• A clinical terminology represents detailed concepts used in documentation and care.\n• Classifications often reduce detail so cases can be counted within consistent groups.\n• Terminologies often preserve greater clinical detail and relationships between concepts.\n• Mappings may connect a detailed terminology to a classification for secondary uses.\n\nICD classifies diseases and health conditions (original slide 5).\n• The International Classification of Diseases, or ICD, organizes diseases and health conditions into standardized categories.\n• It supports mortality and morbidity statistics, reporting, reimbursement, quality management, and research.\n• Health-record information is assigned to ICD categories according to applicable coding rules.\n• Aggregated ICD data help organizations and countries compare trends over time.\n• Students need to understand ICD's purpose, not memorize individual codes in this course."
+    },
+    {
+      "title": "3. Why ICD is used",
+      "body": "This part of the lecture explores icd data support many secondary uses and icd variants depend on purpose and setting. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nICD data support many secondary uses (original slide 6).\n• Public-health agencies use classified data to monitor diseases and causes of death.\n• Healthcare organizations use it for reporting, quality review, planning, and reimbursement.\n• Researchers use classified data to compare patient groups and health outcomes.\n• More specific classifications require more complete and precise clinical documentation.\n• Changes between ICD versions may require mapping and careful interpretation of historical data.\n\nICD variants depend on purpose and setting (original slide 7).\n• ICD is maintained internationally, while countries may adopt modifications or implementation rules.\n• Clinical modifications can provide additional detail for diagnosis reporting.\n• Some procedure classifications are designed for specific settings or national requirements.\n• The exact version and rules used should match the jurisdiction and reporting purpose.\n• The central idea remains consistent classification of health conditions for comparison and use."
+    },
+    {
+      "title": "4. ICD variants and clinical detail",
+      "body": "This part of the lecture explores snomed ct represents detailed clinical concepts and loinc standardizes observations and tests. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nSNOMED CT represents detailed clinical concepts (original slide 8).\n• SNOMED CT is a comprehensive clinical terminology used to represent health concepts in structured form.\n• It includes concepts for conditions, findings, symptoms, anatomy, and many other clinical ideas.\n• Concept identifiers help computers distinguish meaning even when users employ different words or synonyms.\n• Relationships between concepts support organized retrieval and clinical use.\n• SNOMED CT is suited to detailed clinical documentation rather than broad statistical grouping alone.\n\nLOINC standardizes observations and tests (original slide 9).\n• LOINC provides standardized identifiers and names for laboratory tests and many clinical observations.\n• A LOINC concept can describe what was measured, the sample, timing, scale, and sometimes the method.\n• It helps a receiving system recognize that differently named local tests represent the same observation.\n• LOINC supports exchange between laboratory information systems and EHRs.\n• The result value, unit, reference range, and status must still accompany the observation correctly."
+    },
+    {
+      "title": "5. SNOMED CT and detailed concepts",
+      "body": "This part of the lecture explores rxnorm standardizes clinical drug names and other procedure code sets serve specific uses. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nRxNorm standardizes clinical drug names (original slide 10).\n• RxNorm is a standardized terminology for clinical drugs.\n• It links drug concepts with ingredients, strengths, dose forms, and brand variations.\n• Standard drug identifiers help systems compare medication information from different sources.\n• RxNorm can support e-prescribing, pharmacy systems, medication reconciliation, and interaction checking.\n• It standardizes the drug concept but does not replace clinical judgment or complete prescribing information.\n\nOther procedure code sets serve specific uses (original slide 11).\n• Procedure code sets describe services, procedures, supplies, or products for defined purposes.\n• Examples in the source material include CPT and HCPCS in the United States.\n• Their primary use is often administrative reporting, claims, and reimbursement.\n• National requirements and code sets differ, so students should focus on the general role of procedure classification.\n• A code set designed for payment may not provide all the clinical detail needed for patient care."
+    },
+    {
+      "title": "6. LOINC, RxNorm and care data",
+      "body": "This part of the lecture explores the main standards have distinct roles and exchange standards organize communication. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nThe main standards have distinct roles (original slide 12).\n• ICD: classifies diseases and health conditions for reporting and secondary use.\n• SNOMED CT: represents detailed clinical concepts and relationships.\n• LOINC: identifies laboratory tests and clinical observations.\n• RxNorm: identifies standardized clinical drug concepts.\n• HL7 and FHIR: support the structure and exchange of health information between systems.\n\nExchange standards organize communication (original slide 13).\n• Terminology standards help preserve the meaning of individual data elements.\n• Exchange standards help package those elements into a message, document, or resource.\n• They define expected structures so sending and receiving systems can process information consistently.\n• Implementation guides may further specify which elements are required for a particular use case.\n• Both sides must implement and test the agreed rules for exchange to work reliably."
+    },
+    {
+      "title": "7. Procedure codes and standards together",
+      "body": "This part of the lecture explores hl7 supports healthcare information exchange and fhir uses reusable healthcare resources. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nHL7 supports healthcare information exchange (original slide 14).\n• Health Level Seven, or HL7, refers to a family of standards for exchanging electronic health information.\n• HL7 approaches can represent clinical observations, orders, results, documents, and other healthcare information.\n• Shared models and structures help systems interpret exchanged content consistently.\n• Different HL7 standards and versions may coexist within healthcare organizations.\n• HL7 is a standards organization and standards family, not a single software product.\n\nFHIR uses reusable healthcare resources (original slide 15).\n• Fast Healthcare Interoperability Resources, or FHIR, is an HL7 standard for exchanging health information.\n• FHIR represents information as reusable resources, such as a patient, observation, medication, or encounter.\n• Resources can be combined to support specific healthcare exchange needs.\n• FHIR is designed to work with web, mobile, cloud, and EHR environments.\n• In this course, students need the concept and purpose rather than technical API implementation."
+    },
+    {
+      "title": "8. Exchange structure and HL7",
+      "body": "This part of the lecture explores fhir does not replace every older standard and semantic interoperability preserves meaning. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nFHIR does not replace every older standard (original slide 16).\n• Healthcare systems contain many existing interfaces, documents, messages, and workflows.\n• Organizations may use FHIR alongside earlier HL7 approaches and other standards.\n• Migration depends on system capability, use case, cost, policy, and partner readiness.\n• A modern exchange format still requires standardized meaning, accurate data, security, and governance.\n• Interoperability usually develops through gradual improvement rather than one complete replacement.\n\nSemantic interoperability preserves meaning (original slide 17).\n• Semantic interoperability means that the receiving system can interpret exchanged information with the intended meaning.\n• A shared code can identify the same diagnosis, test, observation, or medicine across systems.\n• The surrounding context—such as unit, date, status, subject, and method—also matters.\n• Terminologies and classifications support meaning, while exchange standards carry that meaning between systems.\n• Human review remains important when information is ambiguous, incomplete, or mapped from local data."
+    },
+    {
+      "title": "9. FHIR and existing systems",
+      "body": "This part of the lecture explores mapping connects local and shared codes and standards work together in patient care. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nMapping connects local and shared codes (original slide 18).\n• Organizations often begin with local names and codes created for their own workflows.\n• Mapping links a local code to a shared terminology or classification.\n• Mappings can support exchange, reporting, analysis, and transition between classification versions.\n• One local concept may not always match one standard concept exactly.\n• Mappings require documentation, validation, version control, maintenance, and expert review.\n\nStandards work together in patient care (original slide 19).\n• A clinician records a detailed problem using a clinical terminology such as SNOMED CT.\n• A laboratory identifies an ordered test or result using LOINC.\n• Medication information can use a standardized drug terminology such as RxNorm.\n• Relevant conditions may be classified with ICD for reporting and secondary use.\n• HL7 or FHIR can carry the structured information between the EHR, laboratory, pharmacy, and other systems."
+    },
+    {
+      "title": "10. Semantic interoperability and mapping",
+      "body": "This part of the lecture explores standards improve use but do not remove risk and choose a standard according to the task. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nStandards improve use but do not remove risk (original slide 20).\n• Shared standards support consistency, comparison, automation, reporting, and exchange.\n• Incorrect code selection can transmit a precise but wrong meaning.\n• Outdated versions and inconsistent implementation can create mismatches.\n• Missing context or poor documentation can reduce the usefulness of standardized data.\n• Governance, training, testing, quality review, and maintenance are necessary throughout the data lifecycle.\n\nChoose a standard according to the task (original slide 21).\n• Begin with the information need: documentation, exchange, reporting, reimbursement, analysis, or decision support.\n• Select a terminology or classification that represents the required clinical meaning and level of detail.\n• Select an exchange standard and implementation rules that both systems support.\n• Confirm required context, versions, mappings, security, consent, and data-quality checks.\n• Test the complete workflow with sending users, receiving users, and realistic patient information."
+    },
+    {
+      "title": "11. Standards in real care settings",
+      "body": "This part of the lecture explores key terms to know and study questions. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nKey terms to know (original slide 22).\n• HIE: electronic sharing of health information among authorized participants.\n• HIO: an organization that facilitates or manages health information exchange.\n• Interoperability: the ability of systems to exchange and meaningfully use information.\n• Classification: a system that groups related concepts into categories.\n• Clinical terminology: a structured set of detailed clinical concepts.\n• Semantic interoperability: preservation of intended meaning across systems.\n\nStudy questions (original slide 23).\n• What is the difference between HIE and an HIO?\n• Why is connectivity alone insufficient for interoperability?\n• Give two benefits and two barriers associated with HIE.\n• Compare centralized and federated exchange.\n• Distinguish a classification from a clinical terminology.\n• State the main purpose of ICD, SNOMED CT, LOINC, RxNorm, HL7, and FHIR.\n• Explain how several standards could work together during one patient encounter."
+    },
+    {
+      "title": "12. Review, key terms and learning checks",
+      "body": "This part of the lecture explores final summary. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nFinal summary (original slide 24).\n• HIE allows relevant health information to follow patients across authorized care settings.\n• Interoperability requires connection, shared structure, shared meaning, usable workflow, and trust.\n• ICD classifies conditions; SNOMED CT represents clinical concepts; LOINC identifies observations; RxNorm identifies drugs.\n• HL7 and FHIR support structured electronic exchange between healthcare systems.\n• Standards create a common language, but accurate documentation, governance, privacy, quality, and human judgment remain essential."
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "matching",
+      "feedback": "",
+      "title": "Match the concepts to their purposes",
+      "prompt": "Match each term with its meaning from the lecture.",
+      "conceptIds": [],
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Healthcare standard",
+          "right": "An agreed way to represent, organize or exchange healthcare information to reduce ambiguity.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Vocabulary",
+          "right": "A set of words or phrases with defined meanings.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Clinical terminology",
+          "right": "A representation of detailed clinical concepts and their relationships for documentation and care.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Classification",
+          "right": "A method of grouping conditions into categories for statistics, reporting or reimbursement.",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "A method of grouping conditions into categories for statistics, reporting or reimbursement.",
+        "A representation of detailed clinical concepts and their relationships for documentation and care.",
+        "A set of words or phrases with defined meanings.",
+        "An agreed way to represent, organize or exchange healthcare information to reduce ambiguity."
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "matching",
+      "feedback": "",
+      "title": "Match the concepts to their purposes",
+      "prompt": "Match each term with its meaning from the lecture.",
+      "conceptIds": [],
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Exchange standard",
+          "right": "Agreed structures for packaging and communicating messages, documents or healthcare resources.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "ICD",
+          "right": "The International Classification of Diseases groups health conditions for reporting, statistics, reimbursement and research.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "SNOMED CT",
+          "right": "A detailed clinical terminology of health concepts including findings, symptoms and conditions.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "LOINC",
+          "right": "A standard for naming and identifying laboratory tests and many clinical observations.",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "A standard for naming and identifying laboratory tests and many clinical observations.",
+        "A detailed clinical terminology of health concepts including findings, symptoms and conditions.",
+        "The International Classification of Diseases groups health conditions for reporting, statistics, reimbursement and research.",
+        "Agreed structures for packaging and communicating messages, documents or healthcare resources."
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "classification",
+      "feedback": "",
+      "title": "Classify the examples",
+      "prompt": "Identify the most appropriate category for each example.",
+      "conceptIds": [],
+      "categories": [
+        "Classification",
+        "Terminology",
+        "Exchange"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "ICD",
+          "answer": "Classification",
+          "feedback": ""
+        },
+        {
+          "id": "item-2",
+          "text": "SNOMED CT",
+          "answer": "Terminology",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "FHIR",
+          "answer": "Exchange",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "LOINC",
+          "answer": "Terminology",
+          "feedback": ""
+        },
+        {
+          "id": "item-5",
+          "text": "HL7",
+          "answer": "Exchange",
+          "feedback": ""
+        },
+        {
+          "id": "item-6",
+          "text": "RxNorm",
+          "answer": "Terminology",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "comparison",
+      "feedback": "",
+      "title": "Compare Healthcare standard and Vocabulary",
+      "prompt": "Explain how these concepts differ and why the distinction matters.",
+      "conceptIds": [],
+      "items": [
+        {
+          "label": "Healthcare standard",
+          "detail": "An agreed way to represent, organize or exchange healthcare information to reduce ambiguity."
+        },
+        {
+          "label": "Vocabulary",
+          "detail": "A set of words or phrases with defined meanings."
+        }
+      ],
+      "answer": "Healthcare standard: An agreed way to represent, organize or exchange healthcare information to reduce ambiguity. Vocabulary: A set of words or phrases with defined meanings."
+    },
+    {
+      "id": "activity-5",
+      "type": "comparison",
+      "feedback": "",
+      "title": "Compare Clinical terminology and Classification",
+      "prompt": "Explain how these concepts differ and why the distinction matters.",
+      "conceptIds": [],
+      "items": [
+        {
+          "label": "Clinical terminology",
+          "detail": "A representation of detailed clinical concepts and their relationships for documentation and care."
+        },
+        {
+          "label": "Classification",
+          "detail": "A method of grouping conditions into categories for statistics, reporting or reimbursement."
+        }
+      ],
+      "answer": "Clinical terminology: A representation of detailed clinical concepts and their relationships for documentation and care. Classification: A method of grouping conditions into categories for statistics, reporting or reimbursement."
+    },
+    {
+      "id": "activity-6",
+      "type": "ordering",
+      "feedback": "",
+      "title": "Apply the lesson as a workflow",
+      "prompt": "Put the steps in a logical sequence.",
+      "conceptIds": [],
+      "items": [
+        {
+          "id": "step-1",
+          "text": "Define the documentation, reporting or exchange purpose.",
+          "order": 0
+        },
+        {
+          "id": "step-2",
+          "text": "Choose a standard matching the required meaning and level of detail.",
+          "order": 1
+        },
+        {
+          "id": "step-3",
+          "text": "Define mappings, versions and clinical context.",
+          "order": 2
+        },
+        {
+          "id": "step-4",
+          "text": "Test both sending and receiving implementations.",
+          "order": 3
+        },
+        {
+          "id": "step-5",
+          "text": "Monitor quality, governance and maintenance.",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "activity-7",
+      "type": "scenario",
+      "feedback": "",
+      "title": "Decision scenario",
+      "prompt": "The receiving EHR cannot interpret a lab test's local code. Which solution is best?",
+      "conceptIds": [],
+      "options": [
+        "Map to a validated LOINC concept with units, date and context.",
+        "Send only the test value.",
+        "Replace the test with an ICD code.",
+        "Ignore the receiving system."
+      ],
+      "answerIndex": 0,
+      "debrief": "LOINC identifies the observation, and contextual details make it interpretable."
+    },
+    {
+      "id": "activity-8",
+      "type": "scenario",
+      "feedback": "",
+      "title": "Decision scenario",
+      "prompt": "A clinical record needs detailed findings, while a reporting office needs grouped disease categories. Which approach is appropriate?",
+      "conceptIds": [],
+      "options": [
+        "Use detailed clinical terminology for documentation and ICD classification for reporting as appropriate.",
+        "Use FHIR as the only disease classification.",
+        "Remove all detail from the clinical record.",
+        "Avoid any mapping between the two purposes."
+      ],
+      "answerIndex": 0,
+      "debrief": "Detailed terminology and classification serve different tasks; careful mapping can connect them."
+    },
+    {
+      "id": "activity-9",
+      "type": "retrieval",
+      "feedback": "",
+      "title": "Explain Healthcare standard",
+      "prompt": "In your own words, define Healthcare standard and explain why it matters.",
+      "conceptIds": [],
+      "answer": "An agreed way to represent, organize or exchange healthcare information to reduce ambiguity."
+    },
+    {
+      "id": "activity-10",
+      "type": "retrieval",
+      "feedback": "",
+      "title": "Explain Vocabulary",
+      "prompt": "In your own words, define Vocabulary and explain why it matters.",
+      "conceptIds": [],
+      "answer": "A set of words or phrases with defined meanings."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "front": "Explain Healthcare standard.",
+      "back": "An agreed way to represent, organize or exchange healthcare information to reduce ambiguity.",
+      "conceptIds": [
+        "concept.healthcare_standard"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "front": "Explain Vocabulary.",
+      "back": "A set of words or phrases with defined meanings.",
+      "conceptIds": [
+        "concept.vocabulary"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "front": "Explain Clinical terminology.",
+      "back": "A representation of detailed clinical concepts and their relationships for documentation and care.",
+      "conceptIds": [
+        "concept.clinical_terminology"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "front": "Explain Classification.",
+      "back": "A method of grouping conditions into categories for statistics, reporting or reimbursement.",
+      "conceptIds": [
+        "concept.classification"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "front": "Explain Code set.",
+      "back": "Standardized identifiers used to store or transmit defined information.",
+      "conceptIds": [
+        "concept.code_set"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "front": "Explain Exchange standard.",
+      "back": "Agreed structures for packaging and communicating messages, documents or healthcare resources.",
+      "conceptIds": [
+        "concept.exchange_standard"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "front": "Explain ICD.",
+      "back": "The International Classification of Diseases groups health conditions for reporting, statistics, reimbursement and research.",
+      "conceptIds": [
+        "concept.icd"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "front": "Explain SNOMED CT.",
+      "back": "A detailed clinical terminology of health concepts including findings, symptoms and conditions.",
+      "conceptIds": [
+        "concept.snomed_ct"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "front": "Explain LOINC.",
+      "back": "A standard for naming and identifying laboratory tests and many clinical observations.",
+      "conceptIds": [
+        "concept.loinc"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "front": "Explain RxNorm.",
+      "back": "A standardized terminology for clinical drugs, including ingredients, strengths and dose forms.",
+      "conceptIds": [
+        "concept.rxnorm"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "front": "Explain CPT and HCPCS.",
+      "back": "US procedure and service codes used for administrative reporting, claims and reimbursement.",
+      "conceptIds": [
+        "concept.cpt_and_hcpcs"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "front": "Explain HL7.",
+      "back": "A family of healthcare information exchange standards, as well as the organization that maintains them.",
+      "conceptIds": [
+        "concept.hl7"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Which standard primarily classifies diseases for reporting?",
+      "options": [
+        "RxNorm",
+        "ICD",
+        "FHIR",
+        "LOINC"
+      ],
+      "answerIndex": 1,
+      "rationale": "ICD organizes health conditions into standardized categories for reporting and other secondary uses.",
+      "conceptIds": []
+    },
+    {
+      "id": "q2",
+      "question": "What is the main purpose of SNOMED CT?",
+      "options": [
+        "Represent detailed clinical concepts.",
+        "Transmit patient records using web resources.",
+        "Calculate disease reimbursement.",
+        "Replace medication information."
+      ],
+      "answerIndex": 0,
+      "rationale": "SNOMED CT represents detailed clinical concepts rather than broad statistical groupings alone.",
+      "conceptIds": []
+    },
+    {
+      "id": "q3",
+      "question": "Which standard identifies laboratory tests and observations?",
+      "options": [
+        "RxNorm",
+        "ICD",
+        "CPT",
+        "LOINC"
+      ],
+      "answerIndex": 3,
+      "rationale": "LOINC provides standardized identifiers for observations, while results also need units and context.",
+      "conceptIds": []
+    },
+    {
+      "id": "q4",
+      "question": "Which terminology describes standardized clinical drug concepts?",
+      "options": [
+        "ICD",
+        "HL7",
+        "RxNorm",
+        "FHIR"
+      ],
+      "answerIndex": 2,
+      "rationale": "RxNorm supports consistent clinical drug identification including ingredients and dose forms.",
+      "conceptIds": []
+    },
+    {
+      "id": "q5",
+      "question": "FHIR is best described as which of the following?",
+      "options": [
+        "A billing-only procedure classification.",
+        "An HL7 exchange standard using reusable resources.",
+        "A set of drug interaction scoring rules.",
+        "A laboratory result unit."
+      ],
+      "answerIndex": 1,
+      "rationale": "FHIR supports structured healthcare data exchange through resources.",
+      "conceptIds": []
+    },
+    {
+      "id": "q6",
+      "question": "How is a classification different from a clinical terminology?",
+      "options": [
+        "It groups concepts into categories for reporting.",
+        "It always contains more clinical detail.",
+        "It replaces every exchange protocol.",
+        "It is only a software application."
+      ],
+      "answerIndex": 0,
+      "rationale": "Clinical terminology usually preserves more detail; classifications support consistent grouping.",
+      "conceptIds": []
+    },
+    {
+      "id": "q7",
+      "question": "What is semantic interoperability?",
+      "options": [
+        "Two systems share an internet connection.",
+        "A scan can be transferred.",
+        "Every hospital uses the same interface.",
+        "Exchanged information retains intended meaning for the receiving system."
+      ],
+      "answerIndex": 3,
+      "rationale": "Shared meaning involves codes and relevant patient or observation context.",
+      "conceptIds": []
+    },
+    {
+      "id": "q8",
+      "question": "What is a central mapping risk?",
+      "options": [
+        "Shared standards never change.",
+        "All code conversions are perfectly reversible.",
+        "A local concept may not exactly match a standard concept.",
+        "Mapping makes documentation unnecessary."
+      ],
+      "answerIndex": 2,
+      "rationale": "Local-to-standard mappings need validation, maintenance and expert review.",
+      "conceptIds": []
+    },
+    {
+      "id": "q9",
+      "question": "Which statement about HL7 is correct?",
+      "options": [
+        "It is one commercial hospital software.",
+        "It is a family of healthcare exchange standards.",
+        "It is an international disease classification.",
+        "It is a pharmaceutical ingredient list."
+      ],
+      "answerIndex": 1,
+      "rationale": "HL7 describes a standards organization and standards family, not one software product.",
+      "conceptIds": []
+    },
+    {
+      "id": "q10",
+      "question": "Before using a new standard across systems, what is needed?",
+      "options": [
+        "Test implementation, clinical context, security and quality.",
+        "Assume correct codes always mean correct care.",
+        "Use the newest standard for every purpose.",
+        "Avoid checking receiving-system interpretation."
+      ],
+      "answerIndex": 0,
+      "rationale": "Standards require shared rules and testing with realistic workflows.",
+      "conceptIds": []
+    }
+  ],
+  "review": null,
+  "sourceManifest": [
+    {
+      "file_name": "Week 6 HI.pdf",
+      "source_refs": [
+        "Week 6 HI.pdf [Pages 1-24]"
+      ]
+    }
+  ],
+  "validationReport": {
+    "source_fidelity": "All retained teaching points are from the supplied PDF.",
+    "source_page_count": 24,
+    "original_lecture_page_refs": true,
+    "interactive_activity_schema_valid": true,
+    "knowledge_check_schema_valid": true,
+    "flashcard_schema_valid": true,
+    "not_review_week": true
+  },
+  "warnings": []
+}
