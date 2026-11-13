@@ -1,0 +1,798 @@
+{
+  "id": "week-08",
+  "order": 8,
+  "title": "Week 8: Healthcare Data Analytics",
+  "overview": "Understand how healthcare analytics transforms data into useful insight. Compare descriptive, diagnostic, predictive and prescriptive analytics; follow the workflow from defining a question to collecting, preparing, modeling and evaluating data; and interpret output with attention to fairness, limits and professional judgment.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain where healthcare data analytics supports care, quality, operations and planning.",
+    "Distinguish descriptive, diagnostic, predictive and prescriptive analytics.",
+    "Explain primary and secondary uses of health data.",
+    "Describe preprocessing, feature engineering, model types and evaluation.",
+    "Interpret model results with relevant population, fairness and clinical context."
+  ],
+  "concepts": [
+    {
+      "id": "concept.healthcare_analytics",
+      "name": "Healthcare analytics",
+      "definition": "Using data, information technology and analysis to gain insight and support healthcare decisions.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data",
+      "name": "Data",
+      "definition": "Facts, measurements, words, symbols, images or numbers.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.information",
+      "name": "Information",
+      "definition": "Data that have been processed and interpreted with context for a purpose.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.primary_use",
+      "name": "Primary use",
+      "definition": "Using data to support direct care for an individual patient.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.secondary_use",
+      "name": "Secondary use",
+      "definition": "Using data beyond the immediate encounter for research, quality improvement, public health or planning.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.descriptive_analytics",
+      "name": "Descriptive analytics",
+      "definition": "Summarizes what happened using observed data, counts, averages and charts.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.diagnostic_analytics",
+      "name": "Diagnostic analytics",
+      "definition": "Examines differences and relationships that might explain an observed pattern.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.predictive_analytics",
+      "name": "Predictive analytics",
+      "definition": "Estimates a future or unknown outcome using existing information.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.prescriptive_analytics",
+      "name": "Prescriptive analytics",
+      "definition": "Considers appropriate actions in response to an observed or predicted situation.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data_warehouse",
+      "name": "Data warehouse",
+      "definition": "Organizes information for reporting and analysis.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data_lake",
+      "name": "Data lake",
+      "definition": "Stores large quantities of varied data for later processing.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data_dictionary",
+      "name": "Data dictionary",
+      "definition": "Explains field names, definitions, units, valid values and collection methods.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.preprocessing",
+      "name": "Preprocessing",
+      "definition": "Preparing data by cleaning, addressing missingness, checking duplicates and normalizing formats.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.feature_engineering",
+      "name": "Feature engineering",
+      "definition": "Selecting, transforming or combining existing data elements for analysis.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.supervised_learning",
+      "name": "Supervised learning",
+      "definition": "Uses examples with known outcomes to predict or classify other cases.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.unsupervised_learning",
+      "name": "Unsupervised learning",
+      "definition": "Identifies patterns or groups without a predefined outcome.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.reinforcement_learning",
+      "name": "Reinforcement learning",
+      "definition": "Learns from feedback based on actions and their outcomes.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.classification_model",
+      "name": "Classification model",
+      "definition": "Assigns a category to observations.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.regression_model",
+      "name": "Regression model",
+      "definition": "Estimates a numerical value.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.clustering",
+      "name": "Clustering",
+      "definition": "Forms groups based on data patterns and similarity.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.model_evaluation",
+      "name": "Model evaluation",
+      "definition": "Checks usefulness using performance measures, calibration, fairness, usability and consequences of errors.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    },
+    {
+      "id": "concept.data_drift",
+      "name": "Data drift",
+      "definition": "Changes over time in data or practice that may affect model usefulness.",
+      "sourceEvidence": "explicit",
+      "introducedIn": "week-08",
+      "reviewedIn": [],
+      "moduleRefs": [
+        "week-08"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Introduction to healthcare analytics",
+      "body": "This part of the lecture explores learning outcomes and data analytics turns evidence into insight. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nLearning outcomes (original slide 2).\n• Explain what healthcare data analytics is and why it supports fact-based decisions.\n• Distinguish descriptive, diagnostic, predictive, and prescriptive analytics.\n• Describe the main steps from data collection through preprocessing, modeling, and evaluation.\n• Explain how data quality and visualization affect interpretation.\n• Recognize how dashboards and clinical decision support connect information to action.\n\nData analytics turns evidence into insight (original slide 4).\n• Data analytics uses data, information technology, and analysis to gain insight into a problem.\n• Healthcare analytics can support patient care, operations, quality improvement, and planning.\n• The same data may answer different questions depending on the purpose of the analysis.\n• A useful result should be understandable, relevant, timely, and connected to a decision.\n• Analytics supports judgment; it does not remove the need for professional judgment."
+    },
+    {
+      "title": "2. Data, information and context",
+      "body": "This part of the lecture explores data becomes useful when it is given context and analytics supports primary and secondary uses. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nData becomes useful when it is given context (original slide 5).\n• Data are basic facts, observations, measurements, words, symbols, images, or numbers.\n• Information is data that have been processed and interpreted for a purpose.\n• Context includes who or what was measured, when it was recorded, how it was collected, and why it matters.\n• A number without a unit, date, subject, or definition can be misleading.\n• A data dictionary and metadata help explain what a field means and how it should be used.\n\nAnalytics supports primary and secondary uses (original slide 6).\n• Primary use supports direct care for an individual patient.\n• Secondary use supports activities beyond the immediate encounter.\n• Examples include quality improvement, research, public-health reporting, planning, and adverse-event detection.\n• The idea of collect once, use many encourages responsible reuse of reliable healthcare data.\n• Secondary use still requires attention to purpose, privacy, governance, and data quality."
+    },
+    {
+      "title": "3. Primary and secondary data uses",
+      "body": "This part of the lecture explores four types of analytics answer different questions and descriptive analytics summarizes what happened. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nFour types of analytics answer different questions (original slide 7).\n• Descriptive analytics asks: What happened?\n• Diagnostic analytics asks: Why did it happen?\n• Predictive analytics asks: What might happen next?\n• Prescriptive analytics asks: What action might be appropriate?\n• The four types can be used together in one healthcare improvement project.\n\nDescriptive analytics summarizes what happened (original slide 8).\n• Descriptive analytics reports patterns in existing data.\n• Examples include the number of admissions, average length of stay, or monthly readmissions.\n• Counts, percentages, averages, rates, and simple charts are common outputs.\n• Descriptive results help teams see the current situation before asking why it occurred.\n• A summary is only useful when the population, timeframe, and definitions are clear."
+    },
+    {
+      "title": "4. Four analytics questions",
+      "body": "This part of the lecture explores diagnostic analytics explores why it happened and predictive analytics estimates what may happen. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nDiagnostic analytics explores why it happened (original slide 9).\n• Diagnostic analytics examines relationships, differences, and possible explanations for an observed pattern.\n• A team might compare readmissions by unit, diagnosis, discharge plan, or time period.\n• Cross-tabulations, correlations, and exploratory data analysis can reveal useful patterns.\n• A relationship does not automatically prove that one factor caused another.\n• Clinicians and analysts should consider workflow, context, and limitations before concluding.\n\nPredictive analytics estimates what may happen (original slide 10).\n• Predictive analytics uses existing data to estimate a future or unknown outcome.\n• Examples include identifying patients at risk of readmission or predicting demand for beds.\n• Predictions are probabilities or estimates, not guarantees.\n• The quality of a prediction depends on the data, the outcome definition, the population, and the method.\n• Predictions should be evaluated and used with appropriate clinical and operational context."
+    },
+    {
+      "title": "5. Descriptive and diagnostic analytics",
+      "body": "This part of the lecture explores prescriptive analytics considers possible actions and start with a clear healthcare question. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nPrescriptive analytics considers possible actions (original slide 11).\n• Prescriptive analytics asks what action could be taken in response to an observed or predicted situation.\n• A system might suggest follow-up, allocate resources, or prioritize a review.\n• Recommendations should consider benefits, risks, feasibility, policy, and patient preferences.\n• A recommendation is not the same as an order or an automatic decision.\n• Human users remain responsible for deciding whether an action is appropriate.\n\nStart with a clear healthcare question (original slide 12).\n• State the problem and the decision that the analysis should support.\n• Define the population, timeframe, outcome, comparison, and important data elements.\n• Ask whether the available data can answer the question reliably.\n• Decide how the result will be used and who needs to understand it.\n• A clear question prevents unnecessary analysis and reduces misinterpretation."
+    },
+    {
+      "title": "6. Predictive and prescriptive analytics",
+      "body": "This part of the lecture explores the analytics workflow begins with collection and preprocessing prepares data for analysis. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nThe analytics workflow begins with collection (original slide 13).\n• Data may come from EHRs, laboratory systems, pharmacy systems, claims, registries, devices, surveys, or research.\n• Collection should match the purpose of the analysis and the needs of the intended users.\n• The team should know who enters the data, when it is entered, and which fields are required.\n• A data warehouse can organize data for reporting and analysis.\n• A data lake may hold large amounts of varied data for later processing.\n\nPreprocessing prepares data for analysis (original slide 14).\n• Preprocessing includes understanding the data, cleaning errors, handling missing values, and normalizing formats.\n• A data dictionary explains field names, definitions, units, valid values, and collection methods.\n• Duplicate records, impossible values, inconsistent categories, and incorrect dates should be investigated.\n• Missing data should be described and handled using a documented method.\n• The goal is not to make the data look perfect; it is to make limitations visible and results trustworthy."
+    },
+    {
+      "title": "7. Define the question and collect data",
+      "body": "This part of the lecture explores feature engineering creates useful analysis inputs and models learn patterns from prepared data. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nFeature engineering creates useful analysis inputs (original slide 15).\n• A feature is a data element used to describe a patient, event, or situation in an analysis.\n• Feature engineering selects, transforms, or combines available data for a defined question.\n• Examples include converting a date into time since admission or grouping ages into bands.\n• Clustering and dimensionality-reduction methods can help summarize complex data.\n• Features should be clinically meaningful, documented, and created without leaking future information.\n\nModels learn patterns from prepared data (original slide 16).\n• Supervised learning uses examples with known outcomes to predict or classify new cases.\n• Unsupervised learning searches for patterns or groups without a predefined outcome.\n• Reinforcement learning learns through feedback from actions and outcomes.\n• Regression estimates a numeric value; classification assigns a category; clustering forms groups.\n• Students need to recognize these ideas, not build algorithms for this general course."
+    },
+    {
+      "title": "8. Preprocessing and feature engineering",
+      "body": "This part of the lecture explores evaluation asks whether a model is useful and analytics needs context beyond a score. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nEvaluation asks whether a model is useful (original slide 17).\n• A model should be evaluated before it is used in a healthcare workflow.\n• For numeric prediction, examples include R-squared, mean squared error, and mean absolute error.\n• For classification, examples include accuracy, precision, recall, specificity, F1-score, and AUC.\n• Different measures answer different questions, so one number is rarely enough.\n• Evaluation should consider performance, calibration, fairness, usability, and the consequences of errors.\n\nAnalytics needs context beyond a score (original slide 18).\n• A high average performance can hide weak performance for particular groups or settings.\n• The analysis population should resemble the population in which the result will be used.\n• Time period, missing data, changing practice, and data drift can affect results.\n• A result should be checked against clinical knowledge and operational reality.\n• Transparent limitations help users decide when to trust, question, or not use an output."
+    },
+    {
+      "title": "9. Learning approaches and models",
+      "body": "This part of the lecture explores a readmission example connects the four types and what students do not need to calculate here. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nA readmission example connects the four types (original slide 19).\n• Descriptive: readmissions increased from one month to the next.\n• Diagnostic: the increase is concentrated in two units and a small set of conditions.\n• Predictive: some patients have higher estimated risk before discharge.\n• Prescriptive: the team considers follow-up calls or medication review for selected patients.\n• The final action still depends on clinical review, resources, patient needs, and local policy.\n\nWhat students do not need to calculate here (original slide 20).\n• You do not need to derive machine-learning algorithms or implement a programming pipeline.\n• You do not need to tune models, select hyperparameters, or prove a causal relationship.\n• You should know what each analytics type is intended to answer.\n• You should be able to explain a healthcare example and identify important limitations.\n• You should be able to interpret a simple result responsibly."
+    },
+    {
+      "title": "10. Evaluation and interpretation",
+      "body": "This part of the lecture explores responsible analytics keeps people in the loop and analytics can guide quality improvement. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nResponsible analytics keeps people in the loop (original slide 21).\n• Analytics should support care and organizational decisions rather than obscure responsibility.\n• Users need to know what data were used, what the result means, and what it does not mean.\n• Automated outputs should be reviewed when data are incomplete, unusual, or outside the model's intended setting.\n• Privacy, security, fairness, and patient impact should be considered before use.\n• Monitoring after implementation helps identify errors, drift, and unintended consequences.\n\nAnalytics can guide quality improvement (original slide 22).\n• A team can use analytics to identify a gap, investigate its causes, and select a possible intervention.\n• The team can monitor whether the intervention changes the selected measure over time.\n• Results should be interpreted alongside workflow changes, staffing, policy, and patient context.\n• A measure may improve while another important outcome worsens, so review should be balanced.\n• Continuous learning connects analytics to practical improvement rather than a one-time report."
+    },
+    {
+      "title": "11. A readmission example",
+      "body": "This part of the lecture explores key terms to know and week 8 summary. Read each point alongside its original source page and consider how it affects healthcare decisions and workflows.\n\nKey terms to know (original slide 23).\n• Data analytics: using data and analysis to gain insight and support decisions.\n• Descriptive analytics: explains what happened.\n• Diagnostic analytics: explores why it happened.\n• Predictive analytics: estimates what may happen.\n• Prescriptive analytics: considers what action may be appropriate.\n• Preprocessing: preparing data through understanding, cleaning, missing-data handling, and normalization.\n\nWeek 8 summary (original slide 24).\n• Analytics turns healthcare data into information that can support fact-based decisions.\n• Descriptive, diagnostic, predictive, and prescriptive analytics answer different questions.\n• A sound workflow moves from a clear question through collection, preprocessing, feature creation, modeling, and evaluation.\n• Model performance must be interpreted in context, including limitations and consequences of error.\n• The appropriate level for BHIM473 is recognition, explanation, example, and responsible interpretation."
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "matching",
+      "feedback": "",
+      "title": "Match the concepts to their purposes",
+      "prompt": "Match each term with its meaning from the lecture.",
+      "conceptIds": [],
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Healthcare analytics",
+          "right": "Using data, information technology and analysis to gain insight and support healthcare decisions.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Data",
+          "right": "Facts, measurements, words, symbols, images or numbers.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Information",
+          "right": "Data that have been processed and interpreted with context for a purpose.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Primary use",
+          "right": "Using data to support direct care for an individual patient.",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "Using data to support direct care for an individual patient.",
+        "Data that have been processed and interpreted with context for a purpose.",
+        "Facts, measurements, words, symbols, images or numbers.",
+        "Using data, information technology and analysis to gain insight and support healthcare decisions."
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "matching",
+      "feedback": "",
+      "title": "Match the concepts to their purposes",
+      "prompt": "Match each term with its meaning from the lecture.",
+      "conceptIds": [],
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Descriptive analytics",
+          "right": "Summarizes what happened using observed data, counts, averages and charts.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Diagnostic analytics",
+          "right": "Examines differences and relationships that might explain an observed pattern.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Predictive analytics",
+          "right": "Estimates a future or unknown outcome using existing information.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Prescriptive analytics",
+          "right": "Considers appropriate actions in response to an observed or predicted situation.",
+          "feedback": ""
+        }
+      ],
+      "choices": [
+        "Considers appropriate actions in response to an observed or predicted situation.",
+        "Estimates a future or unknown outcome using existing information.",
+        "Examines differences and relationships that might explain an observed pattern.",
+        "Summarizes what happened using observed data, counts, averages and charts."
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "classification",
+      "feedback": "",
+      "title": "Classify the examples",
+      "prompt": "Identify the most appropriate category for each example.",
+      "conceptIds": [],
+      "categories": [
+        "Descriptive",
+        "Diagnostic",
+        "Predictive",
+        "Prescriptive"
+      ],
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Monthly admission count",
+          "answer": "Descriptive",
+          "feedback": ""
+        },
+        {
+          "id": "item-2",
+          "text": "Exploring differences among hospital units",
+          "answer": "Diagnostic",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "Estimating readmission risk",
+          "answer": "Predictive",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "Considering follow-up calls",
+          "answer": "Prescriptive",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "comparison",
+      "feedback": "",
+      "title": "Compare Healthcare analytics and Data",
+      "prompt": "Explain how these concepts differ and why the distinction matters.",
+      "conceptIds": [],
+      "items": [
+        {
+          "label": "Healthcare analytics",
+          "detail": "Using data, information technology and analysis to gain insight and support healthcare decisions."
+        },
+        {
+          "label": "Data",
+          "detail": "Facts, measurements, words, symbols, images or numbers."
+        }
+      ],
+      "answer": "Healthcare analytics: Using data, information technology and analysis to gain insight and support healthcare decisions. Data: Facts, measurements, words, symbols, images or numbers."
+    },
+    {
+      "id": "activity-5",
+      "type": "comparison",
+      "feedback": "",
+      "title": "Compare Information and Primary use",
+      "prompt": "Explain how these concepts differ and why the distinction matters.",
+      "conceptIds": [],
+      "items": [
+        {
+          "label": "Information",
+          "detail": "Data that have been processed and interpreted with context for a purpose."
+        },
+        {
+          "label": "Primary use",
+          "detail": "Using data to support direct care for an individual patient."
+        }
+      ],
+      "answer": "Information: Data that have been processed and interpreted with context for a purpose. Primary use: Using data to support direct care for an individual patient."
+    },
+    {
+      "id": "activity-6",
+      "type": "ordering",
+      "feedback": "",
+      "title": "Apply the lesson as a workflow",
+      "prompt": "Put the steps in a logical sequence.",
+      "conceptIds": [],
+      "items": [
+        {
+          "id": "step-1",
+          "text": "Define the population, outcome and question.",
+          "order": 0
+        },
+        {
+          "id": "step-2",
+          "text": "Collect relevant data from appropriate sources.",
+          "order": 1
+        },
+        {
+          "id": "step-3",
+          "text": "Preprocess and document the data quality limitations.",
+          "order": 2
+        },
+        {
+          "id": "step-4",
+          "text": "Create meaningful features and select appropriate analysis.",
+          "order": 3
+        },
+        {
+          "id": "step-5",
+          "text": "Evaluate and interpret results with clinicians and operational users.",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "activity-7",
+      "type": "scenario",
+      "feedback": "",
+      "title": "Decision scenario",
+      "prompt": "A model flags patients at higher estimated readmission risk. Which analytics type is this?",
+      "conceptIds": [],
+      "options": [
+        "Predictive",
+        "Diagnostic",
+        "Descriptive",
+        "Prescriptive"
+      ],
+      "answerIndex": 0,
+      "debrief": "Predictive methods estimate what may happen, rather than guaranteeing readmission."
+    },
+    {
+      "id": "activity-8",
+      "type": "scenario",
+      "feedback": "",
+      "title": "Decision scenario",
+      "prompt": "A hospital finds a relationship between staffing and readmission rates. What may be concluded immediately?",
+      "conceptIds": [],
+      "options": [
+        "The relationship is worth investigation but does not alone prove causation.",
+        "Staffing necessarily caused every readmission.",
+        "The difference rules out confounding.",
+        "Any model output should automatically dictate policy."
+      ],
+      "answerIndex": 0,
+      "debrief": "A correlation or group difference does not, by itself, establish a cause."
+    },
+    {
+      "id": "activity-9",
+      "type": "retrieval",
+      "feedback": "",
+      "title": "Explain Healthcare analytics",
+      "prompt": "In your own words, define Healthcare analytics and explain why it matters.",
+      "conceptIds": [],
+      "answer": "Using data, information technology and analysis to gain insight and support healthcare decisions."
+    },
+    {
+      "id": "activity-10",
+      "type": "retrieval",
+      "feedback": "",
+      "title": "Explain Data",
+      "prompt": "In your own words, define Data and explain why it matters.",
+      "conceptIds": [],
+      "answer": "Facts, measurements, words, symbols, images or numbers."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "front": "Explain Healthcare analytics.",
+      "back": "Using data, information technology and analysis to gain insight and support healthcare decisions.",
+      "conceptIds": [
+        "concept.healthcare_analytics"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "front": "Explain Data.",
+      "back": "Facts, measurements, words, symbols, images or numbers.",
+      "conceptIds": [
+        "concept.data"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "front": "Explain Information.",
+      "back": "Data that have been processed and interpreted with context for a purpose.",
+      "conceptIds": [
+        "concept.information"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "front": "Explain Primary use.",
+      "back": "Using data to support direct care for an individual patient.",
+      "conceptIds": [
+        "concept.primary_use"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "front": "Explain Secondary use.",
+      "back": "Using data beyond the immediate encounter for research, quality improvement, public health or planning.",
+      "conceptIds": [
+        "concept.secondary_use"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "front": "Explain Descriptive analytics.",
+      "back": "Summarizes what happened using observed data, counts, averages and charts.",
+      "conceptIds": [
+        "concept.descriptive_analytics"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "front": "Explain Diagnostic analytics.",
+      "back": "Examines differences and relationships that might explain an observed pattern.",
+      "conceptIds": [
+        "concept.diagnostic_analytics"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "front": "Explain Predictive analytics.",
+      "back": "Estimates a future or unknown outcome using existing information.",
+      "conceptIds": [
+        "concept.predictive_analytics"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "front": "Explain Prescriptive analytics.",
+      "back": "Considers appropriate actions in response to an observed or predicted situation.",
+      "conceptIds": [
+        "concept.prescriptive_analytics"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "front": "Explain Data warehouse.",
+      "back": "Organizes information for reporting and analysis.",
+      "conceptIds": [
+        "concept.data_warehouse"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "front": "Explain Data lake.",
+      "back": "Stores large quantities of varied data for later processing.",
+      "conceptIds": [
+        "concept.data_lake"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "front": "Explain Data dictionary.",
+      "back": "Explains field names, definitions, units, valid values and collection methods.",
+      "conceptIds": [
+        "concept.data_dictionary"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Which form of analytics asks what happened?",
+      "options": [
+        "Predictive",
+        "Descriptive",
+        "Prescriptive",
+        "Diagnostic"
+      ],
+      "answerIndex": 1,
+      "rationale": "Descriptive analytics summarizes existing data and observed patterns.",
+      "conceptIds": []
+    },
+    {
+      "id": "q2",
+      "question": "Which form explores why an observed pattern occurred?",
+      "options": [
+        "Diagnostic",
+        "Descriptive",
+        "Prescriptive",
+        "Predictive"
+      ],
+      "answerIndex": 0,
+      "rationale": "Diagnostic analytics examines differences and possible explanations.",
+      "conceptIds": []
+    },
+    {
+      "id": "q3",
+      "question": "Which form estimates what may happen next?",
+      "options": [
+        "Descriptive",
+        "Diagnostic",
+        "Prescriptive",
+        "Predictive"
+      ],
+      "answerIndex": 3,
+      "rationale": "Predictive analytics provides estimates or probabilities rather than guarantees.",
+      "conceptIds": []
+    },
+    {
+      "id": "q4",
+      "question": "Which form considers a possible response or intervention?",
+      "options": [
+        "Diagnostic",
+        "Descriptive",
+        "Prescriptive",
+        "Predictive"
+      ],
+      "answerIndex": 2,
+      "rationale": "Prescriptive analytics considers potential actions, with human judgment.",
+      "conceptIds": []
+    },
+    {
+      "id": "q5",
+      "question": "What is the appropriate starting point for analytics?",
+      "options": [
+        "A graph with no measurement definition.",
+        "A clearly defined healthcare question and intended decision.",
+        "Tuning a model before inspecting data.",
+        "Collecting every available variable without a purpose."
+      ],
+      "answerIndex": 1,
+      "rationale": "Define the population, outcome, timeframe, question and intended use first.",
+      "conceptIds": []
+    },
+    {
+      "id": "q6",
+      "question": "Which is a secondary use of health data?",
+      "options": [
+        "Research and quality improvement beyond direct care.",
+        "Reviewing a medication while treating the patient.",
+        "Entering a current clinical order.",
+        "Checking the patient's latest allergy during care."
+      ],
+      "answerIndex": 0,
+      "rationale": "Secondary use serves purposes beyond the immediate patient encounter.",
+      "conceptIds": []
+    },
+    {
+      "id": "q7",
+      "question": "What does preprocessing involve?",
+      "options": [
+        "Guaranteeing a model will be fair.",
+        "Replacing all data with an average.",
+        "Selecting actions without reviewing results.",
+        "Checking data quality, missingness, errors and compatible formats."
+      ],
+      "answerIndex": 3,
+      "rationale": "Preprocessing prepares data and documents limitations.",
+      "conceptIds": []
+    },
+    {
+      "id": "q8",
+      "question": "Which type of learning uses known outcomes?",
+      "options": [
+        "Unsupervised learning",
+        "Clustering without outcomes",
+        "Supervised learning",
+        "Unlabeled grouping"
+      ],
+      "answerIndex": 2,
+      "rationale": "Supervised learning uses examples with known outcomes.",
+      "conceptIds": []
+    },
+    {
+      "id": "q9",
+      "question": "Which statement about a model's accuracy is correct?",
+      "options": [
+        "High average accuracy guarantees fair subgroup results.",
+        "A single number rarely captures all performance and error consequences.",
+        "Accuracy eliminates drift.",
+        "Accuracy proves the model is clinically useful everywhere."
+      ],
+      "answerIndex": 1,
+      "rationale": "Evaluation should consider several metrics, populations, context and fairness.",
+      "conceptIds": []
+    },
+    {
+      "id": "q10",
+      "question": "What is responsible use of a predicted readmission risk?",
+      "options": [
+        "Interpret the estimate with clinical and operational context.",
+        "Treat the estimate as certainty.",
+        "Order interventions automatically regardless of patient needs.",
+        "Avoid monitoring the model after implementation."
+      ],
+      "answerIndex": 0,
+      "rationale": "Predictions inform rather than replace professional decisions.",
+      "conceptIds": []
+    }
+  ],
+  "review": null,
+  "sourceManifest": [
+    {
+      "file_name": "Week 8 HI.pdf",
+      "source_refs": [
+        "Week 8 HI.pdf [Pages 1-24]"
+      ]
+    }
+  ],
+  "validationReport": {
+    "source_fidelity": "All retained teaching points are from the supplied PDF.",
+    "source_page_count": 24,
+    "original_lecture_page_refs": true,
+    "interactive_activity_schema_valid": true,
+    "knowledge_check_schema_valid": true,
+    "flashcard_schema_valid": true,
+    "not_review_week": true
+  },
+  "warnings": []
+}
