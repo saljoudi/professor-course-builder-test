@@ -1,0 +1,564 @@
+{
+  "id": "week-06",
+  "order": 6,
+  "title": "An EHR is an ecosystem, not a single screen",
+  "overview": "Explore how an electronic health record brings longitudinal information together across settings and authorized users. Trace information from departmental source systems through standardization and exchange to use in a workflow, and consider how interoperability, governance, and HIM responsibilities support meaningful and trustworthy information.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain that an EHR supports longitudinal information across settings and authorized users.",
+    "Describe interoperability as technical connection, shared meaning, and usable workflow.",
+    "Explain how an EHR depends on multiple source systems.",
+    "Use the Source → Standardize → Exchange → Use framework to explain information flow, responsibility, and points of control.",
+    "Distinguish an EMR from an EHR by their scope and focus.",
+    "Describe HIM responsibilities for protecting information meaning, quality, trust, and use in EHR-related work."
+  ],
+  "concepts": [
+    {
+      "id": "concept.electronic_health_record",
+      "name": "Electronic health record (EHR)",
+      "definition": "A broader longitudinal record designed for authorized exchange, supporting continuity across settings and authorized users.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.electronic_medical_record",
+      "name": "Electronic medical record (EMR)",
+      "definition": "An electronic record within one provider or organization, focused on local clinical documentation.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.interoperability",
+      "name": "Interoperability",
+      "definition": "Technical connection between systems, shared meaning of information, and usable workflow presentation.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.clinical_vocabularies",
+      "name": "Clinical vocabularies",
+      "definition": "Vocabularies that make concepts computable and comparable.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.ehr_source_systems",
+      "name": "EHR source systems",
+      "definition": "Systems that supply information to an EHR, including registration, laboratory, radiology, pharmacy, and documentation systems.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.hl7_fhir",
+      "name": "HL7 and FHIR",
+      "definition": "Standards identified as supporting structured exchange patterns.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.ehr_trust_controls",
+      "name": "EHR trust and accountability controls",
+      "definition": "Audit logs, signatures, and copy-forward controls that support trust and accountability.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.ehr_quality_safety_governance",
+      "name": "Quality, safety, and governance principles for EHR work",
+      "definition": "Principles addressing purpose and fit; data and meaning; access and trust; and workflow and adoption, supported by controls such as scope, workflow fit, measurable objectives, definitions, metadata, validation, mapping, policy, role-based access, authentication, logs, user testing, training, monitoring, and improvement.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_ehr_responsibilities",
+      "name": "HIM responsibilities in EHR-related work",
+      "definition": "Explain system purpose; support definitions, standards, terminology, mapping, and consistent interpretation; check identity, completeness, accuracy, validity, timeliness, and consistency; support privacy, security, appropriate access, auditability, and responsible disclosure; and improve workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.source_standardize_exchange_use",
+      "name": "Source → Standardize → Exchange → Use",
+      "definition": "A sequence for capturing data in departmental and clinical systems, mapping concepts and formats to shared standards, transmitting authorized information between systems, and presenting information in a workflow where a person can act.",
+      "moduleRefs": [
+        "week-06"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-06",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "An electronic health record (EHR) supports longitudinal information across settings and authorized users. It is designed for continuity and authorized exchange, rather than being limited to documentation within one provider or organization. The EHR depends on information from multiple source systems, including registration, laboratory, radiology, pharmacy, and documentation systems. Thinking of the EHR as an ecosystem emphasizes the connected information and work behind the record, not just the screen on which information appears.",
+      "title": "An EHR is broader than a single screen"
+    },
+    {
+      "body": "Interoperability has three connected requirements: systems must connect technically, exchanged information must have shared meaning, and the information must be presented in a usable workflow where a person can act. A connection alone does not ensure that information is understandable or useful. Clinical vocabularies make concepts computable and comparable; HL7 and FHIR are identified as supporting structured exchange patterns. In the laboratory example, a standard exchange format carries a result while a clinical vocabulary gives the test and unit consistent meaning. The information becomes useful in practice when it is presented within a workflow where a person can act.",
+      "title": "Interoperability requires connection, meaning, and workflow"
+    },
+    {
+      "body": "Use Source → Standardize → Exchange → Use to follow information and identify where responsibility and control matter. Source means capturing data in departmental and clinical systems. Standardize means mapping concepts and formats to shared standards. Exchange means transmitting authorized information between systems. Use means presenting the information in a workflow where a person can act. For a laboratory result entering the EHR, the laboratory system is the source; a standard format and vocabulary support standardization; the result is transmitted to the EHR; and the workflow must present it for use. The sequence links technical movement to meaning and work.",
+      "title": "Trace information through the four-step framework"
+    },
+    {
+      "body": "An electronic medical record (EMR) is an electronic record within one provider or organization, focused on local clinical documentation. An EHR is broader: it is a longitudinal record designed for authorized exchange and continuity across multiple settings. The distinction is one of scope and focus. A local clinical documentation record fits the EMR description; a record designed to support authorized information exchange across settings fits the EHR description.",
+      "title": "Distinguish EMR from EHR"
+    },
+    {
+      "body": "Reliable EHR information depends on purpose and fit; data and meaning; access and trust; and workflow and adoption. Controls include scope, workflow fit, and measurable objectives; definitions, metadata, validation, and mapping; policy, role-based access, authentication, and logs; and user testing, training, monitoring, and improvement. Audit logs, signatures, and copy-forward controls also support trust and accountability. HIM professionals connect system purpose to trustworthy information work: explain users, inputs, outputs, decisions, and limits; protect meaning through definitions and consistent interpretation; check identity and information quality; support privacy, security, appropriate access, auditability, and responsible disclosure; and improve workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "title": "Governance and HIM responsibilities"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "source",
+          "text": "Source: Capture data in departmental and clinical systems.",
+          "order": 0
+        },
+        {
+          "id": "standardize",
+          "text": "Standardize: Map concepts and formats to shared standards.",
+          "order": 1
+        },
+        {
+          "id": "exchange",
+          "text": "Exchange: Transmit authorized information between systems.",
+          "order": 2
+        },
+        {
+          "id": "use",
+          "text": "Use: Present information in a workflow where a person can act.",
+          "order": 3
+        }
+      ],
+      "title": "Trace information from source to use",
+      "prompt": "Put the four stages in the order used to explain information flow through connected systems.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.source_standardize_exchange_use",
+        "concept.interoperability"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "comparison",
+      "items": [
+        {
+          "label": "EMR",
+          "detail": "An electronic record within one provider or organization, focused on local clinical documentation."
+        },
+        {
+          "label": "EHR",
+          "detail": "A broader longitudinal record designed for authorized exchange, continuity, and use across settings."
+        }
+      ],
+      "title": "Compare EMR and EHR",
+      "answer": "The EMR description emphasizes local documentation within one provider or organization; the EHR description emphasizes longitudinal information and authorized exchange across settings.",
+      "prompt": "Compare the scope and focus of an EMR with those of an EHR.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.electronic_medical_record",
+        "concept.electronic_health_record"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "scenario",
+      "title": "Follow a laboratory result",
+      "prompt": "A laboratory result enters an EHR from a departmental laboratory system. A standard exchange format carries it, and a clinical vocabulary gives the test and unit consistent meaning. Which interpretation best explains what is needed for interoperability to be useful?",
+      "debrief": "Interoperability includes technical connection, shared meaning, and usable workflow. In the example, the exchange format carries the result, the vocabulary gives the test and unit consistent meaning, and workflow presentation makes the information usable.",
+      "options": [
+        "Technical transmission alone is sufficient; the information need not have shared meaning or appear in a workflow.",
+        "The systems must connect, the information must have shared meaning, and it must be presented in a workflow where a person can act.",
+        "The result should remain only in the departmental system because an EHR does not depend on source systems.",
+        "A clinical vocabulary replaces the need to transmit authorized information between systems."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.interoperability",
+        "concept.ehr_source_systems",
+        "concept.clinical_vocabularies",
+        "concept.source_standardize_exchange_use"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "activity-4",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Define measurable objectives and check workflow fit.",
+          "answer": "Purpose and fit",
+          "feedback": "Purpose and fit concerns intended users, work, outputs, and decisions."
+        },
+        {
+          "id": "item-2",
+          "text": "Use definitions, metadata, validation, and mapping.",
+          "answer": "Data and meaning",
+          "feedback": "These controls support information that is complete, valid, consistent, timely, and understood."
+        },
+        {
+          "id": "item-3",
+          "text": "Use policy, role-based access, authentication, and logs.",
+          "answer": "Access and trust",
+          "feedback": "These controls support privacy, security, integrity, and auditability."
+        },
+        {
+          "id": "item-4",
+          "text": "Use testing, training, monitoring, and improvement.",
+          "answer": "Workflow and adoption",
+          "feedback": "These activities support safe and effective use of information in work."
+        }
+      ],
+      "title": "Identify the governance focus",
+      "prompt": "Match each control or action to the governance principle it most directly supports.",
+      "feedback": "",
+      "categories": [
+        "Purpose and fit",
+        "Data and meaning",
+        "Access and trust",
+        "Workflow and adoption"
+      ],
+      "conceptIds": [
+        "concept.ehr_quality_safety_governance"
+      ]
+    },
+    {
+      "id": "activity-5",
+      "type": "retrieval",
+      "title": "Recall HIM responsibilities",
+      "answer": "Explain system purpose; protect meaning; protect quality; protect trust; and improve the workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "prompt": "Name the five broad responsibilities HIM professionals carry out in EHR-related information work.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.him_ehr_responsibilities"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "Longitudinal information for continuity across settings and authorized users.",
+      "front": "What does an EHR support across settings?",
+      "conceptIds": [
+        "concept.electronic_health_record"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "An electronic record within one provider or organization, focused on local clinical documentation.",
+      "front": "What is an EMR?",
+      "conceptIds": [
+        "concept.electronic_medical_record"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "Technical connection, shared meaning, and presentation in a usable workflow.",
+      "front": "What three elements make interoperability useful?",
+      "conceptIds": [
+        "concept.interoperability"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "They make concepts computable and comparable and can give a test and unit consistent meaning.",
+      "front": "What do clinical vocabularies contribute?",
+      "conceptIds": [
+        "concept.clinical_vocabularies"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "Registration, laboratory, radiology, pharmacy, and documentation systems.",
+      "front": "Name examples of EHR source systems.",
+      "conceptIds": [
+        "concept.ehr_source_systems"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Structured exchange patterns.",
+      "front": "What do HL7 and FHIR support in this topic?",
+      "conceptIds": [
+        "concept.hl7_fhir"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Source → Standardize → Exchange → Use.",
+      "front": "What is the order of the information-flow framework?",
+      "conceptIds": [
+        "concept.source_standardize_exchange_use"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Concepts and formats are mapped to shared standards.",
+      "front": "What happens during Standardize?",
+      "conceptIds": [
+        "concept.source_standardize_exchange_use"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "It has shared meaning and is presented in a workflow where a person can act.",
+      "front": "What makes an exchanged result usable in practice?",
+      "conceptIds": [
+        "concept.interoperability",
+        "concept.source_standardize_exchange_use"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "Audit logs, signatures, and copy-forward controls.",
+      "front": "Name three controls identified as supporting EHR trust and accountability.",
+      "conceptIds": [
+        "concept.ehr_trust_controls"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "Purpose and fit; data and meaning; access and trust; workflow and adoption.",
+      "front": "What are the four quality, safety, and governance principle areas?",
+      "conceptIds": [
+        "concept.ehr_quality_safety_governance"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "Explain purpose; protect meaning; protect quality; protect trust; improve workflow.",
+      "front": "What are the five broad HIM responsibilities in EHR-related work?",
+      "conceptIds": [
+        "concept.him_ehr_responsibilities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "A record limited to local clinical documentation within one organization",
+        "A display screen that does not rely on other systems",
+        "A system used only to capture laboratory results",
+        "A broader longitudinal record designed for authorized exchange across settings"
+      ],
+      "question": "Which description best fits an EHR?",
+      "rationale": "An EHR is described as a broader longitudinal record designed for authorized exchange and continuity across settings.",
+      "conceptIds": [
+        "concept.electronic_health_record"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Technical connection, shared meaning, and usable workflow",
+        "Capture, retention, and deletion",
+        "Local documentation, signatures, and copy-forward",
+        "Registration, coding, and reporting"
+      ],
+      "question": "Which set captures the three elements of interoperability emphasized in this week?",
+      "rationale": "Interoperability includes connection between systems, shared meaning, and presentation in a workflow where a person can act.",
+      "conceptIds": [
+        "concept.interoperability"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q3",
+      "options": [
+        "A measurable objective",
+        "A training plan",
+        "A laboratory system",
+        "A role-based access policy"
+      ],
+      "question": "Which is an example of a source system on which an EHR may depend?",
+      "rationale": "Laboratory systems are among the listed sources of information for an EHR, along with registration, radiology, pharmacy, and documentation systems.",
+      "conceptIds": [
+        "concept.ehr_source_systems"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Exchange",
+        "Use",
+        "Capture",
+        "Source"
+      ],
+      "question": "In the Source → Standardize → Exchange → Use framework, what follows Standardize?",
+      "rationale": "The framework places Exchange after Standardize and before Use.",
+      "conceptIds": [
+        "concept.source_standardize_exchange_use"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q5",
+      "options": [
+        "Presenting information in a workflow where a person can act",
+        "Transmitting authorized information between systems",
+        "Capturing data in departmental and clinical systems",
+        "Mapping concepts and formats to shared standards"
+      ],
+      "question": "What best describes the Standardize stage?",
+      "rationale": "Standardize means mapping concepts and formats to shared standards.",
+      "conceptIds": [
+        "concept.source_standardize_exchange_use"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q6",
+      "options": [
+        "Technical connection",
+        "Shared meaning",
+        "The existence of a source system",
+        "The distinction between an EMR and an EHR"
+      ],
+      "question": "A laboratory result is transmitted to an EHR, but its test and unit do not have consistent meaning. Which part of interoperability is not adequately supported?",
+      "rationale": "The example uses a clinical vocabulary to give the test and unit consistent meaning; transmission alone does not supply that meaning.",
+      "conceptIds": [
+        "concept.interoperability",
+        "concept.clinical_vocabularies"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q7",
+      "options": [
+        "An EMR focuses on local clinical documentation; an EHR is broader and supports longitudinal information and authorized exchange.",
+        "An EMR is designed for exchange across multiple settings; an EHR is limited to one provider.",
+        "An EMR is a vocabulary; an EHR is an exchange format.",
+        "The terms describe identical scopes and focuses."
+      ],
+      "question": "Which statement accurately distinguishes an EMR from an EHR?",
+      "rationale": "An EMR is within one provider or organization and focuses on local clinical documentation; an EHR is broader and designed for authorized exchange and continuity.",
+      "conceptIds": [
+        "concept.electronic_medical_record",
+        "concept.electronic_health_record"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Workflow and adoption",
+        "Data and meaning",
+        "Purpose and fit",
+        "Access and trust"
+      ],
+      "question": "Which principle area is most directly supported by definitions, metadata, validation, and mapping?",
+      "rationale": "Definitions, metadata, validation, and mapping support information that is complete, valid, consistent, timely, and understood.",
+      "conceptIds": [
+        "concept.ehr_quality_safety_governance"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Registration, radiology, and pharmacy systems",
+        "Scope, objectives, and workflow fit",
+        "Audit logs, signatures, and copy-forward controls",
+        "Testing, training, and monitoring"
+      ],
+      "question": "Which set consists of controls identified as supporting trust and accountability?",
+      "rationale": "Audit logs, signatures, and copy-forward controls are specifically identified as supporting trust and accountability.",
+      "conceptIds": [
+        "concept.ehr_trust_controls"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Technical connection",
+        "Usable workflow",
+        "A local documentation focus",
+        "The existence of clinical vocabularies"
+      ],
+      "question": "An EHR receives an authorized result, but it is not presented where a person can act. Which interoperability element needs attention?",
+      "rationale": "Interoperability requires information to be presented in a usable workflow where a person can act, in addition to connection and shared meaning.",
+      "conceptIds": [
+        "concept.interoperability",
+        "concept.source_standardize_exchange_use"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Replace workflow testing with a decision about the system's title",
+        "Focus only on the screen through which users view information",
+        "Support definitions, standards, terminology, mapping, and consistent interpretation",
+        "Transmit information without considering its interpretation"
+      ],
+      "question": "Which action best represents HIM responsibility for protecting meaning?",
+      "rationale": "HIM professionals protect meaning by supporting definitions, standards, terminology, mapping, and consistent interpretation.",
+      "conceptIds": [
+        "concept.him_ehr_responsibilities"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Limiting the record to one provider's local documentation",
+        "Removing the need to check identity and information quality",
+        "Treating technical transmission as sufficient for interoperability",
+        "Using feedback, testing, training, monitoring, and root-cause correction"
+      ],
+      "question": "Which activity is part of the HIM responsibility to improve workflow?",
+      "rationale": "Improving workflow includes feedback, testing, training, monitoring, and root-cause correction.",
+      "conceptIds": [
+        "concept.him_ehr_responsibilities"
+      ],
+      "answerIndex": 3
+    }
+  ]
+}

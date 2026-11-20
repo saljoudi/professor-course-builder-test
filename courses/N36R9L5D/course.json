@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "2.0",
+  "runtimeVersion": "1.11.1",
+  "metadata": {
+    "publicId": "N36R9L5D",
+    "title": "Health Information Systems",
+    "titleArabic": "نظم المعلومات الصحية",
+    "courseCode": "HIM303",
+    "professorName": "Dr. Salman Aljoudi",
+    "term": "Fall 2026",
+    "contentLabel": "Week",
+    "academicLevel": "Undergraduate",
+    "studentDiscipline": "Health Information Management",
+    "styleId": "notebook",
+    "intro": "Health Information Systems (HIS) explores how people, healthcare data, information processes, and technology work together to support healthcare delivery, administration, and decision-making.",
+    "introArabic": "تستكشف نظم المعلومات الصحية (HIS) كيفية تفاعل الأفراد والبيانات الصحية وعمليات المعلومات والتكنولوجيا لدعم تقديم الرعاية الصحية وإدارتها واتخاذ القرارات.",
+    "features": {
+      "interactiveLessons": true,
+      "practice": true,
+      "knowledgeChecks": true,
+      "flashcards": true,
+      "ontology": false,
+      "cumulativeReview": true,
+      "calculators": true
+    }
+  },
+  "weekOrder": [
+    "week-01",
+    "week-02",
+    "week-03",
+    "week-04",
+    "week-05",
+    "week-06",
+    "week-07",
+    "week-08",
+    "week-09",
+    "week-10",
+    "week-11",
+    "week-12",
+    "week-13",
+    "week-14",
+    "week-15"
+  ],
+  "privacy": {
+    "studentLogin": false,
+    "applicationDatabase": false,
+    "cookies": false,
+    "localStorage": false,
+    "sessionStorage": false,
+    "persistentAnswers": false
+  }
+}

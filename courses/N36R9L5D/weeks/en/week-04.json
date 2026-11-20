@@ -1,0 +1,648 @@
+{
+  "id": "week-04",
+  "order": 4,
+  "title": "System development life cycle and project planning",
+  "overview": "A system project changes people, processes, technology, and responsibilities—not technology alone. This week connects project planning with the four-stage sequence Plan → Analyze → Design → Implement, introduces terms and tools used to make project decisions visible, and considers how early user involvement and HIM responsibilities support fit, trustworthy information, and adoption.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain that a system project is a change to people, processes, technology, and responsibilities.",
+    "Explain how planning makes the problem, scope, budget, risks, and success measures explicit.",
+    "Explain how early user involvement improves fit and creates buy-in."
+  ],
+  "concepts": [
+    {
+      "id": "concept.system_project",
+      "name": "System project",
+      "definition": "A change to people, processes, technology, and responsibilities.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.system_development_life_cycle_project_planning",
+      "name": "System development life cycle and project planning",
+      "definition": "A framework for organizing system-project work through Plan, Analyze, Design, and Implement.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.feasibility",
+      "name": "Feasibility",
+      "definition": "The organization’s ability to afford, support, and sustain an option.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.scope",
+      "name": "Scope",
+      "definition": "The work included, excluded, and prioritized.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.stakeholders",
+      "name": "Stakeholders",
+      "definition": "The people who use, own, support, and are affected by the system.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.change_management",
+      "name": "Change management",
+      "definition": "The way people adopt the new way of working.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.gantt_chart",
+      "name": "Gantt chart",
+      "definition": "A planning tool showing when tasks start and finish and how they depend on each other.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.project_plan",
+      "name": "Project plan",
+      "definition": "A planning tool describing activities, owners, resources, and milestones.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.pert_chart",
+      "name": "PERT chart",
+      "definition": "A planning tool showing the sequence and uncertainty of activities.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.feasibility_study",
+      "name": "Feasibility study",
+      "definition": "A study of whether a project is practical and sustainable.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.early_user_involvement",
+      "name": "Early user involvement",
+      "definition": "Involving users early in a system project to improve fit and create buy-in.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.project_fit",
+      "name": "Project fit",
+      "definition": "The alignment of a system with its intended users, work, outputs, and decisions.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.project_buy_in",
+      "name": "Project buy-in",
+      "definition": "User support for the project, which early user involvement helps create.",
+      "moduleRefs": [
+        "week-04"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-04",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "A system project is a change to people, processes, technology, and responsibilities. This definition matters because a technically configured system is only one part of the change: people use it, workflows accommodate it, and responsibilities shape how information is handled. Planning therefore makes the problem, scope, budget, risks, and success measures explicit. Scope identifies the work included, excluded, and prioritized; feasibility asks whether the organization can afford, support, and sustain the option. Stakeholders are the people who use, own, support, and are affected by the system. Change management concerns how people adopt the new way of working. These terms help a project team describe not only what it intends to configure, but also what work and adoption the project entails.",
+      "title": "A project changes work, not just technology"
+    },
+    {
+      "body": "The framework proceeds through Plan → Analyze → Design → Implement. In Plan, the team sets goals, scope, budget, team, and measures. In Analyze, it collects and evaluates information about the current state. In Design, it specifies workflows, data, interfaces, and controls. In Implement, it configures and tests the system, trains users, goes live, and improves the system. The stages organize the work and make it possible to ask what happens, who is responsible, and where control is needed. In the hospital document-management example, the team defines the problem and studies the current workflow before setting scope, evaluating feasibility, designing, testing, training users, and improving the system after implementation.",
+      "title": "Organize the work through four stages"
+    },
+    {
+      "body": "The planning tools serve different purposes. A Gantt chart makes task start and finish times and dependencies visible. A PERT chart focuses on activity sequence and uncertainty. A project plan describes activities, owners, resources, and milestones. A feasibility study examines whether the project is practical and sustainable. These tools are not interchangeable: a timeline and task dependencies are different from a view of activity sequence and uncertainty, while a description of project assignments and resources differs from an assessment of whether the option can be sustained. In the document-management project, the team can choose a tool according to whether it needs to organize tasks, clarify ownership and resources, consider activity uncertainty, or assess feasibility.",
+      "title": "Select planning tools by the question they answer"
+    },
+    {
+      "body": "Early user involvement improves fit and creates buy-in. Fit concerns whether the system supports its intended users, work, outputs, and decisions; user participation provides an opportunity to consider those needs while the project is being planned and designed. Adoption is also part of the project: change management addresses how people adopt the new way of working, and implementation includes testing, training, going live, and improvement. HIM responsibilities keep information work in view. HIM professionals explain system purpose by identifying users, inputs, outputs, decisions, and limits; protect meaning through definitions, standards, terminology, mapping, and consistent interpretation; check identity, completeness, accuracy, validity, timeliness, and consistency; support privacy, security, appropriate access, auditability, and responsible disclosure; and improve workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "title": "Connect user involvement with fit, adoption, and HIM accountability"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "plan",
+          "text": "Plan: Set goals, scope, budget, team, and measures.",
+          "order": 0
+        },
+        {
+          "id": "analyze",
+          "text": "Analyze: Collect and evaluate current-state information.",
+          "order": 1
+        },
+        {
+          "id": "design",
+          "text": "Design: Specify workflows, data, interfaces, and controls.",
+          "order": 2
+        },
+        {
+          "id": "implement",
+          "text": "Implement: Configure, test, train, go live, and improve.",
+          "order": 3
+        }
+      ],
+      "title": "Put the project lifecycle in sequence",
+      "prompt": "Arrange the four stages in the framework from first to last.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.system_development_life_cycle_project_planning"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Gantt chart",
+          "right": "Shows when tasks start and finish and how they depend on each other.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Project plan",
+          "right": "Describes activities, owners, resources, and milestones.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "PERT chart",
+          "right": "Shows the sequence and uncertainty of activities.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Feasibility study",
+          "right": "Assesses whether the project is practical and sustainable.",
+          "feedback": ""
+        }
+      ],
+      "title": "Match the planning tool to its purpose",
+      "prompt": "Match each planning tool with the purpose it serves.",
+      "choices": [
+        "Shows when tasks start and finish and how they depend on each other.",
+        "Describes activities, owners, resources, and milestones.",
+        "Shows the sequence and uncertainty of activities.",
+        "Assesses whether the project is practical and sustainable."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.gantt_chart",
+        "concept.project_plan",
+        "concept.pert_chart",
+        "concept.feasibility_study"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "scenario",
+      "title": "Choose the next planning focus",
+      "prompt": "Hypothetical situation: A hospital team planning a document-management system has described its problem and studied the current workflow. It now needs to determine which work is included, excluded, and prioritized. What should the team clarify?",
+      "debrief": "Scope is the work included, excluded, and prioritized. The other options concern implementation or a purpose associated with a PERT chart.",
+      "options": [
+        "Project scope",
+        "The system’s go-live activities",
+        "The sequence and uncertainty of activities",
+        "The system’s post-implementation improvements"
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.scope",
+        "concept.system_development_life_cycle_project_planning",
+        "concept.pert_chart"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "activity-4",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Set goals, scope, budget, team, and measures.",
+          "answer": "Plan",
+          "feedback": ""
+        },
+        {
+          "id": "item-2",
+          "text": "Collect and evaluate current-state information.",
+          "answer": "Analyze",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "Specify workflows, data, interfaces, and controls.",
+          "answer": "Design",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "Configure, test, train, go live, and improve.",
+          "answer": "Implement",
+          "feedback": ""
+        }
+      ],
+      "title": "Identify the stage described",
+      "prompt": "Classify each project activity by its lifecycle stage.",
+      "feedback": "",
+      "categories": [
+        "Plan",
+        "Analyze",
+        "Design",
+        "Implement"
+      ],
+      "conceptIds": [
+        "concept.system_development_life_cycle_project_planning"
+      ]
+    },
+    {
+      "id": "activity-5",
+      "type": "comparison",
+      "items": [
+        {
+          "label": "Gantt chart",
+          "detail": "Shows when tasks start and finish and how they depend on each other."
+        },
+        {
+          "label": "PERT chart",
+          "detail": "Shows the sequence and uncertainty of activities."
+        }
+      ],
+      "title": "Compare two planning tools",
+      "answer": "A Gantt chart emphasizes task timing and dependencies; a PERT chart emphasizes activity sequence and uncertainty.",
+      "prompt": "State the key distinction between a Gantt chart and a PERT chart.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.gantt_chart",
+        "concept.pert_chart"
+      ]
+    },
+    {
+      "id": "activity-6",
+      "type": "reflection",
+      "title": "Plan with users in mind",
+      "answer": "Responses should connect early user involvement to improved fit or buy-in and identify a taught HIM responsibility, such as protecting information meaning or quality, supporting trust, or improving workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "prompt": "For the hospital document-management system project, identify one way early user involvement could help the team consider fit and buy-in. Then name one HIM responsibility that should remain visible as the project is designed and implemented.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.early_user_involvement",
+        "concept.project_fit",
+        "concept.project_buy_in",
+        "concept.him_professional"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "A change to people, processes, technology, and responsibilities.",
+      "front": "What is a system project?",
+      "conceptIds": [
+        "concept.system_project"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "The work included, excluded, and prioritized.",
+      "front": "What does project scope describe?",
+      "conceptIds": [
+        "concept.scope"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "Whether the organization can afford, support, and sustain an option.",
+      "front": "What does feasibility ask?",
+      "conceptIds": [
+        "concept.feasibility"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "People who use, own, support, and are affected by the system.",
+      "front": "Who are stakeholders?",
+      "conceptIds": [
+        "concept.stakeholders"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "The way people adopt the new way of working.",
+      "front": "What is change management?",
+      "conceptIds": [
+        "concept.change_management"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "When tasks start and finish and how they depend on each other.",
+      "front": "What does a Gantt chart show?",
+      "conceptIds": [
+        "concept.gantt_chart"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Activities, owners, resources, and milestones.",
+      "front": "What does a project plan describe?",
+      "conceptIds": [
+        "concept.project_plan"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "The sequence and uncertainty of activities.",
+      "front": "What does a PERT chart show?",
+      "conceptIds": [
+        "concept.pert_chart"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "Whether a project is practical and sustainable.",
+      "front": "What does a feasibility study assess?",
+      "conceptIds": [
+        "concept.feasibility_study"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "Plan → Analyze → Design → Implement.",
+      "front": "What are the four stages of the project framework?",
+      "conceptIds": [
+        "concept.system_development_life_cycle_project_planning"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "Goals, scope, budget, team, and measures.",
+      "front": "What does the Plan stage set?",
+      "conceptIds": [
+        "concept.system_development_life_cycle_project_planning"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "It improves fit and creates buy-in.",
+      "front": "How does early user involvement help a project?",
+      "conceptIds": [
+        "concept.early_user_involvement",
+        "concept.project_fit",
+        "concept.project_buy_in"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "A list of project milestones only",
+        "A technology configuration with no effect on responsibilities",
+        "A change to people, processes, technology, and responsibilities",
+        "A study that determines whether an option is sustainable"
+      ],
+      "question": "Which statement best describes a system project?",
+      "rationale": "A system project involves change to people, processes, technology, and responsibilities. A feasibility study and a project plan are distinct planning elements, not the definition of the project.",
+      "conceptIds": [
+        "concept.system_project",
+        "concept.feasibility_study",
+        "concept.project_plan"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q2",
+      "options": [
+        "The people who own and support a system",
+        "The sequence and uncertainty of activities",
+        "The work included, excluded, and prioritized",
+        "The organization’s ability to sustain an option"
+      ],
+      "question": "What does scope identify?",
+      "rationale": "Scope describes the work included, excluded, and prioritized. The other choices describe stakeholders, a PERT chart’s purpose, and feasibility.",
+      "conceptIds": [
+        "concept.scope",
+        "concept.stakeholders",
+        "concept.pert_chart",
+        "concept.feasibility"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q3",
+      "options": [
+        "Can the organization afford, support, and sustain this option?",
+        "What tasks start and finish first?",
+        "Which users are affected by the system?",
+        "Which workflows and interfaces should be specified?"
+      ],
+      "question": "Which question is central to feasibility?",
+      "rationale": "Feasibility concerns the organization’s ability to afford, support, and sustain an option.",
+      "conceptIds": [
+        "concept.feasibility"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Analyze → Plan → Implement → Design",
+        "Plan → Analyze → Design → Implement",
+        "Design → Implement → Plan → Analyze",
+        "Plan → Design → Analyze → Implement"
+      ],
+      "question": "Which sequence matches the system-project framework?",
+      "rationale": "The framework proceeds from planning, to analysis of current-state information, to design, and then implementation.",
+      "conceptIds": [
+        "concept.system_development_life_cycle_project_planning"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q5",
+      "options": [
+        "Implement",
+        "Analyze",
+        "Plan",
+        "Design"
+      ],
+      "question": "During which stage does the team collect and evaluate current-state information?",
+      "rationale": "The Analyze stage collects and evaluates current-state information.",
+      "conceptIds": [
+        "concept.system_development_life_cycle_project_planning"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q6",
+      "options": [
+        "Set the project budget and team",
+        "Evaluate current-state information",
+        "Go live and improve the system",
+        "Specify workflows, data, interfaces, and controls"
+      ],
+      "question": "Which activity belongs to the Design stage?",
+      "rationale": "Design specifies workflows, data, interfaces, and controls. The other choices describe Plan, Implement, and Analyze activities.",
+      "conceptIds": [
+        "concept.system_development_life_cycle_project_planning"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q7",
+      "options": [
+        "Feasibility study",
+        "Project plan",
+        "Gantt chart",
+        "PERT chart"
+      ],
+      "question": "A team needs to show task start and finish times and task dependencies. Which tool best fits?",
+      "rationale": "A Gantt chart shows when tasks start and finish and how they depend on each other.",
+      "conceptIds": [
+        "concept.gantt_chart",
+        "concept.project_plan",
+        "concept.pert_chart",
+        "concept.feasibility_study"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q8",
+      "options": [
+        "PERT chart",
+        "Project plan",
+        "Feasibility study",
+        "Gantt chart"
+      ],
+      "question": "Which tool describes activities, owners, resources, and milestones?",
+      "rationale": "A project plan describes activities, owners, resources, and milestones.",
+      "conceptIds": [
+        "concept.project_plan"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q9",
+      "options": [
+        "A Gantt chart identifies scope; a PERT chart assesses whether an option is affordable.",
+        "A Gantt chart assesses sustainability; a PERT chart lists owners and resources.",
+        "A Gantt chart describes adoption; a PERT chart specifies data definitions.",
+        "A Gantt chart shows task timing and dependencies; a PERT chart shows activity sequence and uncertainty."
+      ],
+      "question": "Which distinction between a Gantt chart and a PERT chart is accurate?",
+      "rationale": "The Gantt chart focuses on when tasks start and finish and their dependencies; the PERT chart shows activity sequence and uncertainty.",
+      "conceptIds": [
+        "concept.gantt_chart",
+        "concept.pert_chart"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Whether the project is practical and sustainable",
+        "Which activities have owners and milestones",
+        "When each task starts and finishes",
+        "How activity uncertainty is represented"
+      ],
+      "question": "What is a feasibility study intended to determine?",
+      "rationale": "A feasibility study assesses whether a project is practical and sustainable.",
+      "conceptIds": [
+        "concept.feasibility_study",
+        "concept.project_plan",
+        "concept.gantt_chart",
+        "concept.pert_chart"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q11",
+      "options": [
+        "It improves fit and creates buy-in.",
+        "It replaces the need to test and train users.",
+        "It removes the need to define project scope.",
+        "It determines the project’s budget without planning."
+      ],
+      "question": "What is one stated benefit of early user involvement?",
+      "rationale": "Early user involvement improves fit and creates buy-in; it does not replace the other planning and implementation work.",
+      "conceptIds": [
+        "concept.early_user_involvement",
+        "concept.project_fit",
+        "concept.project_buy_in"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Focus only on technology configuration",
+        "Exclude users from workflow feedback",
+        "Treat information meaning as separate from project work",
+        "Support definitions, terminology, mapping, and consistent interpretation"
+      ],
+      "question": "Which option describes an HIM responsibility in system projects?",
+      "rationale": "HIM professionals help protect information meaning by supporting definitions, standards, terminology, mapping, and consistent interpretation.",
+      "conceptIds": [
+        "concept.him_professional"
+      ],
+      "answerIndex": 3
+    }
+  ]
+}

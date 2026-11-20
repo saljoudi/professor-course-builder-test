@@ -1,0 +1,607 @@
+{
+  "id": "week-02",
+  "order": 2,
+  "title": "Healthcare systems evolved because care became connected",
+  "overview": "Trace healthcare systems from isolated departmental tools to connected platforms, distinguish common forms of network access and health-information exchange, and examine how benefits depend on trustworthy information, safeguards, and workable workflows.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain how healthcare systems evolved from isolated departmental systems to connected platforms.",
+    "Distinguish the Internet, intranet, extranet, and Health Information Exchange (HIE).",
+    "Explain the benefits and risks of electronic health-information exchange and the HIM professional's role in managing them.",
+    "Describe principles and responsibilities for ensuring health information is fit for its intended use, trustworthy, and usable in workflow."
+  ],
+  "concepts": [
+    {
+      "id": "concept.isolated_systems",
+      "name": "Isolated systems",
+      "definition": "Early systems that handled a limited task or department and often operated separately from other systems.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.departmental_systems",
+      "name": "Departmental systems",
+      "definition": "Systems that automate a department's workflow.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.enterprise_systems",
+      "name": "Enterprise systems",
+      "definition": "Systems that share information across an organization.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.connected_systems",
+      "name": "Connected systems",
+      "definition": "Systems that exchange information across organizational boundaries with authorized partners.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.internet",
+      "name": "Internet",
+      "definition": "A public worldwide network through which people with authorization and an internet connection can access public websites or online services.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.intranet",
+      "name": "Intranet",
+      "definition": "A private network used inside one organization, accessible only to authorized employees.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.extranet",
+      "name": "Extranet",
+      "definition": "A private system that gives selected external partners controlled access.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.health_information_exchange",
+      "name": "Health Information Exchange (HIE)",
+      "definition": "The organized electronic sharing of patient health information between different healthcare organizations.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.connectivity_management",
+      "name": "Connectivity management",
+      "definition": "Managing connected information so it belongs to the correct patient, is accurate and complete, is protected from unauthorized access, and appears at the right time in workflow.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.benefits_of_health_information_exchange",
+      "name": "Benefits of health-information exchange",
+      "definition": "Faster access to records, fewer repeated tests, and coordinated care through providers working with shared accurate information.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.risks_of_electronic_health_information_exchange",
+      "name": "Risks of electronic health-information exchange",
+      "definition": "Wrong-patient matching, unauthorized access, and incomplete exchange.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.quality_safety_governance_principles",
+      "name": "Quality, safety, and governance principles",
+      "definition": "Principles covering purpose and fit; data and meaning; access and trust; and workflow and adoption, with controls such as scope and workflow fit, definitions and validation, policy and role-based access, and user testing and training.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_connected_information_responsibilities",
+      "name": "HIM responsibilities in connected health-information work",
+      "definition": "Explain system purpose; protect meaning and quality; protect trust; and improve workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "moduleRefs": [
+        "week-02"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "Early healthcare systems often handled one limited task or department, such as billing, payroll, laboratory reporting, or pharmacy records, and operated separately. The Week 2 framework describes a progression: isolated systems involve separate records and duplicate work; departmental systems automate a department's workflow; enterprise systems share information across an organization; and connected systems allow authorized partners to exchange information across organizational boundaries. Modern platforms may bring together clinical information, financial activity, operational work, and consumer-facing services. This progression describes increasing connection; it does not mean that connection by itself guarantees useful or safe information.",
+      "title": "From isolated tools to connected systems"
+    },
+    {
+      "body": "The Internet is a public worldwide network used to access public websites or online services. An intranet is private to one organization and available only to authorized employees. An extranet is a private system that gives selected external partners controlled access. A Health Information Exchange (HIE), by contrast, is organized electronic sharing of patient health information between different healthcare organizations. The practical distinction is both who is connecting and what the connection is for: an extranet describes controlled partner access to a system, while an HIE is specifically for exchanging health information between organizations.",
+      "title": "Network access and health-information exchange are not interchangeable"
+    },
+    {
+      "body": "Information exchange can support faster access to records, fewer repeated tests, and coordinated care when providers work from shared, accurate information. These benefits depend on the quality and handling of the exchange. Information must be linked to the correct patient, accurate and complete, protected from unauthorized access, and visible at the right time in the healthcare workflow. For example, a laboratory result is useful only when it is associated with the correct patient, accurate, secure, and available to the clinician when needed. A patient moving from a primary-care clinic to a hospital illustrates how authorized exchange of relevant history, medications, results, and referrals can support continuity of care when identity, shared meaning, privacy, and data quality are controlled.",
+      "title": "Why connectivity must be managed"
+    },
+    {
+      "body": "Three risks require attention. Wrong-patient matching attaches information to the wrong person, potentially leading to unsafe decisions. Unauthorized access occurs when someone views, uses, or shares health information without permission. Incomplete exchange leaves information missing, delayed, or untransferred, creating an incomplete picture of the patient. HIM responses include controls such as patient identifiers, access permissions, verification procedures, and release rules; monitoring through access-log review and exchange audits; staff education about identification, privacy, security, documentation, and sharing procedures; and correction of inaccurate or mismatched records and missing information, together with incident reporting or investigation.",
+      "title": "Risks and the HIM response"
+    },
+    {
+      "body": "Reliable information depends on four linked principles. Purpose and fit asks whether the system supports intended users, work, outputs, and decisions; scope, workflow fit, and measurable objectives help address this. Data and meaning concerns whether information is complete, valid, consistent, timely, and understood; definitions, metadata, validation, and mapping support this work. Access and trust concerns privacy, security, integrity, and auditability; policies, role-based access, authentication, and logs are identified controls. Workflow and adoption concerns whether people can use information safely and effectively; user testing, training, monitoring, and improvement support use in practice. HIM professionals connect these principles to information work by explaining system purpose, protecting meaning and quality, protecting trust, and improving workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "title": "Quality, trust, fit, and workflow"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "isolated",
+          "text": "Isolated: separate records and duplicate work",
+          "order": 0
+        },
+        {
+          "id": "departmental",
+          "text": "Departmental: one department automates a workflow",
+          "order": 1
+        },
+        {
+          "id": "enterprise",
+          "text": "Enterprise: systems share information across the organization",
+          "order": 2
+        },
+        {
+          "id": "connected",
+          "text": "Connected: authorized partners exchange information across boundaries",
+          "order": 3
+        }
+      ],
+      "title": "Trace the systems progression",
+      "prompt": "Place the four stages in the framework in order, from separate systems to exchange across organizational boundaries.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.isolated_systems",
+        "concept.departmental_systems",
+        "concept.enterprise_systems",
+        "concept.connected_systems"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "A person accesses a hospital's public website.",
+          "answer": "Internet",
+          "feedback": "A public website is an example of Internet use."
+        },
+        {
+          "id": "item-2",
+          "text": "Hospital employees access internal policies through the organization's private network.",
+          "answer": "Intranet",
+          "feedback": "An intranet is private to one organization and available to authorized employees."
+        },
+        {
+          "id": "item-3",
+          "text": "A hospital gives an insurance company controlled access to specific information.",
+          "answer": "Extranet",
+          "feedback": "An extranet gives selected external partners controlled access to a private system."
+        },
+        {
+          "id": "item-4",
+          "text": "A hospital receives a patient's medication history from another clinic through organized electronic sharing.",
+          "answer": "Health Information Exchange (HIE)",
+          "feedback": "An HIE is organized electronic sharing of patient health information between healthcare organizations."
+        }
+      ],
+      "title": "Identify the kind of connection",
+      "prompt": "Classify each situation by the network or exchange concept it illustrates.",
+      "feedback": "",
+      "categories": [
+        "Internet",
+        "Intranet",
+        "Extranet",
+        "Health Information Exchange (HIE)"
+      ],
+      "conceptIds": [
+        "concept.internet",
+        "concept.intranet",
+        "concept.extranet",
+        "concept.health_information_exchange"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "scenario",
+      "title": "Check whether an exchange is ready to help",
+      "prompt": "Hypothetical situation: A clinician can view a laboratory result received from another organization, but the result may be linked to the wrong patient and is not visible within the clinician's workflow when needed. Which response best reflects the requirements for useful connectivity?",
+      "debrief": "Connectivity alone is not enough. Information must belong to the correct patient, be accurate and complete, be protected from unauthorized access, and appear at the right time in workflow.",
+      "options": [
+        "Treat connection as sufficient because the result is available somewhere in the system.",
+        "Verify patient identity and information quality, protect access, and make the result available at the appropriate point in workflow.",
+        "Focus only on giving more external partners access to the system.",
+        "Remove the result from the exchange without checking its identity or quality."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.connectivity_management",
+        "concept.risks_of_electronic_health_information_exchange",
+        "concept.quality_safety_governance_principles"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "activity-4",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Wrong-patient matching",
+          "right": "Use patient identifiers and verification procedures; correct inaccurate or mismatched records.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Unauthorized access",
+          "right": "Use access permissions and release rules; review logs and audit exchanges.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Incomplete exchange",
+          "right": "Complete missing information and report or investigate incidents.",
+          "feedback": ""
+        }
+      ],
+      "title": "Connect exchange risks to HIM responses",
+      "prompt": "Match each risk with a response emphasized for HIM practice.",
+      "choices": [
+        "Use patient identifiers and verification procedures; correct inaccurate or mismatched records.",
+        "Use access permissions and release rules; review logs and audit exchanges.",
+        "Complete missing information and report or investigate incidents."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.risks_of_electronic_health_information_exchange",
+        "concept.him_connected_information_responsibilities"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "It handles a limited task or department and often operates separately from other systems.",
+      "front": "What characterizes an isolated healthcare system?",
+      "conceptIds": [
+        "concept.isolated_systems"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "It automates a department's workflow.",
+      "front": "What does a departmental system do?",
+      "conceptIds": [
+        "concept.departmental_systems"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "It shares information across an organization.",
+      "front": "What distinguishes an enterprise system in the Week 2 progression?",
+      "conceptIds": [
+        "concept.enterprise_systems"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "Authorized partners exchange information across organizational boundaries.",
+      "front": "What makes systems connected in the framework?",
+      "conceptIds": [
+        "concept.connected_systems"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "A private network used inside one organization and accessible only to authorized employees.",
+      "front": "What is an intranet?",
+      "conceptIds": [
+        "concept.intranet"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "An extranet gives selected external partners controlled access to a private system; an HIE is organized electronic sharing of patient health information between healthcare organizations.",
+      "front": "How does an extranet differ from an HIE?",
+      "conceptIds": [
+        "concept.extranet",
+        "concept.health_information_exchange"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Faster access to records, fewer repeated tests, and coordinated care.",
+      "front": "Name three benefits of health-information exchange.",
+      "conceptIds": [
+        "concept.benefits_of_health_information_exchange"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Wrong-patient matching, unauthorized access, and incomplete exchange.",
+      "front": "What are three risks of electronic health-information exchange?",
+      "conceptIds": [
+        "concept.risks_of_electronic_health_information_exchange"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "It must be linked to the correct patient, accurate and complete, protected from unauthorized access, and available at the right time in workflow.",
+      "front": "What must be true for connected information to be useful in care?",
+      "conceptIds": [
+        "concept.connectivity_management"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "Purpose and fit; data and meaning; access and trust; workflow and adoption.",
+      "front": "What are the four quality, safety, and governance principles?",
+      "conceptIds": [
+        "concept.quality_safety_governance_principles"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "They support definitions, standards, terminology, mapping, and consistent interpretation, and check identity, completeness, accuracy, validity, timeliness, and consistency.",
+      "front": "How do HIM professionals support the meaning and quality of shared information?",
+      "conceptIds": [
+        "concept.him_connected_information_responsibilities"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "Use feedback, testing, training, monitoring, and root-cause correction.",
+      "front": "Name two ways HIM professionals can improve workflow and adoption.",
+      "conceptIds": [
+        "concept.him_connected_information_responsibilities",
+        "concept.quality_safety_governance_principles"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "It handles only one limited task and remains separate.",
+        "Systems share information across the organization.",
+        "It gives selected external partners controlled access.",
+        "It provides access only to public websites."
+      ],
+      "question": "In the Week 2 progression, what is the defining feature of an enterprise system?",
+      "rationale": "The framework defines enterprise systems as sharing information across the organization.",
+      "conceptIds": [
+        "concept.enterprise_systems"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Organized electronic sharing between healthcare organizations.",
+        "A private network inside one organization for authorized employees.",
+        "A public worldwide network for public websites and online services.",
+        "A private system that gives selected external partners access."
+      ],
+      "question": "Which description best identifies an intranet?",
+      "rationale": "An intranet is private to one organization and accessible only to authorized employees.",
+      "conceptIds": [
+        "concept.intranet"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q3",
+      "options": [
+        "Extranet",
+        "Intranet",
+        "Health Information Exchange (HIE)",
+        "Internet"
+      ],
+      "question": "A hospital gives a laboratory partner controlled access to specific information in a private system. Which concept best fits?",
+      "rationale": "An extranet gives selected external partners controlled access to a private system.",
+      "conceptIds": [
+        "concept.extranet"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q4",
+      "options": [
+        "An extranet provides controlled access to a system; an HIE is designed for health-information exchange between healthcare organizations.",
+        "An HIE is a public website, while an extranet is private to employees.",
+        "An extranet is limited to one department; an HIE is an enterprise system.",
+        "An HIE concerns only financial information, while an extranet concerns clinical information."
+      ],
+      "question": "What is the clearest distinction between an extranet and an HIE?",
+      "rationale": "The distinction is between controlled partner access to a system and organized exchange of patient health information between healthcare organizations.",
+      "conceptIds": [
+        "concept.extranet",
+        "concept.health_information_exchange"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q5",
+      "options": [
+        "Enterprise, isolated, connected, departmental",
+        "Departmental, connected, isolated, enterprise",
+        "Connected, enterprise, departmental, isolated",
+        "Isolated, departmental, enterprise, connected"
+      ],
+      "question": "Which sequence follows the framework from separate records toward exchange across organizational boundaries?",
+      "rationale": "The framework progresses from isolated systems to departmental systems, then enterprise systems, and then connected systems.",
+      "conceptIds": [
+        "concept.isolated_systems",
+        "concept.departmental_systems",
+        "concept.enterprise_systems",
+        "concept.connected_systems"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q6",
+      "options": [
+        "More repeated tests, reduced access, and less coordination",
+        "More duplicate records, delayed information, and restricted workflow",
+        "Faster access, fewer repeated tests, and coordinated care",
+        "Public access, employee access, and partner access"
+      ],
+      "question": "Which set contains only benefits of health-information exchange identified in Week 2?",
+      "rationale": "The identified benefits are faster access to records, fewer repeated tests, and coordinated care.",
+      "conceptIds": [
+        "concept.benefits_of_health_information_exchange"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q7",
+      "options": [
+        "A staff member reviews an access log.",
+        "A result is delayed before transfer.",
+        "Information is attached to the wrong patient.",
+        "A partner receives controlled access to specific information."
+      ],
+      "question": "Which situation illustrates wrong-patient matching?",
+      "rationale": "Wrong-patient matching means information is attached to the wrong person and can lead to unsafe decisions.",
+      "conceptIds": [
+        "concept.risks_of_electronic_health_information_exchange"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Make every exchanged record visible to any user.",
+        "Focus only on improving the speed of exchange.",
+        "Use access permissions and release rules, and review access logs.",
+        "Remove workflow testing from system improvement."
+      ],
+      "question": "Which action directly addresses unauthorized access risk?",
+      "rationale": "Access permissions and release rules are controls; reviewing access logs and auditing exchanges are monitoring responses.",
+      "conceptIds": [
+        "concept.risks_of_electronic_health_information_exchange",
+        "concept.him_connected_information_responsibilities"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Integration into the actual workflow at the right time",
+        "Employee authorization",
+        "Public access",
+        "Exchange across organizational boundaries"
+      ],
+      "question": "An exchanged result is complete but not visible to the clinician when needed. Which requirement for useful connectivity is unmet?",
+      "rationale": "Connected information must appear at the right time in the healthcare workflow to be useful.",
+      "conceptIds": [
+        "concept.connectivity_management",
+        "concept.quality_safety_governance_principles"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Public websites and online services",
+        "Staffing, scheduling, supplies, and facilities",
+        "Access logs and authentication alone",
+        "Definitions, metadata, validation, and mapping"
+      ],
+      "question": "Which group of practices most directly supports the principle of data and meaning?",
+      "rationale": "Definitions, metadata, validation, and mapping support information that is complete, valid, consistent, timely, and understood.",
+      "conceptIds": [
+        "concept.quality_safety_governance_principles"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Automating only one department's workflow",
+        "Supporting privacy, security, appropriate access, auditability, and responsible disclosure",
+        "Replacing all information with public websites",
+        "Increasing the number of repeated tests"
+      ],
+      "question": "Which responsibility is part of protecting trust in connected health-information work?",
+      "rationale": "Protecting trust includes privacy, security, appropriate access, auditability, and responsible disclosure.",
+      "conceptIds": [
+        "concept.him_connected_information_responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Ignore feedback and avoid monitoring.",
+        "Focus only on the system's technical connection.",
+        "Share information without checking identity or quality.",
+        "Use feedback, testing, training, monitoring, and root-cause correction."
+      ],
+      "question": "Which set of actions best represents improving workflow and adoption?",
+      "rationale": "Week 2 identifies feedback, testing, training, monitoring, and root-cause correction as ways to improve workflow.",
+      "conceptIds": [
+        "concept.him_connected_information_responsibilities",
+        "concept.quality_safety_governance_principles"
+      ],
+      "answerIndex": 3
+    }
+  ]
+}

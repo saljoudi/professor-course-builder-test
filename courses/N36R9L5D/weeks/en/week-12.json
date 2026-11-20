@@ -1,0 +1,648 @@
+{
+  "id": "week-12",
+  "order": 12,
+  "title": "Review 2 | Connect administrative, clinical, and HIM systems",
+  "overview": "This integrated review connects the administrative, clinical, and HIM systems considered in Weeks 8–11. Trace how one encounter or operational event is represented across connected systems, how its information is used, and where HIM controls support identity, meaning, quality, trust, and accountability.",
+  "isReviewWeek": true,
+  "objectives": [
+    "Explain how healthcare organizations operate as ecosystems of connected systems, and how one event may generate clinical, administrative, coding, quality, and analytic data.",
+    "Use the Event → Systems → Data → Decision framework to explain information flow, responsibilities, and where control is needed.",
+    "Classify and compare systems by purpose, users, inputs, outputs, workflow, and controls.",
+    "Identify HIM responsibilities for protecting information identity, meaning, quality, privacy, security, trust, and accountability."
+  ],
+  "concepts": [
+    {
+      "id": "concept.healthcare_systems_ecosystem",
+      "name": "Healthcare systems ecosystem",
+      "definition": "Healthcare organizations operate as ecosystems of connected systems; a single event may generate clinical, administrative, coding, quality, and analytic data.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.administrative_systems",
+      "name": "Administrative systems",
+      "definition": "Systems associated with finance, HRIS, MPI, scheduling, materials, facilities, and EIS.",
+      "moduleRefs": [
+        "week-01",
+        "week-12"
+      ],
+      "reviewedIn": [
+        "week-12"
+      ],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.clinical_systems",
+      "name": "Clinical systems",
+      "definition": "Systems associated with CIS, CDS, DMS, RIS, LIS, nursing, pharmacy, and emergency.",
+      "moduleRefs": [
+        "week-01",
+        "week-12"
+      ],
+      "reviewedIn": [
+        "week-12"
+      ],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_systems_and_operations",
+      "name": "HIM systems and operations",
+      "definition": "HIM-related functions include disclosure, encoder/grouper, registry, CDI, deficiencies, and quality indicators.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.event_systems_data_decision_framework",
+      "name": "Event → Systems → Data → Decision framework",
+      "definition": "A sequence in which a patient encounter or operational event occurs, multiple systems capture parts of it, HIM validates identity, meaning, quality, and disclosure, and a person uses the information for care, operations, or reporting.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.system_classification",
+      "name": "System classification",
+      "definition": "A system can be described by its primary purpose (care, business, or HIM operations), users, inputs, outputs, workflow, output type, and controls.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.purpose_and_fit",
+      "name": "Purpose and fit",
+      "definition": "The system supports its intended users, work, outputs, and decisions; scope, workflow fit, and measurable objectives provide evidence or control.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.data_and_meaning",
+      "name": "Data and meaning",
+      "definition": "Information should be complete, valid, consistent, timely, and understood; definitions, metadata, validation, and mapping support this.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.access_and_trust",
+      "name": "Access and trust",
+      "definition": "Privacy, security, integrity, and auditability are protected through policy, role-based access, authentication, and logs.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.workflow_and_adoption",
+      "name": "Workflow and adoption",
+      "definition": "People should be able to use information safely and effectively; user testing, training, monitoring, and improvement support this.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_responsibilities",
+      "name": "HIM responsibilities",
+      "definition": "HIM professionals explain system purpose, protect meaning and quality, support privacy and security, promote appropriate access and responsible disclosure, and improve workflows.",
+      "moduleRefs": [
+        "week-12"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-12",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "Healthcare organizations operate as ecosystems of connected systems, not as isolated applications. One encounter or operational event can generate clinical, administrative, coding, quality, and analytic data. These outputs are not interchangeable: each system captures part of the event for a different purpose. For example, an emergency visit may produce registration, triage, laboratory, medication, discharge, coding, billing, and quality data. To explain the ecosystem, identify which system captures each part, what that system is for, and how the resulting information may be used. Administrative systems include finance, HRIS, MPI, scheduling, materials, facilities, and EIS. Clinical systems include CIS, CDS, DMS, RIS, LIS, nursing, pharmacy, and emergency. HIM functions include disclosure, encoder/grouper, registry, CDI, deficiencies, and quality indicators.",
+      "title": "Connected systems represent different parts of the same event",
+      "source_refs": [
+        "Week 12 HIS.pdf [Page 2]",
+        "Week 12 HIS.pdf [Page 3]",
+        "Week 12 HIS.pdf [Page 5]"
+      ]
+    },
+    {
+      "body": "Use the Event → Systems → Data → Decision framework to make information flow and control points explicit. First, identify the patient encounter or operational event. Next, identify the multiple systems that capture parts of it. Then consider how HIM validates identity, meaning, quality, and disclosure. Finally, identify how a person uses the information for care, operations, or reporting. The sequence helps distinguish the event itself from the systems that record it, the data those systems produce, and the decision made using that information. At each stage, ask who is responsible and where a control is needed.",
+      "title": "Trace information from event to decision",
+      "source_refs": [
+        "Week 12 HIS.pdf [Page 4]",
+        "Week 12 HIS.pdf [Page 5]"
+      ]
+    },
+    {
+      "body": "A useful comparison begins with a system’s primary purpose: care, business, or HIM operations. Then identify its users, inputs, outputs, and workflow. Also name the output type: a record, transaction, recommendation, or report. These dimensions help explain how systems differ without treating their labels as sufficient descriptions. A complete account states the terms being compared, describes the difference, and gives a healthcare example. It also identifies controls that protect quality, privacy, security, and accountability.",
+      "title": "Classify systems by role, output, and control",
+      "source_refs": [
+        "Week 12 HIS.pdf [Page 6]"
+      ]
+    },
+    {
+      "body": "Reliable information depends on fit, meaning, trust, and usable workflow. Purpose and fit concern whether the system supports its intended users, work, outputs, and decisions; scope, workflow fit, and measurable objectives help assess this. Data and meaning concern whether information is complete, valid, consistent, timely, and understood; definitions, metadata, validation, and mapping support these qualities. Access and trust involve protecting privacy, security, integrity, and auditability through policy, role-based access, authentication, and logs. Workflow and adoption require that people can use information safely and effectively; user testing, training, monitoring, and improvement support that use.",
+      "title": "Apply quality, trust, and workflow controls",
+      "source_refs": [
+        "Week 12 HIS.pdf [Page 7]"
+      ]
+    },
+    {
+      "body": "HIM responsibilities span the information flow rather than stopping at a single system. HIM professionals explain a system’s users, inputs, outputs, decisions, and limits; support definitions, standards, terminology, mapping, and consistent interpretation; and check identity, completeness, accuracy, validity, timeliness, and consistency. They also support privacy, security, appropriate access, auditability, and responsible disclosure. To improve workflow, they use feedback, testing, training, monitoring, and root-cause correction. Together, these responsibilities help ensure information is fit for its intended use and that accountability is visible.",
+      "title": "HIM accountability across information work",
+      "source_refs": [
+        "Week 12 HIS.pdf [Page 8]",
+        "Week 12 HIS.pdf [Page 9]"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "event",
+          "text": "A patient encounter or operational event occurs.",
+          "order": 0
+        },
+        {
+          "id": "systems",
+          "text": "Multiple systems capture parts of the event.",
+          "order": 1
+        },
+        {
+          "id": "data",
+          "text": "HIM validates identity, meaning, quality, and disclosure.",
+          "order": 2
+        },
+        {
+          "id": "decision",
+          "text": "A person uses the information for care, operations, or reporting.",
+          "order": 3
+        }
+      ],
+      "title": "Put the information-flow framework in order",
+      "prompt": "Arrange the stages of the framework from the originating event to use of information.",
+      "feedback": "",
+      "conceptIds": [
+        "event-systems-data-decision"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Finance",
+          "answer": "Administrative",
+          "feedback": "Finance is listed among administrative system functions."
+        },
+        {
+          "id": "item-2",
+          "text": "Scheduling",
+          "answer": "Administrative",
+          "feedback": "Scheduling is listed among administrative system functions."
+        },
+        {
+          "id": "item-3",
+          "text": "Laboratory (LIS)",
+          "answer": "Clinical",
+          "feedback": "LIS is included among clinical systems."
+        },
+        {
+          "id": "item-4",
+          "text": "Pharmacy",
+          "answer": "Clinical",
+          "feedback": "Pharmacy is included among clinical systems."
+        },
+        {
+          "id": "item-5",
+          "text": "Disclosure",
+          "answer": "HIM",
+          "feedback": "Disclosure is listed as an HIM function."
+        },
+        {
+          "id": "item-6",
+          "text": "Registry",
+          "answer": "HIM",
+          "feedback": "Registry is listed as an HIM function."
+        }
+      ],
+      "title": "Classify system functions",
+      "prompt": "Place each function in the category associated with it in this review.",
+      "feedback": "Classify by the function associated with each system category, then explain the system’s purpose and work.",
+      "categories": [
+        "Administrative",
+        "Clinical",
+        "HIM"
+      ],
+      "conceptIds": [
+        "administrative-systems",
+        "clinical-systems",
+        "him-systems-operations"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Purpose and fit",
+          "right": "Support intended users, work, outputs, and decisions.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Data and meaning",
+          "right": "Keep information complete, valid, consistent, timely, and understood.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Access and trust",
+          "right": "Protect privacy, security, integrity, and auditability.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Workflow and adoption",
+          "right": "Enable safe and effective use through testing, training, monitoring, and improvement.",
+          "feedback": ""
+        }
+      ],
+      "title": "Match each governance principle to its emphasis",
+      "prompt": "Match each principle with the description that best expresses its focus.",
+      "choices": [
+        "Support intended users, work, outputs, and decisions.",
+        "Keep information complete, valid, consistent, timely, and understood.",
+        "Protect privacy, security, integrity, and auditability.",
+        "Enable safe and effective use through testing, training, monitoring, and improvement."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "purpose-and-fit",
+        "data-and-meaning",
+        "access-and-trust",
+        "workflow-and-adoption"
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "scenario",
+      "title": "Trace an emergency visit",
+      "prompt": "A hypothetical emergency visit generates registration, triage, laboratory, medication, discharge, coding, billing, and quality data. Which explanation best applies the Event → Systems → Data → Decision framework?",
+      "debrief": "The framework distinguishes the event from the multiple systems that capture it, the data and HIM validation involved, and the later use of information. The visit may generate data for different purposes.",
+      "options": [
+        "Treat the visit as one system output, because the same event should produce only one kind of data.",
+        "Identify the visit as the event, trace which systems capture its different parts, consider HIM validation of identity, meaning, quality, and disclosure, and identify how people use the information.",
+        "Begin with the final decision and assume that all systems have the same purpose and controls.",
+        "Classify every output as clinical data because the event took place in an emergency setting."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "healthcare-systems-ecosystem",
+        "event-systems-data-decision",
+        "him-responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "activity-5",
+      "type": "retrieval",
+      "title": "Recall the classification dimensions",
+      "answer": "Primary purpose; users, inputs, outputs, and workflow; output type; and controls. Primary purpose may be care, business, or HIM operations; output type may be a record, transaction, recommendation, or report.",
+      "prompt": "Name the dimensions used to classify and compare a system in this review.",
+      "feedback": "",
+      "conceptIds": [
+        "system-classification"
+      ]
+    },
+    {
+      "id": "activity-6",
+      "type": "reflection",
+      "title": "Identify a control point",
+      "answer": "A strong response identifies a specific stage and connects it to a responsibility such as validating identity or information quality, protecting meaning, supporting appropriate access and responsible disclosure, or improving workflow.",
+      "prompt": "Choose one stage in the Event → Systems → Data → Decision sequence and explain which HIM responsibility or control would matter there, and why.",
+      "feedback": "",
+      "conceptIds": [
+        "event-systems-data-decision",
+        "him-responsibilities"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "Different connected systems capture parts of events for different purposes; one event may generate clinical, administrative, coding, quality, and analytic data.",
+      "front": "What does it mean to view a healthcare organization as an ecosystem of connected systems?",
+      "conceptIds": [
+        "healthcare-systems-ecosystem"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "Finance, HRIS, MPI, scheduling, materials, facilities, and EIS.",
+      "front": "What functions are associated with administrative systems in this review?",
+      "conceptIds": [
+        "administrative-systems"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "CIS, CDS, DMS, RIS, LIS, nursing, pharmacy, and emergency.",
+      "front": "What functions are associated with clinical systems in this review?",
+      "conceptIds": [
+        "clinical-systems"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "Disclosure, encoder/grouper, registry, CDI, deficiencies, and quality indicators.",
+      "front": "What functions are included among HIM systems and operations?",
+      "conceptIds": [
+        "him-systems-operations"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "An event occurs; multiple systems capture parts of it; HIM validates identity, meaning, quality, and disclosure; a person uses the information for care, operations, or reporting.",
+      "front": "What are the stages of the Event → Systems → Data → Decision framework?",
+      "conceptIds": [
+        "event-systems-data-decision"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Its primary purpose, users, inputs, outputs, workflow, output type, and controls.",
+      "front": "Which dimensions help classify a system?",
+      "conceptIds": [
+        "system-classification"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Whether it supports its intended users, work, outputs, and decisions; scope, workflow fit, and measurable objectives help assess this.",
+      "front": "What does purpose and fit ask about a system?",
+      "conceptIds": [
+        "purpose-and-fit"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Information should be complete, valid, consistent, timely, and understood.",
+      "front": "What qualities characterize information under the data-and-meaning principle?",
+      "conceptIds": [
+        "data-and-meaning"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "Policy, role-based access, authentication, and logs.",
+      "front": "What supports privacy, security, integrity, and auditability?",
+      "conceptIds": [
+        "access-and-trust"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "User testing, training, monitoring, and improvement.",
+      "front": "What supports safe and effective workflow adoption?",
+      "conceptIds": [
+        "workflow-and-adoption"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "Explain system purpose and limits; protect meaning and quality; support privacy, security, appropriate access, auditability, and responsible disclosure; and improve workflow.",
+      "front": "What are core HIM responsibilities across information work?",
+      "conceptIds": [
+        "him-responsibilities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "Because all systems produce the same output for every event.",
+        "Because a single event may be represented across connected systems that capture different information for different purposes.",
+        "Because each event belongs to only one system category.",
+        "Because HIM responsibilities apply only after a decision has been made."
+      ],
+      "question": "Why is it useful to view healthcare organizations as ecosystems of connected systems?",
+      "rationale": "Connected systems capture different parts of an event; one event may generate clinical, administrative, coding, quality, and analytic data.",
+      "conceptIds": [
+        "healthcare-systems-ecosystem"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Disclosure, registry, CDI, and deficiencies",
+        "LIS, nursing, pharmacy, and emergency",
+        "Finance, scheduling, materials, and facilities",
+        "CIS, CDS, RIS, and quality indicators"
+      ],
+      "question": "Which list contains only functions associated with administrative systems in this review?",
+      "rationale": "Finance, scheduling, materials, and facilities are listed among administrative system functions.",
+      "conceptIds": [
+        "administrative-systems"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q3",
+      "options": [
+        "Finance, HRIS, and facilities",
+        "Disclosure, encoder/grouper, registry, CDI, deficiencies, and quality indicators",
+        "CIS, CDS, and LIS",
+        "Nursing, pharmacy, and emergency"
+      ],
+      "question": "Which set is identified as HIM-related functions?",
+      "rationale": "These functions are specifically listed among HIM systems and operations.",
+      "conceptIds": [
+        "him-systems-operations"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q4",
+      "options": [
+        "A person makes a decision before any information is captured.",
+        "Multiple systems capture parts of the event.",
+        "The event is replaced by a single report.",
+        "All data are classified as HIM data."
+      ],
+      "question": "In the Event → Systems → Data → Decision framework, what follows identification of the event?",
+      "rationale": "After the encounter or operational event occurs, multiple systems capture parts of it.",
+      "conceptIds": [
+        "event-systems-data-decision"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q5",
+      "options": [
+        "System cost, staffing, facilities, and scheduling",
+        "Recommendations, transactions, reports, and records",
+        "Identity, meaning, quality, and disclosure",
+        "Training, measurable objectives, and scope"
+      ],
+      "question": "Which set contains the framework’s stated HIM validation concerns?",
+      "rationale": "The framework identifies HIM validation of identity, meaning, quality, and disclosure before information is used.",
+      "conceptIds": [
+        "event-systems-data-decision",
+        "him-responsibilities"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q6",
+      "options": [
+        "A measurable objective",
+        "A user",
+        "A workflow",
+        "A transaction"
+      ],
+      "question": "Which is one of the output types used to describe a system?",
+      "rationale": "The listed output types are record, transaction, recommendation, and report.",
+      "conceptIds": [
+        "system-classification"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q7",
+      "options": [
+        "Information must be complete, valid, consistent, and timely.",
+        "Privacy, security, integrity, and auditability must be protected.",
+        "People must receive testing, training, monitoring, and improvement.",
+        "The system should support its intended users, work, outputs, and decisions."
+      ],
+      "question": "Which description best captures the principle of purpose and fit?",
+      "rationale": "Purpose and fit concern alignment between a system and its intended users, work, outputs, and decisions.",
+      "conceptIds": [
+        "purpose-and-fit"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Definitions, metadata, validation, and mapping",
+        "Authentication, logs, and role-based access",
+        "User testing, training, and monitoring",
+        "Scope, workflow fit, and measurable objectives"
+      ],
+      "question": "Which group of practices supports data meaning?",
+      "rationale": "Definitions, metadata, validation, and mapping support information that is complete, valid, consistent, timely, and understood.",
+      "conceptIds": [
+        "data-and-meaning"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Policy, role-based access, authentication, and logs",
+        "Feedback, training, and root-cause correction",
+        "Definitions, metadata, and mapping",
+        "Scope, outputs, and measurable objectives"
+      ],
+      "question": "Which controls are listed for protecting access and trust?",
+      "rationale": "Policy, role-based access, authentication, and logs are listed as controls for privacy, security, integrity, and auditability.",
+      "conceptIds": [
+        "access-and-trust"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Definitions, terminology, mapping, and interpretation",
+        "Role-based access, authentication, and logs",
+        "User testing, training, monitoring, and improvement",
+        "Records, transactions, recommendations, and reports"
+      ],
+      "question": "Which actions support workflow and adoption?",
+      "rationale": "User testing, training, monitoring, and improvement support safe and effective use of information.",
+      "conceptIds": [
+        "workflow-and-adoption"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Choosing an output type without considering system role",
+        "Replacing the event with a workflow",
+        "Treating every output as a decision",
+        "Classifying and comparing the system"
+      ],
+      "question": "A system’s purpose, users, inputs, outputs, workflow, and controls are being reviewed. What is the primary task?",
+      "rationale": "These are the dimensions used to classify and compare a system.",
+      "conceptIds": [
+        "system-classification"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Use feedback, testing, training, monitoring, and root-cause correction.",
+        "Focus only on the system’s primary purpose.",
+        "Assume that adoption is complete once a system produces a report.",
+        "Limit review to whether the output is a record or transaction."
+      ],
+      "question": "Which action best represents HIM’s role in improving workflow?",
+      "rationale": "HIM responsibilities include using feedback, testing, training, monitoring, and root-cause correction to improve workflow.",
+      "conceptIds": [
+        "him-responsibilities",
+        "workflow-and-adoption"
+      ],
+      "answerIndex": 0
+    }
+  ],
+  "review": {
+    "title": "Integrated review: connect systems, information, and accountability",
+    "prompt": "Choose an encounter or operational event from the material. Explain how it is represented across connected systems, trace it through Event → Systems → Data → Decision, classify the systems involved by purpose and outputs, and identify HIM controls for meaning, quality, trust, and use.",
+    "source_refs": [
+      "Week 12 HIS.pdf [Page 2]",
+      "Week 12 HIS.pdf [Page 3]",
+      "Week 12 HIS.pdf [Page 4]",
+      "Week 12 HIS.pdf [Page 5]",
+      "Week 12 HIS.pdf [Page 6]",
+      "Week 12 HIS.pdf [Page 7]",
+      "Week 12 HIS.pdf [Page 8]",
+      "Week 12 HIS.pdf [Page 9]"
+    ]
+  }
+}

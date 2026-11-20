@@ -1,0 +1,617 @@
+{
+  "id": "week-15",
+  "order": 15,
+  "title": "Practical integration and system evaluation",
+  "overview": "Evaluate a health information system as connected information work: clarify its purpose and users, map workflow and data, assess system fit, identify controls, and defend a recommendation with evidence and trade-offs. The Map → Select → Control → Defend framework organizes this process, while HIM responsibilities protect information quality, meaning, trust, and use.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Connect purpose, users, workflow, data, systems, controls, and measures in a practical recommendation.",
+    "Evaluate a health information system across functional, information, governance, and adoption fit.",
+    "Use the Map → Select → Control → Defend framework to explain system integration and defend a recommendation with evidence and trade-offs.",
+    "Explain HIM responsibilities for protecting information quality, meaning, trust, and use."
+  ],
+  "concepts": [
+    {
+      "id": "concept.practical_recommendation",
+      "name": "Practical recommendation",
+      "definition": "A concise rationale connecting purpose, users, workflow, data, systems, controls, and measures, including a trade-off and a mitigation.",
+      "moduleRefs": [
+        "week-15"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-15",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.workflow_map",
+      "name": "Workflow map",
+      "definition": "A representation of people, systems, data, decisions, and control points.",
+      "moduleRefs": [
+        "week-15"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-15",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.evidence",
+      "name": "Evidence",
+      "definition": "Requirements, decision criteria, data-quality checks, and implementation risks used to support evaluation and recommendations.",
+      "moduleRefs": [
+        "week-15"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-15",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.functional_fit",
+      "name": "Functional fit",
+      "definition": "The system's support for the actual work.",
+      "moduleRefs": [
+        "week-15"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-15",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.information_fit",
+      "name": "Information fit",
+      "definition": "The completeness, meaningfulness, exchangeability, and retrievability of data.",
+      "moduleRefs": [
+        "week-15"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-15",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.governance_fit",
+      "name": "Governance fit",
+      "definition": "The system's fit with privacy, security, and accountability requirements.",
+      "moduleRefs": [
+        "week-15"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-15",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.adoption_fit",
+      "name": "Adoption fit",
+      "definition": "Whether people can use, learn, and sustain the system.",
+      "moduleRefs": [
+        "week-15"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-15",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_responsibilities",
+      "name": "HIM responsibilities",
+      "definition": "Explaining system purpose; protecting meaning, quality, and trust; and improving workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "moduleRefs": [
+        "week-15"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-15",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.quality_safety_governance_principles",
+      "name": "Quality, safety, and governance principles",
+      "definition": "Principles addressing purpose and fit, data and meaning, access and trust, and workflow and adoption, with associated evidence or controls.",
+      "moduleRefs": [
+        "week-02",
+        "week-07",
+        "week-15"
+      ],
+      "reviewedIn": [
+        "week-07",
+        "week-15"
+      ],
+      "introducedIn": "week-02",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "A system evaluation is more than a feature list. A practical recommendation connects the system's purpose to its users, workflow, data, systems, controls, and measures. Begin by identifying what work the system is meant to support, who uses it, what information moves through it, and which decisions depend on that information. Then consider whether the system fits the work and whether its controls and measures protect the intended outcome. A strong recommendation states its rationale concisely and acknowledges one trade-off and a mitigation.",
+      "title": "Evaluate the system as connected information work"
+    },
+    {
+      "body": "A workflow map represents people, systems, data, decisions, and control points. Mapping these elements makes it possible to explain what happens, who is responsible, and where control is needed. For example, a community hospital can trace registration, clinical documentation, laboratory, patient portal, coding, billing, quality reporting, and follow-up as one information flow. Treating these activities as connected work helps frame system fit and responsibilities across the flow, rather than judging an isolated screen or task.",
+      "title": "Map the information flow before selecting systems"
+    },
+    {
+      "body": "Use four distinct questions when evaluating an information system. Functional fit asks whether it supports the actual work. Information fit asks whether data are complete, meaningful, exchangeable, and retrievable. Governance fit asks whether privacy, security, and accountability are addressed. Adoption fit asks whether people can use, learn, and sustain the system. These dimensions are complementary: support for work does not by itself establish that information can be understood or exchanged, and governance protections do not by themselves establish that people can use the system and sustain its use.",
+      "title": "Assess four dimensions of system fit"
+    },
+    {
+      "body": "The Map → Select → Control → Defend framework provides a practical sequence. Map people, process, data, and decisions. Select systems that support the workflow. Add quality, privacy, security, and audit controls. Defend the recommendation with evidence and trade-offs. Evidence can include requirements, decision criteria, data-quality checks, and implementation risks. A defensible recommendation uses these considerations to explain its rationale, makes a trade-off visible, and identifies a mitigation rather than presenting the choice as cost-free.",
+      "title": "Use evidence to defend a recommendation"
+    },
+    {
+      "body": "HIM professionals connect system purpose to trustworthy information work. They explain purpose by identifying users, inputs, outputs, decisions, and limits. They protect meaning through definitions, standards, terminology, mapping, and consistent interpretation. They protect quality by checking identity, completeness, accuracy, validity, timeliness, and consistency. They support trust through privacy, security, appropriate access, auditability, and responsible disclosure. They also help improve workflow through feedback, testing, training, monitoring, and root-cause correction. These responsibilities connect system evaluation to safe, useful, and accountable information work.",
+      "title": "HIM responsibilities protect information quality, meaning, and trust"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "map",
+          "text": "Map people, process, data, and decisions.",
+          "order": 0
+        },
+        {
+          "id": "select",
+          "text": "Select systems that support the workflow.",
+          "order": 1
+        },
+        {
+          "id": "control",
+          "text": "Add quality, privacy, security, and audit controls.",
+          "order": 2
+        },
+        {
+          "id": "defend",
+          "text": "Defend the recommendation with evidence and trade-offs.",
+          "order": 3
+        }
+      ],
+      "title": "Apply the system-evaluation sequence",
+      "prompt": "Arrange the steps in the Map → Select → Control → Defend framework.",
+      "feedback": "",
+      "conceptIds": [
+        "workflow-map",
+        "evidence",
+        "practical-recommendation"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Functional fit",
+          "right": "Does the system support the actual work?",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Information fit",
+          "right": "Are data complete, meaningful, exchangeable, and retrievable?",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Governance fit",
+          "right": "Are privacy, security, and accountability addressed?",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Adoption fit",
+          "right": "Can people use, learn, and sustain the system?",
+          "feedback": ""
+        }
+      ],
+      "title": "Match each fit dimension to its evaluation question",
+      "prompt": "Match each system-fit dimension with the question it addresses.",
+      "choices": [
+        "Does the system support the actual work?",
+        "Are data complete, meaningful, exchangeable, and retrievable?",
+        "Are privacy, security, and accountability addressed?",
+        "Can people use, learn, and sustain the system?"
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "functional-fit",
+        "information-fit",
+        "governance-fit",
+        "adoption-fit"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "scenario",
+      "title": "Choose the next step in a system evaluation",
+      "prompt": "Hypothetical situation: A community hospital is evaluating a system across registration, clinical documentation, laboratory, patient portal, coding, billing, quality reporting, and follow-up. The evaluation team has not yet described how people, data, decisions, and control points connect. What should the team do first?",
+      "debrief": "The framework begins by mapping people, process, data, and decisions. That map helps clarify workflow and where controls are needed before the team selects systems or defends a recommendation.",
+      "options": [
+        "Map the people, process, data, and decisions involved.",
+        "Defend a recommendation before identifying the workflow.",
+        "Select a system without considering workflow support.",
+        "Treat each listed service as unrelated to the information flow."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "workflow-map",
+        "practical-recommendation"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "activity-4",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Does the system support the actual work?",
+          "answer": "Functional fit",
+          "feedback": "Functional fit concerns support for actual work."
+        },
+        {
+          "id": "item-2",
+          "text": "Are data complete, meaningful, exchangeable, and retrievable?",
+          "answer": "Information fit",
+          "feedback": "Information fit concerns these properties of data."
+        },
+        {
+          "id": "item-3",
+          "text": "Are privacy, security, and accountability addressed?",
+          "answer": "Governance fit",
+          "feedback": "Governance fit concerns privacy, security, and accountability."
+        },
+        {
+          "id": "item-4",
+          "text": "Can people use, learn, and sustain the system?",
+          "answer": "Adoption fit",
+          "feedback": "Adoption fit concerns people's ability to use, learn, and sustain the system."
+        }
+      ],
+      "title": "Identify the kind of fit being evaluated",
+      "prompt": "Classify each evaluation question by the system-fit dimension it addresses.",
+      "feedback": "",
+      "categories": [
+        "Functional fit",
+        "Information fit",
+        "Governance fit",
+        "Adoption fit"
+      ],
+      "conceptIds": [
+        "functional-fit",
+        "information-fit",
+        "governance-fit",
+        "adoption-fit"
+      ]
+    },
+    {
+      "id": "activity-5",
+      "type": "retrieval",
+      "title": "Recall what makes a recommendation practical",
+      "answer": "It connects purpose, users, workflow, data, systems, controls, and measures. It includes a trade-off and a mitigation.",
+      "prompt": "What should a practical recommendation connect, and what should it include beyond a concise rationale?",
+      "feedback": "",
+      "conceptIds": [
+        "practical-recommendation"
+      ]
+    },
+    {
+      "id": "activity-6",
+      "type": "reflection",
+      "title": "Draft and defend a recommendation",
+      "answer": "A strong response connects the listed elements, draws on requirements, decision criteria, data-quality checks, or implementation risks as evidence, and explicitly states one trade-off and one mitigation.",
+      "prompt": "Using the community hospital information flow, outline a practical recommendation. Identify purpose, users, workflow, data, systems, controls, and measures; state the evidence you would use; then name one trade-off and a mitigation.",
+      "feedback": "",
+      "conceptIds": [
+        "practical-recommendation",
+        "evidence",
+        "workflow-map"
+      ]
+    },
+    {
+      "id": "activity-7",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "explain-purpose",
+          "text": "Explain purpose by identifying users, inputs, outputs, decisions, and limits.",
+          "order": 0
+        },
+        {
+          "id": "protect-meaning",
+          "text": "Protect meaning through definitions, standards, terminology, mapping, and consistent interpretation.",
+          "order": 1
+        },
+        {
+          "id": "protect-quality",
+          "text": "Protect quality by checking identity, completeness, accuracy, validity, timeliness, and consistency.",
+          "order": 2
+        },
+        {
+          "id": "protect-trust",
+          "text": "Protect trust through privacy, security, appropriate access, auditability, and responsible disclosure.",
+          "order": 3
+        },
+        {
+          "id": "improve-workflow",
+          "text": "Improve workflow through feedback, testing, training, monitoring, and root-cause correction.",
+          "order": 4
+        }
+      ],
+      "title": "Sequence HIM responsibilities",
+      "prompt": "Arrange the responsibilities in the sequence presented for connecting system purpose to trustworthy information work.",
+      "feedback": "",
+      "conceptIds": [
+        "him-responsibilities",
+        "quality-safety-governance-principles"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "A representation of people, systems, data, decisions, and control points.",
+      "front": "What is a workflow map?",
+      "conceptIds": [
+        "workflow-map"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "Whether the system supports the actual work.",
+      "front": "What does functional fit assess?",
+      "conceptIds": [
+        "functional-fit"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "Whether data are complete, meaningful, exchangeable, and retrievable.",
+      "front": "What does information fit assess?",
+      "conceptIds": [
+        "information-fit"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "Whether the system fits privacy, security, and accountability requirements.",
+      "front": "What does governance fit assess?",
+      "conceptIds": [
+        "governance-fit"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "Whether people can use, learn, and sustain the system.",
+      "front": "What does adoption fit assess?",
+      "conceptIds": [
+        "adoption-fit"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Requirements, decision criteria, data-quality checks, and implementation risks.",
+      "front": "What evidence can support a system evaluation?",
+      "conceptIds": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Map people, process, data, and decisions; select systems that support the workflow; add controls; defend the recommendation with evidence and trade-offs.",
+      "front": "What are the four steps of the system-evaluation framework?",
+      "conceptIds": [
+        "workflow-map",
+        "evidence",
+        "practical-recommendation"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Purpose, users, workflow, data, systems, controls, and measures.",
+      "front": "What should a practical recommendation connect?",
+      "conceptIds": [
+        "practical-recommendation"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "One trade-off and one mitigation.",
+      "front": "What should a practical recommendation include besides its rationale?",
+      "conceptIds": [
+        "practical-recommendation"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "Explain purpose, protect meaning, protect quality, protect trust, and improve workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "front": "Name the five HIM responsibilities for trustworthy information work.",
+      "conceptIds": [
+        "him-responsibilities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "A representation of people, systems, data, decisions, and control points",
+        "A list of system features without users or processes",
+        "A summary limited to data-quality checks",
+        "A recommendation that excludes implementation risks"
+      ],
+      "question": "Which description best defines a workflow map?",
+      "rationale": "A workflow map represents people, systems, data, decisions, and control points.",
+      "conceptIds": [
+        "workflow-map"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Information fit",
+        "Adoption fit",
+        "Governance fit",
+        "Functional fit"
+      ],
+      "question": "A team asks whether a system supports the actual work. Which dimension is it assessing?",
+      "rationale": "Functional fit concerns the system's support for actual work.",
+      "conceptIds": [
+        "functional-fit"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q3",
+      "options": [
+        "Feedback, training, and root-cause correction",
+        "Privacy, security, and accountability",
+        "Use, learning, and sustainability",
+        "Completeness, meaningfulness, exchangeability, and retrievability"
+      ],
+      "question": "Which set of properties describes information fit?",
+      "rationale": "Information fit concerns whether data are complete, meaningful, exchangeable, and retrievable.",
+      "conceptIds": [
+        "information-fit"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Governance fit",
+        "Adoption fit",
+        "Functional fit",
+        "Information fit"
+      ],
+      "question": "A system evaluation focuses on privacy, security, and accountability. Which dimension is being assessed?",
+      "rationale": "Governance fit concerns privacy, security, and accountability.",
+      "conceptIds": [
+        "governance-fit"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q5",
+      "options": [
+        "Are data exchangeable and retrievable?",
+        "Are privacy and accountability addressed?",
+        "Does the system support the actual work?",
+        "Can people use, learn, and sustain the system?"
+      ],
+      "question": "Which question most directly assesses adoption fit?",
+      "rationale": "Adoption fit concerns whether people can use, learn, and sustain the system.",
+      "conceptIds": [
+        "adoption-fit"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q6",
+      "options": [
+        "Select → Map → Defend → Control",
+        "Control → Defend → Map → Select",
+        "Map → Select → Control → Defend",
+        "Defend → Control → Select → Map"
+      ],
+      "question": "Which sequence correctly states the system-evaluation framework?",
+      "rationale": "The framework proceeds from mapping people, process, data, and decisions to selecting systems, adding controls, and defending the recommendation.",
+      "conceptIds": [
+        "workflow-map",
+        "evidence",
+        "practical-recommendation"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q7",
+      "options": [
+        "A preference stated without criteria",
+        "Data-quality checks",
+        "A recommendation without a rationale",
+        "A system name without a workflow"
+      ],
+      "question": "Which item is identified as evidence that can support system evaluation?",
+      "rationale": "Data-quality checks are one type of evidence, alongside requirements, decision criteria, and implementation risks.",
+      "conceptIds": [
+        "evidence"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q8",
+      "options": [
+        "A list of users without a rationale",
+        "A system name only",
+        "A trade-off and a mitigation",
+        "A measure without a stated purpose"
+      ],
+      "question": "What should a practical recommendation include to make a trade-off explicit and actionable?",
+      "rationale": "A practical recommendation includes a concise rationale, one trade-off, and one mitigation.",
+      "conceptIds": [
+        "practical-recommendation"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Identifying implementation risks only",
+        "Supporting definitions, standards, terminology, and mapping",
+        "Selecting systems before mapping workflow",
+        "Measuring adoption without feedback"
+      ],
+      "question": "Which action is specifically associated with protecting information meaning?",
+      "rationale": "HIM protects meaning through definitions, standards, terminology, mapping, and consistent interpretation.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Purpose, users, inputs, outputs, and limits",
+        "Privacy, security, access, and disclosure",
+        "Identity, completeness, accuracy, validity, timeliness, and consistency",
+        "Feedback, testing, training, and monitoring"
+      ],
+      "question": "Which group of checks is associated with HIM's responsibility to protect information quality?",
+      "rationale": "HIM protects quality by checking identity, completeness, accuracy, validity, timeliness, and consistency.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Requirements, decision criteria, and implementation risks",
+        "Feedback, testing, training, monitoring, and root-cause correction",
+        "Identity, accuracy, validity, and timeliness",
+        "Definitions, standards, terminology, and mapping"
+      ],
+      "question": "Which set of activities supports improvement of the workflow in the HIM responsibility sequence?",
+      "rationale": "HIM supports workflow improvement through feedback, testing, training, monitoring, and root-cause correction.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q12",
+      "options": [
+        "A connected information flow across healthcare work",
+        "A system evaluation limited to functional fit",
+        "A recommendation that does not need controls",
+        "An assessment of adoption fit alone"
+      ],
+      "question": "A community hospital traces registration, clinical documentation, laboratory, patient portal, coding, billing, quality reporting, and follow-up together. What does this illustrate?",
+      "rationale": "The example traces these activities as one information flow, supporting an integrated view of work and system evaluation.",
+      "conceptIds": [
+        "workflow-map",
+        "practical-recommendation"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

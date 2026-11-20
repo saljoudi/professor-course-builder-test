@@ -1,0 +1,626 @@
+{
+  "id": "week-08",
+  "order": 8,
+  "title": "Administrative systems make healthcare operations visible: Financial systems, revenue cycle, HRIS, and MPI",
+  "overview": "Administrative systems manage the business and resources of healthcare. This week follows information through Register → Deliver → Charge → Reconcile, considers how financial and workforce information supports operations, and examines how MPI and EMPI match identity at different scales. It also focuses on HIM responsibilities for information quality, meaning, trust, and use.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain how administrative systems manage the business and resources of healthcare.",
+    "Describe how financial data connect services, charges, claims, payments, and performance.",
+    "Explain how the master patient index links identity across encounters to support a longitudinal record.",
+    "Distinguish MPI from EMPI by the scale of identity matching.",
+    "Use the Register → Deliver → Charge → Reconcile framework to explain healthcare administrative information flow and identify where control is needed.",
+    "Describe HIM responsibilities for protecting information quality, meaning, trust, and use in administrative systems."
+  ],
+  "concepts": [
+    {
+      "id": "concept.administrative_systems",
+      "name": "Administrative systems",
+      "definition": "Systems that manage the business and resources of healthcare.",
+      "moduleRefs": [
+        "week-01",
+        "week-08"
+      ],
+      "reviewedIn": [
+        "week-08"
+      ],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.financial_information_system",
+      "name": "Financial information system",
+      "definition": "A system concerned with revenue, charges, claims, and payments.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.financial_data",
+      "name": "Financial data",
+      "definition": "Information connecting services, charges, claims, payments, and performance.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.revenue_cycle",
+      "name": "Revenue cycle",
+      "definition": "A topic organized in this week through the Register → Deliver → Charge → Reconcile framework for healthcare administrative information flow.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.hris",
+      "name": "HRIS",
+      "definition": "A system concerned with workforce records, credentials, schedules, and reporting.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.master_patient_index_mpi",
+      "name": "Master patient index (MPI)",
+      "definition": "An identity index within one organization that supports linking identity across encounters.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.enterprise_master_patient_index_empi",
+      "name": "Enterprise master patient index (EMPI)",
+      "definition": "Identity matching across connected repositories or organizations.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.chargemaster",
+      "name": "Chargemaster",
+      "definition": "A controlled list of billable services and charges.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.longitudinal_record",
+      "name": "Longitudinal record",
+      "definition": "A record supported by linking identity across encounters.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_responsibilities",
+      "name": "HIM responsibilities",
+      "definition": "HIM professionals explain system purpose, protect meaning and information quality, support trust, and improve workflow.",
+      "moduleRefs": [
+        "week-08"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-08",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "Administrative systems manage the business and resources of healthcare. They make information about identity, resources, services, charges, claims, payments, and performance visible for healthcare operations. Financial information systems focus on revenue, charges, claims, and payments. HRIS focuses on workforce records, credentials, schedules, and reporting. These systems have different purposes and information, but together they support the work and resources needed to deliver healthcare.",
+      "title": "Administrative systems make operations visible"
+    },
+    {
+      "body": "Use this sequence to organize the information flow around a healthcare encounter. **Register:** create or locate the correct patient identity. **Deliver:** record the service and its supporting documentation. **Charge:** map the service to a charge and coding workflow. **Reconcile:** compare expected and actual financial results. Each step adds or uses information, and the framework helps identify what happens, who is responsible, and where control is needed. For example, the identity established at registration matters to the encounter that is documented and later connected to charges and financial results.",
+      "title": "Follow the information: Register → Deliver → Charge → Reconcile"
+    },
+    {
+      "body": "Financial data connect services, charges, claims, payments, and performance. A financial information system is concerned with revenue, charges, claims, and payments. The chargemaster is a controlled list of billable services and charges; within the framework, a service is mapped to a charge and coding workflow before financial results are reconciled. These terms describe related but distinct parts of the work: financial data connect information across the process, while the chargemaster names the controlled list used for billable services and charges.",
+      "title": "Financial data and controlled charge information"
+    },
+    {
+      "body": "An MPI is an identity index within one organization. By linking identity across encounters, it supports a longitudinal record. An EMPI matches identity across connected repositories or organizations; its scope is not limited to an identity index within one organization. The HIM focus differs accordingly: for an MPI, attention includes preventing duplicates and overlays; for an EMPI, it includes governance, matching rules, and exception review. The distinction is the scale of matching, not a difference in the importance of trustworthy identity.",
+      "title": "MPI and EMPI: identity matching at different scales"
+    },
+    {
+      "body": "Reliable information depends on fit, meaning, trust, and usable workflow. Purpose and fit ask whether the system supports intended users, work, outputs, and decisions; scope, workflow fit, and measurable objectives provide controls to consider. Data and meaning require information to be complete, valid, consistent, timely, and understood, supported by definitions, metadata, validation, and mapping. Access and trust involve privacy, security, integrity, and auditability, supported by policy, role-based access, authentication, and logs. Workflow and adoption focus on whether people can use information safely and effectively, with user testing, training, monitoring, and improvement.\n\nHIM professionals connect system purpose to trustworthy information work. They explain purpose by identifying users, inputs, outputs, decisions, and limits; protect meaning through definitions, standards, terminology, mapping, and consistent interpretation; check identity, completeness, accuracy, validity, timeliness, and consistency; support privacy, security, appropriate access, auditability, and responsible disclosure; and improve workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "title": "Quality, trust, and HIM accountability"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "register",
+          "text": "Register: Create or locate the correct patient identity.",
+          "order": 0
+        },
+        {
+          "id": "deliver",
+          "text": "Deliver: Record the service and supporting documentation.",
+          "order": 1
+        },
+        {
+          "id": "charge",
+          "text": "Charge: Map the service to a charge and coding workflow.",
+          "order": 2
+        },
+        {
+          "id": "reconcile",
+          "text": "Reconcile: Compare expected and actual financial results.",
+          "order": 3
+        }
+      ],
+      "title": "Trace an encounter through the framework",
+      "prompt": "Put the four stages of the healthcare administrative information flow in order.",
+      "feedback": "",
+      "conceptIds": [
+        "revenue-cycle",
+        "financial-data",
+        "master-patient-index"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Financial information system",
+          "right": "Revenue, charges, claims, and payments",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "HRIS",
+          "right": "Workforce records, credentials, schedules, and reporting",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Chargemaster",
+          "right": "Controlled list of billable services and charges",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "MPI",
+          "right": "Identity index within one organization",
+          "feedback": ""
+        },
+        {
+          "id": "pair-5",
+          "left": "EMPI",
+          "right": "Identity matching across connected repositories or organizations",
+          "feedback": ""
+        }
+      ],
+      "title": "Match the system or term to its focus",
+      "prompt": "Match each term to the focus described in this week.",
+      "choices": [
+        "Revenue, charges, claims, and payments",
+        "Workforce records, credentials, schedules, and reporting",
+        "Controlled list of billable services and charges",
+        "Identity index within one organization",
+        "Identity matching across connected repositories or organizations"
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "financial-information-system",
+        "hris",
+        "chargemaster",
+        "master-patient-index",
+        "enterprise-master-patient-index"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "comparison",
+      "items": [
+        {
+          "label": "MPI",
+          "detail": "An identity index within one organization; HIM focus includes duplicate and overlay prevention."
+        },
+        {
+          "label": "EMPI",
+          "detail": "Identity matching across connected repositories or organizations; HIM focus includes governance, matching rules, and exception review."
+        }
+      ],
+      "title": "Compare MPI and EMPI",
+      "answer": "MPI matches identity within one organization; EMPI matches across connected repositories or organizations. Their different scales inform the HIM focus.",
+      "prompt": "Compare the identity-matching scale of MPI and EMPI and connect each scale to its HIM focus.",
+      "feedback": "",
+      "conceptIds": [
+        "master-patient-index",
+        "enterprise-master-patient-index"
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "scenario",
+      "title": "Where should the review focus?",
+      "prompt": "A healthcare organization reviews an encounter that has registration, clinical, coding, billing, staffing, and reporting information. The team is checking whether the encounter is linked to the correct identity across encounters within the organization. Which system and control focus best fit this task?",
+      "debrief": "The task concerns identity within one organization, so it fits the MPI. The stated HIM focus for an MPI includes duplicate and overlay prevention. The encounter example also shows how MPI links an encounter to the correct identity while financial and workforce systems support operations.",
+      "options": [
+        "EMPI, with a focus on matching across organizations",
+        "MPI, with a focus on preventing duplicates and overlays",
+        "HRIS, with a focus on workforce schedules",
+        "Chargemaster, with a focus on comparing expected and actual financial results"
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "master-patient-index",
+        "longitudinal-record",
+        "him-responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "activity-5",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Check scope, workflow fit, and measurable objectives.",
+          "answer": "Purpose and fit",
+          "feedback": "Purpose and fit concerns intended users, work, outputs, and decisions."
+        },
+        {
+          "id": "item-2",
+          "text": "Use definitions, metadata, validation, and mapping.",
+          "answer": "Data and meaning",
+          "feedback": "These controls support information that is complete, valid, consistent, timely, and understood."
+        },
+        {
+          "id": "item-3",
+          "text": "Use policy, role-based access, authentication, and logs.",
+          "answer": "Access and trust",
+          "feedback": "These controls support privacy, security, integrity, and auditability."
+        },
+        {
+          "id": "item-4",
+          "text": "Use user testing, training, monitoring, and improvement.",
+          "answer": "Workflow and adoption",
+          "feedback": "These practices help people use information safely and effectively."
+        }
+      ],
+      "title": "Place HIM controls in the right area",
+      "prompt": "Classify each control by the quality and governance area it primarily supports.",
+      "feedback": "",
+      "categories": [
+        "Purpose and fit",
+        "Data and meaning",
+        "Access and trust",
+        "Workflow and adoption"
+      ],
+      "conceptIds": [
+        "him-responsibilities",
+        "administrative-systems"
+      ]
+    },
+    {
+      "id": "activity-6",
+      "type": "retrieval",
+      "title": "Recall HIM's responsibilities",
+      "answer": "Explain purpose; protect meaning; protect quality; protect trust; and improve the workflow.",
+      "prompt": "Name the five responsibilities HIM professionals apply to administrative systems in this week.",
+      "feedback": "",
+      "conceptIds": [
+        "him-responsibilities"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "The business and resources of healthcare.",
+      "front": "What do administrative systems manage?",
+      "conceptIds": [
+        "administrative-systems"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "Services, charges, claims, payments, and performance.",
+      "front": "What information do financial data connect?",
+      "conceptIds": [
+        "financial-data"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "Revenue, charges, claims, and payments.",
+      "front": "What is a financial information system concerned with?",
+      "conceptIds": [
+        "financial-information-system"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "Workforce records, credentials, schedules, and reporting.",
+      "front": "What does HRIS cover in this week?",
+      "conceptIds": [
+        "hris"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "A controlled list of billable services and charges.",
+      "front": "What is a chargemaster?",
+      "conceptIds": [
+        "chargemaster"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Create or locate the correct patient identity.",
+      "front": "What is the Register stage?",
+      "conceptIds": [
+        "revenue-cycle",
+        "master-patient-index"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Record the service and supporting documentation.",
+      "front": "What happens at the Deliver stage?",
+      "conceptIds": [
+        "revenue-cycle"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Map the service to a charge and coding workflow.",
+      "front": "What happens at the Charge stage?",
+      "conceptIds": [
+        "revenue-cycle",
+        "financial-data",
+        "chargemaster"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "Compare expected and actual financial results.",
+      "front": "What happens at the Reconcile stage?",
+      "conceptIds": [
+        "revenue-cycle",
+        "financial-data"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "It links identity across encounters within one organization.",
+      "front": "How does an MPI support a longitudinal record?",
+      "conceptIds": [
+        "master-patient-index",
+        "longitudinal-record"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "EMPI matches identity across connected repositories or organizations; MPI is an identity index within one organization.",
+      "front": "How does EMPI differ from MPI in matching scale?",
+      "conceptIds": [
+        "master-patient-index",
+        "enterprise-master-patient-index"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "Explain purpose, protect meaning, protect quality, protect trust, and improve the workflow.",
+      "front": "What five responsibilities guide HIM work with administrative systems?",
+      "conceptIds": [
+        "him-responsibilities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "They match identity only across connected organizations.",
+        "They are limited to recording clinical documentation.",
+        "They are controlled lists of billable services and charges.",
+        "They manage the business and resources of healthcare."
+      ],
+      "question": "Which statement best describes the role of administrative systems?",
+      "rationale": "Administrative systems manage the business and resources of healthcare; the other choices describe narrower functions or terms.",
+      "conceptIds": [
+        "administrative-systems"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Services, charges, claims, payments, and performance",
+        "Credentials, schedules, user testing, and training",
+        "Identity, authentication, audit logs, and disclosure",
+        "Definitions, metadata, validation, and mapping"
+      ],
+      "question": "Which set of information is connected by financial data?",
+      "rationale": "Financial data connect services, charges, claims, payments, and performance.",
+      "conceptIds": [
+        "financial-data"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q3",
+      "options": [
+        "Charge",
+        "Deliver",
+        "Register",
+        "Reconcile"
+      ],
+      "question": "At which stage is a service mapped to a charge and coding workflow?",
+      "rationale": "The Charge stage maps the service to a charge and coding workflow.",
+      "conceptIds": [
+        "revenue-cycle",
+        "financial-data"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Create or locate the correct patient identity.",
+        "Record the service and supporting documentation.",
+        "Compare expected and actual financial results.",
+        "Map a service to a charge and coding workflow."
+      ],
+      "question": "What is the purpose of the Reconcile stage in the framework?",
+      "rationale": "Reconcile is the step where expected and actual financial results are compared.",
+      "conceptIds": [
+        "revenue-cycle",
+        "financial-data"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q5",
+      "options": [
+        "An identity index within one organization",
+        "A controlled list of billable services and charges",
+        "A system concerned with workforce records, credentials, schedules, and reporting",
+        "A system concerned only with claims and payments"
+      ],
+      "question": "Which description fits HRIS?",
+      "rationale": "HRIS is concerned with workforce records, credentials, schedules, and reporting.",
+      "conceptIds": [
+        "hris"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q6",
+      "options": [
+        "A record that links a patient's identity across organizations",
+        "A comparison of expected and actual financial results",
+        "A report of workforce schedules and credentials",
+        "A controlled list of billable services and charges"
+      ],
+      "question": "What is a chargemaster?",
+      "rationale": "A chargemaster is a controlled list of billable services and charges.",
+      "conceptIds": [
+        "chargemaster"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q7",
+      "options": [
+        "MPI indexes identity within one organization; EMPI matches across connected repositories or organizations.",
+        "MPI is a controlled charge list; EMPI is a coding workflow.",
+        "MPI focuses on workforce records; EMPI focuses on financial performance.",
+        "MPI compares financial results; EMPI records services and documentation."
+      ],
+      "question": "Which statement distinguishes MPI from EMPI?",
+      "rationale": "MPI is an identity index within one organization, while EMPI matches identity across connected repositories or organizations.",
+      "conceptIds": [
+        "master-patient-index",
+        "enterprise-master-patient-index"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Governance across organizations and exception review only",
+        "Preventing duplicates and overlays",
+        "Mapping services to charges",
+        "Workforce schedules and credential reporting"
+      ],
+      "question": "Which HIM focus is specifically associated with an MPI?",
+      "rationale": "The HIM focus for an MPI includes duplicate and overlay prevention.",
+      "conceptIds": [
+        "master-patient-index"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Definitions, metadata, validation, and mapping",
+        "Policy, role-based access, authentication, and logs",
+        "Scope, workflow fit, and measurable objectives",
+        "User testing, training, monitoring, and improvement"
+      ],
+      "question": "Which control set best supports access and trust?",
+      "rationale": "Policy, role-based access, authentication, and logs support privacy, security, integrity, and auditability.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Definitions, metadata, validation, and mapping",
+        "User testing, training, monitoring, and improvement",
+        "Policy, authentication, and logs",
+        "Scope and measurable objectives"
+      ],
+      "question": "Which group of practices supports workflow and adoption?",
+      "rationale": "User testing, training, monitoring, and improvement support whether people can use information safely and effectively.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Compare expected and actual financial results.",
+        "Create or locate the correct patient identity.",
+        "Support definitions, standards, terminology, mapping, and consistent interpretation.",
+        "Review workforce credentials and schedules."
+      ],
+      "question": "Which action best represents protecting meaning in HIM work?",
+      "rationale": "Protecting meaning involves definitions, standards, terminology, mapping, and consistent interpretation.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Explain purpose",
+        "Protect meaning",
+        "Improve the workflow",
+        "Protect quality"
+      ],
+      "question": "A team wants to assess whether information is complete, accurate, valid, timely, and consistent. Which HIM responsibility is most directly involved?",
+      "rationale": "Protecting quality includes checking identity, completeness, accuracy, validity, timeliness, and consistency.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 3
+    }
+  ]
+}

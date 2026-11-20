@@ -1,0 +1,563 @@
+{
+  "id": "week-09",
+  "order": 9,
+  "title": "Administrative data becomes useful when leaders can act on it",
+  "overview": "This week examines how operational data becomes management information and action. Compare DSS and EIS, follow the Collect → Measure → Interpret → Act framework, interpret a KPI in context, and examine HIM responsibilities for purpose, meaning, quality, trust, and workflow use.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain how decision support systems (DSS) and executive information systems (EIS) support different management needs.",
+    "Describe the Collect → Measure → Interpret → Act framework for turning operational data into management action.",
+    "Explain how healthcare leaders interpret a KPI in context before changing a workflow.",
+    "Describe HIM responsibilities for protecting information purpose, meaning, quality, trust, and workflow use."
+  ],
+  "concepts": [
+    {
+      "id": "concept.decision_support_system_dss",
+      "name": "Decision support system (DSS)",
+      "definition": "Supports analysis of a defined decision or problem. It combines data, models, and context to help people evaluate choices, with more detail, analysis, and what-if exploration.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.executive_information_system_eis",
+      "name": "Executive information system (EIS)",
+      "definition": "Presents concise, high-level performance views for senior leaders, including trends, exceptions, and KPIs.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.operational_systems",
+      "name": "Operational systems",
+      "definition": "Systems that create the data that management systems summarize.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.key_performance_indicator_kpi",
+      "name": "Key performance indicator (KPI)",
+      "definition": "A performance indicator used to present or measure performance. The framework calls for defining a KPI or performance measure before interpreting trends, exceptions, and context.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.scheduling",
+      "name": "Scheduling",
+      "definition": "Coordinates resources, staff, rooms, and appointments.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.materials_and_facilities",
+      "name": "Materials and facilities",
+      "definition": "Track supplies, equipment, space, and maintenance.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.collect_measure_interpret_act_framework",
+      "name": "Collect → Measure → Interpret → Act framework",
+      "definition": "A sequence for bringing together operational data, defining a KPI or performance measure, interpreting trends, exceptions, and context, and then changing a workflow, resource plan, or policy.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.information_quality_and_meaning",
+      "name": "Information quality and meaning",
+      "definition": "Information is complete, valid, consistent, timely, and understood. Definitions, metadata, validation, and mapping support its meaning and quality.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.access_and_trust",
+      "name": "Access and trust",
+      "definition": "Privacy, security, integrity, and auditability are protected through policy, role-based access, authentication, and logs.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_responsibilities",
+      "name": "HIM responsibilities",
+      "definition": "HIM professionals connect system purpose to trustworthy information work by explaining purpose, protecting meaning and quality, protecting trust, and improving workflow.",
+      "moduleRefs": [
+        "week-09"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-09",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "Operational systems create the data that management systems summarize. Administrative systems support different areas of work: scheduling coordinates resources, staff, rooms, and appointments, while materials and facilities systems track supplies, equipment, space, and maintenance. These operational activities produce data that can be measured and presented to support management needs. A management view is useful when its information is connected to its purpose, users, and decisions.",
+      "title": "Management systems start with operational work"
+    },
+    {
+      "body": "A decision support system (DSS) supports analysis of a defined decision or problem. It offers more detail, analysis, and what-if exploration to help people consider options. An executive information system (EIS) presents a concise, high-level view for senior leaders, using indicators, trends, and exceptions to show where performance is strong or weak. The distinction is not simply whether a system displays data: a DSS helps examine options for a particular decision, while an EIS gives leaders a compact view of performance.",
+      "title": "DSS and EIS answer different management questions"
+    },
+    {
+      "body": "The Collect → Measure → Interpret → Act framework organizes the path from operational data to management action. First, bring together operational data. Next, define a KPI or other performance measure so the intended measure is clear. Then interpret trends and exceptions in context. Finally, use that interpretation to consider changing a workflow, resource plan, or policy. The stages keep measurement and interpretation distinct from action: a reported result is not, by itself, an explanation or a decision.",
+      "title": "Turn operational data into action"
+    },
+    {
+      "body": "An executive dashboard may show rising length of stay, but leaders should consider the KPI alongside relevant context before changing a workflow. In the example, that context includes case mix, discharge delays, staffing, bed capacity, data definitions, and time trends. Combining these elements helps leaders interpret what the KPI is showing rather than treating the displayed trend as a complete explanation. For HIM, management information becomes useful when operational data are measured consistently, interpreted in context, and connected to an action.",
+      "title": "Interpret a KPI in context before changing work"
+    },
+    {
+      "body": "HIM professionals connect a system’s purpose to trustworthy information work. They clarify users, inputs, outputs, decisions, and limits; support definitions, standards, terminology, mapping, and consistent interpretation; and check identity, completeness, accuracy, validity, timeliness, and consistency. They also support privacy, security, appropriate access, auditability, and responsible disclosure. Finally, feedback, testing, training, monitoring, and root-cause correction help improve workflow and adoption. These responsibilities frame whether information is fit for its intended use and can be used safely and effectively.",
+      "title": "HIM responsibilities: purpose, meaning, quality, trust, and workflow"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "comparison",
+      "items": [
+        {
+          "label": "DSS",
+          "detail": "Supports analysis of a defined decision or problem; provides more detail, analysis, and what-if exploration to help evaluate options."
+        },
+        {
+          "label": "EIS",
+          "detail": "Presents concise, high-level performance views for senior leaders, including indicators, trends, and exceptions."
+        }
+      ],
+      "title": "Choose the system for the management need",
+      "answer": "A DSS helps users analyze options for a defined decision; an EIS helps senior leaders see concise performance trends and exceptions.",
+      "prompt": "Compare DSS and EIS by the question each helps answer, the level of detail, and the information presented.",
+      "feedback": "",
+      "conceptIds": [
+        "decision-support-system",
+        "executive-information-system"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "collect",
+          "text": "Bring together operational data.",
+          "order": 0
+        },
+        {
+          "id": "measure",
+          "text": "Define a KPI or performance measure.",
+          "order": 1
+        },
+        {
+          "id": "interpret",
+          "text": "Interpret trends, exceptions, and context.",
+          "order": 2
+        },
+        {
+          "id": "act",
+          "text": "Change a workflow, resource plan, or policy.",
+          "order": 3
+        }
+      ],
+      "title": "Sequence the framework",
+      "prompt": "Put the stages in order to show how operational data can inform management action.",
+      "feedback": "",
+      "conceptIds": [
+        "collect-measure-interpret-act",
+        "key-performance-indicator"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "scenario",
+      "title": "Read the dashboard before changing the workflow",
+      "prompt": "A hypothetical executive dashboard shows rising length of stay. What should leaders do before changing a workflow?",
+      "debrief": "The example calls for leaders to combine the KPI with relevant context before changing the workflow. The measure is useful when it is interpreted in context and connected to an action.",
+      "options": [
+        "Interpret the KPI alongside case mix, discharge delays, staffing, bed capacity, data definitions, and time trends.",
+        "Change the workflow based on the dashboard trend alone.",
+        "Treat the KPI as an explanation without considering its definitions or context."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "key-performance-indicator",
+        "collect-measure-interpret-act",
+        "information-quality-and-meaning"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "activity-4",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Identify the system’s users, inputs, outputs, decisions, and limits.",
+          "answer": "Explain purpose",
+          "feedback": "This task clarifies what the system is for and the boundaries of its use."
+        },
+        {
+          "id": "item-2",
+          "text": "Support definitions, standards, terminology, mapping, and consistent interpretation.",
+          "answer": "Protect meaning",
+          "feedback": "These activities help information retain a consistent, understood meaning."
+        },
+        {
+          "id": "item-3",
+          "text": "Check identity, completeness, accuracy, validity, timeliness, and consistency.",
+          "answer": "Protect quality",
+          "feedback": "These are the listed information-quality checks."
+        },
+        {
+          "id": "item-4",
+          "text": "Support privacy, security, appropriate access, auditability, and responsible disclosure.",
+          "answer": "Protect trust",
+          "feedback": "These activities protect trust and appropriate handling of information."
+        },
+        {
+          "id": "item-5",
+          "text": "Use feedback, testing, training, monitoring, and root-cause correction.",
+          "answer": "Improve workflow",
+          "feedback": "These activities support workflow improvement."
+        }
+      ],
+      "title": "Match the HIM responsibility to its focus",
+      "prompt": "Classify each task by the responsibility it most directly describes.",
+      "feedback": "HIM responsibilities span system purpose, information meaning and quality, trust, and workflow improvement.",
+      "categories": [
+        "Explain purpose",
+        "Protect meaning",
+        "Protect quality",
+        "Protect trust",
+        "Improve workflow"
+      ],
+      "conceptIds": [
+        "him-responsibilities",
+        "information-quality-and-meaning",
+        "access-and-trust"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "Analysis of a defined decision or problem, using data, models, and context to help evaluate choices.",
+      "front": "What does a DSS support?",
+      "conceptIds": [
+        "decision-support-system"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "A concise, high-level performance view for senior leaders, including trends, exceptions, and KPIs.",
+      "front": "What kind of view does an EIS present?",
+      "conceptIds": [
+        "executive-information-system"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "A DSS provides more detailed analysis and what-if exploration for a defined decision; an EIS presents concise indicators, trends, and exceptions for leaders.",
+      "front": "How does a DSS differ from an EIS?",
+      "conceptIds": [
+        "decision-support-system",
+        "executive-information-system"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "Operational systems create the data that management systems summarize.",
+      "front": "What role do operational systems play in management information?",
+      "conceptIds": [
+        "operational-systems"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "Resources, staff, rooms, and appointments.",
+      "front": "What does scheduling coordinate?",
+      "conceptIds": [
+        "scheduling"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Supplies, equipment, space, and maintenance.",
+      "front": "What do materials and facilities systems track?",
+      "conceptIds": [
+        "materials-and-facilities"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Collect operational data → Measure with a KPI or performance measure → Interpret trends, exceptions, and context → Act by changing a workflow, resource plan, or policy.",
+      "front": "What are the four stages in the management framework?",
+      "conceptIds": [
+        "collect-measure-interpret-act"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "After bringing together operational data and before interpreting trends, exceptions, and context.",
+      "front": "When does the framework define a KPI or performance measure?",
+      "conceptIds": [
+        "collect-measure-interpret-act",
+        "key-performance-indicator"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "Case mix, discharge delays, staffing, bed capacity, data definitions, and time trends.",
+      "front": "What context accompanies the rising-length-of-stay KPI example?",
+      "conceptIds": [
+        "key-performance-indicator"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "Complete, valid, consistent, timely, and understood information, supported by definitions, metadata, validation, and mapping.",
+      "front": "What supports information quality and meaning?",
+      "conceptIds": [
+        "information-quality-and-meaning"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "Policy, role-based access, authentication, and logs support the protection of privacy, security, integrity, and auditability.",
+      "front": "What controls support access and trust?",
+      "conceptIds": [
+        "access-and-trust"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "Use feedback, testing, training, monitoring, and root-cause correction.",
+      "front": "How can HIM professionals support workflow improvement?",
+      "conceptIds": [
+        "him-responsibilities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "A DSS presents only concise trends, while an EIS explores detailed what-if options for a defined problem.",
+        "A DSS protects privacy and auditability, while an EIS checks data completeness.",
+        "A DSS creates operational data, while an EIS coordinates appointments and rooms.",
+        "A DSS supports detailed analysis of options for a defined decision; an EIS presents concise performance views for senior leaders."
+      ],
+      "question": "Which description best distinguishes a DSS from an EIS?",
+      "rationale": "A DSS supports analysis of a defined decision or problem, including what-if exploration. An EIS gives senior leaders concise performance information, such as trends and exceptions.",
+      "conceptIds": [
+        "decision-support-system",
+        "executive-information-system"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Changing a policy",
+        "Interpreting exceptions",
+        "Defining a KPI or performance measure",
+        "Changing the workflow"
+      ],
+      "question": "In the Collect → Measure → Interpret → Act framework, what follows bringing together operational data?",
+      "rationale": "After collecting operational data, the framework calls for defining a KPI or performance measure, before interpretation and action.",
+      "conceptIds": [
+        "collect-measure-interpret-act",
+        "key-performance-indicator"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q3",
+      "options": [
+        "Only the proposed workflow change",
+        "Only the dashboard’s visual format and its color choices",
+        "Only the number of appointments and rooms scheduled",
+        "Case mix, discharge delays, staffing, bed capacity, data definitions, and time trends"
+      ],
+      "question": "An executive dashboard shows rising length of stay. Which set of context is identified for leaders to consider before changing a workflow?",
+      "rationale": "The example asks leaders to interpret the KPI alongside case mix, discharge delays, staffing, bed capacity, data definitions, and time trends.",
+      "conceptIds": [
+        "key-performance-indicator",
+        "collect-measure-interpret-act"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Monitoring workflow feedback",
+        "Supporting definitions, standards, terminology, and mapping",
+        "Supporting privacy and appropriate access",
+        "Checking completeness and timeliness"
+      ],
+      "question": "Which task most directly represents protecting information meaning?",
+      "rationale": "HIM protects meaning by supporting definitions, standards, terminology, mapping, and consistent interpretation.",
+      "conceptIds": [
+        "him-responsibilities",
+        "information-quality-and-meaning"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q5",
+      "options": [
+        "They present high-level trends for senior leaders.",
+        "They decide which policy leaders should change.",
+        "They create the data that management systems summarize.",
+        "They define every KPI used by management."
+      ],
+      "question": "What is the stated role of operational systems in relation to management systems?",
+      "rationale": "Operational systems create the data that management systems summarize.",
+      "conceptIds": [
+        "operational-systems"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q6",
+      "options": [
+        "Supplies, equipment, space, and maintenance",
+        "Definitions, metadata, validation, and mapping",
+        "Trends, exceptions, and performance indicators",
+        "Resources, staff, rooms, and appointments"
+      ],
+      "question": "Which set lists the functions of scheduling as described in this week?",
+      "rationale": "Scheduling coordinates resources, staff, rooms, and appointments.",
+      "conceptIds": [
+        "scheduling"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q7",
+      "options": [
+        "Staff, appointments, and performance trends",
+        "Supplies, equipment, space, and maintenance",
+        "User decisions, data models, and what-if options",
+        "Definitions, terminology, and consistent interpretation"
+      ],
+      "question": "Which information set is tracked by materials and facilities systems?",
+      "rationale": "Materials and facilities systems track supplies, equipment, space, and maintenance.",
+      "conceptIds": [
+        "materials-and-facilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Consider trends, exceptions, and context.",
+        "Change a resource plan.",
+        "Bring operational data together.",
+        "Define the performance measure."
+      ],
+      "question": "Which action belongs to the Interpret stage rather than the Measure or Act stage?",
+      "rationale": "Interpreting trends, exceptions, and context is the third stage. Defining a measure is Measure; changing a resource plan is Act.",
+      "conceptIds": [
+        "collect-measure-interpret-act"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Identity, completeness, accuracy, validity, timeliness, and consistency",
+        "Privacy, authentication, disclosure, and policy",
+        "Users, inputs, outputs, decisions, and limits",
+        "Feedback, training, monitoring, and root-cause correction"
+      ],
+      "question": "Which set of checks is identified as protecting information quality?",
+      "rationale": "The HIM responsibilities list identity, completeness, accuracy, validity, timeliness, and consistency as quality checks.",
+      "conceptIds": [
+        "him-responsibilities",
+        "information-quality-and-meaning"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q10",
+      "options": [
+        "What-if exploration and detailed decision analysis",
+        "Case mix, staffing, and time trends",
+        "Policy, role-based access, authentication, and logs",
+        "Scheduling resources, rooms, and appointments"
+      ],
+      "question": "Which practices support access and trust?",
+      "rationale": "Policy, role-based access, authentication, and logs are identified as controls supporting privacy, security, integrity, and auditability.",
+      "conceptIds": [
+        "access-and-trust"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Trends, indicators, exceptions, and concise views",
+        "Feedback, testing, training, monitoring, and root-cause correction",
+        "Definitions, standards, terminology, and mapping",
+        "Identity, completeness, accuracy, and consistency"
+      ],
+      "question": "Which set of activities is associated with improving workflow?",
+      "rationale": "HIM supports workflow improvement through feedback, testing, training, monitoring, and root-cause correction.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Because management information becomes useful when operational data are measured consistently, interpreted in context, and connected to an action.",
+        "Because the framework skips measurement and moves directly from collection to action.",
+        "Because EIS views are intended to contain more detail than DSS analysis.",
+        "Because a KPI is itself a complete explanation of what caused a result."
+      ],
+      "question": "Why should leaders interpret a KPI in context before changing a workflow?",
+      "rationale": "The week emphasizes consistent measurement, contextual interpretation, and connection to action; the length-of-stay example shows leaders considering relevant context before acting.",
+      "conceptIds": [
+        "key-performance-indicator",
+        "collect-measure-interpret-act",
+        "information-quality-and-meaning"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

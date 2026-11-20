@@ -1,0 +1,710 @@
+{
+  "id": "week-01",
+  "order": 1,
+  "title": "What a health information system does: Foundations of data, information, people, and technology",
+  "overview": "A health information system is more than software: it coordinates people, processes, data, technology, and governance to make health information usable. This week follows data from capture through use, distinguishes major system types, traces how one encounter serves multiple purposes, and examines the HIM responsibilities that support trustworthy information.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain what a health information system does and why HIM professionals are important.",
+    "Explain how health information systems turn data into usable information.",
+    "Identify the four parts of a health information system: people, processes, technology, and data plus governance.",
+    "Describe the core functions of an information system and connect each function to a healthcare example.",
+    "Classify major types of health information systems by their primary purpose, users, inputs, outputs, and decisions.",
+    "Explain how one patient encounter can support care, operations, payment, quality, and learning.",
+    "Explain why system quality matters and describe HIM control points for trustworthy information."
+  ],
+  "concepts": [
+    {
+      "id": "concept.health_information_system",
+      "name": "Health information system",
+      "definition": "A coordinated set of people, processes, data, and technology that collects, stores, processes, retrieves, and communicates health information. Governance provides rules for quality, privacy, security, access, standards, and accountability.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.people",
+      "name": "People",
+      "definition": "Patients, clinicians, HIM professionals, managers, IT staff, and decision-makers who use or govern the information.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.processes",
+      "name": "Processes",
+      "definition": "Workflows for collecting, checking, sharing, using, correcting, and retaining information.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.technology",
+      "name": "Technology",
+      "definition": "Hardware, software, databases, networks, interfaces, and devices that support the work.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.data_and_governance",
+      "name": "Data and governance",
+      "definition": "Data definitions, standards, policies, privacy, security, quality rules, and accountability that give information meaning and trust.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.data",
+      "name": "Data",
+      "definition": "A raw observation, such as a recorded blood pressure reading.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.information",
+      "name": "Information",
+      "definition": "Data organized with context so it can be interpreted and used.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.knowledge",
+      "name": "Knowledge",
+      "definition": "Information interpreted for a decision.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.wisdom",
+      "name": "Wisdom",
+      "definition": "Information applied with professional judgment.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.core_information_system_functions",
+      "name": "Core information-system functions",
+      "definition": "Record or capture, store, process or manipulate, retrieve, and communicate or disseminate information.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.clinical_systems",
+      "name": "Clinical systems",
+      "definition": "Systems whose primary purpose is to support patient care and clinical documentation.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.administrative_systems",
+      "name": "Administrative systems",
+      "definition": "Systems whose primary purpose is to support business, resources, identity, and operations.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.management_systems",
+      "name": "Management systems",
+      "definition": "Systems whose primary purpose is to summarize performance and support organizational decisions.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.consumer_systems",
+      "name": "Consumer systems",
+      "definition": "Systems that help individuals access, understand, and manage health information.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_operational_systems",
+      "name": "HIM operational systems",
+      "definition": "Systems that manage information work, quality, coding, disclosure, and reporting.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_professional",
+      "name": "HIM professional",
+      "definition": "A steward of usable information who helps ensure health information is accurate, available, meaningful, protected, and used appropriately.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.system_quality",
+      "name": "System quality",
+      "definition": "The quality of information produced and made usable by a system, including accuracy, completeness, timeliness, validity, consistency, meaning, appropriate access, and workflow usability.",
+      "moduleRefs": [
+        "week-01"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-01",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "A health information system is an organized way to turn health data into useful information. It coordinates people, processes, data, and technology; governance supplies rules for quality, privacy, security, access, standards, and accountability. The system's purpose is not simply to store records: it collects, stores, processes, retrieves, and communicates health information so it can support care, operations, reporting, and decision-making.\n\nThe four parts work together. People include patients, clinicians, HIM professionals, managers, IT staff, and decision-makers. Processes define how information is collected, checked, shared, used, corrected, and retained. Technology—including hardware, software, databases, networks, interfaces, and devices—supports that work. Data definitions and governance rules help give information consistent meaning and trust. An EHR may have excellent software, but it cannot produce dependable information if workflows, definitions, user procedures, or governance are weak.",
+      "title": "A health information system is coordinated work, not just software"
+    },
+    {
+      "body": "The same observation takes on greater meaning as it is organized and interpreted. In the DIKW model, data is a raw observation; information is that observation organized with context; knowledge is information interpreted for a decision; and wisdom is the application of professional judgment. The blood-pressure example begins with a reading of 168/96. In context, it is identified as above the clinic threshold; a pattern may be interpreted as indicating uncontrolled hypertension; professional judgment is then used to choose a safe next action.\n\nAn information-system workflow shows how this transformation depends on correct handling. A nurse records a blood pressure observation. The EHR stores it with the correct patient, date, time, and encounter. The system may compare it with previous measurements and produce a trend, alert, or report. A healthcare professional interprets the resulting information and decides whether follow-up, treatment, or monitoring is needed. HIM responsibility therefore extends beyond data entry: accuracy and meaning need protection throughout the process.",
+      "title": "Follow the transformation from observation to action"
+    },
+    {
+      "body": "Describe each core function by naming it, explaining what it does, and connecting it to a healthcare example:\n\n- Record or capture: collect a fact or observation, such as patient registration information or a vital sign.\n- Store: keep information organized so it can be retained and retrieved, such as in an EHR database, document repository, or archive.\n- Process or manipulate: validate, calculate, classify, summarize, or transform data, such as trending a vital sign or grouping coded services.\n- Retrieve: locate and present needed information to an authorized user, such as finding a prior result or discharge document.\n- Communicate or disseminate: deliver information to the right person, system, or report, such as sending a result, exchanging a record, or publishing a quality report.\n\nThese functions describe movement and use, not isolated software features. A complete explanation connects the function to the information and the work it supports.",
+      "title": "Core functions move information through a system"
+    },
+    {
+      "body": "Classify a system by considering its primary purpose, users, inputs, outputs, and the decisions it supports. Clinical systems support patient care and clinical documentation; examples include EHR/EMR, laboratory, radiology, pharmacy, nursing, and clinical decision-support systems. Administrative systems support business, resources, identity, and operations; examples include finance or revenue-cycle systems, HRIS, MPI, scheduling, materials, and facilities systems.\n\nManagement systems summarize performance and support organizational decisions, using tools such as DSS, EIS, dashboards, KPIs, and business intelligence. Consumer systems help individuals access, understand, and manage health information, as with patient portals, PHRs, telehealth, and remote monitoring. HIM operational systems manage information work, quality, coding, disclosure, and reporting; examples include encoder/grouper, CAC, registry, CDI, and release-of-information tools. Classification follows the system's primary purpose rather than assuming every system serves only one use.",
+      "title": "Classify systems by their primary purpose"
+    },
+    {
+      "body": "An encounter can generate information used across care and organizational work. First, registration creates or finds the correct identity. Clinical systems then record observations, orders, results, and treatment. HIM and coding workflows translate documentation into standardized data. Billing, quality reporting, dashboards, and follow-up can use that data. The encounter therefore supports care, operations, payment, quality, and learning rather than producing only one record for one purpose.\n\nHIM control points help preserve the usefulness of information across these uses: attach it to the correct identity; maintain accuracy, completeness, timeliness, validity, and consistency; preserve meaning through definitions, codes, and units; support appropriate and traceable access; and make information available to the right person at the right time.",
+      "title": "One encounter can support many uses"
+    },
+    {
+      "body": "A system can be technically functional and still produce harmful information. Information may be incomplete, inaccurate, late, inconsistent, invalid, attached to the wrong patient, difficult to interpret, or unavailable when needed. Different terms, units, or formats can also cause loss of meaning. Workflow failures may make information late or difficult to use, while alerts may contribute to alert fatigue.\n\nHIM professionals help address these risks as data stewards, workflow analysts, exchange and standards partners, privacy and security partners, and information users and interpreters. Their work includes defining and monitoring data quality; understanding workflows and translating needs into requirements; supporting consistent meaning and appropriate disclosure; helping apply access, audit, training, and incident-response controls; and explaining what reports and indicators mean and where their limits are. The result sought is information that is usable, accurate, meaningful, protected, and appropriately used.",
+      "title": "System quality and the HIM role"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "People",
+          "right": "Patients, clinicians, HIM professionals, managers, IT staff, and decision-makers who use or govern information",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Processes",
+          "right": "Workflows for collecting, checking, sharing, using, correcting, and retaining information",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "Technology",
+          "right": "Hardware, software, databases, networks, interfaces, and devices that support the work",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "Data and governance",
+          "right": "Definitions, standards, policies, privacy, security, quality rules, and accountability that give information meaning and trust",
+          "feedback": ""
+        }
+      ],
+      "title": "Match the system component to its role",
+      "prompt": "Match each health information system component with the description that best fits it.",
+      "choices": [
+        "Patients, clinicians, HIM professionals, managers, IT staff, and decision-makers who use or govern information",
+        "Workflows for collecting, checking, sharing, using, correcting, and retaining information",
+        "Hardware, software, databases, networks, interfaces, and devices that support the work",
+        "Definitions, standards, policies, privacy, security, quality rules, and accountability that give information meaning and trust"
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.health_information_system",
+        "concept.people",
+        "concept.processes",
+        "concept.technology",
+        "concept.data_and_governance"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "registration",
+          "text": "Registration creates or finds the correct identity.",
+          "order": 0
+        },
+        {
+          "id": "care",
+          "text": "Clinical systems record observations, orders, results, and treatment.",
+          "order": 1
+        },
+        {
+          "id": "coding",
+          "text": "HIM and coding workflows translate documentation into standardized data.",
+          "order": 2
+        },
+        {
+          "id": "uses",
+          "text": "Billing, quality reporting, dashboards, and follow-up use the data.",
+          "order": 3
+        }
+      ],
+      "title": "Trace an encounter through information use",
+      "prompt": "Put the encounter stages in the sequence described in the course.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.health_information_system",
+        "concept.core_information_system_functions",
+        "concept.system_quality"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "A laboratory system supporting clinical documentation and patient care",
+          "answer": "Clinical systems",
+          "feedback": "Clinical systems support patient care and clinical documentation."
+        },
+        {
+          "id": "item-2",
+          "text": "An MPI used to support identity and operations",
+          "answer": "Administrative systems",
+          "feedback": "Administrative systems support business, resources, identity, and operations."
+        },
+        {
+          "id": "item-3",
+          "text": "A dashboard used to summarize performance for organizational decisions",
+          "answer": "Management systems",
+          "feedback": "Management systems summarize performance and support organizational decisions."
+        },
+        {
+          "id": "item-4",
+          "text": "A patient portal used by individuals to access health information",
+          "answer": "Consumer systems",
+          "feedback": "Consumer systems help individuals access, understand, and manage health information."
+        },
+        {
+          "id": "item-5",
+          "text": "A release-of-information tool used to manage disclosure work",
+          "answer": "HIM operational systems",
+          "feedback": "HIM operational systems manage information work, quality, coding, disclosure, and reporting."
+        }
+      ],
+      "title": "Classify systems by primary purpose",
+      "prompt": "Assign each system example to the category that best matches its primary purpose.",
+      "feedback": "",
+      "categories": [
+        "Clinical systems",
+        "Administrative systems",
+        "Management systems",
+        "Consumer systems",
+        "HIM operational systems"
+      ],
+      "conceptIds": [
+        "concept.clinical_systems",
+        "concept.administrative_systems",
+        "concept.management_systems",
+        "concept.consumer_systems",
+        "concept.him_operational_systems"
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "scenario",
+      "title": "A technically sound system, an unreliable workflow",
+      "prompt": "Hypothetical situation: An EHR has excellent software, but staff enter blood pressure values in different formats and sometimes use the wrong patient record. Which response best reflects the system and HIM principles in this week?",
+      "debrief": "A health information system is more than software. Inconsistent formats and incorrect patient identity can undermine meaning and trust, so the response should consider workflows, data definitions, identity controls, and information quality.",
+      "options": [
+        "Treat the problem as software-only because the EHR is the system.",
+        "Address the linked workflow, data-definition, identity, and quality concerns; a system includes people, processes, data, technology, and governance.",
+        "Ignore the variation if the EHR can store every entry.",
+        "Remove the information from all reporting because no system function can address the problem."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.health_information_system",
+        "concept.data_and_governance",
+        "concept.system_quality",
+        "concept.him_professional"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "activity-5",
+      "type": "retrieval",
+      "title": "Recall the DIKW progression",
+      "answer": "Data → information → knowledge → wisdom: a raw blood pressure reading; the reading organized with context; an interpretation for a decision; and professional judgment applied to choose a next action.",
+      "prompt": "Using the blood-pressure example, name the progression from an uncontextualized observation to professionally judged action.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.data",
+        "concept.information",
+        "concept.knowledge",
+        "concept.wisdom"
+      ]
+    },
+    {
+      "id": "activity-6",
+      "type": "reflection",
+      "title": "Explain why HIM responsibility continues after data entry",
+      "answer": "A strong response identifies a stage and connects it to a relevant control point, such as correct identity, data quality, consistent meaning, appropriate and traceable access, or availability to the right person at the right time.",
+      "prompt": "Choose one stage in the journey from capture to use and explain how an HIM control point can help keep information trustworthy at that stage.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.core_information_system_functions",
+        "concept.system_quality",
+        "concept.him_professional"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "A coordinated set of people, processes, data, and technology that collects, stores, processes, retrieves, and communicates health information, with governance rules supporting quality, privacy, security, access, standards, and accountability.",
+      "front": "What is a health information system?",
+      "conceptIds": [
+        "concept.health_information_system"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "Its work also depends on people, processes, data definitions, and governance—not only technology.",
+      "front": "Why is a health information system more than software?",
+      "conceptIds": [
+        "concept.health_information_system"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "People; processes; technology; and data plus governance.",
+      "front": "What are the four parts of a health information system?",
+      "conceptIds": [
+        "concept.people",
+        "concept.processes",
+        "concept.technology",
+        "concept.data_and_governance"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "A raw observation, such as a recorded blood pressure reading.",
+      "front": "In the DIKW model, what is data?",
+      "conceptIds": [
+        "concept.data"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "It is organized with context so it can be interpreted and used.",
+      "front": "How does data become information?",
+      "conceptIds": [
+        "concept.data",
+        "concept.information"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Information is organized with context; knowledge is information interpreted for a decision.",
+      "front": "How does the course distinguish information from knowledge?",
+      "conceptIds": [
+        "concept.information",
+        "concept.knowledge"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Applying information with professional judgment.",
+      "front": "What does wisdom mean in the DIKW model?",
+      "conceptIds": [
+        "concept.wisdom"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Record or capture, store, process or manipulate, retrieve, and communicate or disseminate.",
+      "front": "Name the five core information-system functions.",
+      "conceptIds": [
+        "concept.core_information_system_functions"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "To support patient care and clinical documentation.",
+      "front": "What is the primary purpose of clinical systems?",
+      "conceptIds": [
+        "concept.clinical_systems"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "To summarize performance and support organizational decisions.",
+      "front": "What is the primary purpose of management systems?",
+      "conceptIds": [
+        "concept.management_systems"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "Access, understand, and manage health information.",
+      "front": "What do consumer systems help individuals do?",
+      "conceptIds": [
+        "concept.consumer_systems"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "Correct identity; accuracy, completeness, timeliness, validity, and consistency; understood meaning; appropriate and traceable access; and availability to the right person at the right time.",
+      "front": "What information-quality and access concerns should HIM control points address?",
+      "conceptIds": [
+        "concept.system_quality",
+        "concept.him_professional"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "A software application that stores patient records",
+        "A collection of clinical devices without workflows or governance",
+        "A reporting tool used only by managers",
+        "A coordinated set of people, processes, data, and technology that handles health information"
+      ],
+      "question": "Which description best defines a health information system?",
+      "rationale": "A health information system coordinates people, processes, data, and technology; governance also provides rules for quality, privacy, security, access, standards, and accountability.",
+      "conceptIds": [
+        "concept.health_information_system"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Wisdom",
+        "Information",
+        "Knowledge",
+        "A workflow"
+      ],
+      "question": "A blood pressure reading is organized with context so it can be interpreted. In the DIKW model, what has it become?",
+      "rationale": "Information is data organized with context. Knowledge involves interpreting information for a decision, and wisdom applies professional judgment.",
+      "conceptIds": [
+        "concept.data",
+        "concept.information",
+        "concept.knowledge",
+        "concept.wisdom"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q3",
+      "options": [
+        "Clinical, administrative, management, and consumer systems",
+        "Capture, storage, retrieval, and reporting",
+        "People, processes, technology, and data plus governance",
+        "Accuracy, completeness, timeliness, and validity"
+      ],
+      "question": "Which option identifies the four parts of a health information system used in this week?",
+      "rationale": "The four-part model is people, processes, technology, and data plus governance. The other options describe functions, system categories, or quality characteristics.",
+      "conceptIds": [
+        "concept.people",
+        "concept.processes",
+        "concept.technology",
+        "concept.data_and_governance"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Retrieve",
+        "Process",
+        "Record or capture",
+        "Store"
+      ],
+      "question": "Which function locates and presents needed information to an authorized user?",
+      "rationale": "Retrieval locates and presents needed information to an authorized user, such as a prior result or discharge document.",
+      "conceptIds": [
+        "concept.core_information_system_functions"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q5",
+      "options": [
+        "Process or manipulate",
+        "Communicate",
+        "Retrieve",
+        "Store"
+      ],
+      "question": "A system validates and summarizes data to produce a trend. Which core function is being performed?",
+      "rationale": "Processing or manipulation includes validating, calculating, classifying, summarizing, or transforming data.",
+      "conceptIds": [
+        "concept.core_information_system_functions"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q6",
+      "options": [
+        "Administrative systems",
+        "Clinical systems",
+        "Consumer systems",
+        "Management systems"
+      ],
+      "question": "Which system category primarily supports business, resources, identity, and operations?",
+      "rationale": "Administrative systems support business, resources, identity, and operations; examples include MPI and scheduling systems.",
+      "conceptIds": [
+        "concept.administrative_systems"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q7",
+      "options": [
+        "Clinical systems",
+        "Consumer systems",
+        "HIM operational systems",
+        "Management systems"
+      ],
+      "question": "A dashboard summarizes performance to support organizational decisions. Which category best fits its primary purpose?",
+      "rationale": "Management systems summarize performance and support organizational decisions; dashboards are listed as examples.",
+      "conceptIds": [
+        "concept.management_systems"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Coding, registration, reporting, care",
+        "Care, reporting, registration, coding",
+        "Registration, coding, care, downstream use",
+        "Registration, care, coding, downstream use"
+      ],
+      "question": "Which sequence matches the encounter workflow described in this week?",
+      "rationale": "The encounter begins with registration and identity, proceeds to clinical care and documentation, then coding workflows standardize data before downstream uses such as billing and quality reporting.",
+      "conceptIds": [
+        "concept.health_information_system",
+        "concept.core_information_system_functions"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q9",
+      "options": [
+        "It is used only to document clinical care.",
+        "It becomes useful only after it is stored.",
+        "It can support care, operations, payment, quality, and learning.",
+        "It is intended only for a patient portal."
+      ],
+      "question": "Which statement best describes how one encounter's information can be used?",
+      "rationale": "A single encounter can support care, operations, payment, quality, and learning through registration, clinical documentation, standardized data, and downstream uses.",
+      "conceptIds": [
+        "concept.health_information_system",
+        "concept.system_quality"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Technical function guarantees that all information is accurate.",
+        "Weak identity controls, data quality, meaning, access, or workflows can undermine information.",
+        "Only the software determines whether information is meaningful.",
+        "Information quality matters only when a report is published."
+      ],
+      "question": "Why can a technically functional system still produce harmful information?",
+      "rationale": "A system may be technically functional while information is inaccurate, incomplete, attached to the wrong patient, difficult to interpret, unavailable, inappropriately accessed, or compromised by workflow failure.",
+      "conceptIds": [
+        "concept.system_quality",
+        "concept.him_professional"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q11",
+      "options": [
+        "A patient portal",
+        "A release-of-information tool",
+        "A radiology system",
+        "A scheduling system"
+      ],
+      "question": "Which is an example of an HIM operational system?",
+      "rationale": "HIM operational systems manage information work, quality, coding, disclosure, and reporting; release-of-information tools are an example.",
+      "conceptIds": [
+        "concept.him_operational_systems"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Focus only on storing records after entry",
+        "Avoid interpreting reports or indicators",
+        "Help ensure information is accurate, available, meaningful, protected, and appropriately used",
+        "Treat appropriate access as unrelated to information quality"
+      ],
+      "question": "Which action best reflects the HIM professional's role as a steward of usable information?",
+      "rationale": "The HIM role extends beyond record storage to stewardship of accurate, available, meaningful, protected information that is used appropriately.",
+      "conceptIds": [
+        "concept.him_professional",
+        "concept.system_quality"
+      ],
+      "answerIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "id": "week-05",
+  "order": 5,
+  "title": "Selection should be evidence-based, not preference-based: Requirements, RFI/RFP, decision matrices, and contracts",
+  "overview": "System selection translates organizational needs into transparent, testable criteria. This week follows the selection sequence from requirements through proposal requests and evaluation to negotiation, and examines how evidence, demonstrations, weighted scores, documented risks, contract protections, and acceptance testing support a defensible decision.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Translate organizational needs into transparent, testable system-selection criteria.",
+    "Distinguish an RFI, which explores the market, from an RFP, which requests comparable proposals.",
+    "Explain how a weighted decision matrix makes trade-offs visible while leaving judgment and decision rationale necessary.",
+    "Describe the sequence of requirements, RFP, evaluation, and negotiation.",
+    "Identify how evidence, demonstrations, documented risks, contract protections, and acceptance testing support an evidence-based system selection."
+  ],
+  "concepts": [
+    {
+      "id": "concept.evidence_based_system_selection",
+      "name": "Evidence-based system selection",
+      "definition": "Translating organizational needs into transparent, testable criteria and using requirements, comparable proposals, demonstrations, weighted scores, documented risks, contract protections, and acceptance testing.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.selection_requirements",
+      "name": "Requirements",
+      "definition": "Measurable criteria that translate workflow problems and organizational needs into a basis for system selection.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.rfi",
+      "name": "RFI",
+      "definition": "A request used to explore the market.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.rfp",
+      "name": "RFP",
+      "definition": "A request for structured, comparable vendor proposals.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.evaluation",
+      "name": "Evaluation",
+      "definition": "Scoring evidence using agreed weights and testing.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.negotiation",
+      "name": "Negotiation",
+      "definition": "The stage of selection focused on a clear contract that protects the organization.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.weighted_decision_matrix",
+      "name": "Weighted decision matrix",
+      "definition": "A comparison using criteria, organizational-priority weights, and evidence-based scores to make trade-offs visible; it does not replace judgment.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.selection_judgment",
+      "name": "Selection judgment",
+      "definition": "Human judgment and documented rationale remain necessary when interpreting a weighted comparison and making a selection decision.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.build_approach",
+      "name": "Build",
+      "definition": "An approach offering maximum control and tailored fit, with higher internal burden.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.buy_approach",
+      "name": "Buy",
+      "definition": "An approach offering faster access to established features, with possible workflow mismatch.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.cloud_approach",
+      "name": "Cloud",
+      "definition": "An approach described as providing scalable, managed infrastructure that requires careful governance.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.contract_clauses",
+      "name": "Contract clauses",
+      "definition": "Clauses that should cover license, milestones, support, security, testing, and penalties.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.acceptance_testing",
+      "name": "Acceptance testing",
+      "definition": "Testing identified as part of the evidence-based system-selection process.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.selection_criteria",
+      "name": "Selection criteria",
+      "definition": "Criteria shown for system comparison include workflow fit, interoperability, security, usability, support, cost, and sustainability.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_selection_responsibilities",
+      "name": "HIM responsibilities in system selection",
+      "definition": "HIM connects system purpose to trustworthy information work by explaining purpose, protecting meaning and quality, supporting trust, and improving workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.selection_quality_governance",
+      "name": "Quality, safety, and governance principles in selection",
+      "definition": "Selection principles addressing purpose and fit; data and meaning; access and trust; and workflow and adoption, supported by controls such as measurable objectives, definitions, validation, policy, role-based access, user testing, training, monitoring, and improvement.",
+      "moduleRefs": [
+        "week-05"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-05",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "System selection begins by translating organizational needs and workflow problems into transparent, measurable criteria. Criteria make the basis for comparison visible rather than leaving selection to preference. The healthcare comparison in this week uses workflow fit, interoperability, security, usability, support, cost, and sustainability. These criteria connect the system's intended purpose to the work and information needs it must support.",
+      "title": "Turn organizational needs into testable requirements"
+    },
+    {
+      "body": "An RFI and an RFP serve different purposes. An RFI explores the market; an RFP asks vendors for structured, comparable proposals. Once requirements are clear, comparable responses help the organization evaluate proposals against the same stated needs. Keep the distinction focused on purpose: market exploration is not the same task as requesting comparable proposals.",
+      "title": "Choose the right kind of vendor request"
+    },
+    {
+      "body": "A weighted decision matrix makes priorities and trade-offs visible. First define criteria, then set weights to reflect organizational priorities, and score vendors using evidence and demonstrations. The matrix organizes comparison; it does not make the decision on its own. Document the rationale, risks, assumptions, and conditions so that the choice can be understood beyond the scores.",
+      "title": "Evaluate evidence without surrendering judgment"
+    },
+    {
+      "body": "The selection framework proceeds through four stages: requirements, RFP, evaluation, and negotiation. Translate workflow problems into measurable requirements; ask vendors for structured, comparable responses; score evidence using agreed weights and testing; then negotiate a clear contract to protect the organization. This sequence makes the work and points of control explicit.",
+      "title": "Follow the sequence from requirements to negotiation"
+    },
+    {
+      "body": "Selection should consider whether a system fits its intended users, work, outputs, and decisions; whether information is complete, valid, consistent, timely, and understood; whether privacy, security, integrity, and auditability are protected; and whether people can use information safely and effectively. Controls described for these concerns include scope and workflow fit, definitions and validation, policy and role-based access, user testing, training, monitoring, and improvement. HIM professionals connect system purpose to trustworthy information work by protecting meaning and quality, supporting appropriate access and auditability, and using feedback and testing to improve workflow.",
+      "title": "Protect fit, meaning, trust, and workflow"
+    },
+    {
+      "body": "The selection alternatives described have distinct trade-offs. Build offers maximum control and tailored fit, with higher internal burden. Buy offers faster access to established features, with possible workflow mismatch. Cloud provides scalable, managed infrastructure and requires careful governance. Whatever the approach, contract clauses should cover license, milestones, support, security, testing, and penalties. Acceptance testing is also part of an evidence-based selection, alongside demonstrations and documented risks.",
+      "title": "Consider approach trade-offs and contract protections"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "requirements",
+          "text": "Translate workflow problems into measurable requirements.",
+          "order": 0
+        },
+        {
+          "id": "rfp",
+          "text": "Ask vendors for structured, comparable responses through an RFP.",
+          "order": 1
+        },
+        {
+          "id": "evaluation",
+          "text": "Score evidence using agreed weights and testing.",
+          "order": 2
+        },
+        {
+          "id": "negotiation",
+          "text": "Negotiate a clear contract to protect the organization.",
+          "order": 3
+        }
+      ],
+      "title": "Put the selection sequence in order",
+      "prompt": "Arrange the stages from translating organizational needs to protecting the organization through a clear contract.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.selection_requirements",
+        "concept.rfp",
+        "concept.evaluation",
+        "concept.negotiation"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "RFI",
+          "right": "Explores the market.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "RFP",
+          "right": "Requests structured, comparable proposals.",
+          "feedback": ""
+        }
+      ],
+      "title": "Match the request to its purpose",
+      "prompt": "Match each request type to the purpose it serves.",
+      "choices": [
+        "Explores the market.",
+        "Requests structured, comparable proposals."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.rfi",
+        "concept.rfp"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Workflow fit",
+          "answer": "Comparison criterion",
+          "feedback": "Workflow fit is one of the stated criteria for comparing EHR vendors."
+        },
+        {
+          "id": "item-2",
+          "text": "Interoperability",
+          "answer": "Comparison criterion",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "Security",
+          "answer": "Comparison criterion",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "Usability",
+          "answer": "Comparison criterion",
+          "feedback": ""
+        },
+        {
+          "id": "item-5",
+          "text": "Support",
+          "answer": "Comparison criterion",
+          "feedback": ""
+        },
+        {
+          "id": "item-6",
+          "text": "Cost",
+          "answer": "Comparison criterion",
+          "feedback": ""
+        },
+        {
+          "id": "item-7",
+          "text": "Score evidence using agreed weights and testing",
+          "answer": "Selection-process action",
+          "feedback": ""
+        },
+        {
+          "id": "item-8",
+          "text": "Document risks, assumptions, and conditions",
+          "answer": "Selection-process action",
+          "feedback": ""
+        }
+      ],
+      "title": "Identify comparison criteria",
+      "prompt": "Classify each item as a stated EHR vendor comparison criterion or as a selection-process action.",
+      "feedback": "Criteria describe what the organization compares; actions describe how the organization evaluates and documents its selection.",
+      "categories": [
+        "Comparison criterion",
+        "Selection-process action"
+      ],
+      "conceptIds": [
+        "concept.selection_criteria",
+        "concept.evaluation",
+        "concept.weighted_decision_matrix"
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "scenario",
+      "title": "Make a defensible vendor comparison",
+      "prompt": "Hypothetical situation: A healthcare organization is comparing two EHR vendors. The team has criteria for workflow fit, interoperability, security, usability, support, cost, and sustainability. Which approach best supports an evidence-based selection?",
+      "debrief": "The selection process uses transparent criteria, agreed weights, evidence and demonstrations, and documented rationale, risks, assumptions, and conditions. A weighted matrix makes trade-offs visible but does not replace judgment.",
+      "options": [
+        "Choose the vendor most preferred by the largest number of team members, without recording why.",
+        "Agree on weights reflecting organizational priorities, score evidence and demonstrations, and document rationale, risks, assumptions, and conditions.",
+        "Use cost as the only criterion and negotiate contract details after implementation.",
+        "Ask vendors for proposals with different criteria so each can emphasize its strongest areas."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "concept.evidence_based_system_selection",
+        "concept.selection_criteria",
+        "concept.weighted_decision_matrix",
+        "concept.selection_judgment"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "activity-5",
+      "type": "comparison",
+      "items": [
+        {
+          "label": "Build",
+          "detail": "Offers maximum control and tailored fit, with higher internal burden."
+        },
+        {
+          "label": "Buy",
+          "detail": "Offers faster access to established features, with possible workflow mismatch."
+        },
+        {
+          "label": "Cloud",
+          "detail": "Provides scalable, managed infrastructure and requires careful governance."
+        }
+      ],
+      "title": "Compare selection approaches",
+      "answer": "Compare each approach against organizational needs and workflow, while recognizing its stated trade-offs and governance needs.",
+      "prompt": "Review the trade-offs stated for Build, Buy, and Cloud. What should a selection team keep in view when comparing approaches?",
+      "feedback": "",
+      "conceptIds": [
+        "concept.build_approach",
+        "concept.buy_approach",
+        "concept.cloud_approach"
+      ]
+    },
+    {
+      "id": "activity-6",
+      "type": "retrieval",
+      "title": "Recall contract coverage",
+      "answer": "License, milestones, support, security, testing, and penalties.",
+      "prompt": "Name the areas contract clauses should cover in this selection framework.",
+      "feedback": "",
+      "conceptIds": [
+        "concept.contract_clauses"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "They translate organizational needs and workflow problems into transparent, measurable criteria.",
+      "front": "What is the purpose of system-selection requirements?",
+      "conceptIds": [
+        "concept.selection_requirements"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "It explores the market.",
+      "front": "What does an RFI do?",
+      "conceptIds": [
+        "concept.rfi"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "It requests structured, comparable vendor proposals.",
+      "front": "What does an RFP do?",
+      "conceptIds": [
+        "concept.rfp"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "Trade-offs among criteria, organizational-priority weights, and evidence-based scores.",
+      "front": "What does a weighted decision matrix make visible?",
+      "conceptIds": [
+        "concept.weighted_decision_matrix"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "Judgment and documented decision rationale.",
+      "front": "What can a weighted decision matrix not replace?",
+      "conceptIds": [
+        "concept.weighted_decision_matrix",
+        "concept.selection_judgment"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Requirements → RFP → Evaluate → Negotiate.",
+      "front": "What are the four stages in the selection framework?",
+      "conceptIds": [
+        "concept.selection_requirements",
+        "concept.rfp",
+        "concept.evaluation",
+        "concept.negotiation"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Workflow fit, interoperability, security, usability, support, cost, and sustainability.",
+      "front": "What criteria are used in the EHR vendor comparison?",
+      "conceptIds": [
+        "concept.selection_criteria"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Maximum control and tailored fit, with higher internal burden.",
+      "front": "What does Build offer, and what trade-off is stated?",
+      "conceptIds": [
+        "concept.build_approach"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "Faster access to established features, with possible workflow mismatch.",
+      "front": "What does Buy offer, and what trade-off is stated?",
+      "conceptIds": [
+        "concept.buy_approach"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "Cloud provides scalable, managed infrastructure and requires careful governance.",
+      "front": "What governance consideration is stated for Cloud?",
+      "conceptIds": [
+        "concept.cloud_approach"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "License, milestones, support, security, testing, and penalties.",
+      "front": "What should contract clauses cover?",
+      "conceptIds": [
+        "concept.contract_clauses"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "Decision rationale, risks, assumptions, and conditions.",
+      "front": "What should be documented when using a decision matrix?",
+      "conceptIds": [
+        "concept.weighted_decision_matrix",
+        "concept.evaluation"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "A personal preference about which vendor seems familiar.",
+        "A measurable criterion translating organizational needs or workflow problems.",
+        "A contract penalty applied after selection.",
+        "A vendor's market description without comparison criteria."
+      ],
+      "question": "Which statement best describes a system-selection requirement?",
+      "rationale": "Requirements translate organizational needs and workflow problems into transparent, measurable criteria for selection.",
+      "conceptIds": [
+        "concept.selection_requirements"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q2",
+      "options": [
+        "To negotiate penalties and milestones.",
+        "To score vendor demonstrations using agreed weights.",
+        "To perform acceptance testing.",
+        "To explore the market."
+      ],
+      "question": "What is the primary purpose of an RFI in this framework?",
+      "rationale": "An RFI explores the market; it is distinct from an RFP, which requests comparable proposals.",
+      "conceptIds": [
+        "concept.rfi"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q3",
+      "options": [
+        "A list of organizational workflow problems without a response.",
+        "An informal description of market options only.",
+        "A final decision rationale written by the organization.",
+        "Structured, comparable proposals."
+      ],
+      "question": "What does an RFP request from vendors?",
+      "rationale": "An RFP requests structured, comparable vendor proposals.",
+      "conceptIds": [
+        "concept.rfp"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Negotiate → Requirements → Evaluate → RFP",
+        "RFP → Negotiate → Requirements → Evaluate",
+        "Requirements → RFP → Evaluate → Negotiate",
+        "Evaluate → Requirements → Negotiate → RFP"
+      ],
+      "question": "Which sequence matches the selection framework?",
+      "rationale": "The stated sequence is to translate needs into requirements, request comparable responses through an RFP, evaluate, and then negotiate.",
+      "conceptIds": [
+        "concept.selection_requirements",
+        "concept.rfp",
+        "concept.evaluation",
+        "concept.negotiation"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q5",
+      "options": [
+        "The order vendors submitted proposals.",
+        "The contract penalties for each vendor.",
+        "Organizational priorities.",
+        "The number of demonstrations completed."
+      ],
+      "question": "What do the weights in a weighted decision matrix represent?",
+      "rationale": "Weights reflect organizational priorities; scores then use evidence and demonstrations.",
+      "conceptIds": [
+        "concept.weighted_decision_matrix"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q6",
+      "options": [
+        "It cannot include organizational priorities.",
+        "It makes trade-offs visible but does not replace judgment or decision rationale.",
+        "It is used only to compare contract clauses.",
+        "It replaces evidence with vendor preference."
+      ],
+      "question": "Why does a weighted decision matrix not settle the selection by itself?",
+      "rationale": "The matrix supports comparison by making trade-offs visible, while judgment and documented rationale remain necessary.",
+      "conceptIds": [
+        "concept.weighted_decision_matrix",
+        "concept.selection_judgment"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q7",
+      "options": [
+        "Workflow fit.",
+        "Vendor popularity.",
+        "Team members' personal preference.",
+        "Proposal length."
+      ],
+      "question": "Which is a stated criterion for comparing the EHR vendors?",
+      "rationale": "Workflow fit is one of the stated criteria, along with interoperability, security, usability, support, cost, and sustainability.",
+      "conceptIds": [
+        "concept.selection_criteria"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Faster access to established features, with possible workflow mismatch.",
+        "Scalable, managed infrastructure requiring careful governance.",
+        "Comparable proposals with no internal work.",
+        "Maximum control and tailored fit, with higher internal burden."
+      ],
+      "question": "Which trade-off is associated with Build?",
+      "rationale": "Build offers maximum control and tailored fit, but it carries higher internal burden.",
+      "conceptIds": [
+        "concept.build_approach"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Maximum control and tailored fit, with higher internal burden.",
+        "Faster access to established features, with possible workflow mismatch.",
+        "Scalable managed infrastructure with no governance needs.",
+        "A request used to explore the market."
+      ],
+      "question": "Which trade-off is associated with Buy?",
+      "rationale": "Buy provides faster access to established features, while possible workflow mismatch is a stated consideration.",
+      "conceptIds": [
+        "concept.buy_approach"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q10",
+      "options": [
+        "It requires careful governance.",
+        "It removes the need to consider information access.",
+        "It is a request for comparable proposals.",
+        "It guarantees workflow fit."
+      ],
+      "question": "What governance point is associated with Cloud?",
+      "rationale": "Cloud is described as scalable, managed infrastructure that requires careful governance.",
+      "conceptIds": [
+        "concept.cloud_approach"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Workflow fit, interoperability, and sustainability.",
+        "License, milestones, support, security, testing, and penalties.",
+        "RFI, RFP, evaluation, and judgment.",
+        "Definitions, metadata, validation, and mapping only."
+      ],
+      "question": "Which set contains only areas that contract clauses should cover?",
+      "rationale": "The listed contract areas are license, milestones, support, security, testing, and penalties.",
+      "conceptIds": [
+        "concept.contract_clauses"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q12",
+      "options": [
+        "A market exploration request without measurable criteria.",
+        "A preferred vendor and an undocumented decision.",
+        "Comparable proposals, demonstrations, weighted scores, documented risks, contract protections, and acceptance testing.",
+        "A decision matrix with no evidence or explanation."
+      ],
+      "question": "Which combination best supports an evidence-based selection?",
+      "rationale": "The selection process uses requirements, comparable proposals, demonstrations, weighted scores, documented risks, contract protections, and acceptance testing.",
+      "conceptIds": [
+        "concept.evidence_based_system_selection",
+        "concept.acceptance_testing"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q13",
+      "options": [
+        "Decision rationale, risks, assumptions, and conditions.",
+        "The RFI's market exploration findings only.",
+        "Only the selected vendor's name.",
+        "Only the order in which demonstrations occurred."
+      ],
+      "question": "When a team scores vendors using a decision matrix, what should it document in addition to scores?",
+      "rationale": "The matrix guidance calls for documenting the decision rationale, risks, assumptions, and conditions.",
+      "conceptIds": [
+        "concept.weighted_decision_matrix",
+        "concept.evaluation"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q14",
+      "options": [
+        "User testing and training.",
+        "Market exploration alone.",
+        "A cost score without demonstrations.",
+        "A contract license clause alone."
+      ],
+      "question": "Which selection control most directly tests whether people can use the information safely and effectively?",
+      "rationale": "User testing, training, monitoring, and improvement support workflow and adoption so people can use information safely and effectively.",
+      "conceptIds": [
+        "concept.selection_quality_governance",
+        "concept.him_selection_responsibilities"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

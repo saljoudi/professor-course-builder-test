@@ -1,0 +1,564 @@
+{
+  "id": "week-13",
+  "order": 13,
+  "title": "Consumers are participants in the information system: Health literacy, portals, personal health records, and telehealth",
+  "overview": "Consumer informatics examines health information and technology from the patient or consumer perspective. This week considers how health literacy, accessible design, portals, personal health records, and telehealth shape access, understanding, engagement, and action—and how HIM responsibilities help protect information quality, meaning, trust, and use.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain consumer informatics from the patient or consumer perspective.",
+    "Explain how health literacy affects people’s ability to find, understand, and use health information.",
+    "Distinguish a patient portal from a personal health record (PHR).",
+    "Use the Access → Understand → Engage → Act framework to explain how consumer-facing systems support information use and action.",
+    "Describe HIM responsibilities for protecting information quality, meaning, trust, and use in consumer-facing systems."
+  ],
+  "concepts": [
+    {
+      "id": "concept.consumer_informatics",
+      "name": "Consumer informatics",
+      "definition": "The study of health information and technology from the patient or consumer perspective.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.health_literacy",
+      "name": "Health literacy",
+      "definition": "A factor affecting whether people can find, understand, and use health information.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.patient_portal",
+      "name": "Patient portal",
+      "definition": "An organization-managed service connected to a provider’s system for authorized access and communication. Typical uses include viewing results, appointments, messages, and forms.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.personal_health_record_phr",
+      "name": "Personal health record (PHR)",
+      "definition": "An electronic or paper record maintained by or for an individual. It may combine information from several sources under the individual’s control.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.telehealth",
+      "name": "Telehealth",
+      "definition": "Remote delivery, communication, monitoring, or support.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.access_understand_engage_act_framework",
+      "name": "Access → Understand → Engage → Act framework",
+      "definition": "A sequence for providing appropriate access to information, presenting it in an understandable form, supporting communication and shared decisions, and enabling a safe next step or self-management action.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.accessible_language_visuals_translation_an",
+      "name": "Accessible language, visuals, translation, and usability",
+      "definition": "Design features identified as safety features for consumer-facing information and services.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_responsibilities_in_consumer_informati",
+      "name": "HIM responsibilities in consumer informatics",
+      "definition": "Responsibilities include explaining system purpose and limits; supporting definitions, standards, terminology, mapping, and consistent interpretation; checking information quality; supporting privacy, security, appropriate access, auditability, and responsible disclosure; and improving workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.information_quality_and_trust_principles",
+      "name": "Information quality and trust principles",
+      "definition": "Principles grouped as purpose and fit; data and meaning; access and trust; and workflow and adoption. Controls include workflow fit, definitions, metadata, validation, mapping, policy, role-based access, authentication, logs, user testing, training, monitoring, and improvement.",
+      "moduleRefs": [
+        "week-13"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-13",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "Consumer informatics studies health information and technology from the patient or consumer perspective. This perspective focuses attention on whether people can access information, understand it, communicate about it, and use it. Health literacy affects whether people can find, understand, and use health information; therefore, a consumer-facing service must be considered not only in terms of what it makes available, but also in terms of whether people can make sense of and act on it. Consumer tools can improve access and engagement, but poorly designed tools can also widen disparities. Accessible language, visuals, translation, and usability are safety features, not merely presentation choices. Telehealth is remote delivery, communication, monitoring, or support.",
+      "title": "Consumer informatics puts the patient or consumer perspective in view"
+    },
+    {
+      "body": "A patient portal is an organizational service connected to a provider’s system. Access is organization-managed, and typical uses include results, appointments, messages, and forms. A personal health record (PHR), in contrast, is an electronic or paper record maintained by or for the individual. It may combine information from several sources under the individual’s control; typical uses include personal history, medications, directives, and tracking. To compare the two, identify who manages the record or service, what system or sources it connects to, and what it is typically used for. For example, a patient may use a portal to read results, send a message, schedule an appointment, and share information with an authorized caregiver. A PHR may bring together information from several sources under the individual’s control.",
+      "title": "Distinguish an organization-managed portal from an individual-managed PHR"
+    },
+    {
+      "body": "The framework organizes a consumer-facing information task into four linked stages. Access means giving the person appropriate access to information. Understand means presenting that information in a form the person can understand. Engage means supporting communication and shared decisions. Act means enabling a safe next step or self-management action. Use the sequence to examine what happens, who is responsible, and where control is needed at each point. A service can make information available yet still fall short if it is not understandable, does not support communication, or does not enable a safe next step.",
+      "title": "Trace consumer information use through Access → Understand → Engage → Act"
+    },
+    {
+      "body": "The quality and governance principles group the work into four areas. Purpose and fit asks whether the system supports its intended users, work, outputs, and decisions; scope, workflow fit, and measurable objectives provide ways to examine this. Data and meaning concerns whether information is complete, valid, consistent, timely, and understood; definitions, metadata, validation, and mapping are relevant controls. Access and trust concerns privacy, security, integrity, and auditability, supported by policy, role-based access, authentication, and logs. Workflow and adoption concerns whether people can use information safely and effectively, with user testing, training, monitoring, and improvement as supporting practices.\n\nHIM professionals connect system purpose to trustworthy information work. They explain the system’s users, inputs, outputs, decisions, and limits; support definitions, standards, terminology, mapping, and consistent interpretation; check identity, completeness, accuracy, validity, timeliness, and consistency; support privacy, security, appropriate access, auditability, and responsible disclosure; and improve workflow using feedback, testing, training, monitoring, and root-cause correction. Together, these responsibilities protect the quality, meaning, trust, and use of information in consumer-facing systems.",
+      "title": "Apply quality, trust, and workflow principles to HIM responsibilities"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "Patient portal",
+          "right": "Organization-managed service connected to a provider’s system; typical uses include results, appointments, messages, and forms.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "Personal health record (PHR)",
+          "right": "Electronic or paper record maintained by or for the individual; it may combine information from several sources under the individual’s control.",
+          "feedback": ""
+        }
+      ],
+      "title": "Portal or PHR?",
+      "prompt": "Match each description to the correct record or service.",
+      "choices": [
+        "Organization-managed service connected to a provider’s system; typical uses include results, appointments, messages, and forms.",
+        "Electronic or paper record maintained by or for the individual; it may combine information from several sources under the individual’s control."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "consumer.patient-portal",
+        "consumer.phr"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "access",
+          "text": "Access: Give the person appropriate access to information.",
+          "order": 0
+        },
+        {
+          "id": "understand",
+          "text": "Understand: Present information in a form the person can understand.",
+          "order": 1
+        },
+        {
+          "id": "engage",
+          "text": "Engage: Support communication and shared decisions.",
+          "order": 2
+        },
+        {
+          "id": "act",
+          "text": "Act: Enable a safe next step or self-management action.",
+          "order": 3
+        }
+      ],
+      "title": "Follow the information-use sequence",
+      "prompt": "Place the framework stages in order, from providing access to enabling a next step.",
+      "feedback": "",
+      "conceptIds": [
+        "consumer.access-understand-engage-act"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "scenario",
+      "title": "Assessing a consumer-facing information service",
+      "prompt": "Hypothetical situation: A team is reviewing a consumer-facing service. It provides access to information, but the information is difficult for people to understand and the service offers no support for communication or a safe next step. Which framework-based assessment best identifies the gaps?",
+      "debrief": "The framework distinguishes access from understanding, engagement, and action. Making information available addresses Access, but the situation describes gaps in the other stages.",
+      "options": [
+        "The service supports all four stages because information is available.",
+        "Access is addressed, but Understand, Engage, and Act still need attention.",
+        "Only Act matters because the service is intended for consumers.",
+        "The framework applies only to personal health records, not other consumer-facing services."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "consumer.access-understand-engage-act",
+        "consumer.health-literacy"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "activity-4",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Check whether the system supports intended users, work, outputs, and decisions.",
+          "answer": "Purpose and fit",
+          "feedback": ""
+        },
+        {
+          "id": "item-2",
+          "text": "Use definitions, metadata, validation, and mapping to support information meaning.",
+          "answer": "Data and meaning",
+          "feedback": ""
+        },
+        {
+          "id": "item-3",
+          "text": "Use policy, role-based access, authentication, and logs to protect access and trust.",
+          "answer": "Access and trust",
+          "feedback": ""
+        },
+        {
+          "id": "item-4",
+          "text": "Use user testing, training, monitoring, and improvement to support safe and effective use.",
+          "answer": "Workflow and adoption",
+          "feedback": ""
+        }
+      ],
+      "title": "Place the HIM responsibility in its quality and trust area",
+      "prompt": "Classify each control under the principle area it most directly supports.",
+      "feedback": "The four areas distinguish system purpose, information meaning, access and trust controls, and the support needed for safe workflow and adoption.",
+      "categories": [
+        "Purpose and fit",
+        "Data and meaning",
+        "Access and trust",
+        "Workflow and adoption"
+      ],
+      "conceptIds": [
+        "consumer.quality-trust-principles",
+        "consumer.him-responsibilities"
+      ]
+    },
+    {
+      "id": "activity-5",
+      "type": "reflection",
+      "title": "Trace a consumer information task",
+      "answer": "A strong response applies the four stages in sequence and connects the selected task to relevant HIM responsibilities, such as checking information quality, supporting appropriate access, or improving workflow through feedback and testing.",
+      "prompt": "Use the portal example of reading results, sending a message, scheduling an appointment, and sharing information with an authorized caregiver. Trace one part of this task through Access → Understand → Engage → Act. Identify what the person needs at each stage and which HIM responsibility helps protect information quality, meaning, trust, or use.",
+      "feedback": "",
+      "conceptIds": [
+        "consumer.patient-portal",
+        "consumer.access-understand-engage-act",
+        "consumer.him-responsibilities"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "Health information and technology from the patient or consumer perspective.",
+      "front": "What does consumer informatics study?",
+      "conceptIds": [
+        "consumer.informatics"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "It affects whether people can find, understand, and use health information.",
+      "front": "How does health literacy matter to consumer information use?",
+      "conceptIds": [
+        "consumer.health-literacy"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "An organization-managed service connected to a provider’s system for authorized access and communication.",
+      "front": "What is a patient portal?",
+      "conceptIds": [
+        "consumer.patient-portal"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "Viewing results, appointments, messages, and forms.",
+      "front": "Name typical patient portal uses.",
+      "conceptIds": [
+        "consumer.patient-portal"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "An electronic or paper record maintained by or for the individual.",
+      "front": "What is a personal health record (PHR)?",
+      "conceptIds": [
+        "consumer.phr"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "A PHR may combine information from several sources under the individual’s control; a portal is connected to a provider’s system and is organization-managed.",
+      "front": "How may a PHR differ from a portal in its sources and control?",
+      "conceptIds": [
+        "consumer.patient-portal",
+        "consumer.phr"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Remote delivery, communication, monitoring, or support.",
+      "front": "What does telehealth mean in this week’s terminology?",
+      "conceptIds": [
+        "consumer.telehealth"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Access → Understand → Engage → Act.",
+      "front": "What are the four stages of the consumer information-use framework?",
+      "conceptIds": [
+        "consumer.access-understand-engage-act"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "Present information in a form the person can understand.",
+      "front": "What does Understand mean in the framework?",
+      "conceptIds": [
+        "consumer.access-understand-engage-act"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "They are identified as safety features for consumer-facing information and services.",
+      "front": "Why are accessible language, visuals, translation, and usability important?",
+      "conceptIds": [
+        "consumer.accessible-design"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "Purpose and fit; data and meaning; access and trust; workflow and adoption.",
+      "front": "What four areas organize the quality and governance principles?",
+      "conceptIds": [
+        "consumer.quality-trust-principles"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "Support definitions, standards, terminology, mapping, and consistent interpretation.",
+      "front": "Name two HIM responsibilities that protect information meaning.",
+      "conceptIds": [
+        "consumer.him-responsibilities"
+      ]
+    },
+    {
+      "id": "flash-13",
+      "back": "Use feedback, testing, training, monitoring, and root-cause correction.",
+      "front": "Name HIM practices that support workflow improvement.",
+      "conceptIds": [
+        "consumer.him-responsibilities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "The use of paper records maintained only by organizations.",
+        "The study of provider-system access controls only.",
+        "The study of health information and technology from the patient or consumer perspective.",
+        "The study of workflow without considering information or technology."
+      ],
+      "question": "Which statement best defines consumer informatics?",
+      "rationale": "Consumer informatics studies health information and technology from the patient or consumer perspective.",
+      "conceptIds": [
+        "consumer.informatics"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Act → Engage → Understand → Access",
+        "Access → Understand → Engage → Act",
+        "Understand → Access → Act → Engage",
+        "Engage → Act → Access → Understand"
+      ],
+      "question": "Which sequence best describes the framework for consumer information use?",
+      "rationale": "The framework proceeds from appropriate access, to understanding, to engagement, and then to action.",
+      "conceptIds": [
+        "consumer.access-understand-engage-act"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q3",
+      "options": [
+        "A portal is always paper-based; a PHR is always electronic.",
+        "A portal combines sources under individual control; a PHR is always organization-managed.",
+        "A portal is used only for appointments; a PHR is used only for messages.",
+        "A portal is connected to a provider’s system and organization-managed; a PHR is maintained by or for the individual and may combine sources."
+      ],
+      "question": "Which description best distinguishes a patient portal from a PHR?",
+      "rationale": "The portal is an organization-managed service connected to a provider’s system. A PHR is maintained by or for the individual and may combine information from several sources.",
+      "conceptIds": [
+        "consumer.patient-portal",
+        "consumer.phr"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Viewing results, scheduling appointments, sending messages, or using forms.",
+        "Replacing all consumer communication with a record-management process.",
+        "Providing remote delivery, monitoring, or support as the definition of a portal.",
+        "Combining information from several sources under an individual’s control as its defining purpose."
+      ],
+      "question": "Which is a typical use of a patient portal?",
+      "rationale": "Typical portal uses include results, appointments, messages, and forms.",
+      "conceptIds": [
+        "consumer.patient-portal"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q5",
+      "options": [
+        "Whether a system has logs, regardless of its purpose.",
+        "Whether a system’s users, inputs, outputs, decisions, and limits are identified.",
+        "Whether a record is necessarily managed by an organization.",
+        "Whether people can find, understand, and use health information."
+      ],
+      "question": "What does health literacy affect?",
+      "rationale": "Health literacy affects people’s ability to find, understand, and use health information.",
+      "conceptIds": [
+        "consumer.health-literacy"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q6",
+      "options": [
+        "Access",
+        "Engage",
+        "Understand",
+        "Act"
+      ],
+      "question": "In the framework, which stage supports communication and shared decisions?",
+      "rationale": "Engage is the stage for supporting communication and shared decisions.",
+      "conceptIds": [
+        "consumer.access-understand-engage-act"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q7",
+      "options": [
+        "They are useful only when they are maintained by the individual.",
+        "They always reduce disparities if they provide access to information.",
+        "They affect access but cannot affect engagement.",
+        "They can improve access and engagement, but poorly designed tools can widen disparities."
+      ],
+      "question": "Which statement captures both a potential benefit and a design risk of consumer tools?",
+      "rationale": "Consumer tools can improve access and engagement, but they can also widen disparities if poorly designed.",
+      "conceptIds": [
+        "consumer.informatics",
+        "consumer.accessible-design"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Accessible language, visuals, translation, and usability.",
+        "Policy, role-based access, authentication, and logs.",
+        "Personal history, medications, directives, and tracking.",
+        "Results, appointments, messages, and forms."
+      ],
+      "question": "Which design features are identified as safety features for consumer-facing services?",
+      "rationale": "Accessible language, visuals, translation, and usability are identified as safety features.",
+      "conceptIds": [
+        "consumer.accessible-design"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Act",
+        "Engage",
+        "Understand",
+        "Access"
+      ],
+      "question": "A consumer-facing service provides access to information but presents it in a form people cannot understand. Which framework stage most directly identifies this gap?",
+      "rationale": "Understand concerns presenting information in a form the person can understand. Access alone does not ensure understanding.",
+      "conceptIds": [
+        "consumer.access-understand-engage-act",
+        "consumer.health-literacy"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Purpose and fit; data and meaning; access and trust; workflow and adoption.",
+        "Access, communication, monitoring, and record storage.",
+        "Results, appointments, messages, and forms.",
+        "Identity, completeness, accuracy, and responsible disclosure."
+      ],
+      "question": "Which set of principle areas is used to organize quality and governance?",
+      "rationale": "The four areas are purpose and fit, data and meaning, access and trust, and workflow and adoption.",
+      "conceptIds": [
+        "consumer.quality-trust-principles"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Definitions, metadata, validation, and mapping.",
+        "Policy, role-based access, authentication, and logs.",
+        "Scope, workflow fit, and measurable objectives.",
+        "User testing, training, monitoring, and improvement."
+      ],
+      "question": "Which control set is most directly associated with access and trust?",
+      "rationale": "Access and trust controls include policy, role-based access, authentication, and logs.",
+      "conceptIds": [
+        "consumer.quality-trust-principles"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Treat information access as sufficient for safe information use.",
+        "Define a portal only by its typical uses.",
+        "Use feedback, testing, training, monitoring, and root-cause correction.",
+        "Limit information meaning to the record’s format."
+      ],
+      "question": "Which action best represents HIM support for workflow improvement?",
+      "rationale": "HIM workflow improvement uses feedback, testing, training, monitoring, and root-cause correction.",
+      "conceptIds": [
+        "consumer.him-responsibilities",
+        "consumer.quality-trust-principles"
+      ],
+      "answerIndex": 2
+    }
+  ]
+}

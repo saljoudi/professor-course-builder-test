@@ -1,0 +1,622 @@
+{
+  "id": "week-10",
+  "order": 10,
+  "title": "Clinical systems should support care without hiding the record: CIS, CDS, DMS, RIS, LIS, nursing, pharmacy, and telehealth",
+  "overview": "Clinical information systems collect and store patient-care information, while related systems support documents, decision support, and department-specific workflows. This week traces clinical information through Capture → Contextualize → Alert → Document and examines how HIM responsibilities protect information quality, meaning, trust, and appropriate use.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain that a clinical information system collects and stores information related to patient care.",
+    "Explain that clinical decision support provides filtered knowledge and person-specific information.",
+    "Explain how clinical systems support documentation, communication, safety, and value-based care.",
+    "Distinguish clinical information systems, document management systems, clinical decision support, and department-specific systems by their purposes and workflows.",
+    "Use the Capture → Contextualize → Alert → Document framework to explain a clinical information flow and where responsibility and control are needed.",
+    "Describe HIM responsibilities for protecting information quality, meaning, trust, and use in clinical systems."
+  ],
+  "concepts": [
+    {
+      "id": "concept.clinical_information_system_cis",
+      "name": "Clinical information system (CIS)",
+      "definition": "A system that collects and stores information related to patient care; it provides broad clinical record and care information.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.clinical_decision_support_cds",
+      "name": "Clinical decision support (CDS)",
+      "definition": "Provides filtered knowledge and person-specific information by combining patient-specific data with clinical knowledge. CDS should be timely, relevant, explainable, and designed to limit alert fatigue.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.document_management_system_dms",
+      "name": "Document management system (DMS)",
+      "definition": "Captures, indexes, manages, retrieves, and controls documents; it supports documents and images with indexing and retrieval.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.department_specific_clinical_systems",
+      "name": "Department-specific clinical systems",
+      "definition": "RIS/LIS systems support radiology and laboratory workflows and results. NIS/PIS/EDS systems support nursing, medication, and emergency workflows, respectively.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.clinical_information_flow_framework",
+      "name": "Clinical information flow framework",
+      "definition": "Capture records information in the clinical workflow; Contextualize combines patient-specific data with knowledge; Alert presents a useful recommendation or warning; Document records the action, response, and rationale.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.clinical_system_purpose_and_support",
+      "name": "Clinical system purpose and support",
+      "definition": "Clinical systems support documentation, communication, safety, and value-based care, including documentation, orders, results, monitoring, and decision support, while preserving professional judgment and accountability.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.information_quality_and_meaning",
+      "name": "Information quality and meaning",
+      "definition": "Information should be complete, valid, consistent, timely, and understood. Definitions, metadata, validation, and mapping support these qualities and consistent interpretation.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.access_and_trust",
+      "name": "Access and trust",
+      "definition": "Privacy, security, integrity, and auditability are protected through policy, role-based access, authentication, and logs.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_responsibilities_in_clinical_systems",
+      "name": "HIM responsibilities in clinical systems",
+      "definition": "HIM professionals explain system purpose and limits, protect meaning and information quality, support trust and responsible disclosure, and improve workflows through feedback, testing, training, monitoring, and root-cause correction.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.alert_fatigue",
+      "name": "Alert fatigue",
+      "definition": "A concern that clinical decision support should be designed to limit.",
+      "moduleRefs": [
+        "week-10"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-10",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "A clinical information system (CIS) collects and stores information related to patient care. Think of CIS as the broad clinical record and care-information context. Clinical systems support documentation, communication, safety, and value-based care; the work they support includes documentation, orders, results, monitoring, and decision support. Their role is to support care, not to replace professional judgment or accountability. A useful way to identify a system's purpose is to ask what work it supports and what information it captures, produces, or makes available.",
+      "title": "Clinical systems and the work they support"
+    },
+    {
+      "body": "Related clinical systems serve different information and workflow needs. A document management system (DMS) captures, indexes, manages, retrieves, and controls documents, including documents and images. Clinical decision support (CDS) combines clinical knowledge with patient-specific data to provide filtered knowledge and person-specific information. RIS and LIS support radiology and laboratory workflows and results; NIS, PIS, and EDS support nursing, medication, and emergency workflows, respectively. These systems are best distinguished by purpose and workflow rather than treated as interchangeable labels. When comparing them, consider their users, inputs, outputs, and controls.",
+      "title": "Distinguish systems by purpose and workflow"
+    },
+    {
+      "body": "Use Capture → Contextualize → Alert → Document to explain how information and a recommendation move through a clinical workflow. Capture records information in that workflow. Contextualize combines patient-specific data with knowledge. Alert presents a useful recommendation or warning. Document records the action, response, and rationale. The sequence helps identify what happens at each stage, who is responsible, and where control is needed. In the medication-alert example, a clinician receives an alert inside the ordering workflow; patient-specific data and clinical knowledge are combined to provide a relevant, timely, specific, and actionable recommendation.",
+      "title": "Trace the information flow"
+    },
+    {
+      "body": "CDS is intended to make filtered knowledge and person-specific information available in context. For it to support a decision, an alert should be timely, relevant, and explainable, and its design should limit alert fatigue. These qualities focus attention on whether the recommendation is usable in the workflow, rather than simply whether an alert can be displayed. Even when a system presents a recommendation or warning, clinical systems must preserve professional judgment and accountability.",
+      "title": "Design decision support for useful action"
+    },
+    {
+      "body": "HIM professionals connect a clinical system's purpose to trustworthy information work. First, explain the system's users, inputs, outputs, decisions, and limits. Protect meaning through definitions, standards, terminology, mapping, and consistent interpretation. Protect information quality by checking identity, completeness, accuracy, validity, timeliness, and consistency. Protect trust through privacy, security, appropriate access, auditability, and responsible disclosure. Finally, improve the workflow through feedback, testing, training, monitoring, and root-cause correction. These responsibilities connect system fit and usable workflow with the reliability and appropriate use of clinical information.",
+      "title": "HIM responsibilities: quality, meaning, trust, and improvement"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "matching",
+      "pairs": [
+        {
+          "id": "pair-1",
+          "left": "CIS",
+          "right": "Broad clinical record and care information; collects and stores patient-care information.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-2",
+          "left": "DMS",
+          "right": "Captures, indexes, manages, retrieves, and controls documents and images.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-3",
+          "left": "CDS",
+          "right": "Combines clinical knowledge with patient-specific data to provide filtered, person-specific information.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-4",
+          "left": "RIS/LIS",
+          "right": "Support radiology and laboratory workflows and results.",
+          "feedback": ""
+        },
+        {
+          "id": "pair-5",
+          "left": "NIS/PIS/EDS",
+          "right": "Support nursing, medication, and emergency workflows, respectively.",
+          "feedback": ""
+        }
+      ],
+      "title": "Match systems to their purposes",
+      "prompt": "Match each system or system group with the purpose or workflow it supports.",
+      "choices": [
+        "Broad clinical record and care information; collects and stores patient-care information.",
+        "Captures, indexes, manages, retrieves, and controls documents and images.",
+        "Combines clinical knowledge with patient-specific data to provide filtered, person-specific information.",
+        "Support radiology and laboratory workflows and results.",
+        "Support nursing, medication, and emergency workflows, respectively."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "clinical-information-system",
+        "clinical-decision-support",
+        "document-management-system",
+        "department-specific-clinical-systems"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "capture",
+          "text": "Capture: Record information in the clinical workflow.",
+          "order": 0
+        },
+        {
+          "id": "contextualize",
+          "text": "Contextualize: Combine patient-specific data with knowledge.",
+          "order": 1
+        },
+        {
+          "id": "alert",
+          "text": "Alert: Present a useful recommendation or warning.",
+          "order": 2
+        },
+        {
+          "id": "document",
+          "text": "Document: Record the action, response, and rationale.",
+          "order": 3
+        }
+      ],
+      "title": "Trace a clinical information flow",
+      "prompt": "Put the stages in the order used to trace information from capture through documentation.",
+      "feedback": "",
+      "conceptIds": [
+        "clinical-information-flow"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "scenario",
+      "title": "A medication alert in the ordering workflow",
+      "prompt": "A clinician receives a medication alert inside the ordering workflow. Which description best applies the clinical information flow framework while preserving professional accountability?",
+      "debrief": "The example combines patient-specific data with clinical knowledge to produce a relevant, timely, specific, and actionable recommendation. The framework ends with documenting the action, response, and rationale, and clinical systems support care while preserving professional judgment and accountability.",
+      "options": [
+        "Patient-specific data and clinical knowledge are combined to provide a relevant, timely, specific, actionable recommendation; the action, response, and rationale are documented, and professional judgment remains accountable.",
+        "The alert replaces the need to document the action, response, or rationale.",
+        "The alert is useful only if it presents information without patient-specific context.",
+        "Once a recommendation appears, professional judgment and accountability no longer apply."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "clinical-decision-support",
+        "clinical-information-flow",
+        "clinical-system-purpose-and-support"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "activity-4",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Identify the system's users, inputs, outputs, decisions, and limits.",
+          "answer": "Explain purpose",
+          "feedback": "Explaining purpose includes identifying the system's users, inputs, outputs, decisions, and limits."
+        },
+        {
+          "id": "item-2",
+          "text": "Support definitions, standards, terminology, mapping, and consistent interpretation.",
+          "answer": "Protect meaning",
+          "feedback": "These practices help protect information meaning and consistent interpretation."
+        },
+        {
+          "id": "item-3",
+          "text": "Check identity, completeness, accuracy, validity, timeliness, and consistency.",
+          "answer": "Protect quality",
+          "feedback": "These are the information-quality checks identified for HIM practice."
+        },
+        {
+          "id": "item-4",
+          "text": "Support privacy, security, appropriate access, auditability, and responsible disclosure.",
+          "answer": "Protect trust",
+          "feedback": "These actions support trust in the handling and use of clinical information."
+        },
+        {
+          "id": "item-5",
+          "text": "Use feedback, testing, training, monitoring, and root-cause correction.",
+          "answer": "Improve the workflow",
+          "feedback": "These practices support workflow improvement."
+        }
+      ],
+      "title": "Identify HIM responsibility areas",
+      "prompt": "Classify each HIM action under the responsibility area it most directly supports.",
+      "feedback": "",
+      "categories": [
+        "Explain purpose",
+        "Protect meaning",
+        "Protect quality",
+        "Protect trust",
+        "Improve the workflow"
+      ],
+      "conceptIds": [
+        "him-clinical-system-responsibilities",
+        "information-quality-and-meaning",
+        "access-and-trust"
+      ]
+    },
+    {
+      "id": "activity-5",
+      "type": "comparison",
+      "items": [
+        {
+          "label": "Timely",
+          "detail": "The alert should be presented at a useful time in the workflow."
+        },
+        {
+          "label": "Relevant",
+          "detail": "The information should fit the situation and person-specific context."
+        },
+        {
+          "label": "Explainable",
+          "detail": "The recommendation or warning should be understandable."
+        },
+        {
+          "label": "Limit alert fatigue",
+          "detail": "The alert design should be intended to limit alert fatigue."
+        }
+      ],
+      "title": "Check whether a CDS alert is designed for use",
+      "answer": "CDS should be timely, relevant, explainable, and designed to limit alert fatigue.",
+      "prompt": "Use the stated CDS design qualities to assess an alert's usefulness.",
+      "feedback": "",
+      "conceptIds": [
+        "clinical-decision-support",
+        "alert-fatigue"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "It collects and stores information related to patient care and provides broad clinical record and care information.",
+      "front": "What does a clinical information system (CIS) do?",
+      "conceptIds": [
+        "clinical-information-system"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "Filtered knowledge and person-specific information by combining patient-specific data with clinical knowledge.",
+      "front": "What does clinical decision support (CDS) provide?",
+      "conceptIds": [
+        "clinical-decision-support"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "It captures, indexes, manages, retrieves, and controls documents; it also supports documents and images with indexing and retrieval.",
+      "front": "What does a DMS do?",
+      "conceptIds": [
+        "document-management-system"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "RIS/LIS support radiology and laboratory workflows and results.",
+      "front": "Which workflows and results do RIS/LIS support?",
+      "conceptIds": [
+        "department-specific-clinical-systems"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "NIS supports nursing, PIS supports medication, and EDS supports emergency workflows.",
+      "front": "Which workflows do NIS/PIS/EDS support?",
+      "conceptIds": [
+        "department-specific-clinical-systems"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Capture → Contextualize → Alert → Document.",
+      "front": "What are the four stages of the clinical information flow framework?",
+      "conceptIds": [
+        "clinical-information-flow"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Patient-specific data are combined with knowledge.",
+      "front": "What happens during Contextualize?",
+      "conceptIds": [
+        "clinical-information-flow"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "The action, response, and rationale.",
+      "front": "What should the final Document stage record?",
+      "conceptIds": [
+        "clinical-information-flow"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "It should be timely, relevant, explainable, and designed to limit alert fatigue.",
+      "front": "What qualities should CDS have to support use?",
+      "conceptIds": [
+        "clinical-decision-support",
+        "alert-fatigue"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "Information should be complete, valid, consistent, timely, and understood. Definitions, metadata, validation, and mapping support these qualities.",
+      "front": "Name key qualities of reliable information and practices that support them.",
+      "conceptIds": [
+        "information-quality-and-meaning"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "Policy, role-based access, authentication, and logs help protect privacy, security, integrity, and auditability.",
+      "front": "What controls support access and trust?",
+      "conceptIds": [
+        "access-and-trust"
+      ]
+    },
+    {
+      "id": "flash-12",
+      "back": "Use feedback, testing, training, and monitoring, and apply root-cause correction.",
+      "front": "How can HIM professionals improve clinical workflows?",
+      "conceptIds": [
+        "him-clinical-system-responsibilities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "It captures and controls documents but does not concern patient-care information.",
+        "It supports only laboratory workflows and results.",
+        "It collects and stores information related to patient care.",
+        "It provides recommendations without using patient-specific data."
+      ],
+      "question": "Which statement best describes a clinical information system (CIS)?",
+      "rationale": "A CIS collects and stores information related to patient care and provides broad clinical record and care information.",
+      "conceptIds": [
+        "clinical-information-system"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q2",
+      "options": [
+        "Managing documents and images through indexing and retrieval.",
+        "Supporting radiology and laboratory workflows and results.",
+        "Providing filtered knowledge and person-specific information.",
+        "Collecting and storing the broad clinical record only."
+      ],
+      "question": "What is the defining information function of CDS in this week?",
+      "rationale": "CDS provides filtered knowledge and person-specific information by combining patient-specific data with clinical knowledge.",
+      "conceptIds": [
+        "clinical-decision-support"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q3",
+      "options": [
+        "RIS/LIS",
+        "CDS",
+        "DMS",
+        "CIS"
+      ],
+      "question": "A system captures, indexes, manages, retrieves, and controls clinical documents and images. Which system is it?",
+      "rationale": "Those are the stated functions of a document management system.",
+      "conceptIds": [
+        "document-management-system"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q4",
+      "options": [
+        "RIS/LIS — nursing and medication workflows",
+        "RIS/LIS — radiology and laboratory workflows and results",
+        "NIS/PIS/EDS — radiology and laboratory results",
+        "DMS — emergency workflow"
+      ],
+      "question": "Which workflow pairing is correct?",
+      "rationale": "RIS/LIS support radiology and laboratory workflows and results; NIS/PIS/EDS support nursing, medication, and emergency workflows, respectively.",
+      "conceptIds": [
+        "department-specific-clinical-systems"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q5",
+      "options": [
+        "Patient-specific data are combined with knowledge.",
+        "The action, response, and rationale are documented.",
+        "Information is recorded in the clinical workflow.",
+        "A recommendation or warning is presented."
+      ],
+      "question": "What occurs at the Contextualize stage of the clinical information flow framework?",
+      "rationale": "Contextualize combines patient-specific data with knowledge.",
+      "conceptIds": [
+        "clinical-information-flow"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q6",
+      "options": [
+        "Document",
+        "Contextualize",
+        "Capture",
+        "Repeat the alert"
+      ],
+      "question": "After an alert presents a useful recommendation or warning, what is the next framework stage?",
+      "rationale": "The sequence is Capture → Contextualize → Alert → Document. Document records the action, response, and rationale.",
+      "conceptIds": [
+        "clinical-information-flow"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q7",
+      "options": [
+        "Timely, relevant, explainable, and designed to limit alert fatigue",
+        "Broad, undocumented, and independent of patient-specific data",
+        "Limited to documents and images, with no workflow context",
+        "Designed to replace professional judgment and accountability"
+      ],
+      "question": "Which set of qualities is identified for CDS alerts?",
+      "rationale": "CDS should be timely, relevant, explainable, and designed to limit alert fatigue.",
+      "conceptIds": [
+        "clinical-decision-support",
+        "alert-fatigue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q8",
+      "options": [
+        "Removing definitions and terminology from the workflow",
+        "Using role-based access alone",
+        "Documenting only the alert, not the response",
+        "Supporting definitions, standards, terminology, and mapping"
+      ],
+      "question": "Which practice most directly supports consistent interpretation of clinical information?",
+      "rationale": "HIM protects meaning by supporting definitions, standards, terminology, mapping, and consistent interpretation.",
+      "conceptIds": [
+        "information-quality-and-meaning",
+        "him-clinical-system-responsibilities"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Indexing, retrieval, and document control only",
+        "Users, inputs, outputs, decisions, and limits only",
+        "Authentication, logs, and disclosure only",
+        "Identity, completeness, accuracy, validity, timeliness, and consistency"
+      ],
+      "question": "Which set lists information-quality checks identified for HIM practice?",
+      "rationale": "The listed HIM quality checks are identity, completeness, accuracy, validity, timeliness, and consistency.",
+      "conceptIds": [
+        "information-quality-and-meaning",
+        "him-clinical-system-responsibilities"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Workflow outputs and measurable objectives only",
+        "Policy, role-based access, authentication, and logs",
+        "Feedback, training, and root-cause correction only",
+        "Definitions, metadata, validation, and mapping only"
+      ],
+      "question": "Which controls support privacy, security, integrity, and auditability?",
+      "rationale": "Policy, role-based access, authentication, and logs are identified as controls supporting access and trust.",
+      "conceptIds": [
+        "access-and-trust"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q11",
+      "options": [
+        "An alert makes documenting the response unnecessary.",
+        "Patient-specific data and clinical knowledge can support an actionable recommendation, while professional judgment and accountability remain important.",
+        "A recommendation should be independent of patient-specific data.",
+        "The system assumes responsibility for the clinician's decision."
+      ],
+      "question": "A clinician receives a medication alert in the ordering workflow. Which statement best reflects the stated example and safeguard?",
+      "rationale": "The example combines patient-specific data with clinical knowledge to provide a relevant, timely, specific, and actionable recommendation. Clinical systems support care while preserving professional judgment and accountability.",
+      "conceptIds": [
+        "clinical-decision-support",
+        "clinical-system-purpose-and-support",
+        "clinical-information-flow"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q12",
+      "options": [
+        "Limit improvement work to document retrieval.",
+        "Replace monitoring with a one-time review.",
+        "Treat workflow feedback as unrelated to system use.",
+        "Use feedback, testing, training, monitoring, and root-cause correction."
+      ],
+      "question": "Which approach is identified for improving clinical workflows?",
+      "rationale": "HIM workflow improvement responsibilities include feedback, testing, training, monitoring, and root-cause correction.",
+      "conceptIds": [
+        "him-clinical-system-responsibilities"
+      ],
+      "answerIndex": 3
+    }
+  ]
+}

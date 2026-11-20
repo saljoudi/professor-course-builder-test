@@ -1,0 +1,571 @@
+{
+  "id": "week-14",
+  "order": 14,
+  "title": "Trust is designed into the record: Privacy, security, implementation, auditability, and HIM roles",
+  "overview": "Trustworthy health information systems depend on appropriate access and disclosure, safeguards that protect information and systems, and workflows that are monitored and improved. This week distinguishes privacy from security, examines administrative, physical, and technical safeguards, and applies the Assess → Protect → Monitor → Improve framework to implementation work and HIM responsibilities.",
+  "isReviewWeek": false,
+  "objectives": [
+    "Explain how privacy and security differ and work together.",
+    "Describe how implementation changes workflows and why unanticipated effects must be monitored.",
+    "Explain HIM responsibilities in data management, data quality, privacy, security, collection, analysis, and system design.",
+    "Use the Assess → Protect → Monitor → Improve framework to organize how trust is supported in a health information system.",
+    "Explain how administrative, physical, and technical safeguards support trustworthy systems."
+  ],
+  "concepts": [
+    {
+      "id": "concept.privacy",
+      "name": "Privacy",
+      "definition": "Governs appropriate access and disclosure, including who should have access, what may be used or disclosed, and why.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.security",
+      "name": "Security",
+      "definition": "Protects information and systems by preventing, detecting, and responding to threats.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.administrative_safeguards",
+      "name": "Administrative safeguards",
+      "definition": "Policy, training, risk management, and procedures used as safeguards.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.physical_safeguards",
+      "name": "Physical safeguards",
+      "definition": "Facilities, devices, media, and environmental controls used as safeguards.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.technical_safeguards",
+      "name": "Technical safeguards",
+      "definition": "Access, authentication, audit logs, transmission, and integrity controls.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.assess_protect_monitor_improve",
+      "name": "Assess → Protect → Monitor → Improve",
+      "definition": "A framework: assess information, users, risks, and obligations; apply safeguards; monitor access, audit logs, incidents, and data quality; and correct root causes to improve the system.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.auditability",
+      "name": "Auditability",
+      "definition": "A trust-related system property supported by audit logs and review of access and incidents.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.implementation",
+      "name": "Implementation",
+      "definition": "A change that affects workflows and can create unanticipated effects that must be monitored.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.him_responsibilities",
+      "name": "HIM responsibilities",
+      "definition": "Responsibilities include explaining system purpose, protecting meaning and quality, supporting trust, and improving workflow through feedback, testing, training, monitoring, and root-cause correction.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.data_quality",
+      "name": "Data quality",
+      "definition": "Information quality considered through identity, completeness, accuracy, validity, timeliness, and consistency.",
+      "moduleRefs": [
+        "week-03",
+        "week-14"
+      ],
+      "reviewedIn": [
+        "week-14"
+      ],
+      "introducedIn": "week-03",
+      "sourceEvidence": "explicit"
+    },
+    {
+      "id": "concept.trustworthy_systems",
+      "name": "Trustworthy systems",
+      "definition": "Systems align safeguards with privacy, security, documentation integrity, and continuous improvement.",
+      "moduleRefs": [
+        "week-14"
+      ],
+      "reviewedIn": [],
+      "introducedIn": "week-14",
+      "sourceEvidence": "explicit"
+    }
+  ],
+  "sections": [
+    {
+      "body": "Privacy asks who should have access, what may be used or disclosed, and why. Its purpose is to govern appropriate access and disclosure. Security asks how systems prevent, detect, and respond to threats; it protects information and systems. They work together, but they are not interchangeable: a decision about appropriate access is a privacy question, while the controls used to protect systems and respond to threats are security concerns. HIM tools named for privacy include authorization, minimum necessary, policy, and education. Security tools include role-based access, authentication, audit logs, and incident response. Role-based access and audit logs are examples of how controls can support both the practical protection of information and accountable access.",
+      "title": "Privacy and security: connected responsibilities with different purposes"
+    },
+    {
+      "body": "Three safeguard categories organize where controls are applied. Administrative safeguards include policy, training, risk management, and procedures. Physical safeguards concern facilities, devices, media, and environmental controls. Technical safeguards include access, authentication, audit logs, transmission, and integrity controls. These categories describe different kinds of controls rather than competing choices. Trustworthy systems align administrative, physical, and technical safeguards with privacy, security, documentation integrity, and continuous improvement. The quality and safety principles add four design questions: Does the system fit its intended users, work, outputs, and decisions? Is information complete, valid, consistent, timely, and understood? Are privacy, security, integrity, and auditability protected? Can people use the information safely and effectively through testing, training, monitoring, and improvement?",
+      "title": "Safeguards and trustworthy system design"
+    },
+    {
+      "body": "Implementation changes workflows, and its effects may not all be anticipated. Therefore, implementation is not complete as a design task alone: workflows need testing, and effects need monitoring so problems can be identified and corrected. In the EHR implementation example, the organization assigns role-based access, trains users, monitors audit logs, reviews incidents, tests workflows, and corrects root causes. Read as a coordinated set of actions, these steps address access, user preparation, evidence from system activity, incidents, workflow performance, and corrective improvement. Monitoring matters because an implementation can alter how work is carried out and create effects that require a response.",
+      "title": "Implementation requires monitoring and correction"
+    },
+    {
+      "body": "HIM professionals connect system purpose to trustworthy information work. First, explain purpose by identifying users, inputs, outputs, decisions, and limits. Protect meaning through definitions, standards, terminology, mapping, and consistent interpretation. Protect quality by checking identity, completeness, accuracy, validity, timeliness, and consistency. Protect trust by supporting privacy, security, appropriate access, auditability, and responsible disclosure. Improve workflow through feedback, testing, training, monitoring, and root-cause correction. The broader HIM role also spans data management, collection, analysis, and system design. Together, these responsibilities keep information fit for its intended use and connect system controls to the work people perform.",
+      "title": "HIM responsibilities connect purpose, meaning, quality, trust, and workflow"
+    },
+    {
+      "body": "The Assess → Protect → Monitor → Improve framework organizes trust work as a continuing sequence. Assess by identifying information, users, risks, and obligations. Protect by applying administrative, physical, and technical controls. Monitor by reviewing access, audit logs, incidents, and data quality. Improve by correcting root causes and improving the system. The stages help organize what happens, who is responsible, and where control is needed. Monitoring provides a basis for identifying issues; improvement then focuses on correcting their root causes rather than treating the stages as isolated activities.",
+      "title": "A cycle for supporting trust"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity-1",
+      "type": "comparison",
+      "items": [
+        {
+          "label": "Privacy",
+          "detail": "Governs appropriate access and disclosure: who should have access, what may be used or disclosed, and why. Listed HIM tools include authorization, minimum necessary, policy, and education."
+        },
+        {
+          "label": "Security",
+          "detail": "Protects information and systems by preventing, detecting, and responding to threats. Listed HIM tools include role-based access, authentication, audit logs, and incident response."
+        }
+      ],
+      "title": "Distinguish privacy from security",
+      "answer": "Privacy concerns the appropriateness and purpose of access and disclosure; security concerns how systems prevent, detect, and respond to threats. They work together to protect trust in information work.",
+      "prompt": "Compare the purpose of privacy and security. Then connect each concept to the HIM tools listed for it.",
+      "feedback": "",
+      "conceptIds": [
+        "privacy",
+        "security"
+      ]
+    },
+    {
+      "id": "activity-2",
+      "type": "ordering",
+      "items": [
+        {
+          "id": "assess",
+          "text": "Assess: identify information, users, risks, and obligations.",
+          "order": 0
+        },
+        {
+          "id": "protect",
+          "text": "Protect: apply administrative, physical, and technical controls.",
+          "order": 1
+        },
+        {
+          "id": "monitor",
+          "text": "Monitor: review access, audit logs, incidents, and data quality.",
+          "order": 2
+        },
+        {
+          "id": "improve",
+          "text": "Improve: correct root causes and improve the system.",
+          "order": 3
+        }
+      ],
+      "title": "Sequence the trust framework",
+      "prompt": "Arrange the stages in the framework from initial assessment through system improvement.",
+      "feedback": "",
+      "conceptIds": [
+        "assess-protect-monitor-improve"
+      ]
+    },
+    {
+      "id": "activity-3",
+      "type": "classification",
+      "items": [
+        {
+          "id": "item-1",
+          "text": "Policy, training, risk management, and procedures",
+          "answer": "Administrative safeguards",
+          "feedback": "These are the administrative safeguard examples."
+        },
+        {
+          "id": "item-2",
+          "text": "Facilities, devices, media, and environmental controls",
+          "answer": "Physical safeguards",
+          "feedback": "These are the physical safeguard examples."
+        },
+        {
+          "id": "item-3",
+          "text": "Access, authentication, audit logs, transmission, and integrity controls",
+          "answer": "Technical safeguards",
+          "feedback": "These are the technical safeguard examples."
+        }
+      ],
+      "title": "Classify safeguard examples",
+      "prompt": "Place each example in the safeguard category it describes.",
+      "feedback": "The categories distinguish policy and procedure, physical environments and items, and system-related controls.",
+      "categories": [
+        "Administrative safeguards",
+        "Physical safeguards",
+        "Technical safeguards"
+      ],
+      "conceptIds": [
+        "administrative-safeguards",
+        "physical-safeguards",
+        "technical-safeguards"
+      ]
+    },
+    {
+      "id": "activity-4",
+      "type": "scenario",
+      "title": "Respond to implementation effects",
+      "prompt": "Hypothetical situation: during an EHR implementation, the organization has assigned role-based access and trained users. It now needs to check whether the changed workflow is producing unanticipated effects. Which action set best follows the implementation example and trust framework?",
+      "debrief": "Implementation can change workflows and create unanticipated effects that must be monitored. The example includes monitoring audit logs, reviewing incidents, testing workflows, and correcting root causes.",
+      "options": [
+        "Treat training as the final step and stop reviewing workflow or system activity.",
+        "Monitor audit logs, review incidents, test workflows, and correct root causes.",
+        "Replace monitoring with a general statement of system purpose.",
+        "Focus only on data collection and postpone review of access and incidents."
+      ],
+      "feedback": "",
+      "conceptIds": [
+        "implementation",
+        "assess-protect-monitor-improve",
+        "auditability"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "activity-5",
+      "type": "retrieval",
+      "title": "Recall HIM's quality checks",
+      "answer": "Identity, completeness, accuracy, validity, timeliness, and consistency.",
+      "prompt": "Name the six information-quality dimensions HIM checks when protecting data quality.",
+      "feedback": "",
+      "conceptIds": [
+        "him-responsibilities",
+        "data-quality"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "flash-1",
+      "back": "Appropriate access and disclosure, including who should have access, what may be used or disclosed, and why.",
+      "front": "What does privacy govern?",
+      "conceptIds": [
+        "privacy"
+      ]
+    },
+    {
+      "id": "flash-2",
+      "back": "How systems prevent, detect, and respond to threats; it protects information and systems.",
+      "front": "What is security concerned with?",
+      "conceptIds": [
+        "security"
+      ]
+    },
+    {
+      "id": "flash-3",
+      "back": "Policy, training, risk management, and procedures.",
+      "front": "Name the four administrative safeguard examples.",
+      "conceptIds": [
+        "administrative-safeguards"
+      ]
+    },
+    {
+      "id": "flash-4",
+      "back": "Facilities, devices, media, and environmental controls.",
+      "front": "What do physical safeguards include?",
+      "conceptIds": [
+        "physical-safeguards"
+      ]
+    },
+    {
+      "id": "flash-5",
+      "back": "Access, authentication, audit logs, transmission, and integrity controls.",
+      "front": "What do technical safeguards include?",
+      "conceptIds": [
+        "technical-safeguards"
+      ]
+    },
+    {
+      "id": "flash-6",
+      "back": "Assess → Protect → Monitor → Improve.",
+      "front": "What are the four stages of the trust framework?",
+      "conceptIds": [
+        "assess-protect-monitor-improve"
+      ]
+    },
+    {
+      "id": "flash-7",
+      "back": "Information, users, risks, and obligations.",
+      "front": "What does the Assess stage identify?",
+      "conceptIds": [
+        "assess-protect-monitor-improve"
+      ]
+    },
+    {
+      "id": "flash-8",
+      "back": "Access, audit logs, incidents, and data quality.",
+      "front": "What does the Monitor stage review?",
+      "conceptIds": [
+        "assess-protect-monitor-improve",
+        "auditability",
+        "data-quality"
+      ]
+    },
+    {
+      "id": "flash-9",
+      "back": "Implementation changes workflows and can create unanticipated effects that need monitoring.",
+      "front": "Why must implementation effects be monitored?",
+      "conceptIds": [
+        "implementation"
+      ]
+    },
+    {
+      "id": "flash-10",
+      "back": "Identity, completeness, accuracy, validity, timeliness, and consistency.",
+      "front": "What information-quality dimensions does HIM check?",
+      "conceptIds": [
+        "him-responsibilities",
+        "data-quality"
+      ]
+    },
+    {
+      "id": "flash-11",
+      "back": "Examples include monitoring audit logs, reviewing incidents, testing workflows, and correcting root causes.",
+      "front": "Name two actions in the EHR implementation example that support review and improvement.",
+      "conceptIds": [
+        "implementation",
+        "auditability",
+        "him-responsibilities"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "options": [
+        "How does the system respond to a threat?",
+        "Who should have access, and what may be used or disclosed?",
+        "Which audit logs should be reviewed?",
+        "How should a root cause be corrected?"
+      ],
+      "question": "Which question is primarily about privacy?",
+      "rationale": "Privacy governs appropriate access and disclosure, including who should have access and what may be used or disclosed.",
+      "conceptIds": [
+        "privacy"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q2",
+      "options": [
+        "How systems prevent, detect, and respond to threats",
+        "The purpose for which information may be disclosed",
+        "The process of identifying system users and outputs",
+        "A check of information completeness and timeliness"
+      ],
+      "question": "Which description best captures security?",
+      "rationale": "Security protects information and systems by preventing, detecting, and responding to threats.",
+      "conceptIds": [
+        "security"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q3",
+      "options": [
+        "Facilities, devices, media, and environmental controls",
+        "Access, authentication, audit logs, and transmission controls",
+        "Identity, completeness, accuracy, and timeliness",
+        "Policy, training, risk management, and procedures"
+      ],
+      "question": "Which set consists of administrative safeguards?",
+      "rationale": "Policy, training, risk management, and procedures are the administrative safeguards listed.",
+      "conceptIds": [
+        "administrative-safeguards"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q4",
+      "options": [
+        "Risk management procedures",
+        "Authentication and audit logs",
+        "Facilities and environmental controls",
+        "Definitions and terminology mapping"
+      ],
+      "question": "Which example is a physical safeguard?",
+      "rationale": "Physical safeguards concern facilities, devices, media, and environmental controls.",
+      "conceptIds": [
+        "physical-safeguards"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q5",
+      "options": [
+        "Training",
+        "Environmental controls",
+        "Authentication",
+        "Risk management"
+      ],
+      "question": "Which item belongs to the technical safeguard category?",
+      "rationale": "Authentication is one of the technical safeguards listed, along with access, audit logs, transmission, and integrity controls.",
+      "conceptIds": [
+        "technical-safeguards"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q6",
+      "options": [
+        "Protect → Assess → Improve → Monitor",
+        "Assess → Protect → Monitor → Improve",
+        "Monitor → Improve → Assess → Protect",
+        "Assess → Monitor → Protect → Improve"
+      ],
+      "question": "What is the correct order of the trust framework?",
+      "rationale": "The framework proceeds from assessing information, users, risks, and obligations to applying controls, monitoring, and improving.",
+      "conceptIds": [
+        "assess-protect-monitor-improve"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q7",
+      "options": [
+        "Identify information, users, risks, and obligations",
+        "Apply administrative, physical, and technical controls",
+        "Review access, audit logs, incidents, and data quality",
+        "Correct root causes"
+      ],
+      "question": "Which task belongs to the Monitor stage?",
+      "rationale": "Monitoring involves reviewing access, audit logs, incidents, and data quality.",
+      "conceptIds": [
+        "assess-protect-monitor-improve",
+        "auditability",
+        "data-quality"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": "q8",
+      "options": [
+        "It can change workflows and create unanticipated effects.",
+        "It eliminates the need to test workflows.",
+        "It makes data quality checks unnecessary.",
+        "It replaces the need to define system purpose."
+      ],
+      "question": "Why does implementation need ongoing monitoring?",
+      "rationale": "Implementation changes workflows, and unanticipated effects must be monitored.",
+      "conceptIds": [
+        "implementation"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q9",
+      "options": [
+        "Review incidents and test workflows",
+        "Replace workflow testing with system documentation",
+        "Stop reviewing audit logs after training",
+        "Limit improvement to assigning role-based access"
+      ],
+      "question": "Which action is included in the EHR implementation example?",
+      "rationale": "The example includes reviewing incidents and testing workflows, as well as assigning role-based access, training users, monitoring audit logs, and correcting root causes.",
+      "conceptIds": [
+        "implementation",
+        "him-responsibilities"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "q10",
+      "options": [
+        "Policy, training, risk, and procedures",
+        "Identity, completeness, accuracy, validity, timeliness, and consistency",
+        "Users, inputs, outputs, decisions, and limits",
+        "Access, authentication, transmission, and audit logs"
+      ],
+      "question": "Which list contains the information-quality dimensions HIM checks?",
+      "rationale": "HIM checks identity, completeness, accuracy, validity, timeliness, and consistency to protect data quality.",
+      "conceptIds": [
+        "data-quality",
+        "him-responsibilities"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": "q11",
+      "options": [
+        "Review incidents, test workflows, and correct root causes",
+        "Check identity, completeness, accuracy, validity, timeliness, and consistency",
+        "Support privacy, security, appropriate access, and responsible disclosure",
+        "Use definitions, standards, terminology, mapping, and consistent interpretation"
+      ],
+      "question": "Which sequence describes the HIM responsibility for protecting meaning?",
+      "rationale": "Protecting meaning involves definitions, standards, terminology, mapping, and consistent interpretation.",
+      "conceptIds": [
+        "him-responsibilities"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": "q12",
+      "options": [
+        "They replace the need to monitor workflow and data quality.",
+        "They are interchangeable names for privacy.",
+        "Only technical safeguards are relevant to trust.",
+        "They provide different kinds of controls that are aligned with privacy, security, documentation integrity, and continuous improvement."
+      ],
+      "question": "Which choice best describes how the three safeguard categories contribute to trustworthy systems?",
+      "rationale": "Administrative, physical, and technical safeguards describe different kinds of controls. Trustworthy systems align them with privacy, security, documentation integrity, and continuous improvement.",
+      "conceptIds": [
+        "administrative-safeguards",
+        "physical-safeguards",
+        "technical-safeguards",
+        "trustworthy-systems"
+      ],
+      "answerIndex": 3
+    }
+  ]
+}
